@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Turkey news YouTube Shorts bot.
+Global news YouTube Shorts bot.
 
-- Son 20 saatteki Türkiye haberlerini tarar.
-- Viral olma potansiyeli yüksek 3 farklı haberi seçer.
+- Son 20 saatteki dünya ve uluslararası haberleri tarar.
+- Viral olma potansiyeli yüksek 3 farklı global haberi seçer.
 - Daha önce kullanılan haberleri news_history.json ile eler.
 - Seçilen haberleri selected_news.json dosyasına yazar.
-- Her haber için kısa, sürükleyici metin oluşturur.
+- Her haber için kısa, sürükleyici Türkçe metin oluşturur.
 - Habere uygun Pexels arka plan videosu bulur.
 - 3 Shorts videosu üretir.
 - YouTube'a 07:00 / 12:00 / 18:00 için zamanlı yükler.
@@ -65,13 +65,23 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 NEWS_QUERIES = [
-    "son dakika Türkiye",
-    "gündem Türkiye",
-    "ekonomi Türkiye",
-    "siyaset Türkiye",
-    "spor Türkiye",
-    "deprem Türkiye",
-    "adliye Türkiye",
+    "son dakika dünya",
+    "dünya gündemi son dakika",
+    "uluslararası haberler son dakika",
+    "küresel kriz son dakika",
+    "ABD son dakika haberleri",
+    "Avrupa son dakika haberleri",
+    "Orta Doğu son dakika",
+    "Rusya Ukrayna son dakika",
+    "İsrail Gazze son dakika",
+    "Çin son dakika haberleri",
+    "NATO son dakika",
+    "Birleşmiş Milletler son dakika",
+    "küresel ekonomi son dakika",
+    "dünya siyaset son dakika",
+    "dünya teknoloji son dakika",
+    "iklim afet dünya son dakika",
+    "world breaking news",
 ]
 
 BACKGROUND_HINTS = {
@@ -79,18 +89,26 @@ BACKGROUND_HINTS = {
     "yangın": ["fire smoke city", "firefighters emergency", "building fire smoke"],
     "sel": ["flood city street", "storm rain city", "water on road"],
     "kaza": ["traffic road night", "police lights road", "highway traffic"],
-    "operasyon": ["police investigation", "courthouse exterior", "police lights night"],
-    "gözaltı": ["police car city", "courthouse exterior", "investigation room"],
-    "tutuk": ["courthouse exterior", "law building", "justice scales"],
+    "savaş": ["military vehicles", "war zone smoke", "soldiers silhouette"],
+    "çatışma": ["military vehicles", "police lights night", "city smoke"],
+    "gazze": ["middle east city", "humanitarian aid", "city smoke"],
+    "israil": ["middle east city", "government building", "press conference"],
+    "ukrayna": ["ukraine city", "war zone smoke", "military vehicles"],
+    "rusya": ["moscow skyline", "government building", "military vehicles"],
+    "abd": ["washington dc", "white house", "press conference"],
+    "amerika": ["washington dc", "white house", "city skyline"],
+    "avrupa": ["europe city skyline", "parliament building", "eu flags"],
+    "çin": ["beijing skyline", "china city", "business district skyline"],
+    "nato": ["nato flags", "military meeting", "press conference"],
+    "birleşmiş milletler": ["united nations building", "diplomacy meeting", "press conference"],
     "ekonomi": ["financial graph", "business district skyline", "stock market screen"],
     "enflasyon": ["grocery shopping", "money close up", "financial graph"],
     "faiz": ["financial chart", "bank building", "business skyline"],
     "dolar": ["money close up", "stock market screen", "business district skyline"],
     "borsa": ["stock market screen", "financial graph", "business trading floor"],
-    "meclis": ["parliament building", "government building", "press conference podium"],
-    "bakan": ["press conference podium", "government building", "meeting table"],
-    "cumhurbaşkan": ["government building", "press conference", "meeting hall"],
+    "petrol": ["oil refinery", "oil pump", "energy industry"],
     "seçim": ["ballot box", "election crowd", "press conference podium"],
+    "başkan": ["government building", "press conference", "meeting hall"],
     "spor": ["football stadium crowd", "sports arena lights", "stadium field"],
     "maç": ["football stadium crowd", "soccer field", "sports arena"],
     "transfer": ["football stadium crowd", "sports press conference", "soccer field"],
@@ -105,7 +123,6 @@ SELECTED_FILE = Path("selected_news.json")
 PLAN_FILE = Path("video_plan.json")
 VIDEO_SIZE = (1080, 1920)
 
-# İnsancıl Türkçe erkek ses. İstersen GitHub Actions env ile VOICE değiştirilebilir.
 DEFAULT_VOICE = os.getenv("VOICE", "tr-TR-AhmetNeural")
 RATE = os.getenv("VOICE_RATE", "+8%")
 PITCH = os.getenv("VOICE_PITCH", "-3Hz")
@@ -156,6 +173,7 @@ def fingerprint(title: str, summary: str = "") -> str:
 
 
 def google_news_rss_url(query: str) -> str:
+    # Arayüz dili Türkçe kalır; sorgular global haber odaklıdır.
     return f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=tr&gl=TR&ceid=TR:tr"
 
 
@@ -175,7 +193,7 @@ def fetch_news_pool(hours_back: int = 20) -> list[dict[str, Any]]:
     collected: list[dict[str, Any]] = []
 
     for query in NEWS_QUERIES:
-        logger.info("RSS çekiliyor: %s", query)
+        logger.info("Global RSS çekiliyor: %s", query)
         feed = feedparser.parse(google_news_rss_url(query))
         for entry in feed.entries:
             published_at = parse_entry_datetime(entry)
@@ -203,7 +221,7 @@ def fetch_news_pool(hours_back: int = 20) -> list[dict[str, Any]]:
             continue
         seen.add(item["fingerprint"])
         unique.append(item)
-    logger.info("Toplanan benzersiz haber sayısı: %s", len(unique))
+    logger.info("Toplanan benzersiz global haber sayısı: %s", len(unique))
     return unique
 
 
@@ -211,28 +229,41 @@ def keyword_score(text: str) -> int:
     text_n = normalize_text(text)
     weights = {
         "son dakika": 10,
+        "dünya": 5,
+        "uluslararası": 6,
+        "küresel": 6,
+        "kriz": 8,
+        "savaş": 9,
+        "çatışma": 8,
+        "gazze": 8,
+        "israil": 7,
+        "ukrayna": 7,
+        "rusya": 7,
+        "abd": 6,
+        "amerika": 6,
+        "avrupa": 5,
+        "çin": 6,
+        "nato": 7,
+        "birleşmiş milletler": 7,
+        "başkan": 5,
+        "seçim": 5,
+        "karar": 4,
+        "açıklama": 3,
         "deprem": 9,
         "yangın": 7,
-        "gözaltı": 6,
-        "tutuk": 6,
-        "operasyon": 6,
+        "sel": 7,
+        "kaza": 6,
+        "ekonomi": 7,
         "enflasyon": 7,
         "faiz": 7,
         "dolar": 6,
         "borsa": 6,
-        "cumhurbaşkan": 5,
-        "bakan": 4,
-        "meclis": 4,
-        "seçim": 5,
-        "karar": 4,
-        "açıklama": 3,
+        "petrol": 6,
+        "teknoloji": 5,
+        "yapay zeka": 6,
         "spor": 3,
         "maç": 3,
         "transfer": 4,
-        "istanbul": 3,
-        "ankara": 2,
-        "izmir": 2,
-        "türkiye": 2,
     }
     return sum(weight for word, weight in weights.items() if word in text_n)
 
@@ -283,27 +314,28 @@ def choose_top_three(news: list[dict[str, Any]], history: dict[str, Any]) -> lis
         if len(selected) == 3:
             break
     if len(selected) < 3:
-        raise RuntimeError("3 farklı haber seçilemedi.")
+        raise RuntimeError("3 farklı global haber seçilemedi.")
     return selected
 
 
 def fallback_script(item: dict[str, Any]) -> str:
     return (
-        f"Türkiye gündeminde dikkat çeken bir gelişme var. {item['title']}. "
+        f"Dünya gündeminde dikkat çeken bir gelişme var. {item['title']}. "
         f"Haberin kısa özeti şöyle: {item.get('summary', '')[:260]}. "
-        "Bu başlık gün içinde daha da konuşulabilir. Gelişmeler için takipte kal."
+        "Bu başlık uluslararası gündemde daha da konuşulabilir. Gelişmeler için takipte kal."
     )
 
 
 def generate_news_script(item: dict[str, Any]) -> str:
     prompt = f"""
-Sen Türkçe YouTube Shorts için haber anlatımı yazan bir editörsün.
-Aşağıdaki haber bilgisini kullanarak 35-45 saniyelik açıklayıcı, akıcı ve merak uyandırıcı bir metin yaz.
+Sen Türkçe YouTube Shorts için dünya haberleri anlatımı yazan bir editörsün.
+Aşağıdaki global haber bilgisini kullanarak 35-45 saniyelik açıklayıcı, akıcı ve merak uyandırıcı bir metin yaz.
 
 Kurallar:
 - Sadece verilen bilgiye dayan.
 - Uydurma detay ve spekülasyon kullanma.
 - İlk cümle dikkat çekici olsun.
+- Haberin dünya/uluslararası önemini kısa ve anlaşılır anlat.
 - Son cümlede gelişmeler için takipte kal benzeri doğal kapanış yap.
 - Emoji, madde işareti ve sahne notu yazma.
 - Tek parça metin ver.
@@ -361,7 +393,7 @@ async def create_voiceover(script: str, audio_path: Path) -> list[tuple[float, f
 
 def extract_keywords(text: str, count: int = 5) -> list[str]:
     words = [w for w in normalize_text(text).split() if len(w) >= 4]
-    stop = {"haber", "türkiye", "gündem", "son", "dakika", "için", "olan", "ile", "göre"}
+    stop = {"haber", "dünya", "global", "gündem", "son", "dakika", "için", "olan", "ile", "göre"}
     words = [w for w in words if w not in stop]
     return sorted(set(words), key=len, reverse=True)[:count]
 
@@ -376,8 +408,8 @@ def build_background_queries(item: dict[str, Any]) -> list[str]:
     if len(keywords) >= 2:
         queries.append(f"{keywords[0]} {keywords[1]} news")
     if keywords:
-        queries.append(f"{keywords[0]} news background")
-    queries.extend(["news studio background", "city aerial turkey", "press conference"])
+        queries.append(f"{keywords[0]} global news background")
+    queries.extend(["global news background", "world map news", "press conference", "international city skyline"])
     return list(dict.fromkeys(queries))
 
 
@@ -584,13 +616,13 @@ def upload_to_youtube(video_path: Path, item: dict[str, Any], publish_at: dateti
         f"Kaynak link: {item['url']}\n"
         f"Kaynak: {item.get('source', 'Google News RSS')}\n"
         f"Yayın zamanı: {publish_at.isoformat()}\n\n"
-        "#shorts #haber #türkiye #gündem"
+        "#shorts #haber #dünya #globalhaber #sondakika"
     )
     body = {
         "snippet": {
             "title": title[:100],
             "description": description[:5000],
-            "tags": ["shorts", "haber", "türkiye", "gündem", "news", "breaking news"],
+            "tags": ["shorts", "haber", "dünya", "global haber", "son dakika", "news", "breaking news"],
             "categoryId": YOUTUBE_CATEGORY_ID,
         },
         "status": {
@@ -620,7 +652,7 @@ def build_video_for_item(item: dict[str, Any], index: int) -> dict[str, Any]:
     audio_path = OUTPUT_DIR / f"voiceover_{index}.mp3"
     background_path = OUTPUT_DIR / f"background_{index}.mp4"
     video_path = OUTPUT_DIR / f"short_{index}.mp4"
-    logger.info("Video üretiliyor: %s", item["title"])
+    logger.info("Global haber videosu üretiliyor: %s", item["title"])
     word_ts = asyncio.run(create_voiceover(item["script"], audio_path))
     download_background_video(item, background_path)
     assemble_video(background_path, audio_path, video_path, word_ts)
@@ -647,7 +679,7 @@ def update_history(history: dict[str, Any], selected: list[dict[str, Any]]) -> d
 
 
 def main() -> None:
-    logger.info("Türkiye haber botu başladı")
+    logger.info("Global haber botu başladı")
     history = load_json(HISTORY_FILE, {"processed_news": []})
     news_pool = fetch_news_pool(hours_back=20)
     selected = choose_top_three(news_pool, history)
@@ -678,7 +710,7 @@ def main() -> None:
     save_json(PLAN_FILE, {"generated_at": now_tr().isoformat(), "videos": plan_rows})
     save_json(HISTORY_FILE, update_history(history, selected))
     save_json(SELECTED_FILE, {"generated_at": now_tr().isoformat(), "selected_news": selected})
-    logger.info("Tamamlandı. 3 video planlandı ve history güncellendi")
+    logger.info("Tamamlandı. 3 global haber videosu planlandı ve history güncellendi")
 
 
 if __name__ == "__main__":
