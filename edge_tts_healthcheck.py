@@ -17,6 +17,7 @@ def apply_copied_patches() -> None:
         "patch_subtitles_denede.py",
         "patch_pause_sync.py",
         "patch_turkish_subtitle_chars.py",
+        "patch_direct_news_hook.py",
     ]
     for patch_file in patch_files:
         path = Path(patch_file)
