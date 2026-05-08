@@ -1,9 +1,8 @@
-name: Run Turkey News Shorts Bot
+name: Run Global News Shorts Bot
 
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron UTC çalışır. 21:00 UTC = Türkiye saatiyle 00:00.
     - cron: "0 21 * * *"
 
 permissions:
@@ -62,17 +61,6 @@ jobs:
           VOICE_RATE: +0%
           VOICE_PITCH: -2Hz
         run: python edge_tts_healthcheck.py
-
-      - name: Apply patches
-        run: |
-          python patch_news_quality.py
-          python patch_article_content.py
-          python patch_clickbait_hooks.py
-          python patch_tts.py
-          python patch_subtitles_denede.py
-          python patch_pause_sync.py
-          python patch_turkish_subtitle_chars.py
-          python patch_viral_tags.py
 
       - name: Run bot
         env:
