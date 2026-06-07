@@ -187,7 +187,7 @@ def strip_html(text: str) -> str:
 
 
 def normalize_text(text: str) -> str:
-    text = strip_html(text).lower()
+    text = strip_html(text).lower().replace("i\u0307", "i")
     text = re.sub(r"\s*-\s*[^-]+$", "", text)
     text = re.sub(r"[^a-z0-9çğıöşü\s]", " ", text)
     return re.sub(r"\s+", " ", text).strip()
@@ -426,6 +426,12 @@ def clean_upload_title(raw_title: str) -> str:
     title = html.unescape(raw_title or "")
     title = re.sub(r"\s+#shorts\s*$", "", title, flags=re.IGNORECASE)
     title = SOURCE_SUFFIX_RE.sub("", title)
+    title = re.sub(
+        r"\s*(?:[-|]\s*)?(?:Son Dakika(?: Dünya)? Haberleri|Dünya Haberleri|Haberleri)\s*$",
+        "",
+        title,
+        flags=re.IGNORECASE,
+    )
     title = re.sub(r"(?i)^\s*(canlı\s+)?son dakika\s*[|:.-]*\s*", "SON DAKİKA | ", title)
     title = re.sub(r"\s+", " ", title).strip(" -|:")
     title = title.replace("ABD/İsrail-İran", "ABD-İsrail-İran")
@@ -843,6 +849,9 @@ def main() -> None:
         plan_rows.append({
             "index": index,
             "title": item["title"],
+            "upload_title": make_upload_title(item),
+            "news_angle": item.get("news_angle"),
+            "tags": build_tags(item),
             "url": item["url"],
             "viral_score": item["viral_score"],
             "scheduled_slot": item["scheduled_slot"],
