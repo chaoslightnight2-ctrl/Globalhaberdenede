@@ -84,6 +84,36 @@ NEWS_QUERIES = [
     "world breaking news",
 ]
 
+CHANNEL_ANALYSIS = {
+    "channel_handle": "@globalhaber-g7k",
+    "observed_date": "2026-06-07",
+    "source_scope": "all_available_channel_shorts_via_yt_dlp_flat_playlist",
+    "video_count_scanned": 92,
+    "videos_with_public_view_counts": 79,
+    "top_patterns": [
+        "ABD / İran / İsrail / Rusya-Ukrayna gerilimi",
+        "son dakika + lider/diplomasi açıklaması",
+        "ateşkes, savaş, Hürmüz, petrol ve küresel kriz etkisi",
+        "kısa ve doğrudan başlık; kaynak adı yerine olayın sonucu",
+    ],
+    "top_examples": [
+        {"views": 773, "pattern": "ABD açıklaması + Türkiye bağlamı"},
+        {"views": 654, "pattern": "Hamas / ateşkes / Gazze krizi"},
+        {"views": 520, "pattern": "Rusya, ABD ve İran diplomasi çağrısı"},
+        {"views": 317, "pattern": "İran savaşı + Çin'in güçlenmesi"},
+        {"views": 263, "pattern": "ABD-İsrail-İran savaşı + Hürmüz sıcak çatışma"},
+    ],
+}
+
+SOURCE_SUFFIX_RE = re.compile(
+    r"\s*(?:[-|]\s*)?(?:Haber 7|CNN Türk|Sabah|Hürriyet|DHA|TRT Haber|Milliyet|"
+    r"ensonhaber|ensonDakika|SonDakika|BBC|MSN|Odatv|Afyon Ana Haber|Ege Alternatif|"
+    r"Demirören|Daktilo1984|beyazbelgehaber|ensondakika)\s*$",
+    re.IGNORECASE,
+)
+
+CHANNEL_TAGS = ["shorts", "haber", "dünya", "globalhaber", "sondakika", "breakingnews"]
+
 BACKGROUND_HINTS = {
     "deprem": ["earthquake city damage", "rescue workers", "emergency city"],
     "yangın": ["fire smoke city", "firefighters emergency", "building fire smoke"],
@@ -161,6 +191,12 @@ def normalize_text(text: str) -> str:
     text = re.sub(r"\s*-\s*[^-]+$", "", text)
     text = re.sub(r"[^a-z0-9çğıöşü\s]", " ", text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def has_term(text_n: str, term: str) -> bool:
+    if " " in term:
+        return term in text_n
+    return re.search(rf"(?<!\w){re.escape(term)}(?!\w)", text_n) is not None
 
 
 def similarity(a: str, b: str) -> float:
@@ -265,7 +301,58 @@ def keyword_score(text: str) -> int:
         "maç": 3,
         "transfer": 4,
     }
-    return sum(weight for word, weight in weights.items() if word in text_n)
+    return sum(weight for word, weight in weights.items() if has_term(text_n, word))
+
+
+def channel_performance_score(text: str) -> int:
+    text_n = normalize_text(text)
+    boosts = {
+        "abd": 14,
+        "iran": 16,
+        "israil": 13,
+        "gazze": 13,
+        "hamas": 12,
+        "rusya": 11,
+        "ukrayna": 10,
+        "trump": 12,
+        "putin": 9,
+        "hürmüz": 15,
+        "ateşkes": 12,
+        "barış": 8,
+        "anlaşma": 8,
+        "diplomasi": 8,
+        "savaş": 12,
+        "çatışma": 10,
+        "saldırı": 9,
+        "tehdit": 8,
+        "petrol": 9,
+        "küresel kriz": 10,
+        "son dakika": 8,
+        "tarihi": 5,
+    }
+    score = sum(weight for word, weight in boosts.items() if has_term(text_n, word))
+    if any(has_term(text_n, word) for word in ["spor", "maç", "ilk 11", "transfer"]) and not has_term(text_n, "dünya kupası"):
+        score -= 60
+    if has_term(text_n, "dünya kupası"):
+        score += 4
+    if any(has_term(text_n, local) for local in ["afyonkarahisar", "gençlik merkezi", "yerel seçim"]):
+        score -= 20
+    return score
+
+
+def detect_news_angle(item: dict[str, Any]) -> str:
+    text_n = normalize_text(item["title"] + " " + item.get("summary", ""))
+    if any(has_term(text_n, x) for x in ["iran", "israil", "gazze", "hamas", "hürmüz"]):
+        return "middle_east_crisis"
+    if any(has_term(text_n, x) for x in ["rusya", "ukrayna", "nato", "putin", "zelenski"]):
+        return "russia_ukraine_security"
+    if any(has_term(text_n, x) for x in ["abd", "trump", "beyaz saray"]):
+        return "us_diplomacy"
+    if any(has_term(text_n, x) for x in ["petrol", "dolar", "ekonomi", "piyasa", "enerji"]):
+        return "economy_energy"
+    if any(has_term(text_n, x) for x in ["çin", "pekin", "xi"]):
+        return "china_power_shift"
+    return "global_breaking"
 
 
 def recency_score(published_iso: str) -> float:
@@ -276,13 +363,17 @@ def recency_score(published_iso: str) -> float:
 
 def enrich_and_rank(news: list[dict[str, Any]]) -> list[dict[str, Any]]:
     for item in news:
+        joined_text = item["title"] + " " + item.get("summary", "")
         score = recency_score(item["published_at"])
-        score += keyword_score(item["title"] + " " + item.get("summary", ""))
+        score += keyword_score(joined_text)
+        score += channel_performance_score(joined_text)
         title_words = len(item["title"].split())
         if 5 <= title_words <= 16:
             score += 3
         if len(item.get("summary", "")) > 120:
             score += 2
+        item["news_angle"] = detect_news_angle(item)
+        item["channel_analysis"] = CHANNEL_ANALYSIS
         item["viral_score"] = round(score, 2)
     return sorted(news, key=lambda x: x["viral_score"], reverse=True)
 
@@ -319,14 +410,74 @@ def choose_top_three(news: list[dict[str, Any]], history: dict[str, Any]) -> lis
 
 
 def fallback_script(item: dict[str, Any]) -> str:
+    title = make_upload_title(item).replace(" #shorts", "")
+    summary = item.get("summary", "").strip()
+    if len(summary) > 220:
+        summary = summary[:220].rsplit(" ", 1)[0].strip()
     return (
-        f"Dünya gündeminde dikkat çeken bir gelişme var. {item['title']}. "
-        f"Haberin kısa özeti şöyle: {item.get('summary', '')[:260]}. "
-        "Bu başlık uluslararası gündemde daha da konuşulabilir. Gelişmeler için takipte kal."
+        f"Dünya gündeminde kritik bir gelişme var: {title}. "
+        f"Kısa özet şu: {summary or item['title']}. "
+        "Bu haber sadece tek bir ülkeyi değil, bölgesel dengeleri ve küresel piyasaları da etkileyebilir. "
+        "Gelişmenin devamı için takipte kal."
     )
 
 
+def clean_upload_title(raw_title: str) -> str:
+    title = html.unescape(raw_title or "")
+    title = re.sub(r"\s+#shorts\s*$", "", title, flags=re.IGNORECASE)
+    title = SOURCE_SUFFIX_RE.sub("", title)
+    title = re.sub(r"(?i)^\s*(canlı\s+)?son dakika\s*[|:.-]*\s*", "SON DAKİKA | ", title)
+    title = re.sub(r"\s+", " ", title).strip(" -|:")
+    title = title.replace("ABD/İsrail-İran", "ABD-İsrail-İran")
+    return title
+
+
+def make_upload_title(item: dict[str, Any]) -> str:
+    title = clean_upload_title(item["title"])
+    angle = item.get("news_angle") or detect_news_angle(item)
+    if angle == "middle_east_crisis" and not title.upper().startswith("SON DAKİKA"):
+        title = f"SON DAKİKA | {title}"
+    elif angle == "economy_energy" and "petrol" in normalize_text(title):
+        title = f"Petrol alarmı: {title}"
+    elif angle == "russia_ukraine_security" and "rusya" in normalize_text(title):
+        title = f"Rusya-Ukrayna hattında yeni gelişme: {title}"
+    title = re.sub(r"\s+", " ", title).strip()
+    max_base = 91
+    if len(title) > max_base:
+        title = title[:max_base].rsplit(" ", 1)[0].strip(" ,.-:|")
+    if "#shorts" not in title.lower():
+        title = f"{title} #shorts"
+    return title[:100]
+
+
+def build_tags(item: dict[str, Any]) -> list[str]:
+    text_n = normalize_text(item["title"] + " " + item.get("summary", ""))
+    tags = list(CHANNEL_TAGS)
+    for key in ["abd", "iran", "israil", "gazze", "hamas", "rusya", "ukrayna", "trump", "putin", "hürmüz", "petrol", "nato", "çin"]:
+        if has_term(text_n, key) and key not in tags:
+            tags.append(key)
+    return tags[:18]
+
+
+def build_description(item: dict[str, Any], publish_at: datetime) -> str:
+    tags = build_tags(item)
+    hashtag_line = " ".join(f"#{tag.replace(' ', '')}" for tag in tags[:9])
+    return (
+        f"{make_upload_title(item).replace(' #shorts', '')}\n\n"
+        f"{item['script']}\n\n"
+        f"Kaynak link: {item['url']}\n"
+        f"Kaynak: {item.get('source', 'Google News RSS')}\n"
+        f"Kanal analizi: {CHANNEL_ANALYSIS['video_count_scanned']} Shorts tarandı; yüksek izlenen kalıplar ABD-İran-İsrail, Rusya-Ukrayna, diplomasi ve küresel kriz başlıkları.\n"
+        f"Yayın zamanı: {publish_at.isoformat()}\n\n"
+        f"{hashtag_line}"
+    )[:5000]
+
+
 def generate_news_script(item: dict[str, Any]) -> str:
+    if os.getenv("USE_ONLINE_SCRIPT_GENERATOR", "").lower() not in {"1", "true", "yes"}:
+        logger.info("Online haber metni generator kapalı; güvenli fallback script kullanılıyor.")
+        return fallback_script(item)
+
     prompt = f"""
 Sen Türkçe YouTube Shorts için dünya haberleri anlatımı yazan bir editörsün.
 Aşağıdaki global haber bilgisini kullanarak 35-45 saniyelik açıklayıcı, akıcı ve merak uyandırıcı bir metin yaz.
@@ -350,7 +501,7 @@ Kaynak: {item.get('source', '')}
         response = client.chat.completions.create(
             model="gpt-4",
             messages=[{"role": "user", "content": prompt}],
-            timeout=90,
+            timeout=12,
         )
         script = response.choices[0].message.content.strip().strip('"').strip("'")
         if len(script) < 120:
@@ -608,21 +759,14 @@ def compute_publish_times() -> list[datetime]:
 
 def upload_to_youtube(video_path: Path, item: dict[str, Any], publish_at: datetime) -> dict[str, Any]:
     youtube = get_youtube_service()
-    title = item["title"].strip()
-    if "#shorts" not in title.lower():
-        title = f"{title} #shorts"
-    description = (
-        f"{item['script']}\n\n"
-        f"Kaynak link: {item['url']}\n"
-        f"Kaynak: {item.get('source', 'Google News RSS')}\n"
-        f"Yayın zamanı: {publish_at.isoformat()}\n\n"
-        "#shorts #haber #dünya #globalhaber #sondakika"
-    )
+    title = make_upload_title(item)
+    description = build_description(item, publish_at)
+    tags = build_tags(item)
     body = {
         "snippet": {
-            "title": title[:100],
+            "title": title,
             "description": description[:5000],
-            "tags": ["shorts", "haber", "dünya", "global haber", "son dakika", "news", "breaking news"],
+            "tags": tags,
             "categoryId": YOUTUBE_CATEGORY_ID,
         },
         "status": {
