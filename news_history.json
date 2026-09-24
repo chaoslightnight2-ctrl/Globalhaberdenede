@@ -1,42 +1,6 @@
 {
   "processed_news": [
     {
-      "title": "Almanya Başbakanı Merz’den NATO mesajı: 'ABD ile bağlılık sürüyor' - Son Dakika Dünya Haberleri - Odatv",
-      "summary": "Almanya Başbakanı Merz’den NATO mesajı: 'ABD ile bağlılık sürüyor' - Son Dakika Dünya Haberleri Odatv",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1ViSFpQRzdYc2RQR1AwOE1yMm1LUEVwSm1ZVUxoeTktYVZwUk8zTFpEOGNrNE9FdHNnNFJ2NnNUNDROWS1pOEdUV05qeVFqUHFJTnBoQ0k1WjE4eENNazFMS3k0ek9DcUJnZFJFUHBUN2FubkdrbXYyRzN0cHRFZU5XRmNneDhsUEdKYXRuUWhFeTNBTnZWbXhMU2RObEo2bEE?oc=5",
-      "source": "Google News RSS",
-      "published_at": "2026-05-09T17:25:34+03:00",
-      "fingerprint": "5fcbb33cd270f8f3641792b8bbf70dad79e9a395",
-      "viral_score": 56.36,
-      "scheduled_slot": "18:00",
-      "youtube_url": "https://youtu.be/KMFkucYHELI",
-      "processed_at": "2026-05-10T02:41:00.638025+03:00"
-    },
-    {
-      "title": "Trump'tan son dakika Çin ve İran kararı: Beyaz Saray tarihi duyurdu! - Haber 7",
-      "summary": "Trump'tan son dakika Çin ve İran kararı: Beyaz Saray tarihi duyurdu! Haber 7",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0lOd2tHc1p6YVlkOHF0Zm5wM0h2SE54dk1aMTU4aXRyYWhGUWtCeHZSUnVrOVEtY3VIRXM4dXI5Y1hlN0RXMVFkQTN4Q1BFend5SW0xNzlVY3lxYUNYbkJfODNibVhtRTAyem5HbUNfQ2poSEE3MlF3a1lsamJBa1VpOE1mWmh6aF9kZjlTOWs0bnEzamFGQWcxQmN2MFZqdjBjQ1BHNkZteklW0gG0AUFVX3lxTE1WSlR5MDRmT09tNEdQcDJMSzdiNUNSWGE1bjZLMGhGNE5qWnVkV3dsMXB3MHp3S184aG9jLWNJaGJkelpVSzN4YW1oQU85ellsY0dZMnVvRjJ0Zk1kQjZfVTZZV3ZpdWxQQVpXRjNGNk5VQ3UwVnJqQkRYTlZIOWNsTWcxS2xpRUtXZ1BETDN5WmlXdjJFZjc3Q2RraFY2cWplanl5eGtIdDQwcDZDY0hrOGdSdQ?oc=5",
-      "source": "Google News RSS",
-      "published_at": "2026-05-10T21:54:00+03:00",
-      "fingerprint": "abbb660a0b8f3e617275dc8d54bcf45cbd3c50d2",
-      "viral_score": 55.41,
-      "scheduled_slot": "07:00",
-      "youtube_url": "https://youtu.be/XNxHf-WYnl4",
-      "processed_at": "2026-05-11T02:45:06.116565+03:00"
-    },
-    {
-      "title": "İran ABD'nin teklifine 'savaşı sona erdirmeye odaklı' yanıt verdi - BBC",
-      "summary": "İran ABD'nin teklifine 'savaşı sona erdirmeye odaklı' yanıt verdi BBC",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ya1AtdXM4bTkzcG8ySHFfbnhXcUdiUVY5WFJnZFJPN2RHWmJPZTBDeG1nQzRoTS1ablE0OUpEY25PanAwS204WXJwS0pfSmNoVWllTHFyMjJveEoz0gFiQVVfeXFMUEgtdXV1MG9QRm11RXBmakR5RmZPZ0JZVU1yRVpUWVFoZmlaQVNQUkt3emFROW43YngyaDZjVndIWkFiX0tiYkdwZ3NqRDk2aV9ic05ZYWUxbDZYQ3BCemF5Znc?oc=5",
-      "source": "Google News RSS",
-      "published_at": "2026-05-11T01:00:57+03:00",
-      "fingerprint": "94b74b1a40f41026db1c00f45727b78f240f16e6",
-      "viral_score": 55.4,
-      "scheduled_slot": "12:00",
-      "youtube_url": "https://youtu.be/tqx1hV9f9rY",
-      "processed_at": "2026-05-11T02:45:06.116577+03:00"
-    },
-    {
       "title": "Netanyahu, 'İran ile savaş bitmedi' deyip 3 hedef sıraladı - Son Dakika",
       "summary": "Netanyahu, 'İran ile savaş bitmedi' deyip 3 hedef sıraladı Son Dakika",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeHNxZUE3ck56Znl1U2RPaWRaam5xNmhaa0huZ2w4UEtqS3N1N0NKY00wa1BQZmVkakRiR0Y3Yld2NllGSFk1UUtacUdLOW1oWEd6OHpXN0o1UE51UVRoSFhYenZBR1dGREJIWEtHLTFCdHk3d3FyWktRaFRFSG42LTN6SVV6RHpGMVpJ0gGEAUFVX3lxTE5rV2lubXVEYU1vS1dpa1hVQXBZdWJKWkk3bUR2V3JQSERsT2VxUFZOUUpMV25XLVg3V2xyUXJKTzFVVnBsbllkR2FQUW1ZeVIxTmJVV2tEd24tMkhSUzE0UE5Gc2xhSEs0V09Cem9tZG1XbVJqLVJOQVFZSzllbXdGNWhwbw?oc=5",
@@ -4799,6 +4763,42 @@
       "scheduled_slot": "18:00",
       "youtube_url": "https://youtu.be/t1L_5SjZHvU",
       "processed_at": "2026-09-24T02:38:51.399466+03:00"
+    },
+    {
+      "title": "ABD Senatosu, İran'a saldırıların sona erdirilmesine yönelik karar tasarısını reddetti - Cumhuriyet",
+      "summary": "ABD Senatosu, İran'a saldırıların sona erdirilmesine yönelik karar tasarısını reddetti Cumhuriyet",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWTNRQkhLWGlWRUdqSi0tN2ZnYWxsTmo1d3hHYnozR01PSGM3VTNMVXlFZGJ4TllFSmstSWpxY2tuaUEzT0NNMUZlZ3BPaFlteWllZV94TThLaE1yQ1Q2b3JmNnpja3VHZTlTUDJLZk04bU96eXhSNkJSbHotZUQ2ekNDZUx2WjMwdldHT3ZfNjhFSF9kdmdUX1BVWVpvX2FfVkNENW5YTm96TVlIcDRKelNPbFZvZXpQTnR4TGVfWi1rSWVrY0pnRw?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-09-25T00:50:00+03:00",
+      "fingerprint": "42220daaddf6e3813831a4a4a797eb09ed1a0ffa",
+      "viral_score": 56.8,
+      "scheduled_slot": "07:00",
+      "youtube_url": "https://youtu.be/v8EfMZrMaq4",
+      "processed_at": "2026-09-25T02:55:08.976674+03:00"
+    },
+    {
+      "title": "Saldırılar sona erecek mi? ABD Senatosu'ndan İran kararı - cnnturk.com",
+      "summary": "Saldırılar sona erecek mi? ABD Senatosu'ndan İran kararı cnnturk.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNDZranUtYkFwcktuTXlpel9YVVoybmFpbmJ1XzhjbmV1NVVXZThfbzVMZWpCYlBQeksxOUFxZ0hXMUtQOEJDa1d5b0xWajBPeXFLbFl5aWNSLVMwZERmZ1JCVldNeDVSWC1BWG1yRWpEVW8xV2hMOV9FZzQ2azRNVklrS0R2V09tM3hpaEJKR1UwTXRxdFJR?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-09-24T23:57:21+03:00",
+      "fingerprint": "047889c63aa9c02cb9d6204710a779861145bd61",
+      "viral_score": 55.39,
+      "scheduled_slot": "12:00",
+      "youtube_url": "https://youtu.be/cB_3gVYHAIQ",
+      "processed_at": "2026-09-25T02:55:08.976685+03:00"
+    },
+    {
+      "title": "Çin Devlet Başkanı Şi, Trump’ın eski ABD Başkanı Biden’a yönelik şakasına güldü - cnnturk.com",
+      "summary": "Çin Devlet Başkanı Şi, Trump’ın eski ABD Başkanı Biden’a yönelik şakasına güldü cnnturk.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcnA2WFQ4cGlNSTJLN3Q3bGpEOU1yMk5MWkppRkFwaDJlNHRKVTExWDhZRm5kdV9FYXZFUHhvOGpDaWE5WmxVZExGOXdPVTZHRjRIRWZUYTU2NnlDTjZqZVBqY1VibS1xdjloTzJsaVdtVmpaSkVOZDk5cXlkNENMajRLT01PN2RYNWUxWnBmR0EyQ01GUkpxbjZqM3Rqb2JOZTQwMWxlV3hqOFl2TFNGb3V4VkQ?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-09-24T23:37:00+03:00",
+      "fingerprint": "92dd8a5b212915391b69b78d2bb1ccc858669bb4",
+      "viral_score": 54.85,
+      "scheduled_slot": "18:00",
+      "youtube_url": "https://youtu.be/P6nsBBwdMg8",
+      "processed_at": "2026-09-25T02:55:08.976689+03:00"
     }
   ]
 }
