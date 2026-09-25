@@ -65,23 +65,17 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 NEWS_QUERIES = [
-    "son dakika dünya",
-    "dünya gündemi son dakika",
-    "uluslararası haberler son dakika",
-    "küresel kriz son dakika",
-    "ABD son dakika haberleri",
-    "Avrupa son dakika haberleri",
-    "Orta Doğu son dakika",
-    "Rusya Ukrayna son dakika",
-    "İsrail Gazze son dakika",
-    "Çin son dakika haberleri",
-    "NATO son dakika",
-    "Birleşmiş Milletler son dakika",
-    "küresel ekonomi son dakika",
-    "dünya siyaset son dakika",
-    "dünya teknoloji son dakika",
-    "iklim afet dünya son dakika",
-    "world breaking news",
+    "world breaking news today", "global latest news today",
+    "international politics diplomacy world", "global economy inflation interest rates markets",
+    "cost of living prices wages housing worldwide", "technology artificial intelligence cybersecurity news",
+    "science space discoveries research news", "health public health medical research world news",
+    "climate environment energy water crisis news", "natural disasters earthquakes floods fires global",
+    "transport aviation railways global news", "education universities schools global news",
+    "culture arts cinema music world news", "world sports football basketball news",
+    "society human interest inspiring stories world", "Europe latest news policy economy",
+    "Middle East latest news diplomacy humanitarian", "Asia latest news economy technology",
+    "Africa latest news society economy", "Americas latest news politics economy",
+    "United Nations international decisions news", "global digital culture social media trends",
 ]
 
 BACKGROUND_HINTS = {
@@ -303,62 +297,124 @@ def too_similar_to_selected(item: dict[str, Any], selected: list[dict[str, Any]]
     )
 
 
+def detect_topic_bucket(item: dict[str, Any]) -> str:
+    text = normalize_text(item.get("title", "") + " " + item.get("summary", ""))
+    groups = [
+        ("technology_science", ["technology", "artificial intelligence", "cyber", "science", "space", "research", "bilim", "uzay"]),
+        ("economy_life", ["economy", "inflation", "interest rate", "prices", "wages", "housing", "markets", "ekonomi"]),
+        ("health_education", ["health", "hospital", "medicine", "education", "school", "university", "sağlık", "eğitim"]),
+        ("climate_energy", ["climate", "environment", "drought", "energy", "electricity", "renewable", "iklim", "enerji"]),
+        ("transport_cities", ["transport", "aviation", "railway", "airport", "traffic", "infrastructure", "ulaşım"]),
+        ("culture_arts", ["culture", "cinema", "film", "music", "art", "book", "festival", "kültür", "sanat"]),
+        ("sports", ["sport", "football", "basketball", "volleyball", "match", "spor", "futbol"]),
+        ("disasters_safety", ["earthquake", "fire", "flood", "storm", "disaster", "deprem", "yangın", "sel"]),
+        ("politics_diplomacy", ["politics", "election", "parliament", "government", "diplomacy", "nato", "siyaset", "seçim"]),
+        ("society", ["society", "community", "human rights", "workers", "social", "toplum"]),
+    ]
+    for bucket, words in groups:
+        if any(word in text for word in words):
+            return bucket
+    return "world_affairs"
+
+
 def choose_top_three(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict[str, Any]]:
+    ranked = enrich_and_rank(news)
+    for item in ranked:
+        item["topic_bucket"] = detect_topic_bucket(item)
+    processed = history.get("processed_news", [])
     selected: list[dict[str, Any]] = []
-    for item in enrich_and_rank(news):
-        if in_history(item, history.get("processed_news", [])):
-            continue
-        if too_similar_to_selected(item, selected):
-            continue
-        selected.append(item)
-        if len(selected) == 3:
-            break
-    if len(selected) < 3:
-        raise RuntimeError("3 farklı global haber seçilemedi.")
-    return selected
+    topic_counts: dict[str, int] = {}
+    for cap in (1, 2, 99):
+        for item in ranked:
+            if item in selected or in_history(item, processed) or too_similar_to_selected(item, selected):
+                continue
+            bucket = item.get("topic_bucket", "world_affairs")
+            if topic_counts.get(bucket, 0) >= cap:
+                continue
+            selected.append(item)
+            topic_counts[bucket] = topic_counts.get(bucket, 0) + 1
+            if len(selected) == 3:
+                return selected
+    raise RuntimeError("Tekrarsız üç global haber seçilemedi.")
 
 
-def fallback_script(item: dict[str, Any]) -> str:
-    return (
-        f"Dünya gündeminde dikkat çeken bir gelişme var. {item['title']}. "
-        f"Haberin kısa özeti şöyle: {item.get('summary', '')[:260]}. "
-        "Bu başlık uluslararası gündemde daha da konuşulabilir. Gelişmeler için takipte kal."
+
+def _groq_news_json(prompt: str) -> dict[str, Any]:
+    api_key = os.getenv("GROQ_API_KEY")
+    if not api_key:
+        raise RuntimeError("GROQ_API_KEY tanımlı değil; yedek anlatım kapalı.")
+    model = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
+    response = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        json={
+            "model": model,
+            "messages": [
+                {"role": "system", "content": "You are a careful Turkish-language global news editor. Use only supplied facts; preserve uncertainty and attribution."},
+                {"role": "user", "content": prompt},
+            ],
+            "temperature": 0.25,
+            "max_completion_tokens": 520,
+            "response_format": {"type": "json_object"},
+        },
+        timeout=90,
     )
+    try:
+        response.raise_for_status()
+    except requests.HTTPError as exc:
+        details = re.sub(r"\s+", " ", response.text or "")[:500]
+        raise RuntimeError(f"Groq başarısız: HTTP {response.status_code}, model={model}, {details}") from exc
+    choices = response.json().get("choices") or []
+    if not choices:
+        raise RuntimeError(f"Groq boş yanıt verdi: model={model}")
+    content = choices[0].get("message", {}).get("content", "")
+    start, end = content.find("{"), content.rfind("}")
+    if start < 0 or end < start:
+        raise RuntimeError("Groq JSON nesnesi döndürmedi.")
+    return json.loads(content[start:end + 1])
 
 
 def generate_news_script(item: dict[str, Any]) -> str:
+    source_title = strip_html(item.get("title", ""))
+    source_text = strip_html(item.get("summary", ""))
+    if len(source_text) < 80:
+        raise RuntimeError(f"Kaynak özeti yetersiz; güvenilir Shorts üretimi durduruldu: {source_title}")
+    bucket = detect_topic_bucket(item)
     prompt = f"""
-Sen Türkçe YouTube Shorts için dünya haberleri anlatımı yazan bir editörsün.
-Aşağıdaki global haber bilgisini kullanarak 35-45 saniyelik açıklayıcı, akıcı ve merak uyandırıcı bir metin yaz.
+Global Haber için kısa ve merak uyandıran bir YouTube Shorts metni hazırla.
+Kapsam dünya siyasetiyle sınırlı değil: ekonomi, teknoloji, bilim, sağlık, iklim, afet, ulaşım,
+eğitim, kültür, spor ve toplum haberlerini de kapsar. Bu gelişmenin somut ayrıntısını ve etkisini anlat.
+Başlık merak uyandırsın; kaynaktaki olguyu çarpıtmasın veya doğrulanmamış iddiayı kesin sunmasın.
+Hook 6-12 kelime ve videonun ilk cümlesi olsun. Hook + anlatım + abone CTA toplamı 35-65 Türkçe
+kelime olsun. CTA Global Haber'e abone olmayı açık ve doğal biçimde istesin.
+Açıklama 1-2 özgün cümle olsun; ilk cümlede gelişmeyi ve başlığın bir arama terimini doğal biçimde geçir.
+Kaynak dışında bilgi ekleme; etiket listesi veya emoji yazma.
+Sadece JSON döndür:
+{{"title":"...","hook":"...","narration":"...","cta":"...","description":"..."}}
 
-Kurallar:
-- Sadece verilen bilgiye dayan.
-- Uydurma detay ve spekülasyon kullanma.
-- İlk cümle dikkat çekici olsun.
-- Haberin dünya/uluslararası önemini kısa ve anlaşılır anlat.
-- Son cümlede gelişmeler için takipte kal benzeri doğal kapanış yap.
-- Emoji, madde işareti ve sahne notu yazma.
-- Tek parça metin ver.
-
-Başlık: {item['title']}
-Özet: {item.get('summary', '')}
-Kaynak: {item.get('source', '')}
+Kategori: {bucket}
+Kaynak başlığı: {source_title}
+Kaynak özeti: {source_text[:3000]}
 """
-    try:
-        from g4f.client import Client
-        client = Client()
-        response = client.chat.completions.create(
-            model="gpt-4",
-            messages=[{"role": "user", "content": prompt}],
-            timeout=90,
-        )
-        script = response.choices[0].message.content.strip().strip('"').strip("'")
-        if len(script) < 120:
-            raise RuntimeError("Metin çok kısa")
-        return script
-    except Exception as exc:
-        logger.warning("AI metni oluşmadı, fallback kullanılıyor: %s", exc)
-        return fallback_script(item)
+    data = _groq_news_json(prompt)
+    title = strip_html(str(data.get("title", ""))).strip(" .-|:")
+    hook = strip_html(str(data.get("hook", ""))).strip()
+    narration = strip_html(str(data.get("narration", ""))).strip()
+    cta = strip_html(str(data.get("cta", ""))).strip()
+    description = strip_html(str(data.get("description", ""))).strip()
+    script = " ".join(part for part in [hook, narration, cta] if part)
+    if not title or len(title) > 78 or not hook or not narration or not cta or not description:
+        raise RuntimeError("Groq çıktısı metadata doğrulamasını geçemedi.")
+    if not 35 <= len(script.split()) <= 65 or len(hook.split()) > 13:
+        raise RuntimeError("Groq metni Shorts uzunluk/hook doğrulamasını geçemedi.")
+    item["source_headline"] = source_title
+    item["topic_bucket"] = bucket
+    item["shorts_hook"] = hook
+    item["youtube_description"] = description
+    item["title"] = title
+    return script
+
+
 
 
 async def create_voiceover(script: str, audio_path: Path) -> list[tuple[float, float, str]]:
@@ -608,23 +664,42 @@ def compute_publish_times() -> list[datetime]:
 
 def upload_to_youtube(video_path: Path, item: dict[str, Any], publish_at: datetime) -> dict[str, Any]:
     youtube = get_youtube_service()
-    title = item["title"].strip()
+    title = item.get("title", "").strip()
+    if not title:
+        raise RuntimeError("Groq video başlığı üretmedi; yükleme durduruldu.")
     if "#shorts" not in title.lower():
         title = f"{title} #shorts"
+    summary = item.get("youtube_description", "").strip()
+    if not summary:
+        raise RuntimeError("Groq açıklama üretmedi; yedek açıklama kullanılmadan yükleme durduruldu.")
     description = (
-        f"{item['script']}\n\n"
-        f"Kaynak link: {item['url']}\n"
-        f"Kaynak: {item.get('source', 'Google News RSS')}\n"
-        f"Yayın zamanı: {publish_at.isoformat()}\n\n"
-        "#shorts #haber #dünya #globalhaber #sondakika"
+        f"{summary}\n\nKaynak: {item.get('source', 'Haber kaynağı')}\n"
+        f"Haber bağlantısı: {item.get('url', '')}\n\n#shorts #DünyaHaberleri #GlobalHaber"
     )
+    topic_tags = {
+        "technology_science": ["teknoloji haberleri", "bilim haberleri"],
+        "economy_life": ["dünya ekonomisi", "ekonomi haberleri"],
+        "health_education": ["sağlık haberleri", "eğitim haberleri"],
+        "climate_energy": ["iklim haberleri", "enerji haberleri"],
+        "transport_cities": ["ulaşım haberleri", "şehir haberleri"],
+        "culture_arts": ["dünya kültürü", "kültür sanat"],
+        "sports": ["dünya spor", "spor haberleri"],
+        "disasters_safety": ["dünya gündemi", "afet haberleri"],
+        "politics_diplomacy": ["dünya siyaseti", "uluslararası haberler"],
+        "society": ["toplum haberleri", "dünya gündemi"],
+        "world_affairs": ["dünya haberleri", "uluslararası gündem"],
+    }
+    tags = ["Global Haber", "dünya haberleri"]
+    tags.extend(topic_tags.get(item.get("topic_bucket", "world_affairs"), topic_tags["world_affairs"]))
+    seen = {tag.lower() for tag in tags}
+    for word in re.findall(r"[a-z0-9çğıöşü]{4,}", normalize_text(title)):
+        if word not in seen:
+            tags.append(word)
+            seen.add(word)
+        if len(tags) >= 7:
+            break
     body = {
-        "snippet": {
-            "title": title[:100],
-            "description": description[:5000],
-            "tags": ["shorts", "haber", "dünya", "global haber", "son dakika", "news", "breaking news"],
-            "categoryId": YOUTUBE_CATEGORY_ID,
-        },
+        "snippet": {"title": title[:100], "description": description[:5000], "tags": tags[:7], "categoryId": YOUTUBE_CATEGORY_ID},
         "status": {
             "privacyStatus": "private",
             "publishAt": publish_at.astimezone(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
@@ -639,12 +714,16 @@ def upload_to_youtube(video_path: Path, item: dict[str, Any], publish_at: dateti
         if status:
             logger.info("YouTube yükleme: %s%%", int(status.progress() * 100))
     video_id = response["id"]
+    item["youtube_tags"] = tags[:7]
     return {
         "video_id": video_id,
         "youtube_url": f"https://youtu.be/{video_id}",
         "publish_at_local": publish_at.isoformat(),
         "publish_at_utc": body["status"]["publishAt"],
+        "tags": tags[:7],
     }
+
+
 
 
 def build_video_for_item(item: dict[str, Any], index: int) -> dict[str, Any]:
@@ -699,6 +778,12 @@ def main() -> None:
         plan_rows.append({
             "index": index,
             "title": item["title"],
+            "source_headline": item.get("source_headline", ""),
+            "topic_bucket": item.get("topic_bucket", ""),
+            "shorts_hook": item.get("shorts_hook", ""),
+            "narration": item.get("script", ""),
+            "description": item.get("youtube_description", ""),
+            "tags": item.get("youtube_tags", []),
             "url": item["url"],
             "viral_score": item["viral_score"],
             "scheduled_slot": item["scheduled_slot"],
