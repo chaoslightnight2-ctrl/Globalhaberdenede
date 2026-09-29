@@ -467,14 +467,18 @@ Global Haber için ilk saniyede yakalayan, sonuna kadar izleten bir YouTube Shor
 Gündem geniştir: siyaset, diplomasi, ekonomi, tüketici, çalışma hayatı, bilim, teknoloji, yapay zeka,
 sağlık, eğitim, iklim, enerji, afet, ulaşım, kültür-sanat, spor, dijital yaşam ve insan hikâyeleri.
 Her videoda tek somut gelişmeye odaklan.
-6-12 kelimelik sert bir merak kancası kur: şaşırtıcı ayrıntı, kritik fark, ters köşe, beklenmedik sonuç
-veya cevabı videoda açıklanan iddialı bir soru seç. İzleyiciye “sonuç ne oldu?”, “bu kimi etkiliyor?”
-ya da “neden şimdi gündemde?” dedirt. İlk cümlede vaadi aç ve videonun sonunda net cevabı ver.
-Gereksiz giriş yapma. Başlığı cesur, meydan okuyan ve yüksek merak uyandıran yaz; clickbait tonu kullan.
-Kaynağın desteklemediği olay, sayı veya sonucu gerçekmiş gibi iddia etme.
+6-12 kelimelik, bu habere özel güçlü bir merak kancası kur: şaşırtıcı ayrıntı, kritik fark, ters köşe,
+beklenmedik sonuç veya haberde yanıtlanan iddialı bir soru seç. İlk 1-2 saniyede konuyu ve izleme
+nedenini anlaşılır kıl. Hook ile başlık aynı ifadeyi tekrarlamasın; “sonuç ne oldu?”, “bu kimi etkiliyor?”
+ya da “neden şimdi gündemde?” merakı uyandır. Ardından kısa bir bağlam ver, en önemli gelişme/kanıtı
+açıkla, son bölümde sonucu/payoff'u ver. Merakı gereksiz yere uzatma. Her cümle yeni bilgi taşısın.
+Başlığı cesur, net ve yüksek merak uyandıran yaz; clickbait tonu kullan. Kaynağın desteklemediği olay,
+sayı veya sonucu gerçekmiş gibi iddia etme.
 Kategoriye uygun anlatım: {angle_guidance}
-Başlık en fazla 70 karakter olsun. Hook + anlatım + açık, kısa abone çağrısı 35-65 Türkçe kelime olsun.
-Açıklama iki kısa cümle olsun; ilk 120 karakterde gelişmeyi ve ana arama terimini doğal geçir.
+Başlık en fazla 70 karakter olsun; en güçlü somut ayrıntıyı öne çıkar, aynı kalıbı videolar arasında
+tekrarlama. Hook + anlatım + açık, kısa abone çağrısı 35-65 Türkçe kelime olsun.
+Açıklama iki kısa cümle olsun; ilk 120 karakterde gelişmeyi ve ana arama terimini doğal geçir,
+ardından habere özel kısa bir soru ile yorum daveti yap. Anahtar kelime yığma.
 Yalnızca kaynaktaki olguları kullan, iddia ve tahminleri atfet. Yalnızca JSON döndür:
 {{"title":"...","hook":"...","narration":"...","cta":"...","description":"..."}}
 Kategori: {bucket}
