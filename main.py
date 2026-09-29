@@ -355,7 +355,7 @@ def detect_topic_bucket(item: dict[str, Any]) -> str:
     return "world_affairs"
 
 
-def choose_top_three(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict[str, Any]]:
+def choose_six(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict[str, Any]]:
     ranked = enrich_and_rank(news)
     eligible = [item for item in ranked if len(strip_html(item.get("summary", "")).strip()) >= 80]
     rejected = len(ranked) - len(eligible)
@@ -376,9 +376,9 @@ def choose_top_three(news: list[dict[str, Any]], history: dict[str, Any]) -> lis
                 continue
             selected.append(item)
             topic_counts[bucket] = topic_counts.get(bucket, 0) + 1
-            if len(selected) == 3:
+            if len(selected) == 6:
                 return selected
-    raise RuntimeError("Tekrarsız üç global haber seçilemedi.")
+    raise RuntimeError("Tekrarsız altı global haber seçilemedi.")
 
 
 
@@ -740,15 +740,16 @@ def get_youtube_service():
 
 
 def compute_publish_times() -> list[datetime]:
-    slots = [(7, 0), (12, 0), (18, 0)]
+    slots = [(4, 0), (8, 0), (12, 0), (16, 0), (20, 0), (0, 0)]
     current = now_tr()
+    cutoff = current + timedelta(minutes=15)
     results: list[datetime] = []
     for hour, minute in slots:
         candidate = current.replace(hour=hour, minute=minute, second=0, microsecond=0)
-        if candidate <= current:
+        if candidate <= cutoff:
             candidate += timedelta(days=1)
         results.append(candidate)
-    return results
+    return sorted(results)
 
 
 def upload_to_youtube(video_path: Path, item: dict[str, Any], publish_at: datetime) -> dict[str, Any]:
@@ -858,7 +859,7 @@ def main() -> None:
     logger.info("Global haber botu başladı%s", " (DRY_RUN; YouTube upload kapalı)" if DRY_RUN else "")
     history = load_json(HISTORY_FILE, {"processed_news": []})
     news_pool = fetch_news_pool(hours_back=72)
-    selected = choose_top_three(news_pool, history)
+    selected = choose_six(news_pool, history)
     save_json(SELECTED_FILE, {"generated_at": now_tr().isoformat(), "selected_news": selected})
 
     for item in selected:
@@ -896,7 +897,7 @@ def main() -> None:
     save_json(PLAN_FILE, {"generated_at": now_tr().isoformat(), "videos": plan_rows})
     save_json(HISTORY_FILE, history)
     save_json(SELECTED_FILE, {"generated_at": now_tr().isoformat(), "selected_news": selected})
-    logger.info("Tamamlandı. 3 global haber videosu planlandı ve history güncellendi")
+    logger.info("Tamamlandı. 6 global haber videosu planlandı ve history güncellendi")
 
 
 if __name__ == "__main__":
