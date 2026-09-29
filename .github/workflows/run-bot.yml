@@ -1,6 +1,11 @@
 name: Run Global News Shorts Bot
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "codex-workflow-trigger-20260929-mumjvztr.txt"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -81,7 +86,7 @@ jobs:
           VOICE_PITCH: -2Hz
           IMAGEMAGICK_BINARY: /usr/bin/convert
           SUBTITLE_FONT: DejaVu-Sans-Bold
-          DRY_RUN: ${{ (github.event_name == 'push' || inputs.dry_run) && '1' || '0' }}
+          DRY_RUN: ${{ (inputs.dry_run == true) && '1' || '0' }}
         run: python main.py
 
       - name: Upload artifact backup
