@@ -357,6 +357,11 @@ def detect_topic_bucket(item: dict[str, Any]) -> str:
 
 def choose_top_three(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict[str, Any]]:
     ranked = enrich_and_rank(news)
+    eligible = [item for item in ranked if len(strip_html(item.get("summary", "")).strip()) >= 80]
+    rejected = len(ranked) - len(eligible)
+    if rejected:
+        logger.info("Yetersiz kaynak özeti olan haberler elendi: %s", rejected)
+    ranked = eligible
     for item in ranked:
         item["topic_bucket"] = detect_topic_bucket(item)
     processed = history.get("processed_news", [])
