@@ -48,6 +48,7 @@ load_dotenv()
 
 PEXELS_API_KEY = os.getenv("PEXELS_API_KEY")
 YOUTUBE_REFRESH_TOKEN = os.getenv("YOUTUBE_REFRESH_TOKEN")
+DRY_RUN = os.getenv("DRY_RUN", "0") == "1"
 CLIENT_SECRETS_FILE = "client_secrets.json"
 YOUTUBE_SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
 YOUTUBE_CATEGORY_ID = "25"
@@ -55,7 +56,7 @@ TIMEZONE = ZoneInfo("Europe/Istanbul")
 
 if not PEXELS_API_KEY:
     sys.exit("PEXELS_API_KEY tanımlı değil.")
-if not YOUTUBE_REFRESH_TOKEN:
+if not YOUTUBE_REFRESH_TOKEN and not DRY_RUN:
     sys.exit("YOUTUBE_REFRESH_TOKEN tanımlı değil.")
 
 logging.basicConfig(
@@ -706,6 +707,14 @@ def compute_publish_times() -> list[datetime]:
 
 
 def upload_to_youtube(video_path: Path, item: dict[str, Any], publish_at: datetime) -> dict[str, Any]:
+    if DRY_RUN:
+        logger.info("DRY_RUN: YouTube upload engellendi; MP4 artifact olarak saklanacak.")
+        return {
+            "video_id": "dry-run",
+            "youtube_url": f"DRY-RUN artifact: {video_path}",
+            "publish_at_local": publish_at.isoformat(),
+            "publish_at_utc": publish_at.astimezone(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        }
     youtube = get_youtube_service()
     title = item.get("title", "").strip()
     if not title:
@@ -801,7 +810,7 @@ def update_history(history: dict[str, Any], selected: list[dict[str, Any]]) -> d
 
 
 def main() -> None:
-    logger.info("Global haber botu başladı")
+    logger.info("Global haber botu başladı%s", " (DRY_RUN; YouTube upload kapalı)" if DRY_RUN else "")
     history = load_json(HISTORY_FILE, {"processed_news": []})
     news_pool = fetch_news_pool(hours_back=20)
     selected = choose_top_three(news_pool, history)
@@ -836,7 +845,8 @@ def main() -> None:
         })
         save_json(PLAN_FILE, {"generated_at": now_tr().isoformat(), "videos": plan_rows})
         save_json(HISTORY_FILE, history)
-        logger.info("YouTube videos.insert onayı alındı: %s -> %s (%s)", item["scheduled_slot"], item["title"], upload_info.get("video_id"))
+        if not DRY_RUN:
+            logger.info("YouTube videos.insert onayı alındı: %s -> %s (%s)", item["scheduled_slot"], item["title"], upload_info.get("video_id"))
 
     save_json(PLAN_FILE, {"generated_at": now_tr().isoformat(), "videos": plan_rows})
     save_json(HISTORY_FILE, history)
