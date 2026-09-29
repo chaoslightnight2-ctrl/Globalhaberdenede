@@ -184,6 +184,39 @@ def parse_entry_datetime(entry: Any) -> datetime | None:
     return None
 
 
+PAST_EVENT_MONTHS = {
+    "ocak": 1, "şubat": 2, "subat": 2, "mart": 3, "nisan": 4,
+    "mayıs": 5, "mayis": 5, "haziran": 6, "temmuz": 7, "ağustos": 8,
+    "agustos": 8, "eylül": 9, "eylul": 9, "ekim": 10, "kasım": 11,
+    "kasim": 11, "aralık": 12, "aralik": 12,
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5,
+    "june": 6, "july": 7, "august": 8, "september": 9, "october": 10,
+    "november": 11, "december": 12,
+}
+
+
+def mentions_past_event_date(text: str) -> bool:
+    today = now_tr().date()
+    pattern = re.compile(
+        r"(?<!\\d)(?P<day>0?[1-9]|[12]\\d|3[01])\\s+"
+        r"(?P<month>" + "|".join(sorted(PAST_EVENT_MONTHS, key=len, reverse=True)) + r")"
+        r"(?:[’']?\\s*\\w{0,4})?(?!\\w)",
+        flags=re.IGNORECASE,
+    )
+    for match in pattern.finditer(normalize_text(text)):
+        month = PAST_EVENT_MONTHS.get(match.group("month").lower())
+        if not month:
+            continue
+        try:
+            event_day = int(match.group("day"))
+            event_date = datetime(today.year, month, event_day).date()
+        except ValueError:
+            continue
+        if event_date < today:
+            return True
+    return False
+
+
 def fetch_news_pool(hours_back: int = 20) -> list[dict[str, Any]]:
     cutoff = datetime.now(UTC) - timedelta(hours=hours_back)
     collected: list[dict[str, Any]] = []
@@ -199,6 +232,9 @@ def fetch_news_pool(hours_back: int = 20) -> list[dict[str, Any]]:
             summary = strip_html(getattr(entry, "summary", "")) or strip_html(getattr(entry, "description", ""))
             link = getattr(entry, "link", "")
             if not title or not link:
+                continue
+            if mentions_past_event_date(title + " " + summary):
+                logger.info("Geçmiş tarihli etkinlik başlığı elendi: %s", title)
                 continue
             collected.append({
                 "title": title,
