@@ -1,7 +1,16 @@
 name: Run Global News Shorts Bot
 
 on:
+  push:
+    paths:
+      - .github/workflows/global-dry-run-trigger.marker
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Generate and render without uploading to YouTube"
+        required: false
+        default: true
+        type: boolean
   schedule:
     - cron: "0 21 * * *"
 
@@ -75,6 +84,7 @@ jobs:
           VOICE_PITCH: -2Hz
           IMAGEMAGICK_BINARY: /usr/bin/convert
           SUBTITLE_FONT: DejaVu-Sans-Bold
+          DRY_RUN: ${{ (github.event_name == 'push' || inputs.dry_run) && '1' || '0' }}
         run: python main.py
 
       - name: Upload artifact backup
@@ -92,7 +102,7 @@ jobs:
           retention-days: 7
 
       - name: Commit history files
-        if: success()
+        if: ${{ success() && github.event_name != 'push' && inputs.dry_run != true }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
