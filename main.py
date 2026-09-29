@@ -812,7 +812,7 @@ def update_history(history: dict[str, Any], selected: list[dict[str, Any]]) -> d
 def main() -> None:
     logger.info("Global haber botu başladı%s", " (DRY_RUN; YouTube upload kapalı)" if DRY_RUN else "")
     history = load_json(HISTORY_FILE, {"processed_news": []})
-    news_pool = fetch_news_pool(hours_back=20)
+    news_pool = fetch_news_pool(hours_back=72)
     selected = choose_top_three(news_pool, history)
     save_json(SELECTED_FILE, {"generated_at": now_tr().isoformat(), "selected_news": selected})
 
