@@ -380,18 +380,34 @@ def generate_news_script(item: dict[str, Any]) -> str:
     if len(source_text) < 80:
         raise RuntimeError(f"Kaynak özeti yetersiz; güvenilir Shorts üretimi durduruldu: {source_title}")
     bucket = detect_topic_bucket(item)
+    angle_guidance = {
+        "technology_science": "Önce gelişmenin ne olduğunu ve doğrulanan etkisini açıkla.",
+        "economy_life": "Önce değişen kural/fiyatı ve etkilenen grubu söyle.",
+        "health_education": "Önce hangi hasta, öğrenci veya hizmetin etkilendiğini açıkla.",
+        "climate_energy": "Önce yer, olay ve doğrulanmış değişikliği ver.",
+        "transport_cities": "Önce hangi yerde hangi hizmetin değiştiğini söyle.",
+        "culture_arts": "Önce eser, etkinlik veya kişiyle ilgili yeniliği öne çıkar.",
+        "sports": "Önce takım/sporcu ve sonucu söyle; skor kaynakta varsa.",
+        "disasters_safety": "Teyit edilmiş yer, olay ve resmi durumu aktar.",
+        "politics_diplomacy": "Tarafları ve kararı tarafsızca anlat.",
+        "society": "Etkilenen topluluğu ve somut sonucu anlat.",
+        "world_affairs": "Gelişmeyi, kimleri ilgilendirdiğini ve etkisini söyle.",
+    }.get(bucket, "Somut gelişmeyi ve etkisini anlat.")
     prompt = f"""
-Global Haber için kısa ve merak uyandıran bir YouTube Shorts metni hazırla.
-Kapsam dünya siyasetiyle sınırlı değil: ekonomi, teknoloji, bilim, sağlık, iklim, afet, ulaşım,
-eğitim, kültür, spor ve toplum haberlerini de kapsar. Bu gelişmenin somut ayrıntısını ve etkisini anlat.
-Başlık merak uyandırsın; kaynaktaki olguyu çarpıtmasın veya doğrulanmamış iddiayı kesin sunmasın.
-Hook 6-12 kelime ve videonun ilk cümlesi olsun. Hook + anlatım + abone CTA toplamı 35-65 Türkçe
-kelime olsun. CTA Global Haber'e abone olmayı açık ve doğal biçimde istesin.
-Açıklama 1-2 özgün cümle olsun; ilk cümlede gelişmeyi ve başlığın bir arama terimini doğal biçimde geçir.
-Kaynak dışında bilgi ekleme; etiket listesi veya emoji yazma.
-Sadece JSON döndür:
+Global Haber için ilk saniyede yakalayan, sonuna kadar izleten bir YouTube Shorts paketi yaz.
+Gündem geniştir: siyaset, diplomasi, ekonomi, tüketici, çalışma hayatı, bilim, teknoloji, yapay zeka,
+sağlık, eğitim, iklim, enerji, afet, ulaşım, kültür-sanat, spor, dijital yaşam ve insan hikâyeleri.
+Her videoda tek somut gelişmeye odaklan.
+6-12 kelimelik sert bir merak kancası kur: şaşırtıcı ayrıntı, kritik fark, ters köşe, beklenmedik sonuç
+veya cevabı videoda açıklanan iddialı bir soru seç. İzleyiciye “sonuç ne oldu?”, “bu kimi etkiliyor?”
+ya da “neden şimdi gündemde?” dedirt. İlk cümlede vaadi aç ve videonun sonunda net cevabı ver.
+Gereksiz giriş yapma. Başlığı cesur, meydan okuyan ve yüksek merak uyandıran yaz; clickbait tonu kullan.
+Kaynağın desteklemediği olay, sayı veya sonucu gerçekmiş gibi iddia etme.
+Kategoriye uygun anlatım: {angle_guidance}
+Başlık en fazla 70 karakter olsun. Hook + anlatım + açık, kısa abone çağrısı 35-65 Türkçe kelime olsun.
+Açıklama iki kısa cümle olsun; ilk 120 karakterde gelişmeyi ve ana arama terimini doğal geçir.
+Yalnızca kaynaktaki olguları kullan, iddia ve tahminleri atfet. Yalnızca JSON döndür:
 {{"title":"...","hook":"...","narration":"...","cta":"...","description":"..."}}
-
 Kategori: {bucket}
 Kaynak başlığı: {source_title}
 Kaynak özeti: {source_text[:3000]}
@@ -403,9 +419,9 @@ Kaynak özeti: {source_text[:3000]}
     cta = strip_html(str(data.get("cta", ""))).strip()
     description = strip_html(str(data.get("description", ""))).strip()
     script = " ".join(part for part in [hook, narration, cta] if part)
-    if not title or len(title) > 78 or not hook or not narration or not cta or not description:
+    if not title or len(title) > 70 or not hook or not narration or not cta or not description:
         raise RuntimeError("Groq çıktısı metadata doğrulamasını geçemedi.")
-    if not 35 <= len(script.split()) <= 65 or len(hook.split()) > 13:
+    if not 35 <= len(script.split()) <= 65 or not 6 <= len(hook.split()) <= 12:
         raise RuntimeError("Groq metni Shorts uzunluk/hook doğrulamasını geçemedi.")
     item["source_headline"] = source_title
     item["topic_bucket"] = bucket
