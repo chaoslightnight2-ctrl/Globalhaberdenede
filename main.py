@@ -169,8 +169,9 @@ def fingerprint(title: str, summary: str = "") -> str:
 
 
 def google_news_rss_url(query: str) -> str:
-    # Arayüz dili Türkçe kalır; sorgular global haber odaklıdır.
-    return f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=tr&gl=TR&ceid=TR:tr"
+    # English-language Google News provides a much broader international source pool.
+    # Groq translates the verified source facts into Turkish; no alternate model is used.
+    return f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=en-US&gl=US&ceid=US:en"
 
 
 def parse_entry_datetime(entry: Any) -> datetime | None:
@@ -229,7 +230,14 @@ def fetch_news_pool(hours_back: int = 20) -> list[dict[str, Any]]:
             if not published_at or published_at < cutoff:
                 continue
             title = strip_html(getattr(entry, "title", ""))
-            summary = strip_html(getattr(entry, "summary", "")) or strip_html(getattr(entry, "description", ""))
+            summary_candidates = [
+                getattr(entry, "summary", ""),
+                getattr(entry, "description", ""),
+            ]
+            for content_item in getattr(entry, "content", []) or []:
+                if isinstance(content_item, dict):
+                    summary_candidates.append(content_item.get("value", ""))
+            summary = max((strip_html(value) for value in summary_candidates), key=len, default="")
             link = getattr(entry, "link", "")
             if not title or not link:
                 continue
@@ -378,8 +386,33 @@ def choose_six(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict
             topic_counts[bucket] = topic_counts.get(bucket, 0) + 1
             if len(selected) == 6:
                 return selected
-    raise RuntimeError("Tekrarsız altı global haber seçilemedi.")
+    raise RuntimeError(
+        f"Tekrarsız altı kaynaklı global haber seçilemedi: "
+        f"RSS={len(news)}, uzun özeti olan={len(ranked)}, seçilen={len(selected)}. "
+        "Daha geniş RSS havuzu veya kaynak özeti bekleniyor; yedek anlatım kullanılmadı."
+    )
 
+
+
+def _groq_retry_delay(response: requests.Response, attempt: int) -> float:
+    candidates = [
+        response.headers.get("Retry-After", ""),
+        response.headers.get("x-ratelimit-reset-tokens", ""),
+        response.text or "",
+    ]
+    for value in candidates:
+        if not value:
+            continue
+        try:
+            return min(180.0, max(5.0, float(value) + 1.0))
+        except ValueError:
+            pass
+        parts = re.findall(r"([0-9]+(?:\\.[0-9]+)?)\\s*(ms|s|m|h)", value.lower())
+        if parts:
+            seconds = sum(float(amount) * {"ms": 0.001, "s": 1, "m": 60, "h": 3600}[unit] for amount, unit in parts)
+            if seconds > 0:
+                return min(180.0, max(5.0, seconds + 1.0))
+    return min(180.0, 65.0 + attempt * 15.0)
 
 
 _groq_last_request_at = 0.0
@@ -391,7 +424,7 @@ def _groq_news_json(prompt: str) -> dict[str, Any]:
         raise RuntimeError("GROQ_API_KEY tanımlı değil; yedek anlatım kapalı.")
     model = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
     response = None
-    for attempt in range(3):
+    for attempt in range(6):
         wait = max(0.0, 23.0 - (time.monotonic() - _groq_last_request_at))
         if wait:
             logger.info("Groq kota aralığı: %.1f saniye bekleniyor", wait)
@@ -413,18 +446,11 @@ def _groq_news_json(prompt: str) -> dict[str, Any]:
             },
             timeout=90,
         )
-        if response.status_code != 429 or attempt == 2:
+        if response.status_code != 429 or attempt == 5:
             break
-        retry_after = response.headers.get("Retry-After", "")
-        if not retry_after:
-            match = re.search(r"try again in ([0-9.]+)s", response.text or "", re.IGNORECASE)
-            retry_after = match.group(1) if match else str(5 * (attempt + 1))
-        try:
-            delay = min(30.0, max(1.0, float(retry_after) + 0.5))
-        except ValueError:
-            delay = float(5 * (attempt + 1))
+        delay = _groq_retry_delay(response, attempt)
         _groq_last_request_at = time.monotonic() - 23.0 + delay
-        logger.warning("Groq 429; aynı modelle %.1f saniye sonra yeniden denenecek (%s/3)", delay, attempt + 1)
+        logger.warning("Groq 429; aynı model %s/6, %.1f saniye bekleyip aynı isteği yeniden deniyor", attempt + 1, delay)
     try:
         response.raise_for_status()
     except requests.HTTPError as exc:
