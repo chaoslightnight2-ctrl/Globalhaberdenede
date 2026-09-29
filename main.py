@@ -32,6 +32,8 @@ from urllib.parse import quote_plus
 from zoneinfo import ZoneInfo
 from difflib import SequenceMatcher
 
+from quality_gate import validate_visual_query
+
 import edge_tts
 import feedparser
 import requests
@@ -505,8 +507,14 @@ Başlık en fazla 70 karakter olsun; en güçlü somut ayrıntıyı öne çıkar
 tekrarlama. Hook + anlatım + açık, kısa abone çağrısı 35-65 Türkçe kelime olsun.
 Açıklama iki kısa cümle olsun; ilk 120 karakterde gelişmeyi ve ana arama terimini doğal geçir,
 ardından habere özel kısa bir soru ile yorum daveti yap. Anahtar kelime yığma.
-Yalnızca kaynaktaki olguları kullan, iddia ve tahminleri atfet. Yalnızca JSON döndür:
-{{"title":"...","hook":"...","narration":"...","cta":"...","description":"..."}}
+hook narration ve cta konuşma alanlarında noktalama işareti kullanma yalnızca doğrudan okunacak temiz Türkçe kelimeleri yaz.
+Konuşma alanlarına kaynak adı, site adı, URL, kaynakça, markdown, hashtag, emoji veya sahne talimatı yazma.
+CTA yalnızca bir kez geçsin ve "Global Haber için abone ol" ifadesini içersin.
+visual_query haberdeki gerçek kişi, yer, kurum veya nesneyi gösteren 3-7 İngilizce Pexels arama kelimesi olsun.
+"news background", "world map", "press conference" gibi genel görüntü isteme.
+Yalnızca kaynaktaki olguları kullan, iddia ve tahminleri atfet. narration_parts alanında 2-4 kısa bölüm yaz.
+Yalnızca JSON döndür:
+{{"title":"...","hook":"...","narration_parts":["...","..."],"cta":"...","description":"...","visual_query":"..."}}
 Kategori: {bucket}
 Kaynak başlığı: {source_title}
 Kaynak özeti: {source_text[:3000]}
@@ -525,15 +533,22 @@ Kaynak özeti: {source_text[:3000]}
             data = _groq_news_json(prompt + correction)
             title = strip_html(str(data.get("title", ""))).strip(" .-|:")
             hook = strip_html(str(data.get("hook", ""))).strip()
-            narration = strip_html(str(data.get("narration", ""))).strip()
+            narration_parts = data.get("narration_parts", data.get("narration", []))
+            if isinstance(narration_parts, str):
+                narration_parts = [narration_parts]
+            narration_parts = [strip_html(str(part)).strip() for part in narration_parts if strip_html(str(part)).strip()]
+            narration = " ".join(narration_parts)
             cta = strip_html(str(data.get("cta", ""))).strip()
             description = strip_html(str(data.get("description", ""))).strip()
+            visual_query = validate_visual_query(str(data.get("visual_query", "")))
             script = " ".join(part for part in [hook, narration, cta] if part)
             errors = []
             if not title or len(title) > 70:
                 errors.append(f"başlık karakter sayısı={len(title)}")
             if not hook or not narration or not cta or not description:
                 errors.append("zorunlu alan boş")
+            if not 2 <= len(narration_parts) <= 4:
+                errors.append(f"narration_parts sayısı={len(narration_parts)}, hedef=2-4")
             if not 35 <= len(script.split()) <= 65:
                 errors.append(f"toplam kelime={len(script.split())}, hedef=35-65")
             if not 6 <= len(hook.split()) <= 12:
@@ -543,7 +558,12 @@ Kaynak özeti: {source_text[:3000]}
             item["source_headline"] = source_title
             item["topic_bucket"] = bucket
             item["shorts_hook"] = hook
+            item["quality_hook"] = hook
+            item["quality_narration"] = narration
+            item["quality_narration_parts"] = narration_parts
+            item["quality_cta"] = cta
             item["youtube_description"] = description
+            item["visual_query"] = visual_query
             item["title"] = title
             return script
         except Exception as exc:
@@ -594,6 +614,8 @@ def extract_keywords(text: str, count: int = 5) -> list[str]:
 def build_background_queries(item: dict[str, Any]) -> list[str]:
     text = normalize_text(item["title"] + " " + item.get("summary", ""))
     queries: list[str] = []
+    if item.get("visual_query"):
+        queries.append(validate_visual_query(item["visual_query"]))
     for key, mapped in BACKGROUND_HINTS.items():
         if key in text:
             queries.extend(mapped)
@@ -637,7 +659,12 @@ def search_pexels_video(query: str) -> str | None:
 def download_background_video(item: dict[str, Any], output_path: Path) -> None:
     url = None
     chosen_query = None
-    for query in build_background_queries(item):
+    queries = build_background_queries(item)
+    # Groq's topic-specific visual query is mandatory. Do not silently replace it
+    # with a generic clip that can contradict the story.
+    if item.get("visual_query"):
+        queries = queries[:1]
+    for query in queries:
         url = search_pexels_video(query)
         if url:
             chosen_query = query
