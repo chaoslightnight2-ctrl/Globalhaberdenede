@@ -1,3 +1,5 @@
 dry-run trigger; YouTube upload disabled
 
 retry after widening the news lookback to 72h
+
+retry after rejecting headlines with past event dates
