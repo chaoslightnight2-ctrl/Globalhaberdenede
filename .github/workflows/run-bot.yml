@@ -1,9 +1,6 @@
 name: Run Global News Shorts Bot
 
 on:
-  push:
-    paths:
-      - .github/workflows/global-dry-run-trigger.marker
   workflow_dispatch:
     inputs:
       dry_run:
