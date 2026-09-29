@@ -198,9 +198,9 @@ PAST_EVENT_MONTHS = {
 def mentions_past_event_date(text: str) -> bool:
     today = now_tr().date()
     pattern = re.compile(
-        r"(?<!\\d)(?P<day>0?[1-9]|[12]\\d|3[01])\\s+"
+        r"(?<!\d)(?P<day>0?[1-9]|[12]\d|3[01])\s+"
         r"(?P<month>" + "|".join(sorted(PAST_EVENT_MONTHS, key=len, reverse=True)) + r")"
-        r"(?:[’']?\\s*\\w{0,4})?(?!\\w)",
+        r"(?:[’']?\s*\w{0,4})?(?!\w)",
         flags=re.IGNORECASE,
     )
     for match in pattern.finditer(normalize_text(text)):
