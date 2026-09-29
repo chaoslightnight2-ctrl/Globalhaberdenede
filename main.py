@@ -407,7 +407,7 @@ def _groq_retry_delay(response: requests.Response, attempt: int) -> float:
             return min(180.0, max(5.0, float(value) + 1.0))
         except ValueError:
             pass
-        parts = re.findall(r"([0-9]+(?:\\.[0-9]+)?)\\s*(ms|s|m|h)", value.lower())
+        parts = re.findall(r"([0-9]+(?:\.[0-9]+)?)\s*(ms|s|m|h)", value.lower())
         if parts:
             seconds = sum(float(amount) * {"ms": 0.001, "s": 1, "m": 60, "h": 3600}[unit] for amount, unit in parts)
             if seconds > 0:
