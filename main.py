@@ -23,6 +23,7 @@ import logging
 import os
 import re
 import sys
+import time
 import traceback
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
@@ -339,26 +340,49 @@ def choose_top_three(news: list[dict[str, Any]], history: dict[str, Any]) -> lis
 
 
 
+_groq_last_request_at = 0.0
+
 def _groq_news_json(prompt: str) -> dict[str, Any]:
+    global _groq_last_request_at
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
         raise RuntimeError("GROQ_API_KEY tanımlı değil; yedek anlatım kapalı.")
     model = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
-    response = requests.post(
-        "https://api.groq.com/openai/v1/chat/completions",
-        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-        json={
-            "model": model,
-            "messages": [
-                {"role": "system", "content": "You are a careful Turkish-language global news editor. Use only supplied facts; preserve uncertainty and attribution."},
-                {"role": "user", "content": prompt},
-            ],
-            "temperature": 0.25,
-            "max_completion_tokens": 520,
-            "response_format": {"type": "json_object"},
-        },
-        timeout=90,
-    )
+    response = None
+    for attempt in range(3):
+        wait = max(0.0, 23.0 - (time.monotonic() - _groq_last_request_at))
+        if wait:
+            logger.info("Groq kota aralığı: %.1f saniye bekleniyor", wait)
+            time.sleep(wait)
+        _groq_last_request_at = time.monotonic()
+        response = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            json={
+                "model": model,
+                "messages": [
+                    {"role": "system", "content": "Sen Global Haber için dikkatli bir Türkçe dünya haberleri editörüsün. Sadece verilen kaynak olgularını kullan; atıfları ve belirsizliği koru. İstenen alanları içeren tek bir JSON nesnesi üret."},
+                    {"role": "user", "content": prompt},
+                ],
+                "temperature": 0.25,
+                "max_completion_tokens": 2048,
+                "reasoning_effort": "low",
+                "response_format": {"type": "json_object"},
+            },
+            timeout=90,
+        )
+        if response.status_code != 429 or attempt == 2:
+            break
+        retry_after = response.headers.get("Retry-After", "")
+        if not retry_after:
+            match = re.search(r"try again in ([0-9.]+)s", response.text or "", re.IGNORECASE)
+            retry_after = match.group(1) if match else str(5 * (attempt + 1))
+        try:
+            delay = min(30.0, max(1.0, float(retry_after) + 0.5))
+        except ValueError:
+            delay = float(5 * (attempt + 1))
+        _groq_last_request_at = time.monotonic() - 23.0 + delay
+        logger.warning("Groq 429; aynı modelle %.1f saniye sonra yeniden denenecek (%s/3)", delay, attempt + 1)
     try:
         response.raise_for_status()
     except requests.HTTPError as exc:
@@ -371,7 +395,10 @@ def _groq_news_json(prompt: str) -> dict[str, Any]:
     start, end = content.find("{"), content.rfind("}")
     if start < 0 or end < start:
         raise RuntimeError("Groq JSON nesnesi döndürmedi.")
-    return json.loads(content[start:end + 1])
+    data = json.loads(content[start:end + 1])
+    if not isinstance(data, dict):
+        raise RuntimeError("Groq JSON yanıtı nesne değil.")
+    return data
 
 
 def generate_news_script(item: dict[str, Any]) -> str:
@@ -791,6 +818,7 @@ def main() -> None:
         item.update(build_info)
         upload_info = upload_to_youtube(Path(build_info["video_path"]), item, publish_at)
         item.update(upload_info)
+        history = update_history(history, [item])
         plan_rows.append({
             "index": index,
             "title": item["title"],
@@ -806,10 +834,12 @@ def main() -> None:
             "publish_at_local": upload_info["publish_at_local"],
             "youtube_url": upload_info["youtube_url"],
         })
-        logger.info("Planlandı: %s -> %s", item["scheduled_slot"], item["title"])
+        save_json(PLAN_FILE, {"generated_at": now_tr().isoformat(), "videos": plan_rows})
+        save_json(HISTORY_FILE, history)
+        logger.info("YouTube videos.insert onayı alındı: %s -> %s (%s)", item["scheduled_slot"], item["title"], upload_info.get("video_id"))
 
     save_json(PLAN_FILE, {"generated_at": now_tr().isoformat(), "videos": plan_rows})
-    save_json(HISTORY_FILE, update_history(history, selected))
+    save_json(HISTORY_FILE, history)
     save_json(SELECTED_FILE, {"generated_at": now_tr().isoformat(), "selected_news": selected})
     logger.info("Tamamlandı. 3 global haber videosu planlandı ve history güncellendi")
 
