@@ -511,23 +511,45 @@ Kategori: {bucket}
 Kaynak başlığı: {source_title}
 Kaynak özeti: {source_text[:3000]}
 """
-    data = _groq_news_json(prompt)
-    title = strip_html(str(data.get("title", ""))).strip(" .-|:")
-    hook = strip_html(str(data.get("hook", ""))).strip()
-    narration = strip_html(str(data.get("narration", ""))).strip()
-    cta = strip_html(str(data.get("cta", ""))).strip()
-    description = strip_html(str(data.get("description", ""))).strip()
-    script = " ".join(part for part in [hook, narration, cta] if part)
-    if not title or len(title) > 70 or not hook or not narration or not cta or not description:
-        raise RuntimeError("Groq çıktısı metadata doğrulamasını geçemedi.")
-    if not 35 <= len(script.split()) <= 65 or not 6 <= len(hook.split()) <= 12:
-        raise RuntimeError("Groq metni Shorts uzunluk/hook doğrulamasını geçemedi.")
-    item["source_headline"] = source_title
-    item["topic_bucket"] = bucket
-    item["shorts_hook"] = hook
-    item["youtube_description"] = description
-    item["title"] = title
-    return script
+    last_error = None
+    for attempt in range(3):
+        correction = ""
+        if last_error:
+            correction = (
+                "\n\nÖNCEKİ AYNI MODEL DENEMESİ DOĞRULAMAYI GEÇEMEDİ: "
+                f"{last_error}. Bu kez sayıları tam uygula: hook 6-12 kelime, "
+                "hook+anlatım+CTA toplam 35-65 Türkçe kelime; tüm alanlar dolu "
+                "ve yalnızca kaynak olgularına bağlı olmalı. Başka model kullanma."
+            )
+        try:
+            data = _groq_news_json(prompt + correction)
+            title = strip_html(str(data.get("title", ""))).strip(" .-|:")
+            hook = strip_html(str(data.get("hook", ""))).strip()
+            narration = strip_html(str(data.get("narration", ""))).strip()
+            cta = strip_html(str(data.get("cta", ""))).strip()
+            description = strip_html(str(data.get("description", ""))).strip()
+            script = " ".join(part for part in [hook, narration, cta] if part)
+            errors = []
+            if not title or len(title) > 70:
+                errors.append(f"başlık karakter sayısı={len(title)}")
+            if not hook or not narration or not cta or not description:
+                errors.append("zorunlu alan boş")
+            if not 35 <= len(script.split()) <= 65:
+                errors.append(f"toplam kelime={len(script.split())}, hedef=35-65")
+            if not 6 <= len(hook.split()) <= 12:
+                errors.append(f"kanca kelime={len(hook.split())}, hedef=6-12")
+            if errors:
+                raise ValueError("; ".join(errors))
+            item["source_headline"] = source_title
+            item["topic_bucket"] = bucket
+            item["shorts_hook"] = hook
+            item["youtube_description"] = description
+            item["title"] = title
+            return script
+        except Exception as exc:
+            last_error = str(exc)
+            logger.warning("Groq senaryo doğrulaması %s/3 başarısız; aynı modelle yeniden denenecek: %s", attempt + 1, last_error)
+    raise RuntimeError(f"3 aynı-model denemesinde geçerli global senaryo alınamadı: {last_error}")
 
 
 
