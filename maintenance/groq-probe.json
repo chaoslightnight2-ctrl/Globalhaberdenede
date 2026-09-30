@@ -1,31 +1,37 @@
 {
+  "run_id": "36710719670",
   "http_status": 200,
   "limits": {
     "x-ratelimit-limit-requests": "1000",
     "x-ratelimit-limit-tokens": "8000",
-    "x-ratelimit-remaining-requests": "997",
-    "x-ratelimit-remaining-tokens": "7632",
-    "x-ratelimit-reset-requests": "4m19.2s",
-    "x-ratelimit-reset-tokens": "2.76s"
+    "x-ratelimit-remaining-requests": "999",
+    "x-ratelimit-remaining-tokens": "7444",
+    "x-ratelimit-reset-requests": "1m26.4s",
+    "x-ratelimit-reset-tokens": "4.17s"
   },
   "usage": {
-    "queue_time": 0.228915549,
-    "prompt_tokens": 174,
-    "prompt_time": 0.009592636,
-    "completion_tokens": 102,
-    "completion_time": 0.213212276,
-    "total_tokens": 276,
-    "total_time": 0.222804912,
+    "queue_time": 0.078322672,
+    "prompt_tokens": 329,
+    "prompt_time": 0.017887959,
+    "completion_tokens": 180,
+    "completion_time": 0.377751558,
+    "total_tokens": 509,
+    "total_time": 0.395639517,
     "completion_tokens_details": {
       "reasoning_tokens": 47
     }
   },
   "result": {
-    "ready": true,
-    "visual_query": "moon surface space",
+    "reason": "The content is unsuitable because essential fields are missing or empty: title, hook, description, narration_parts, tags, and hashtags are all empty, which prevents the creation of a meaningful narrative or metadata.",
+    "title": "",
+    "hook": "",
     "cta": "Global Haber kanal\u0131na abone ol",
-    "tags": [
-      "space"
-    ]
+    "description": "",
+    "visual_query": "moon surface space",
+    "suitable": false,
+    "topic_bucket": "technology_science",
+    "narration_parts": [],
+    "tags": [],
+    "hashtags": []
   }
 }
