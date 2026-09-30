@@ -1,6 +1,7 @@
 """Small same-model schema request; never logs the API credential."""
 import json
 import os
+import time
 from pathlib import Path
 import requests
 
@@ -9,11 +10,18 @@ schema = {'type': 'object', 'properties': {'ready': {'type': 'boolean'}, 'visual
           'cta': {'type': 'string', 'enum': ['Global Haber kanalına abone ol']},
           'tags': {'type': 'array', 'items': {'type': 'string'}}},
           'required': ['ready', 'visual_query', 'cta', 'tags'], 'additionalProperties': False}
-response = requests.post('https://api.groq.com/openai/v1/chat/completions',
+for attempt in range(3):
+    response = requests.post('https://api.groq.com/openai/v1/chat/completions',
     headers={'Authorization': f'Bearer {key}'}, timeout=90, json={
         'model': 'openai/gpt-oss-120b', 'messages': [{'role': 'user', 'content': 'Return ready true visual_query moon surface space cta Global Haber kanalına abone ol and tags containing space.'}],
         'max_completion_tokens': 256, 'reasoning_effort': 'low', 'temperature': 0,
         'response_format': {'type': 'json_schema', 'json_schema': {'name': 'provider_test', 'strict': True, 'schema': schema}}})
+    if response.status_code != 429 or attempt == 2:
+        break
+    delay = float(response.headers.get('retry-after', 60)) + 1
+    if delay > 150:
+        break
+    time.sleep(delay)
 data = response.json()
 report = {'http_status': response.status_code,
           'limits': {k: v for k, v in response.headers.items() if k.lower().startswith('x-ratelimit-') or k.lower() == 'retry-after'}}
