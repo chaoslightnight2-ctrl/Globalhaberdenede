@@ -5,6 +5,7 @@ import os
 import re
 
 import main as bot
+from speech_timing import align_caption_starts
 from quality_gate import (
     caption_chunks,
     compact,
@@ -47,15 +48,20 @@ def generate_news_script(item):
     return generate(item, bot, CHANNEL_NAME)
 
 
+def timed_caption_chunks(rows):
+    return align_caption_starts(bot._caption_audio_path, caption_chunks(rows))
+
+
 async def create_voiceover(script, audio_path):
     from voice_sync import synthesize
     word_ts = await synthesize(script, audio_path, bot)
+    bot._caption_audio_path = audio_path
     audio = bot.AudioFileClip(str(audio_path))
     try:
         duration = float(audio.duration)
     finally:
         audio.close()
-    validate_caption_timing(caption_chunks(word_ts), duration)
+    validate_caption_timing(timed_caption_chunks(word_ts), duration)
     return word_ts
 
 
@@ -104,8 +110,10 @@ def build_background_queries(item):
 
 
 bot.generate_news_script = generate_news_script
+# Legacy patches must not stretch the already measured individual word times.
+bot.normalize_word_timestamps_to_audio = lambda rows, audio_path: rows
 bot.create_voiceover = create_voiceover
-bot.chunk_timestamps = caption_chunks
+bot.chunk_timestamps = timed_caption_chunks
 bot.build_background_queries = build_background_queries
 bot.build_video_for_item = build_video_for_item
 bot.upload_to_youtube = upload_to_youtube
