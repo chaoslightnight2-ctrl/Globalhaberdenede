@@ -6,6 +6,13 @@ import requests
 import main as bot
 
 _original_pool = bot.fetch_news_pool
+_original_rank = bot.enrich_and_rank
+
+
+def publisher_first(news):
+    ranked = _original_rank(news)
+    ranked.sort(key=lambda item: (bool(item.get('direct_source')), item.get('viral_score', 0)), reverse=True)
+    return ranked
 FEEDS = [
     ('BBC World', 'https://feeds.bbci.co.uk/news/world/rss.xml'),
     ('BBC Business', 'https://feeds.bbci.co.uk/news/business/rss.xml'),
@@ -55,3 +62,4 @@ def collect(hours_back=72):
 
 
 bot.fetch_news_pool = collect
+bot.enrich_and_rank = publisher_first
