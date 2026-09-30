@@ -1,13 +1,31 @@
 {
-  "http_status": 429,
+  "http_status": 200,
   "limits": {
-    "retry-after": "118",
     "x-ratelimit-limit-requests": "1000",
     "x-ratelimit-limit-tokens": "8000",
-    "x-ratelimit-remaining-requests": "995",
-    "x-ratelimit-remaining-tokens": "8000",
-    "x-ratelimit-reset-requests": "7m12s",
-    "x-ratelimit-reset-tokens": "1ms"
+    "x-ratelimit-remaining-requests": "997",
+    "x-ratelimit-remaining-tokens": "7632",
+    "x-ratelimit-reset-requests": "4m19.2s",
+    "x-ratelimit-reset-tokens": "2.76s"
   },
-  "error": "Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kqz2x0khektbkvqfse850627` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199842, Requested 430. Please try again in 1m57.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+  "usage": {
+    "queue_time": 0.228915549,
+    "prompt_tokens": 174,
+    "prompt_time": 0.009592636,
+    "completion_tokens": 102,
+    "completion_time": 0.213212276,
+    "total_tokens": 276,
+    "total_time": 0.222804912,
+    "completion_tokens_details": {
+      "reasoning_tokens": 47
+    }
+  },
+  "result": {
+    "ready": true,
+    "visual_query": "moon surface space",
+    "cta": "Global Haber kanal\u0131na abone ol",
+    "tags": [
+      "space"
+    ]
+  }
 }
