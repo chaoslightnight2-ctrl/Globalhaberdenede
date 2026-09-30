@@ -1,6 +1,9 @@
 name: Run Global News Shorts Bot
 
 on:
+  push:
+    branches: [main]
+    paths: [".github/maintenance/run-*.json"]
   workflow_dispatch:
     inputs:
       dry_run:
@@ -13,6 +16,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: global-news-shorts
+  cancel-in-progress: false
 
 jobs:
   run-bot:
@@ -61,6 +68,9 @@ jobs:
           python -m pip install --upgrade edge-tts
           python -m pip show edge-tts
 
+      - name: Quality regression checks
+        run: python -m unittest test_quality_regressions.py
+
       - name: Check Edge TTS before rendering
         env:
           VOICE: tr-TR-AhmetNeural
@@ -81,7 +91,7 @@ jobs:
           VOICE_PITCH: -2Hz
           IMAGEMAGICK_BINARY: /usr/bin/convert
           SUBTITLE_FONT: DejaVu-Sans-Bold
-          DRY_RUN: ${{ (github.event_name == 'push' || inputs.dry_run) && '1' || '0' }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
         run: python run_quality_bot.py
 
       - name: Upload artifact backup
@@ -91,19 +101,19 @@ jobs:
           name: generated-news-shorts
           path: |
             output/*.mp4
-            selected_news.json
-            video_plan.json
+            run_report.json
             bot.log
             edge_tts_healthcheck.mp3
           if-no-files-found: warn
           retention-days: 7
 
       - name: Commit history files
-        if: ${{ success() && inputs.dry_run != true }}
+        if: ${{ always() && !cancelled() && inputs.dry_run != true }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add selected_news.json video_plan.json news_history.json
+          if [ -f run_report.json ]; then git add -f run_report.json; fi
           if git diff --cached --quiet; then
             echo "No history changes to commit."
             exit 0

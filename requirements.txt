@@ -11,3 +11,5 @@ google-auth-oauthlib==1.2.2
 google-auth-httplib2==0.2.0
 Pillow==9.5.0
 imageio-ffmpeg==0.6.0
+
+trafilatura>=2.0,<3

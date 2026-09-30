@@ -43,29 +43,13 @@ def _split_generated_script(item, raw_script: str):
 
 
 def generate_news_script(item):
-    raw = _original_generate(item)
-    hook, narration, cta = _split_generated_script(item, raw)
-    source_headline = item.get("source_headline", "")
-    headline_source = source_headline.rsplit(" - ", 1)[-1] if " - " in source_headline else ""
-    checked = validate_package(
-        title=item.get("title", ""),
-        hook=hook,
-        narration=narration,
-        cta=cta,
-        description=item.get("youtube_description", ""),
-        source_text=f"{item.get('source_headline', item.get('title', ''))} {item.get('article_text') or item.get('summary', '')}",
-        channel_name=CHANNEL_NAME,
-        source_names=(item.get("source_name", ""), headline_source),
-    )
-    item["shorts_hook"] = checked["hook"]
-    item["spoken_text"] = checked["spoken_text"]
-    item["tts_text"] = tts_text([hook, *item.get("quality_narration_parts", [narration]), cta])
-    item["visual_query"] = validate_visual_query(item.get("visual_query", ""))
-    return checked["spoken_text"]
+    from news_generation import generate
+    return generate(item, bot, CHANNEL_NAME)
 
 
 async def create_voiceover(script, audio_path):
-    word_ts = await _original_voiceover(script, audio_path)
+    from voice_sync import synthesize
+    word_ts = await synthesize(script, audio_path, bot)
     audio = bot.AudioFileClip(str(audio_path))
     try:
         duration = float(audio.duration)
@@ -92,10 +76,23 @@ def build_video_for_item(item, index):
 def upload_to_youtube(video_path, item, publish_at):
     validate_rendered_video(video_path)
     if item.get("script") != item.get("spoken_text"):
-        raise ValueError("yükleme öncesi konuşma metni kalite kapısından farklı")
+        raise ValueError("Upload narration differs from validated text")
+    at = publish_at.astimezone(bot.UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     if os.getenv("DRY_RUN", "0") == "1":
-        return _original_upload(video_path, item, publish_at)
-    return _original_upload(video_path, item, publish_at)
+        return {"video_id": "dry-run", "youtube_url": f"DRY-RUN artifact: {video_path}", "publish_at_local": publish_at.isoformat(), "publish_at_utc": at}
+    description = item["youtube_description"] + "\n\n" + item["youtube_hashtags"]
+    body = {"snippet": {"title": item["title"], "description": description, "tags": item["youtube_tags"], "categoryId": bot.YOUTUBE_CATEGORY_ID},
+            "status": {"privacyStatus": "private", "publishAt": at, "selfDeclaredMadeForKids": False}}
+    youtube = bot.get_youtube_service()
+    request = youtube.videos().insert(part="snippet,status", body=body,
+        media_body=bot.MediaFileUpload(str(video_path), mimetype="video/mp4", resumable=True, chunksize=5 * 1024 * 1024))
+    response = None
+    while response is None:
+        _, response = request.next_chunk(num_retries=3)
+    video_id = response.get("id")
+    if not video_id:
+        raise RuntimeError("YouTube insert returned no video ID")
+    return {"video_id": video_id, "youtube_url": f"https://youtu.be/{video_id}", "publish_at_local": publish_at.isoformat(), "publish_at_utc": at, "upload_status": "api_insert_confirmed"}
 
 
 def build_background_queries(item):
@@ -110,3 +107,6 @@ bot.chunk_timestamps = caption_chunks
 bot.build_background_queries = build_background_queries
 bot.build_video_for_item = build_video_for_item
 bot.upload_to_youtube = upload_to_youtube
+
+from batch_runtime import run as run_batch
+bot.main = lambda: run_batch(bot)
