@@ -85,7 +85,18 @@ def chat_json(prompt, *, system="Return exactly one complete JSON object.", max_
             log.warning("Groq HTTP %s; same model retry %s/8 after %.1fs", response.status_code, attempt + 1, delay)
             _next_request = time.monotonic() + delay
             continue
-        response.raise_for_status()
+        if response.status_code >= 400:
+            try:
+                error = response.json().get('error', {})
+                code = error.get('code', '')
+                detail = str(error.get('message', '')).replace(key, '[redacted]')[:1200]
+            except (ValueError, AttributeError):
+                code, detail = '', 'No structured API error'
+            log.error('Groq request rejected HTTP %s code=%s detail=%s', response.status_code, code, detail)
+            if response.status_code == 400 and code in ('json_validate_failed', 'failed_generation') and attempt < 7:
+                body['messages'][-1]['content'] += '\nReturn every required schema field with exactly its declared type. No missing keys or extra fields.'
+                continue
+            response.raise_for_status()
         choice = response.json()["choices"][0]
         if choice.get("finish_reason") == "length":
             raise ValueError("Groq JSON truncated: shorten output or increase completion budget")
