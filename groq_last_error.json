@@ -1,7 +1,7 @@
 {
   "run_id": "36712436004",
-  "http_status": 429,
-  "code": "rate_limit_exceeded",
-  "message": "Rate limit reached for model `openai/gpt-oss-120b` in organization `[account]` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199277, Requested 1739. Please try again in 7m18.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
-  "retry_after": "439"
+  "http_status": 400,
+  "code": "json_validate_failed",
+  "message": "Generated JSON does not match the expected schema. Please adjust your prompt. See 'failed_generation' for more details. Error: jsonschema: '' does not validate with /required: missing properties: 'reason'",
+  "retry_after": null
 }
