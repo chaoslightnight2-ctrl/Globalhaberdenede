@@ -1,68 +1,23 @@
 {
-  "run_id": "36678929149",
-  "generated_at": "2026-09-30T09:35:20.147212+03:00",
+  "run_id": "36679803554",
+  "generated_at": "2026-09-30T09:45:18.211675+03:00",
   "dry_run": false,
   "videos": [],
   "errors": [
     {
-      "source": "NDTV Live TV, Live English News Channel, Free Live Streaming Online, Watch Live News - NDTV",
+      "source": "Energy bills in Great Britain forecast to jump by £276 a year from January",
       "stage": "generation",
-      "error": "Source too short to support a complete news narration"
+      "error": "Source rejected: Kaynak, Birleşik Krallık'ta enerji faturalarıyla ilgili olup, istenen kapsam (siyaset, ekonomi, tüketici, çalışma hayatı, tarım, sağlık, eğitim, bilim, teknoloji, siber güvenlik, iklim, enerji, afet, ulaşım, kültür, sanat, spor, insan hikayeleri) içinde Türkiye'ye özgü bir haber içermemektedir."
     },
     {
-      "source": "Philippines declares national energy emergency as Asia risks energy crisis amid Iran war - ABC News - Breaking News, Latest News and Videos",
+      "source": "Half a million trees to be planted in England in three years, says government",
       "stage": "generation",
-      "error": "Source too short to support a complete news narration"
+      "error": "Source rejected: Kaynak, İngiltere'de ağaç dikimiyle ilgili ve Türkiye'ye özgü siyaset, ekonomi, tüketici, çalışma hayatı, tarım, sağlık, eğitim, bilim, teknoloji, siber güvenlik, iklim, enerji, afet, ulaşım, kültür, sanat, spor ve insan hikayeleri kapsamına girmemektedir."
     },
     {
-      "source": "Diesel export ban: will Trump push global energy prices even higher? - The Latest - The Guardian",
+      "source": "Wednesday briefing: ​Can Andy Burnham live up to the party’s faith in him?",
       "stage": "generation",
-      "error": "Source too short to support a complete news narration"
-    },
-    {
-      "source": "Gaza and the future of Middle Eastern geopolitics: Diplomacy, reconstruction and Palestinian statehood - Middle East Monitor",
-      "stage": "generation",
-      "error": "Source too short to support a complete news narration"
-    },
-    {
-      "source": "Football latest news & gossip - Sky Sports",
-      "stage": "generation",
-      "error": "Source too short to support a complete news narration"
-    },
-    {
-      "source": "Zimbabwe’s AFCON qualifier stampede claims a life - SABC News",
-      "stage": "generation",
-      "error": "Source too short to support a complete news narration"
-    },
-    {
-      "source": "Weekly market commentary - blackrock.com",
-      "stage": "generation",
-      "error": "Source too short to support a complete news narration"
-    },
-    {
-      "source": "Why does Times Square drop a ball on New Year's Eve? The 700-pound story from 1907 behind a global tradition | World News - Hindustan Times",
-      "stage": "generation",
-      "error": "Same-Groq generation failed after 5 repairs: Source rejected: Kaynak, Times Square'de yeni yıl kutlamalarıyla ilgili bir makaledir ve istenen kapsam (siyaset, ekonomi, tüketici, çalışma hayatı, tarım, sağlık, eğitim, bilim, teknoloji, siber güvenlik, iklim, enerji, afet, ulaşım, kültür, sanat, spor, insan hikayeleri) ile örtüşmemektedir."
-    },
-    {
-      "source": "Carney says LNG Canada expansion offers ‘secure’ supply for Asia, Europe - Global News",
-      "stage": "generation",
-      "error": "Source too short to support a complete news narration"
-    },
-    {
-      "source": "How can shipping support energy security today and the energy transition tomorrow? - aet-tankers.com",
-      "stage": "generation",
-      "error": "Source too short to support a complete news narration"
-    },
-    {
-      "source": "Global Market Today: Asian stocks rise as tech stocks lead, bonds in focus - The Economic Times",
-      "stage": "generation",
-      "error": "Source too short to support a complete news narration"
-    },
-    {
-      "source": "Immigration increase could be on the horizon, Carney suggests in interview - National - Global News",
-      "stage": "generation",
-      "error": "Source too short to support a complete news narration"
+      "error": "Groq quota requires 1168s cooldown; model=openai/gpt-oss-120b"
     }
   ]
 }
