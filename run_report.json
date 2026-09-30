@@ -1,23 +1,7 @@
 {
-  "run_id": "36679803554",
-  "generated_at": "2026-09-30T09:45:18.211675+03:00",
+  "run_id": "36708885802",
+  "generated_at": "2026-09-30T14:30:33.507766+03:00",
   "dry_run": false,
   "videos": [],
-  "errors": [
-    {
-      "source": "Energy bills in Great Britain forecast to jump by £276 a year from January",
-      "stage": "generation",
-      "error": "Source rejected: Kaynak, Birleşik Krallık'ta enerji faturalarıyla ilgili olup, istenen kapsam (siyaset, ekonomi, tüketici, çalışma hayatı, tarım, sağlık, eğitim, bilim, teknoloji, siber güvenlik, iklim, enerji, afet, ulaşım, kültür, sanat, spor, insan hikayeleri) içinde Türkiye'ye özgü bir haber içermemektedir."
-    },
-    {
-      "source": "Half a million trees to be planted in England in three years, says government",
-      "stage": "generation",
-      "error": "Source rejected: Kaynak, İngiltere'de ağaç dikimiyle ilgili ve Türkiye'ye özgü siyaset, ekonomi, tüketici, çalışma hayatı, tarım, sağlık, eğitim, bilim, teknoloji, siber güvenlik, iklim, enerji, afet, ulaşım, kültür, sanat, spor ve insan hikayeleri kapsamına girmemektedir."
-    },
-    {
-      "source": "Wednesday briefing: ​Can Andy Burnham live up to the party’s faith in him?",
-      "stage": "generation",
-      "error": "Groq quota requires 1168s cooldown; model=openai/gpt-oss-120b"
-    }
-  ]
+  "errors": []
 }
