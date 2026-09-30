@@ -2,10 +2,12 @@
 import json
 import os
 import time
+import sys
 from pathlib import Path
 import requests
 
 key = os.environ['GROQ_API_KEY']
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 schema = {'type': 'object', 'properties': {'ready': {'type': 'boolean'}, 'visual_query': {'type': 'string'},
           'cta': {'type': 'string', 'enum': ['Global Haber kanalına abone ol']},
           'tags': {'type': 'array', 'items': {'type': 'string'}}},
@@ -25,7 +27,7 @@ for attempt in range(3):
         break
     time.sleep(delay)
 data = response.json()
-report = {'http_status': response.status_code,
+report = {'run_id': os.environ.get('GITHUB_RUN_ID'), 'http_status': response.status_code,
           'limits': {k: v for k, v in response.headers.items() if k.lower().startswith('x-ratelimit-') or k.lower() == 'retry-after'}}
 if response.ok:
     report['usage'] = data.get('usage')
