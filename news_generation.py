@@ -43,20 +43,18 @@ clickbait sunum kullan ancak açtığın soruyu videoda yanıtla. Uydurma olay s
 Hook 6-12 kelime; hook anlatım CTA toplamı 40-60 kelime. narration_parts 2-4 kısa bölüm.
 hook alanına sadece tek kısa kanca yaz Bütün haberi hook içine koyma Ayrıntılar narration_parts içinde olsun.
 Kaynak sadece veri yayın takvimini söylüyorsa açıklanmamış sonucu ekleme Kaynakta oran yoksa
-yüzde oranı üretme Altının hareket ettiğini söyleyen başlıktan yüzde on beş artış sonucunu çıkarma.
+yüzde oranı üretme Nitel bir değişimden kaynakta verilmeyen nicel sonuç çıkarma.
 Kaynaktaki iddiaları iddia olarak aktar. Kanıtsız neden sonuç gelecek tahmini veya istatistik yazma.
 Kaynak yetersizse suitable=false ve reason alanıyla yanıtla; metni bilgilerinle tamamlamaya çalışma.
 Bugün yarın dün gibi yayın saatinde eskiyecek sözcükler yerine kaynakta bulunan açık tarihi kullan
 veya tarih vermeden olayı anlat. Sayıları konuşma alanlarında Türkçe sözcüklerle yaz.
 Konuşmada noktalama emoji başlık etiketi kaynakça site adı URL hashtag sahne talimatı bulunmasın.
-MHK TFF gibi harf harf okunacak kısaltmalar yerine kaynakta verilen kurumun tam Türkçe adını yaz.
-Kaynakta birlikte geçmeyen yer olay kişi ve sonuçları birbirine bağlama Bir yerde inceleme
-yapılmadığının açıklanması orada operasyon yapıldığı veya belge ele geçirildiği anlamına gelmez.
-Her cümlenin öznesini kaynakta aynı eylemi yapan kişiyle eşleştir Kararı veren ile karara
-itiraz eden kişiyi karıştırma Görüşü veya iddiayı söyleyen kişiye açıkça bağla.
-Yanlış: Hakim kararı verdi ve avukatların itiraz edeceğini söylemesini hakime atfetmek
-Doğru: Hakim sınır dışı kararı verdi Avukatlar karara üst mahkemede itiraz edeceklerini açıkladı
-Kaynaktaki avukat açıklaması kesinleşmiş mahkeme bulgusu değildir Bunu avukatlara göre diye aktar.
+Harf harf okunacak kurum kısaltmaları yerine kaynağın desteklediği tam Türkçe adı kullan.
+Kaynakta aynı olay için açıkça ilişkilendirilmeyen yer kişi eylem ve sonuçları birbirine bağlama.
+Bir eylemin yapılmadığı bilgisini başka bir eylemin yapıldığının kanıtı sayma.
+Her eylemin gerçek öznesini açıklamayı söyleyeni nesneyi zamanı kapsamı koşulları ve
+kesinlik düzeyini kaynakla aynı tut Aynı kaynakta anılan farklı olayları birleştirme.
+Kancanın sorduğu bilgiyi anlatımda açıkça ver Bilgi yoksa kancayı yanıtlanabilir biçimde kur.
 CTA yalnızca cta alanında geçsin; hook ve narration_parts içinde abone çağrısı olmasın.
 cta bir kez {channel} kanal adını ve abone ol sözcüklerini içersin.
 description iki kısa konuya özel cümle; ikinci cümle izleyicinin görüşünü sorsun.
@@ -64,7 +62,7 @@ description iki kısa konuya özel cümle; ikinci cümle izleyicinin görüşün
 tags 5-8 Türkçe konuya özgü arama terimi; hashtags tam 3 benzersiz hashtag shorts dahil.
 topic_bucket haberin GERÇEK içeriğine göre bot kategorilerinden seç; RSS arama kategorisine uyma.
 visual_query sadece 3-5 küçük harfli ASCII İngilizce kelime içersin. Türkçe kelime özel harf
-tırnak veya noktalama kullanma; yer adını İngilizce yaz (İstanbul -> istanbul, Türkiye -> turkey).
+tırnak veya noktalama kullanma; yer adının İngilizce yazımını kullan.
 Gerçek nesne veya olayı seç; stok görüntüsünü olayın gerçek kaydı gibi sunma.
 Şema: {{"suitable":true,"title":"...","hook":"...","narration_parts":["...","..."],
 "cta":"...","description":"...","visual_query":"...","topic_bucket":"...",
@@ -104,14 +102,13 @@ CTA abonelik çağrısı kanal adı etiket hashtag ve görsel arama kelimeleri h
 Bunları kaynakta arama Yorum sorusunu veya başlıktaki yanıtlanan soruyu somut iddia sanma.
 Sadece aşağıda verilen haber cümlelerindeki gerçek olay kişi sayı tarih ve sonuç iddialarını denetle.
 Aynı haberde geçen ayrı yer ve olayların birbirine bağlandığı kanıtsız çıkarımları reddet.
-Her eylemin ve açıklamanın öznesini tek tek kaynakla karşılaştır Kararı veren hakim ile
-itiraz eden avukat farklı kişilerdir Avukatların ifade özgürlüğü değerlendirmesini veya
-itiraz duyurusunu hakime atfeden cümle kaynakla uyumlu değildir Böyle bir paketi onaylama.
-Bir yerde inceleme yapılmadığı cümlesi orada operasyon veya gözaltı yapıldığını desteklemez.
-Kaynakta Liam Gallagher yazarken pakette Bayan Gallagher yazılmışsa aynı kişi sayma.
-Bir arşivin satıştan çekilmesini tüm müzayedenin iptali diye aktarmak kapsam hatasıdır.
-Ne zaman sorusunun anlatımda tarih yanıtı yoksa başlığın kancanın vaadi karşılanmamıştır.
-Soruşturmada gözaltı yapan ekip ile soruşturmayı yürüten başsavcılığı aynı eylemin öznesi sayma.
+Her somut iddiada kişi ve kurum kimliğini eylemi açıklamanın sahibini nesneyi zamanı
+kapsamı koşulu olumsuzluğu ve kesinlik düzeyini ayrı ayrı kaynakla karşılaştır.
+Bir ayrıntının kaynakta bulunması yanlış özneye yanlış olaya veya daha geniş kapsama
+bağlandığında o cümleyi desteklemez Plan ihtimal iddia ve kesin sonucu eşdeğer sayma.
+Özel adın değiştirilmesi veya yanlış çevrilmesi kimlik hatasıdır Benzer ada onay verme.
+Kancadaki soru hangi bilgiyi istiyorsa anlatım açıkça o bilgiyi vermeli Başka ayrıntılar
+sorunun yanıtı değildir Karşılaştırmaların seçenek kümesi ölçütü ve koşulları korunmalı.
 Sayıları yazıyla verilmiş olsa da kontrol et. İddia kesin hükme dönmüş mü, tarih yanlış mı,
 Türkçe anlam bozukluğu veya gereksiz tekrar var mı, başlığın vaadi anlatımda karşılanıyor mu kontrol et.
 Konuşmada kaynak atfı URL markdown noktalama sahne talimatı veya asistan notu varsa reddet.
