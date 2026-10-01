@@ -108,6 +108,10 @@ Her eylemin ve açıklamanın öznesini tek tek kaynakla karşılaştır Kararı
 itiraz eden avukat farklı kişilerdir Avukatların ifade özgürlüğü değerlendirmesini veya
 itiraz duyurusunu hakime atfeden cümle kaynakla uyumlu değildir Böyle bir paketi onaylama.
 Bir yerde inceleme yapılmadığı cümlesi orada operasyon veya gözaltı yapıldığını desteklemez.
+Kaynakta Liam Gallagher yazarken pakette Bayan Gallagher yazılmışsa aynı kişi sayma.
+Bir arşivin satıştan çekilmesini tüm müzayedenin iptali diye aktarmak kapsam hatasıdır.
+Ne zaman sorusunun anlatımda tarih yanıtı yoksa başlığın kancanın vaadi karşılanmamıştır.
+Soruşturmada gözaltı yapan ekip ile soruşturmayı yürüten başsavcılığı aynı eylemin öznesi sayma.
 Sayıları yazıyla verilmiş olsa da kontrol et. İddia kesin hükme dönmüş mü, tarih yanlış mı,
 Türkçe anlam bozukluğu veya gereksiz tekrar var mı, başlığın vaadi anlatımda karşılanıyor mu kontrol et.
 Konuşmada kaynak atfı URL markdown noktalama sahne talimatı veya asistan notu varsa reddet.
