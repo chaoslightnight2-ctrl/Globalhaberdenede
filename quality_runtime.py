@@ -120,3 +120,6 @@ bot.upload_to_youtube = upload_to_youtube
 
 from batch_runtime import run as run_batch
 bot.main = lambda: run_batch(bot)
+
+from stock_selection import search_pexels_video
+bot.search_pexels_video = search_pexels_video

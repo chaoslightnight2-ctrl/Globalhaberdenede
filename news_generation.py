@@ -41,6 +41,9 @@ iklim enerji afet ulaşım kültür sanat spor ve insan hikayeleridir. Bu haberd
 Başlık en fazla 70 karakter ve anlaşılır tamamlanmış bir cümle olsun. Cesur merak kancası ve
 clickbait sunum kullan ancak açtığın soruyu videoda yanıtla. Uydurma olay sayı veya sonuç ekleme.
 Hook 6-12 kelime; hook anlatım CTA toplamı 40-60 kelime. narration_parts 2-4 kısa bölüm.
+hook alanına sadece tek kısa kanca yaz Bütün haberi hook içine koyma Ayrıntılar narration_parts içinde olsun.
+Kaynak sadece veri yayın takvimini söylüyorsa açıklanmamış sonucu ekleme Kaynakta oran yoksa
+yüzde oranı üretme Altının hareket ettiğini söyleyen başlıktan yüzde on beş artış sonucunu çıkarma.
 Kaynaktaki iddiaları iddia olarak aktar. Kanıtsız neden sonuç gelecek tahmini veya istatistik yazma.
 Kaynak yetersizse suitable=false ve reason alanıyla yanıtla; metni bilgilerinle tamamlamaya çalışma.
 Bugün yarın dün gibi yayın saatinde eskiyecek sözcükler yerine kaynakta bulunan açık tarihi kullan
@@ -49,6 +52,11 @@ Konuşmada noktalama emoji başlık etiketi kaynakça site adı URL hashtag sahn
 MHK TFF gibi harf harf okunacak kısaltmalar yerine kaynakta verilen kurumun tam Türkçe adını yaz.
 Kaynakta birlikte geçmeyen yer olay kişi ve sonuçları birbirine bağlama Bir yerde inceleme
 yapılmadığının açıklanması orada operasyon yapıldığı veya belge ele geçirildiği anlamına gelmez.
+Her cümlenin öznesini kaynakta aynı eylemi yapan kişiyle eşleştir Kararı veren ile karara
+itiraz eden kişiyi karıştırma Görüşü veya iddiayı söyleyen kişiye açıkça bağla.
+Yanlış: Hakim kararı verdi ve avukatların itiraz edeceğini söylemesini hakime atfetmek
+Doğru: Hakim sınır dışı kararı verdi Avukatlar karara üst mahkemede itiraz edeceklerini açıkladı
+Kaynaktaki avukat açıklaması kesinleşmiş mahkeme bulgusu değildir Bunu avukatlara göre diye aktar.
 CTA yalnızca cta alanında geçsin; hook ve narration_parts içinde abone çağrısı olmasın.
 cta bir kez {channel} kanal adını ve abone ol sözcüklerini içersin.
 description iki kısa konuya özel cümle; ikinci cümle izleyicinin görüşünü sorsun.
@@ -96,6 +104,9 @@ CTA abonelik çağrısı kanal adı etiket hashtag ve görsel arama kelimeleri h
 Bunları kaynakta arama Yorum sorusunu veya başlıktaki yanıtlanan soruyu somut iddia sanma.
 Sadece aşağıda verilen haber cümlelerindeki gerçek olay kişi sayı tarih ve sonuç iddialarını denetle.
 Aynı haberde geçen ayrı yer ve olayların birbirine bağlandığı kanıtsız çıkarımları reddet.
+Her eylemin ve açıklamanın öznesini tek tek kaynakla karşılaştır Kararı veren hakim ile
+itiraz eden avukat farklı kişilerdir Avukatların ifade özgürlüğü değerlendirmesini veya
+itiraz duyurusunu hakime atfeden cümle kaynakla uyumlu değildir Böyle bir paketi onaylama.
 Bir yerde inceleme yapılmadığı cümlesi orada operasyon veya gözaltı yapıldığını desteklemez.
 Sayıları yazıyla verilmiş olsa da kontrol et. İddia kesin hükme dönmüş mü, tarih yanlış mı,
 Türkçe anlam bozukluğu veya gereksiz tekrar var mı, başlığın vaadi anlatımda karşılanıyor mu kontrol et.
