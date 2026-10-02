@@ -110,8 +110,18 @@ try:
         bot.build_video_for_item = bot.create_voiceover = bot.upload_to_youtube = blocked
         history = bot.load_json(bot.HISTORY_FILE, {'processed_news': []})
         pool = bot.fetch_news_pool(hours_back=72)
-        selector = getattr(bot, 'choose_six_with_content', None) or getattr(bot, 'choose_top_three', None) or bot.choose_six
-        selected = selector(pool, history)
+        # A text diagnostic needs one source, not a full six-video content batch.
+        selected = []
+        for item in bot.enrich_and_rank(pool):
+            if getattr(bot, 'is_low_value_news', lambda value: False)(item):
+                continue
+            if bot.in_history(item, history.get('processed_news', [])):
+                continue
+            item['article_text'] = item.get('article_text') or bot.fetch_article_content(item)
+            if not getattr(bot, 'has_enough_article_content', lambda value: bool(value.get('article_text')))(item):
+                continue
+            selected.append(item)
+            break
         for item in selected:
             try:
                 if not item.get('article_text'):

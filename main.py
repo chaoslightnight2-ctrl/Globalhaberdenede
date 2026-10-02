@@ -226,7 +226,14 @@ def fetch_news_pool(hours_back: int = 20) -> list[dict[str, Any]]:
 
     for query in NEWS_QUERIES:
         logger.info("Global RSS çekiliyor: %s", query)
-        feed = feedparser.parse(google_news_rss_url(query))
+        try:
+            response = requests.get(google_news_rss_url(query), timeout=25,
+                                    headers={"User-Agent": "Mozilla/5.0"})
+            response.raise_for_status()
+            feed = feedparser.parse(response.content)
+        except requests.RequestException as exc:
+            logger.warning("RSS request failed for %s: %s", query, type(exc).__name__)
+            continue
         for entry in feed.entries:
             published_at = parse_entry_datetime(entry)
             if not published_at or published_at < cutoff:
