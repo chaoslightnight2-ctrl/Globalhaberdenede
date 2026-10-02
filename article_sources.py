@@ -9,6 +9,22 @@ strip_html = bot.strip_html
 normalize_text = bot.normalize_text
 logger = bot.logger
 
+def decoded_html(response):
+    """Honor HTML encoding instead of requests' default Latin-1 for text/html."""
+    content = response.content
+    header = response.headers.get('Content-Type', '')
+    declared = re.search(r'charset\s*=\s*["\']?([\w-]+)', header, re.I)
+    if declared:
+        return content.decode(declared.group(1), errors='replace')
+    prefix = content[:4096].decode('ascii', errors='ignore')
+    meta = re.search(r'<meta\b[^>]*charset\s*=\s*["\']?([\w-]+)', prefix, re.I)
+    if meta:
+        return content.decode(meta.group(1), errors='replace')
+    try:
+        return content.decode('utf-8-sig')
+    except UnicodeDecodeError:
+        return content.decode(response.apparent_encoding or response.encoding or 'utf-8', errors='replace')
+
 def clean_article_text(text: str) -> str:
     text = strip_html(text or "")
     text = re.sub(r"\s+", " ", text).strip()
@@ -202,7 +218,7 @@ def fetch_url_text(url: str, item: dict[str, Any]) -> str:
     response = requests.get(url, headers=headers, timeout=22, allow_redirects=True)
     response.raise_for_status()
     item["resolved_url"] = response.url
-    html_text = response.text or ""
+    html_text = decoded_html(response)
     import trafilatura
     extracted = trafilatura.extract(html_text, url=response.url, include_comments=False, include_tables=False)
     parts = [extracted or extract_json_ld_article_body(html_text)]
