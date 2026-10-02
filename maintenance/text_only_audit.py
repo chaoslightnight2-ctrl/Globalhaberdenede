@@ -87,6 +87,8 @@ try:
             try:
                 if not item.get('article_text'):
                     item['article_text'] = bot.fetch_article_content(item)
+                report.setdefault('source_candidates', []).append(copy.deepcopy(item))
+                save()
                 item['script'] = bot.generate_news_script(item)
                 report['samples'].append(item)
                 break
@@ -103,4 +105,3 @@ except Exception as exc:
     save()
     traceback.print_exc()
     raise
-
