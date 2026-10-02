@@ -28,13 +28,6 @@ def decoded_html(response):
 def clean_article_text(text: str) -> str:
     text = strip_html(text or "")
     text = re.sub(r"\s+", " ", text).strip()
-    blocked_sources = [
-        "Google News", "Google Haberler", "Habertürk", "Sabah", "Yeni Şafak", "NTV", "CNN Türk",
-        "Hürriyet", "Milliyet", "Sözcü", "Odatv", "Gerçek İzmir", "Konya Postası Gazetesi",
-        "Anadolu Ajansı", "TRT Haber", "T24", "Gazete Duvar", "Cumhuriyet", "En Son Haber", "İHA", "DHA"
-    ]
-    for source in blocked_sources:
-        text = re.sub(re.escape(source), " ", text, flags=re.I)
     remove_phrases = [
         "Son Dakika Haberleri", "Video videosunu izle", "Haberi Görüntüle", "Devamını Oku",
         "Abone Ol", "Giriş Yap", "Kaydol", "Reklam", "Çerez", "Cookie", "KVKK", "Google News",
@@ -210,6 +203,21 @@ def extract_paragraph_text(html_text: str) -> str:
     return clean_article_text(" ".join(cleaned))
 
 
+def extract_article_container(html_text: str) -> str:
+    """Read only explicit article-body paragraphs; exclude menus and related items."""
+    from lxml import html as document_html
+    document = document_html.fromstring(html_text)
+    nodes = document.xpath('//*[@itemprop="articleBody"] | //div[contains(concat(" ", normalize-space(@class), " "), " news-content ")]')
+    for node in nodes:
+        for extra in node.xpath('.//nav | .//aside | .//*[contains(concat(" ", normalize-space(@class), " "), " related-news ")] | .//*[contains(concat(" ", normalize-space(@class), " "), " news-tags ")]'):
+            extra.drop_tree()
+        paragraphs = [clean_article_text(p.text_content()) for p in node.xpath('.//p')]
+        result = clean_article_text(' '.join(part for part in paragraphs if part))
+        if result:
+            return result
+    return ''
+
+
 def fetch_url_text(url: str, item: dict[str, Any]) -> str:
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
@@ -220,7 +228,7 @@ def fetch_url_text(url: str, item: dict[str, Any]) -> str:
     item["resolved_url"] = response.url
     html_text = decoded_html(response)
     import trafilatura
-    extracted = trafilatura.extract(html_text, url=response.url, include_comments=False, include_tables=False)
+    extracted = extract_article_container(html_text) or trafilatura.extract(html_text, url=response.url, include_comments=False, include_tables=False)
     parts = [extracted or extract_json_ld_article_body(html_text)]
     return clean_article_text(" ".join(part for part in parts if part))[:2600]
 

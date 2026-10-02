@@ -87,6 +87,7 @@ Sonra PAKET iddialarını bunlarla tek tek karşılaştır Üreticinin anlatım�
 reason alanında karşılaştırdığın kişi eylem veya sonuç eşleşmelerini açıkça belirt.
 Bir grubun kaynaktaki kararının başka gruba aktarılması yanlış bilgidir Aynı yazıda geçmesi yetmez.
 Kaynakta açıkça desteklenmeyen sayı oran neden sonuç gelecek tahmini veya kapsam genişlemesine onay verme.
+Gözaltı tutuklama iddia ve mahkumiyeti karıştırma Şüpheliyi sorumlu veya suçlu diye niteleme Açıklama alanını da kontrol et.
 Başlık ve kancada açıklamayı yapan özne ile söylediği bilgiyi ayır Başlık açıklamayı kesin olguya çevirmişse geçerli sayma.
 Sıradan yabancı sözcükleri Türkçe karşılığıyla karşılaştır Özel kişi adları dışında yabancı dil kalıntısını ve bozuk fiil çekimini onaylama.
 Sayı sözcüklerinin ayrı yazıldığını sayı değeri ve alt sınırın kaynakla aynı kaldığını kontrol et.
