@@ -1,10 +1,16 @@
 {
-  "source_run": "37162619340",
-  "verified_at": "2026-10-04T02:43:24.407982+00:00",
+  "source_run": "37245412620",
+  "verified_at": "2026-10-05T02:55:01.088521+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": []
+  "generation_errors": [
+    {
+      "source": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
+      "stage": "generation",
+      "error": "Same-Groq generation failed after 5 repairs: Editorial review: PAKET'in üçüncü anlatım kısmında \"APXS ve ChemCam cihazları kayaya temas ederek kimyasal bileşimini analiz etti ve sonuçları ekibe iletti\" ifadesi KAYNAK'ta yer almamaktadır; ChemCam lazerle analiz yapmış, temas etmemiştir ve sonuçların ekibe iletildiği açıkça belirtilmemiştir. Bu nedenle paket iddiaları tam olarak desteklenmemektedir."
+    }
+  ]
 }
