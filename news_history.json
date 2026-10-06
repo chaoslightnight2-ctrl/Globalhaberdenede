@@ -1,18 +1,6 @@
 {
   "processed_news": [
     {
-      "title": "Gazze'de İsrail saldırılarında yakınlarını kaybeden 50 çift için toplu düğün töreni düzenlendi - Son Dakika",
-      "summary": "Gazze'de İsrail saldırılarında yakınlarını kaybeden 50 çift için toplu düğün töreni düzenlendi Son Dakika",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU3F4N2RqamszNktBMDltd1QwckgtRzVocmx2dW5MZ1NESWxrX3FTSktXZ3BGeURESFNlWHpRdVhlbzlpQml6Tmt1bHdlNGJuN0gxcjNXbGFxMkpCLTRFRk50ZzA1RnFSRXpwbmxTZWJzZEJ2LTFLbFlTa1NWVEoybzVRQ2lLR0szS0ZnSW1wLUVTRThQdXpPdmNHQUNBSWvSAZwBQVVfeXFMTkxLang4Ym9PUWRnR1dzMjVlR0ZHZWVuRUpIanBBWjNwWHlHTVhjdVRNZ016cVFhTWV4Q3hjLWVHX3o5RUtNZlpMUWlXZU5FSlhPSkRSdkg0SmhCRUZZVHd0SXh3QXJwSkk1d3JIb3hGQWNfdEpzdW52cWVJQmJZeHhuY0VZSjdfTUVQYTN1Q2NrNEU2cDRxbzFuVm1k?oc=5",
-      "source": "Google News RSS",
-      "published_at": "2026-05-12T00:03:12+03:00",
-      "fingerprint": "b0ff1d6ee46120c6d0ad016f218c1b66d6b0427c",
-      "viral_score": 51.87,
-      "scheduled_slot": "07:00",
-      "youtube_url": "https://youtu.be/XgfuRIDPnHg",
-      "processed_at": "2026-05-12T03:24:14.310788+03:00"
-    },
-    {
       "title": "Gazze'de, İHH'nın desteğiyle 50 çift için toplu düğün töreni düzenlendi - ensondakika.com.tr",
       "summary": "Gazze'de, İHH'nın desteğiyle 50 çift için toplu düğün töreni düzenlendi ensondakika.com.tr",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNkNnYTZQQnJQUlJmemFfNlBINmU0Q19nRWNPN3RueXBHNWxYMy02c1JERXltU3RPZlNYU2VqVlprRzZ2SF9zQk9weG1rYUQzUjhPTFZ5SEswcW9DQ0lJOFdyT2NKRkxBZ2VYUDVKRDN0YjJsNjZ5SDhvZU51OC1PbF9JeGNwSUJ4clJlMlhxSGxodUQ5R1BwSHdLN2c3UzlwbzBNSHNaem9naUZDa2fSAbsBQVVfeXFMT1NXd3owZjFIdUplQzJSUmpwUi1Ia2NZbU5PUFBKOHdlU01zbExBSy1ZbzFNZUZnV3c3NlVhQ05GN0gwbEdCSlRDaS0yTUppd0RPRGtPWkRBVnJ6a1FVdDFNWjhVZXJFejZqV3dOZU0tdnI0N183dEVDR1V5QlUzSDNhSGhORjhiZjc2aEx1S2plYi13Z21Qem5SczBwd3VJdFZ1M0JBSjFYbGhmRjRwd1dDZ3g3NG5maDNLdw?oc=5",
@@ -4802,6 +4790,23 @@
       "video_id": "k-Wbray1be0",
       "publish_at_local": "2026-10-06T16:00:00+03:00",
       "publish_at_utc": "2026-10-06T13:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Avustralya da göçte tarihî kesinti Taylorin planı",
+      "summary": "Opposition leader says Coalition would reduce net overseas migration to 100,000 for two years Get our new political email , free app or daily news podcast Angus Taylor says a Coalition government would cut net overseas migration to 100,000 for two years, calling the plan “the biggest cut to immigration in the history” of Australia. Following moves by One Nation and Labor to capitalise on growing anti-migration sentiment, the opposition leader announced plans by the Liberals and Nationals on Tuesday, promising net overseas migration rates of 130,000 in the third year and 160,000 in the fourth. Tougher screening of visa applicants. Revising the temporary skilled priority list. Establishing a strike force to clear the backlog of skilled construction applications to address workforce shortages. Doubling the talent and innovation allocation to 7,000 places, through a new Aukus and Five Eyes visa. Linking each student visa to the enrolling institution. Introducing a new Agriculture Visa from 2030. Sign up for Guardian Australia’s Politics, really newsletter here Continue reading...",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/06/coalition-immigration-policy-angus-taylor-one-nation-labor-ntwnfb",
+      "source": "Guardian World",
+      "published_at": "2026-10-06T06:17:57+03:00",
+      "fingerprint": "9456890ecd1d6d4b43c7327763e8b1b062f855f0",
+      "viral_score": 44.43,
+      "scheduled_slot": "00:00",
+      "youtube_url": "https://youtu.be/lbmN-SuzNoc",
+      "processed_at": "2026-10-06T08:51:33.031409+03:00",
+      "video_id": "lbmN-SuzNoc",
+      "publish_at_local": "2026-10-07T00:00:00+03:00",
+      "publish_at_utc": "2026-10-06T21:00:00Z",
       "upload_status": "api_insert_confirmed"
     }
   ]

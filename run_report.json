@@ -26,6 +26,29 @@
       ],
       "video_path": "output/short_1.mp4",
       "source_headline": "A Journey to the Depths of Ancient Mars?",
+      "run_id": "37409926266",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "lbmN-SuzNoc",
+      "youtube_url": "https://youtu.be/lbmN-SuzNoc",
+      "publish_at_local": "2026-10-07T00:00:00+03:00",
+      "publish_at_utc": "2026-10-06T21:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "index": 2,
+      "title": "Avustralya da göçte tarihî kesinti Taylorin planı",
+      "narration": "Taylor göç kesintisini nasıl açıklıyor ve nedir Angus Taylor Avustralya muhalefet lideri iki yıl boyunca net göçü yüz bin seviyesine düşürmeyi vaat ediyor Plan geçici vize sahiplerini dört yıl içinde altı yüz elli bin kişi kadar azaltmayı hedefliyor Taylor zamanda kalıcı yetenekli göç programını yıllık yüz seksen beş bin kişi olarak koruyacağını belirtiyor Global Haber kanalına abone ol",
+      "description": "Avustralya göç politikası büyük bir değişim geçiriyor izleyiciler bu kesintiyi nasıl değerlendiriyor",
+      "visual_query": "australian parliament building",
+      "tags": [
+        "Avustralya göç",
+        "Taylor planı",
+        "göç kesintisi",
+        "göç politikası",
+        "uluslararası göç"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Angus Taylor vows biggest cut to migration in Australia’s history, slashing 650,000 temporary visas",
       "run_id": "37409926266"
     }
   ],
