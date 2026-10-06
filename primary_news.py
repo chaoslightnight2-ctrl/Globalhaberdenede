@@ -4,6 +4,8 @@ from datetime import datetime, timedelta
 import feedparser
 import requests
 import main as bot
+from audience_strategy import audience_score
+from performance_feedback import category_bonus
 
 _original_pool = bot.fetch_news_pool
 _original_rank = bot.enrich_and_rank
@@ -11,7 +13,7 @@ _original_rank = bot.enrich_and_rank
 
 def publisher_first(news):
     ranked = _original_rank(news)
-    ranked.sort(key=lambda item: (bool(item.get('direct_source')), item.get('viral_score', 0)), reverse=True)
+    ranked.sort(key=lambda item: (audience_score(item, 'Global Haber') + category_bonus(item.get('title', '') + ' ' + item.get('summary', '')), bool(item.get('direct_source')), item.get('viral_score', 0)), reverse=True)
     return ranked
 FEEDS = [
     ('BBC World', 'https://feeds.bbci.co.uk/news/world/rss.xml'),
