@@ -4812,7 +4812,8 @@
       "video_id": "Yg0X1QQqkjw",
       "publish_at_local": "2026-10-07T08:00:00+03:00",
       "publish_at_utc": "2026-10-07T05:00:00Z",
-      "upload_status": "api_insert_confirmed"
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }

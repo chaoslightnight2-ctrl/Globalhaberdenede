@@ -3,7 +3,7 @@
   "generated_at": "2026-10-06T06:39:10.249799+03:00",
   "target_count": 3,
   "dry_run": false,
-  "complete": false,
+  "complete": true,
   "videos": [
     {
       "video_id": "k-Wbray1be0",
@@ -73,7 +73,8 @@
       ],
       "video_path": "output/short_3.mp4",
       "source_headline": "Judith Lucy announces breast cancer diagnosis: ‘I’m in shock, but I’m OK’",
-      "run_id": "37409926266"
+      "run_id": "37409926266",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": []
