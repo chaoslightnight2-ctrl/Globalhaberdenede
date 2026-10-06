@@ -49,6 +49,30 @@
       ],
       "video_path": "output/short_2.mp4",
       "source_headline": "Angus Taylor vows biggest cut to migration in Australia’s history, slashing 650,000 temporary visas",
+      "run_id": "37409926266",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "Yg0X1QQqkjw",
+      "youtube_url": "https://youtu.be/Yg0X1QQqkjw",
+      "publish_at_local": "2026-10-07T08:00:00+03:00",
+      "publish_at_utc": "2026-10-07T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "index": 3,
+      "title": "Judith Lucy meme kanseri teşhisini cesurca açıkladı",
+      "narration": "Judith Lucy kanser haberini cesurca paylaştı Komedyen Judith Lucy meme kanseri teşhisi aldığını Instagram videosunda açıkladı ve izleyicilerine erken tarama önemini hatırlattı Kısa sürede çift mastektomi planladığını belirtti ve bu süreci pozitif bir şekilde karşılayacağını söyledi Global Haber kanalına abone ol",
+      "description": "Judith Lucy kanserle mücadele ederken cesur duruşu izleyicileri etkiliyor siz de sağlık kontrollerinizi düzenli yapıyor musunuz",
+      "visual_query": "female comedian breast cancer announcement",
+      "tags": [
+        "Judith Lucy",
+        "kanser",
+        "meme kanseri",
+        "çift mastektomi",
+        "sağlık kontrolü",
+        "komedi"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Judith Lucy announces breast cancer diagnosis: ‘I’m in shock, but I’m OK’",
       "run_id": "37409926266"
     }
   ],

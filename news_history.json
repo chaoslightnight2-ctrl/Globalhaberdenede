@@ -1,18 +1,6 @@
 {
   "processed_news": [
     {
-      "title": "Gazze'de, İHH'nın desteğiyle 50 çift için toplu düğün töreni düzenlendi - ensondakika.com.tr",
-      "summary": "Gazze'de, İHH'nın desteğiyle 50 çift için toplu düğün töreni düzenlendi ensondakika.com.tr",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNkNnYTZQQnJQUlJmemFfNlBINmU0Q19nRWNPN3RueXBHNWxYMy02c1JERXltU3RPZlNYU2VqVlprRzZ2SF9zQk9weG1rYUQzUjhPTFZ5SEswcW9DQ0lJOFdyT2NKRkxBZ2VYUDVKRDN0YjJsNjZ5SDhvZU51OC1PbF9JeGNwSUJ4clJlMlhxSGxodUQ5R1BwSHdLN2c3UzlwbzBNSHNaem9naUZDa2fSAbsBQVVfeXFMT1NXd3owZjFIdUplQzJSUmpwUi1Ia2NZbU5PUFBKOHdlU01zbExBSy1ZbzFNZUZnV3c3NlVhQ05GN0gwbEdCSlRDaS0yTUppd0RPRGtPWkRBVnJ6a1FVdDFNWjhVZXJFejZqV3dOZU0tdnI0N183dEVDR1V5QlUzSDNhSGhORjhiZjc2aEx1S2plYi13Z21Qem5SczBwd3VJdFZ1M0JBSjFYbGhmRjRwd1dDZ3g3NG5maDNLdw?oc=5",
-      "source": "Google News RSS",
-      "published_at": "2026-05-11T23:30:08+03:00",
-      "fingerprint": "227dd323e373d36cff6607570dbdab71b61d6179",
-      "viral_score": 50.99,
-      "scheduled_slot": "12:00",
-      "youtube_url": "https://youtu.be/mwA-ptfTaYE",
-      "processed_at": "2026-05-12T03:24:14.310798+03:00"
-    },
-    {
       "title": "Son Dakika Spor Haberi | Bosna-Hersek, Dünya Kupası kadrosunu duyurdu - CNN Türk",
       "summary": "Son Dakika Spor Haberi | Bosna-Hersek, Dünya Kupası kadrosunu duyurdu CNN Türk",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORG1ac240Yzc3eVVkM0JpTzNuUXZRZEFLczdCUXhLeWNwczR4T0ViNW5FVHB3VWlyOWNtS1I4cC1QWVZoejFJOW4wLWF1aEpNSjFPYmRSUEhXeTA1SVhfeTFjTmc4cmFYaWdtamNYVld5VVBuZmN1VENDbzloeTBqaS1KZ3psdTVLNVRYQnJ0UWg?oc=5",
@@ -4807,6 +4795,23 @@
       "video_id": "lbmN-SuzNoc",
       "publish_at_local": "2026-10-07T00:00:00+03:00",
       "publish_at_utc": "2026-10-06T21:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Judith Lucy meme kanseri teşhisini cesurca açıkladı",
+      "summary": "Comedian reveals cancer in a joke-packed video, saying she will undergo a double mastectomy and ‘I’ll be keeping you abreast of everything, Australia’ Comedian and actor Judith Lucy has revealed she has been diagnosed with breast cancer. In a video shared to Instagram on Tuesday afternoon, the 58-year-old said she had “a little, not-so-fun update” to share. Continue reading...",
+      "url": "https://www.theguardian.com/stage/2026/oct/06/cancer-breast-diagnosis-judith-lucy",
+      "source": "Guardian World",
+      "published_at": "2026-10-06T06:04:05+03:00",
+      "fingerprint": "00616db473e7aaea201047f4c3017cc0157ac417",
+      "viral_score": 44.06,
+      "scheduled_slot": "08:00",
+      "youtube_url": "https://youtu.be/Yg0X1QQqkjw",
+      "processed_at": "2026-10-06T09:23:07.284939+03:00",
+      "video_id": "Yg0X1QQqkjw",
+      "publish_at_local": "2026-10-07T08:00:00+03:00",
+      "publish_at_utc": "2026-10-07T05:00:00Z",
       "upload_status": "api_insert_confirmed"
     }
   ]
