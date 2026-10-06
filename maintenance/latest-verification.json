@@ -1,14 +1,69 @@
 {
-  "source_run": "37400516837",
-  "verified_at": "2026-10-06T03:34:45.295839+00:00",
-  "videos": [],
+  "source_run": "37409926266",
+  "verified_at": "2026-10-06T06:24:06.881782+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "k-Wbray1be0",
+      "youtube_url": "https://youtu.be/k-Wbray1be0",
+      "title": "Perseverence Marsta Işıklı Gabbro Kayalarını Keşfetti",
+      "narration": "Marsta ışıklı kayalar keşfedildi ve gizemi araştırılıyor Perseverence roverı Lac de Charmes bölgesinde yeni ışıklı gabbro kayalarını tespit etti Bilim ekibi bu kayaların gabbro olduğunu ve çarpma etkisiyle yüzeye çıkmış olabileceğini düşünüyor Araştırmacılar ayrıca bu kayaların kırılma ve taşınma süreçleriyle oluşan bir breccia olabileceğini belirtiyor Global Haber kanalına abone ol",
+      "publish_at": "2026-10-06T13:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 28.5,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/k-Wbray1be0.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "lbmN-SuzNoc",
+      "youtube_url": "https://youtu.be/lbmN-SuzNoc",
+      "title": "Avustralya da göçte tarihî kesinti Taylorin planı",
+      "narration": "Taylor göç kesintisini nasıl açıklıyor ve nedir Angus Taylor Avustralya muhalefet lideri iki yıl boyunca net göçü yüz bin seviyesine düşürmeyi vaat ediyor Plan geçici vize sahiplerini dört yıl içinde altı yüz elli bin kişi kadar azaltmayı hedefliyor Taylor zamanda kalıcı yetenekli göç programını yıllık yüz seksen beş bin kişi olarak koruyacağını belirtiyor Global Haber kanalına abone ol",
+      "publish_at": "2026-10-06T21:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 28.566667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/lbmN-SuzNoc.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "Yg0X1QQqkjw",
+      "youtube_url": "https://youtu.be/Yg0X1QQqkjw",
+      "title": "Judith Lucy meme kanseri teşhisini cesurca açıkladı",
+      "narration": "Judith Lucy kanser haberini cesurca paylaştı Komedyen Judith Lucy meme kanseri teşhisi aldığını Instagram videosunda açıkladı ve izleyicilerine erken tarama önemini hatırlattı Kısa sürede çift mastektomi planladığını belirtti ve bu süreci pozitif bir şekilde karşılayacağını söyledi Global Haber kanalına abone ol",
+      "publish_at": "2026-10-07T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 23.833333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/Yg0X1QQqkjw.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
+  "accepted_count": 3,
   "processed_count": 0,
   "complete": false,
   "generation_errors": [],
   "public_listing_error": "HTTPError",
-  "target_count": 6,
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
