@@ -103,7 +103,7 @@ Metadata başlığın noktalamasını hashtag veya görsel sorgunun İngilizcesi
 CTA ve yorum sorusu haber iddiası değildir Bu alanların kaynakta bulunması gerekmez.
 JSON valid ve reason döndür Kaynaktaki destek açık değilse valid=false döndür.
 KAYNAK: {headline}\n{source[:5000]}
-PAKET: {json.dumps({key: data[key] for key in ('title', 'hook', 'narration_parts', 'description')}, ensure_ascii=False)}""", temperature=0, max_tokens=1500, schema=REVIEW_SCHEMA)
+PAKET: {json.dumps({key: data[key] for key in ('title', 'hook', 'narration_parts', 'description')}, ensure_ascii=False)}""", temperature=0, max_tokens=3072, schema=REVIEW_SCHEMA)
             if verdict.get("valid") is not True:
                 raise ValueError("Editorial review: " + str(verdict.get("reason", "rejected")))
             item.update(source_headline=headline, title=checked["title"], shorts_hook=checked["hook"],
