@@ -208,10 +208,21 @@ def extract_article_container(html_text: str) -> str:
     from lxml import html as document_html
     document = document_html.fromstring(html_text)
     nodes = document.xpath('//*[@itemprop="articleBody"] | //div[contains(concat(" ", normalize-space(@class), " "), " news-content ")]')
+    if not nodes:
+        for token in ('entry-content', 'article-body', 'article-content', 'story-body'):
+            nodes = document.xpath('//*[contains(concat(" ", normalize-space(@class), " "), " ' + token + ' ")]')
+            if nodes:
+                break
+    if not nodes:
+        nodes = document.xpath('//article')
     for node in nodes:
         for extra in node.xpath('.//nav | .//aside | .//*[contains(concat(" ", normalize-space(@class), " "), " related-news ")] | .//*[contains(concat(" ", normalize-space(@class), " "), " news-tags ")]'):
             extra.drop_tree()
-        paragraphs = [clean_article_text(p.text_content()) for p in node.xpath('.//p')]
+        for extra in node.xpath('.//header | .//footer | .//figure | .//figcaption | .//*[contains(@class, "related") or contains(@class, "byline") or contains(@class, "article-meta")]'):
+            if extra.getparent() is not None:
+                extra.drop_tree()
+        paragraphs = [clean_article_text(p.text_content()) for p in node.xpath('.//p')
+                      if p.text_content().strip() and not re.match(r'^(Written by|By |Visit )', p.text_content().strip(), re.I)]
         result = clean_article_text(' '.join(part for part in paragraphs if part))
         if result:
             return result
@@ -254,7 +265,8 @@ def fetch_article_content(item: dict[str, Any]) -> str:
         except Exception as exc:
             logger.warning("Haber içeriği çekilemedi: %s", exc)
     rss_text = clean_article_text(" ".join([item.get("summary", ""), item.get("title", "")]))
-    if score_article_text(rss_text, title) > best_score:
+    # A fetched article body takes priority over a noisy full-page RSS summary.
+    if not best or best_score < 25:
         best = rss_text
         best_score = score_article_text(rss_text, title)
     if best_score < 25:

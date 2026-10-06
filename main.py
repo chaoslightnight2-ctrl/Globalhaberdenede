@@ -373,6 +373,7 @@ def detect_topic_bucket(item: dict[str, Any]) -> str:
 
 
 def choose_six(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict[str, Any]]:
+    target = int(os.getenv('DAILY_VIDEO_COUNT', '3'))
     ranked = enrich_and_rank(news)
     eligible = [item for item in ranked if len(strip_html(item.get("summary", "")).strip()) >= 80]
     rejected = len(ranked) - len(eligible)
@@ -393,7 +394,7 @@ def choose_six(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict
                 continue
             selected.append(item)
             topic_counts[bucket] = topic_counts.get(bucket, 0) + 1
-            if len(selected) == 6:
+            if len(selected) == target:
                 return selected
     raise RuntimeError(
         f"Tekrarsız altı kaynaklı global haber seçilemedi: "
