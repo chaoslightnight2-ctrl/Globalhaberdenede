@@ -1,18 +1,6 @@
 {
   "processed_news": [
     {
-      "title": "İsrail-İran Savaşının Maliyeti 29 Milyar Dolar - Son Dakika",
-      "summary": "İsrail-İran Savaşının Maliyeti 29 Milyar Dolar Son Dakika",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ1c3TlFPRDgtckJjUUs4X0ZfbDZobkwtdjdvYjk1bHRpUVp2d1VzWFBMcjRXNXNzRlRtNlg2QTUzQ1VuMkhHTl9DbHdzNlpxQkxRLTZ3dUJjQ2djb2lwU3EtaTFqT1ktR0I0UVpqQi1pZjJzQ1VoRGZpZDFoRk9FSUQ1Nnd5eWZHeEJ1UFR6a2U2d1VKeXQ4UU9jTdIBlwFBVV95cUxPU2ZhWmcwOHpDYnI5ak0xN3NwUFBMcFRCMkp1VmdIc1ppamZ2WDMzdHRfWnZOSzExamdJMXdQRGRaM3lpcHlKMHh4eU5VQU5XNmZINmx0LUV1Q3RHbjRYM2dmX2x1LVlOZ3VHS1JEM0ZqWlM2TFNVLTlPOWdDQTRCS3R4ZFBPaHVwbnRCbzQ5MEhCb3NRandV?oc=5",
-      "source": "Google News RSS",
-      "published_at": "2026-05-12T18:48:14+03:00",
-      "fingerprint": "4b0df7ab2fbc56aa4fecacad8980f0e4ee6c1f50",
-      "viral_score": 54.42,
-      "scheduled_slot": "12:00",
-      "youtube_url": "https://youtu.be/Ng7QfYlw9mU",
-      "processed_at": "2026-05-13T03:23:42.770900+03:00"
-    },
-    {
       "title": "Çin-Rusya İlişkileri Güçleniyor - Son Dakika",
       "summary": "Çin-Rusya İlişkileri Güçleniyor Son Dakika",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSWRBZFVZLV9HaDNabTFPck1iZzR0TU9jcjFZenhFblRSZlM1R2swdlY3ZVE1cnJOQ1RzMDdNbzNMR1Bmd0ZFUXh6Q25JbFUxNHVHRDlxV3RfZnNsMzNQMVpDb2x3QmNFdjZfSjZ3bWtRT0RpaFJmTmt1d1pYS2pSUGJnaVZ1ajTSAYMBQVVfeXFMT1V1VzB2SFM0RnhEZ0xhT29ONlRaaEMwYkNrNU91TmFYMFU2SEhjVVpUQVBZcjF2R0FMXzRMMEdjRFozTkZ3c0Q4VWZBaHh0VkV6OVZBU2xON1RnY0c4TzdwTXZOdHRmM0RURWVXa0lrWG9pc3NMMlJEQXJhVkZCWHRuTUk?oc=5",
@@ -4826,7 +4814,26 @@
       "publish_at_utc": "2026-10-07T21:00:00Z",
       "upload_status": "api_insert_confirmed",
       "audience_bucket": "economy_life",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Christa Pike ölüm denemesinde hayatta kaldı",
+      "summary": "The prisoner received two doses of pentobarbital as authorities tried to put her to death on 30 September Christa Pike, a Tennessee prisoner who survived the state’s attempt to execute her, is awake and speaking as she receives treatment at a hospital, her attorneys said on Tuesday. Pike, 50, survived two doses of pentobarbital, a sedative, as Tennessee officials attempted to put her to death last Wednesday in a case that shocked many in America and created headlines around the world. She was set to be the first woman executed in Tennessee in more than 200 years. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/06/christa-pike-execution-awake",
+      "source": "Guardian World",
+      "published_at": "2026-10-07T02:35:51+03:00",
+      "fingerprint": "153ec2cc6dcb70196986bd2222ca4afb2b2f5463",
+      "viral_score": 43.44,
+      "scheduled_slot": "08:00",
+      "youtube_url": "https://youtu.be/HiV2mkCR0kY",
+      "processed_at": "2026-10-07T08:11:56.028066+03:00",
+      "video_id": "HiV2mkCR0kY",
+      "publish_at_local": "2026-10-08T08:00:00+03:00",
+      "publish_at_utc": "2026-10-08T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }

@@ -52,6 +52,31 @@
       "source_headline": "Hunter Valley community group wins landmark high court climate change case",
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
+      "run_id": "37552550500",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "HiV2mkCR0kY",
+      "youtube_url": "https://youtu.be/HiV2mkCR0kY",
+      "publish_at_local": "2026-10-08T08:00:00+03:00",
+      "publish_at_utc": "2026-10-08T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "index": 3,
+      "title": "Christa Pike ölüm denemesinde hayatta kaldı",
+      "narration": "Christa Pike ölüm denemesinde hayatta kaldı Tennessee yetkilileri iki doz pentobarbital enjekte etti ancak Pike ölmedi ve hastaneye kaldırıldı Pike bilinçli ve konuşuyor hâlâ eldivenli ve yatağa bağlı halde tedavi alıyor Avukatları ölüm cezasının kaldırılmasını istiyor ve Tennessee valisine resmi olarak acilen başvuruyor Global Haber kanalına abone ol",
+      "description": "Bu olağanüstü hayatta kalma hikayesi hakkında ne düşünüyorsunuz",
+      "visual_query": "hospital bed patient",
+      "tags": [
+        "Christa Pike",
+        "ölüm denemesi",
+        "Tennessee",
+        "pentobarbital",
+        "hastane"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Christa Pike is conscious and speaking after botched execution attempt, lawyers say",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
       "run_id": "37552550500"
     }
   ],
