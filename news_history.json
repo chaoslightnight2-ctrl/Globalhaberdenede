@@ -4833,7 +4833,8 @@
       "publish_at_utc": "2026-10-08T05:00:00Z",
       "upload_status": "api_insert_confirmed",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }

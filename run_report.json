@@ -3,7 +3,7 @@
   "generated_at": "2026-10-07T03:34:02.476471+03:00",
   "target_count": 3,
   "dry_run": false,
-  "complete": false,
+  "complete": true,
   "videos": [
     {
       "video_id": "QQBs9FEy3Uk",
@@ -77,7 +77,8 @@
       "source_headline": "Christa Pike is conscious and speaking after botched execution attempt, lawyers say",
       "audience_bucket": "other",
       "hook_style": "direct_change",
-      "run_id": "37552550500"
+      "run_id": "37552550500",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": []
