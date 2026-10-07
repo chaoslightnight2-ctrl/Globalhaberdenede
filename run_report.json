@@ -27,6 +27,31 @@
       "source_headline": "Pornhub returns to Australia after banning access due to age verification rules",
       "audience_bucket": "technology_science",
       "hook_style": "direct_change",
+      "run_id": "37552550500",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "N8G3xbFshlQ",
+      "youtube_url": "https://youtu.be/N8G3xbFshlQ",
+      "publish_at_local": "2026-10-08T00:00:00+03:00",
+      "publish_at_utc": "2026-10-07T21:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "index": 2,
+      "title": "Mount Pleasant kömür madeninin genişlemesi durduruldu",
+      "narration": "Mount Pleasant kömür madeninin genişlemesi neden durduruldu Avustralya Yüksek Mahkemesi Mount Pleasant maden genişlemesinin sera gazı etkisini göz ardı ettiğini belirtti Mahkeme planlama komisyonunun Scope üç emisyonlarını en aza indirmek için koşul koymadığını tespit etti Bu yüzden Mount Pleasant kömür madeninin genişlemesi durduruldu ve gelecekte daha fazla fosil yakıt çıkışı engellendi Global Haber kanalına abone ol",
+      "description": "Bu kararın Türkiyedeki iklim politikalarına etkisini düşünün",
+      "visual_query": "high court ruling coal mine",
+      "tags": [
+        "Mount Pleasant",
+        "Avustralya",
+        "iklim değişikliği",
+        "yüksek mahkeme",
+        "kömür madeni"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Hunter Valley community group wins landmark high court climate change case",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
       "run_id": "37552550500"
     }
   ],

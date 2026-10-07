@@ -1,18 +1,6 @@
 {
   "processed_news": [
     {
-      "title": "Dünya Gündemi: İran Savaşı ve Hürmüz Boğazı Krizinin Gölgesinde Trump’ın Çin Ziyareti - Daktilo1984",
-      "summary": "Dünya Gündemi: İran Savaşı ve Hürmüz Boğazı Krizinin Gölgesinde Trump’ın Çin Ziyareti Daktilo1984",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEQ1TWRCbS1GTkMxd05PNGpnS0F5a0ZOSGloWjVLUldnWGZWa3dvbmNWU2Qwb09rUWNxTFBLY0E2cU9NRFU4ZmxWMlJLWmE3OVlaN2NkMGhQdXB1LVZ0SXJSdk5lY3hBbm5BWGVsenNfRnZkMGhvdzVZZkJ4NWhwOU5tN1hKeVB2TWltRGpWZlNQWXV1aWVEQV9xQ1JudkFKbURqakNQZ2NTWEFpZTZYZzZGamNvbVMybmc?oc=5",
-      "source": "Google News RSS",
-      "published_at": "2026-05-12T20:52:03+03:00",
-      "fingerprint": "db338cd2eace1e4586ca64836f9079ce287d875b",
-      "viral_score": 60.72,
-      "scheduled_slot": "07:00",
-      "youtube_url": "https://youtu.be/kcnHjjf5zb8",
-      "processed_at": "2026-05-13T03:23:42.770890+03:00"
-    },
-    {
       "title": "İsrail-İran Savaşının Maliyeti 29 Milyar Dolar - Son Dakika",
       "summary": "İsrail-İran Savaşının Maliyeti 29 Milyar Dolar Son Dakika",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ1c3TlFPRDgtckJjUUs4X0ZfbDZobkwtdjdvYjk1bHRpUVp2d1VzWFBMcjRXNXNzRlRtNlg2QTUzQ1VuMkhHTl9DbHdzNlpxQkxRLTZ3dUJjQ2djb2lwU3EtaTFqT1ktR0I0UVpqQi1pZjJzQ1VoRGZpZDFoRk9FSUQ1Nnd5eWZHeEJ1UFR6a2U2d1VKeXQ4UU9jTdIBlwFBVV95cUxPU2ZhWmcwOHpDYnI5ak0xN3NwUFBMcFRCMkp1VmdIc1ppamZ2WDMzdHRfWnZOSzExamdJMXdQRGRaM3lpcHlKMHh4eU5VQU5XNmZINmx0LUV1Q3RHbjRYM2dmX2x1LVlOZ3VHS1JEM0ZqWlM2TFNVLTlPOWdDQTRCS3R4ZFBPaHVwbnRCbzQ5MEhCb3NRandV?oc=5",
@@ -4819,7 +4807,26 @@
       "publish_at_utc": "2026-10-07T13:00:00Z",
       "upload_status": "api_insert_confirmed",
       "audience_bucket": "technology_science",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Mount Pleasant kömür madeninin genişlemesi durduruldu",
+      "summary": "Ruling on Mount Pleasant coalmine shows ‘we cannot continue to dig up coal … and pretend the consequences have nothing to do with us’, group says A Hunter Valley community group has won Australia’s first high court case to consider climate change, in a ruling advocates say sets a binding national precedent for fossil fuel projects in New South Wales. In a landmark judgment, the nation’s highest court upheld a unanimous ruling by the NSW court of appeal that overturned MACH Energy’s proposed expansion of its Mount Pleasant coalmine in Musswellbrook. Continue reading...",
+      "url": "https://www.theguardian.com/environment/2026/oct/07/mount-pleasant-coalmine-case-high-court-climate-change-hunter-valley",
+      "source": "Guardian World",
+      "published_at": "2026-10-07T03:20:29+03:00",
+      "fingerprint": "9d0cf36d8a8b0afa1089ccf2cb423af4dadf64f8",
+      "viral_score": 44.63,
+      "scheduled_slot": "00:00",
+      "youtube_url": "https://youtu.be/N8G3xbFshlQ",
+      "processed_at": "2026-10-07T04:00:23.188657+03:00",
+      "video_id": "N8G3xbFshlQ",
+      "publish_at_local": "2026-10-08T00:00:00+03:00",
+      "publish_at_utc": "2026-10-07T21:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
