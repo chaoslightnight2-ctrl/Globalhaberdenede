@@ -27,6 +27,31 @@
       "source_headline": "Saudi Arabia, Pakistan, Turkey: Could the Mecca defense pact become a game changer in the war against the Houthis in Yemen?",
       "audience_bucket": "other",
       "hook_style": "concrete_question",
+      "run_id": "37710100434",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "DXXYMoxpyIM",
+      "youtube_url": "https://youtu.be/DXXYMoxpyIM",
+      "publish_at_local": "2026-10-09T00:00:00+03:00",
+      "publish_at_utc": "2026-10-08T21:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "index": 2,
+      "title": "Google Mapste yakıt fiyatları artık görünür",
+      "narration": "Google Maps artık yakıt fiyatlarını gösteriyor Google Maps sürücülere en yakın benzin istasyonlarını fiyatlarıyla birlikte sunarak tasarruf etmelerini sağlıyor İngiltere hükümeti istasyonların fiyatlarını otuz dakika içinde Fuel Finder sistemine eklemelerini zorunlu kılıyor Bu özellik sürücülerin yakıt maliyetlerini azaltmalarına yardımcı oluyor Global Haber kanalına abone ol",
+      "description": "Siz de en ucuz yakıtı bulmak ister misiniz",
+      "visual_query": "google maps fuel prices",
+      "tags": [
+        "Google Maps",
+        "yakıt fiyatları",
+        "benzin",
+        "dizel",
+        "İngiltere"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Fuel prices added to Google Maps as petrol and diesel costs soar",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
       "run_id": "37710100434"
     }
   ],

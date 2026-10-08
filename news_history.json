@@ -1,18 +1,6 @@
 {
   "processed_news": [
     {
-      "title": "ABD Senatosu, Fed başkanlığı için Kevin Warsh'u onayladı - DHA | Demirören Haber Ajansı",
-      "summary": "ABD Senatosu, Fed başkanlığı için Kevin Warsh'u onayladı DHA | Demirören Haber Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSW94b0tLX0ZFS1hjMXNiSnRvVUttUUFlb2VJR3N3cDZBQ1F0bC13cnQyRnJxYl92cVpLZ3JYdEJRRnI0NG1DTlBramdCSnJvMzhqZ1VlbzRuckxJZVlETmdKd1FwMTczX1B2YnFCVVY5aWNadmlGUlhNZFlSemFQZmZmcW5Hd2VkNEY0UXp2UnVUdFRTZXfSAZoBQVVfeXFMUG41TWFzRjVLb25VVUprRFZweVdFRVI5ellkTGRKVEJNMjZyM0tZXzhENlJKVFRfLTY3ejhYQ0JhRTNBZ0o1clNqQkt1RDl3X3piMHZyQVNyLVBuMW5hSjlHOE9JQ05OaDZwcUJwMExYYzFYUVlGaS05NnJyMFZlMWNFU2pQVElqT1NxOU9fc00ycEJKazdmQ2JKQQ?oc=5",
-      "source": "Google News RSS",
-      "published_at": "2026-05-14T08:58:42+03:00",
-      "fingerprint": "bc14c298baba96840b25243a888c73579667ed53",
-      "viral_score": 64.39,
-      "scheduled_slot": "07:00",
-      "youtube_url": "https://youtu.be/985UclqgwME",
-      "processed_at": "2026-05-14T10:45:08.153898+03:00"
-    },
-    {
       "title": "SON DAKİKA| İşte İran savaşı Çin’i böyle güçlendirdi: Körfez’de ABD’nin boşluğunu Pekin doldurdu! - Sabah",
       "summary": "SON DAKİKA| İşte İran savaşı Çin’i böyle güçlendirdi: Körfez’de ABD’nin boşluğunu Pekin doldurdu! Sabah",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWTVMV24tZHlubWgxWGVMdWpNaUpmallrQmVxb202bXZHZXNhNTdTWXFHSUkwcnNQeVNxdDJUazZqRks3bDh2cnNRTVNmdzN1YjFIWXJQRDZhMHVuRGMwcjM4Q29iRGJPT1Vrd3czRjFINU85SUQ5TWRHNFp5ZGt4T3BqdC0tc1JoaGstdFp2YW9CaFBycWQ5azlJV0Vrb0ttbnZNcGtTcGtDdERWY0JFek1NQkRqTmcyRTB5eHktWTh5WDVlamVsWFQ5cWxZREZF0gHTAUFVX3lxTE1XZldjSUEzdE5XYW5nZnZmZzEzUUFndmNCTjg2a29MbkJFOS00V3pUTkNqbkVWdWZVZGJKdDNNS09Ka3ktZ01KNGw4d0l5N21zYWk1cklEZWNqQkVRMTJUTHdIVlFVLWFkQzJ2a1JadEl4RWQ0ZTN3ME80XzZHaEk5VHZ6eFZZU1dlRzZQZklyNDdPZXM5c2xzTFgzZVpTOUUycVVudmVuS3A3LVJ2dnNMVlpEN3NfcF9CRXBzb2lZc2R0R1duN2VBNUxxd0RKbUpmN2M?oc=5",
@@ -4840,7 +4828,26 @@
       "publish_at_utc": "2026-10-08T13:00:00Z",
       "upload_status": "api_insert_confirmed",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Google Mapste yakıt fiyatları artık görünür",
+      "summary": "A search for forecourts will now display their pricing, using the government's Fuel Finder scheme.",
+      "url": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "2026-10-08T02:50:29+03:00",
+      "fingerprint": "427be976a7bf1cd71a388964838cffd0bb080b18",
+      "viral_score": 54.27,
+      "scheduled_slot": "00:00",
+      "youtube_url": "https://youtu.be/DXXYMoxpyIM",
+      "processed_at": "2026-10-08T04:12:04.168592+03:00",
+      "video_id": "DXXYMoxpyIM",
+      "publish_at_local": "2026-10-09T00:00:00+03:00",
+      "publish_at_utc": "2026-10-08T21:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
