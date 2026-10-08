@@ -1,18 +1,6 @@
 {
   "processed_news": [
     {
-      "title": "Çin-Rusya İlişkileri Güçleniyor - Son Dakika",
-      "summary": "Çin-Rusya İlişkileri Güçleniyor Son Dakika",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSWRBZFVZLV9HaDNabTFPck1iZzR0TU9jcjFZenhFblRSZlM1R2swdlY3ZVE1cnJOQ1RzMDdNbzNMR1Bmd0ZFUXh6Q25JbFUxNHVHRDlxV3RfZnNsMzNQMVpDb2x3QmNFdjZfSjZ3bWtRT0RpaFJmTmt1d1pYS2pSUGJnaVZ1ajTSAYMBQVVfeXFMT1V1VzB2SFM0RnhEZ0xhT29ONlRaaEMwYkNrNU91TmFYMFU2SEhjVVpUQVBZcjF2R0FMXzRMMEdjRFozTkZ3c0Q4VWZBaHh0VkV6OVZBU2xON1RnY0c4TzdwTXZOdHRmM0RURWVXa0lrWG9pc3NMMlJEQXJhVkZCWHRuTUk?oc=5",
-      "source": "Google News RSS",
-      "published_at": "2026-05-12T18:43:01+03:00",
-      "fingerprint": "a273b8ac698b4b5eb417a4a254b99847de668327",
-      "viral_score": 52.28,
-      "scheduled_slot": "18:00",
-      "youtube_url": "https://youtu.be/vbdPmuKNubU",
-      "processed_at": "2026-05-13T03:23:42.770905+03:00"
-    },
-    {
       "title": "ABD Senatosu, Fed başkanlığı için Kevin Warsh'u onayladı - DHA | Demirören Haber Ajansı",
       "summary": "ABD Senatosu, Fed başkanlığı için Kevin Warsh'u onayladı DHA | Demirören Haber Ajansı",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSW94b0tLX0ZFS1hjMXNiSnRvVUttUUFlb2VJR3N3cDZBQ1F0bC13cnQyRnJxYl92cVpLZ3JYdEJRRnI0NG1DTlBramdCSnJvMzhqZ1VlbzRuckxJZVlETmdKd1FwMTczX1B2YnFCVVY5aWNadmlGUlhNZFlSemFQZmZmcW5Hd2VkNEY0UXp2UnVUdFRTZXfSAZoBQVVfeXFMUG41TWFzRjVLb25VVUprRFZweVdFRVI5ellkTGRKVEJNMjZyM0tZXzhENlJKVFRfLTY3ejhYQ0JhRTNBZ0o1clNqQkt1RDl3X3piMHZyQVNyLVBuMW5hSjlHOE9JQ05OaDZwcUJwMExYYzFYUVlGaS05NnJyMFZlMWNFU2pQVElqT1NxOU9fc00ycEJKazdmQ2JKQQ?oc=5",
@@ -4835,6 +4823,24 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Mecca Savunma Anlaşması Ortak Savunma Olacak mı",
+      "summary": "Pakistan and Turkey have agreed to provide \"practical measures\" to defend Saudi Arabia against Houthi attacks. Could a new alliance reshape the war against the Houthis in Yemen?",
+      "url": "https://www.dw.com/en/saudi-arabia-pakistan-turkey-could-the-mecca-defense-pact-become-a-game-changer-in-the-war-against-the-houthis-in-yemen/a-79577245?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-10-07T20:33:00+03:00",
+      "fingerprint": "f2bc192d3bafc1eeeaae47881685927ed271e86f",
+      "viral_score": 30.2,
+      "scheduled_slot": "16:00",
+      "youtube_url": "https://youtu.be/ct4erBXkv-E",
+      "processed_at": "2026-10-08T04:04:02.719424+03:00",
+      "video_id": "ct4erBXkv-E",
+      "publish_at_local": "2026-10-08T16:00:00+03:00",
+      "publish_at_utc": "2026-10-08T13:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
