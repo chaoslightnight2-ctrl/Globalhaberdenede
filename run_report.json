@@ -3,7 +3,7 @@
   "generated_at": "2026-10-08T03:55:11.989144+03:00",
   "target_count": 3,
   "dry_run": false,
-  "complete": false,
+  "complete": true,
   "videos": [
     {
       "video_id": "ct4erBXkv-E",
@@ -77,7 +77,8 @@
       "source_headline": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
       "audience_bucket": "technology_science",
       "hook_style": "concrete_question",
-      "run_id": "37710100434"
+      "run_id": "37710100434",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": []

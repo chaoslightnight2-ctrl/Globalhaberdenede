@@ -4854,7 +4854,8 @@
       "publish_at_utc": "2026-10-09T05:00:00Z",
       "upload_status": "api_insert_confirmed",
       "audience_bucket": "technology_science",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
