@@ -52,6 +52,31 @@
       "source_headline": "Fuel prices added to Google Maps as petrol and diesel costs soar",
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
+      "run_id": "37710100434",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "PRjBgjaDWDg",
+      "youtube_url": "https://youtu.be/PRjBgjaDWDg",
+      "publish_at_local": "2026-10-09T08:00:00+03:00",
+      "publish_at_utc": "2026-10-09T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "index": 3,
+      "title": "SpaceX otuz beşinci ISS ikmal görevi ne zaman",
+      "narration": "SpaceX otuz beşinci ISS ikmal görevi ne zaman Uzay aracının fırlatılması on üç Ekim sabahı altı otuz üç dakikada planlanmıştır Görev Uluslararası Uzay İstasyonu için son güneş paneli seti ve bilimsel deneyler taşıyacak Araç Falcon dokuz roketiyle Cape Canaveral den fırlatılacak ve otomatik bağlanacak İstasyonun Harmony modülüne Global Haber kanalına abone ol",
+      "description": "Bu görev uzay araştırmalarını nasıl etkiler siz ne düşünüyorsunuz",
+      "visual_query": "space x launch",
+      "tags": [
+        "SpaceX",
+        "ISS",
+        "Uzay",
+        "İkmal",
+        "Bilim"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
       "run_id": "37710100434"
     }
   ],
