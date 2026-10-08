@@ -67,7 +67,7 @@ def run(bot, *, quiz=False):
                     history = bot.update_history(history, [item])
                 for saved in history.get('processed_news', []):
                     if saved.get('fingerprint') == item.get('fingerprint'):
-                        saved.update(result, source_headline=item.get('source_headline'), resolved_url=item.get('resolved_url'), upload_status='api_insert_confirmed', audience_bucket=item.get('audience_bucket'), hook_style=item.get('hook_style'))
+                        saved.update(result, source_headline=item.get('source_headline'), resolved_url=item.get('resolved_url'), source_modified_at=item.get('source_modified_at'), upload_status='api_insert_confirmed', audience_bucket=item.get('audience_bucket'), hook_style=item.get('hook_style'))
                 bot.save_json(bot.HISTORY_FILE, history)
             bot.save_json(Path('run_report.json'), report)
             bot.save_json(bot.PLAN_FILE, {'generated_at': report['generated_at'], 'videos': report['videos']})
@@ -98,7 +98,8 @@ def run(bot, *, quiz=False):
         url = row.get('resolved_url') or row.get('url', '')
         value = urlsplit(url)
         return (value.netloc.casefold(), value.path.rstrip('/')) if value.netloc else None
-    seen_articles = {article_key(row) for row in history.get('processed_news', [])}
+    # Cross-run updates remain eligible; the source-aware Groq pass compares their new outcome.
+    seen_articles = set()
     for item in candidates:
         if not quiz and article_key(item) and article_key(item) in seen_articles:
             continue
@@ -108,6 +109,11 @@ def run(bot, *, quiz=False):
         try:
             if hasattr(bot, 'fetch_article_content') and not item.get('article_text'):
                 item['article_text'] = bot.fetch_article_content(item)
+            previous_article = next((row for row in history.get('processed_news', [])
+                                     if article_key(row) and article_key(row) == article_key(item)), None)
+            if (not quiz and previous_article and item.get('source_modified_at')
+                    and item['source_modified_at'] == previous_article.get('source_modified_at')):
+                continue
             item['script'] = bot.generate_news_script(item)
         except (ValueError, RuntimeError) as exc:
             report['errors'].append({'source': item.get('title'), 'stage': 'generation', 'error': str(exc)})
