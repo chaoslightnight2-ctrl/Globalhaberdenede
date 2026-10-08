@@ -238,10 +238,21 @@ def fetch_url_text(url: str, item: dict[str, Any]) -> str:
     response.raise_for_status()
     item["resolved_url"] = response.url
     html_text = decoded_html(response)
+    from lxml import html as document_html
+    document = document_html.fromstring(html_text)
+    heads = document.xpath('//h1')
+    if heads:
+        latest_headline = clean_article_text(heads[0].text_content())
+        if latest_headline:
+            item['source_headline'] = latest_headline
+    modified = document.xpath('//meta[@property="article:modified_time"]/@content | //meta[@name="dateModified"]/@content')
+    item['source_modified_at'] = modified[0] if modified else ''
+    from datetime import datetime, timezone
+    item['source_checked_at'] = datetime.now(timezone.utc).isoformat()
     import trafilatura
     extracted = extract_article_container(html_text) or trafilatura.extract(html_text, url=response.url, include_comments=False, include_tables=False)
     parts = [extracted or extract_json_ld_article_body(html_text)]
-    return clean_article_text(" ".join(part for part in parts if part))[:2600]
+    return clean_article_text(" ".join(part for part in parts if part))[:12000]
 
 
 def fetch_article_content(item: dict[str, Any]) -> str:
@@ -267,12 +278,11 @@ def fetch_article_content(item: dict[str, Any]) -> str:
     rss_text = clean_article_text(" ".join([item.get("summary", ""), item.get("title", "")]))
     # A fetched article body takes priority over a noisy full-page RSS summary.
     if not best or best_score < 25:
-        best = rss_text
-        best_score = score_article_text(rss_text, title)
+        raise ValueError('Updated publisher article unavailable; stale RSS cannot replace it')
     if best_score < 25:
         logger.warning("Haber içeriği hala zayıf: skor=%s başlık=%s", best_score, title[:90])
     item["article_score"] = best_score
-    return best[:2200]
+    return best[:12000]
 
 
 

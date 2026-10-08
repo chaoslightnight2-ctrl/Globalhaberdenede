@@ -56,6 +56,7 @@ def run(bot, *, quiz=False):
                    'description': item.get('youtube_description', item.get('summary')), 'visual_query': item.get('visual_query', item.get('quiz', {}).get('visual_query')),
                    'tags': item.get('youtube_tags', []), 'video_path': item['video_path'], 'source_headline': item.get('source_headline'),
                    'audience_bucket': item.get('audience_bucket'), 'hook_style': item.get('hook_style'),
+                   'source_checked_at': item.get('source_checked_at'), 'source_modified_at': item.get('source_modified_at'),
                    'run_id': report['run_id'], 'upload_status': 'dry_run' if dry else 'api_insert_confirmed'}
             report['videos'].append(row)
             # Persist the ID before attempting processing checks or the next slot.
@@ -66,7 +67,7 @@ def run(bot, *, quiz=False):
                     history = bot.update_history(history, [item])
                 for saved in history.get('processed_news', []):
                     if saved.get('fingerprint') == item.get('fingerprint'):
-                        saved.update(result, upload_status='api_insert_confirmed', audience_bucket=item.get('audience_bucket'), hook_style=item.get('hook_style'))
+                        saved.update(result, source_headline=item.get('source_headline'), resolved_url=item.get('resolved_url'), upload_status='api_insert_confirmed', audience_bucket=item.get('audience_bucket'), hook_style=item.get('hook_style'))
                 bot.save_json(bot.HISTORY_FILE, history)
             bot.save_json(Path('run_report.json'), report)
             bot.save_json(bot.PLAN_FILE, {'generated_at': report['generated_at'], 'videos': report['videos']})
@@ -92,7 +93,15 @@ def run(bot, *, quiz=False):
         bot.save_json(Path('run_report.json'), report)
         bot.save_json(bot.PLAN_FILE, {'generated_at': report['generated_at'], 'videos': report['videos']})
 
+    from urllib.parse import urlsplit
+    def article_key(row):
+        url = row.get('resolved_url') or row.get('url', '')
+        value = urlsplit(url)
+        return (value.netloc.casefold(), value.path.rstrip('/')) if value.netloc else None
+    seen_articles = {article_key(row) for row in history.get('processed_news', [])}
     for item in candidates:
+        if not quiz and article_key(item) and article_key(item) in seen_articles:
+            continue
         accepted = sum(row['upload_status'] in ({'dry_run'} if dry else {'api_insert_confirmed', 'youtube_processed'}) for row in report['videos'])
         if accepted >= target_count:
             break
@@ -109,6 +118,7 @@ def run(bot, *, quiz=False):
             if len(report['errors']) >= 60:
                 break
             continue
+        seen_articles.add(article_key(item))
         prepared.append(item)
         bot.save_json(bot.SELECTED_FILE, {'generated_at': report['generated_at'], 'selected_news': prepared})
         publish(item, len(prepared))

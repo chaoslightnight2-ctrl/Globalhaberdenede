@@ -71,10 +71,12 @@ def build_video_for_item(item, index):
     if not spoken or not tts:
         raise ValueError("temiz konuşma metni veya TTS metni yok")
     item["script"] = tts
+    bot._visual_context = item.get("question_text", "") + " " + spoken
     try:
         result = _original_build(item, index)
     finally:
         item["script"] = spoken
+        bot._visual_context = ""
     from quality_gate import validate_full_narration
     validate_full_narration(result["video_path"], result["audio_path"])
     validate_rendered_video(result["video_path"])
@@ -123,3 +125,19 @@ bot.main = lambda: run_batch(bot)
 
 from stock_selection import search_pexels_video
 bot.search_pexels_video = search_pexels_video
+
+# Stock clips illustrate the topic; they are never represented as footage of the event.
+_original_captions = bot.generate_captions
+def labelled_captions(chunks):
+    from PIL import Image, ImageDraw, ImageFont
+    import numpy as np
+    from moviepy.editor import ImageClip
+    clips = _original_captions(chunks)
+    end = max((start + duration for start, duration, text in chunks), default=0)
+    if end:
+        canvas = Image.new('RGBA', (440, 66), (0, 0, 0, 155))
+        font = ImageFont.truetype(bot.ensure_font(), 30)
+        ImageDraw.Draw(canvas).text((220, 33), 'Temsili görüntü', font=font, fill='white', anchor='mm')
+        clips.append(ImageClip(np.array(canvas)).set_duration(end).set_position(('center', 90)))
+    return clips
+bot.generate_captions = labelled_captions
