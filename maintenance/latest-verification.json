@@ -1,68 +1,29 @@
 {
-  "source_run": "37710100434",
-  "verified_at": "2026-10-08T01:21:08.894927+00:00",
-  "videos": [
+  "source_run": "37868199178",
+  "verified_at": "2026-10-09T07:08:18.168611+00:00",
+  "videos": [],
+  "errors": [],
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": false,
+  "generation_errors": [
     {
       "index": 1,
-      "video_id": "ct4erBXkv-E",
-      "youtube_url": "https://youtu.be/ct4erBXkv-E",
-      "title": "Mecca Savunma Anlaşması Ortak Savunma Olacak mı",
-      "narration": "Mecca savunma anlaşması gerçek bir ortak savunma mı Suudi Arabistan Türkiye ve Pakistan imzaladıkları Mecca ortak savunma anlaşmasını acil bir toplantı sonrası hayata geçirdi Bu karar doğrultusunda Türkiye ve Pakistan askeri güçlerini Suudi Arabistan topraklarına hızlıca sevk etmeyi taahhüt etti Atanan eski Pakistan generali Nauman Mahmood ilk sekreter genel olarak üç yıllık görev süresi alacak Global Haber kanalına abone ol",
-      "publish_at": "2026-10-08T13:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "processing_status": "readback_scope_unavailable",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.9,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/ct4erBXkv-E.jpg"
+      "stage": "render_or_upload",
+      "error": "No relevant stock selection: No candidate footage depicts Turkish or Pakistani troops, military equipment, or joint defense activities; all candidates are flags, monuments, traffic, or rural scenes, which do not match the narration about defense cooperation."
     },
     {
       "index": 2,
-      "video_id": "DXXYMoxpyIM",
-      "youtube_url": "https://youtu.be/DXXYMoxpyIM",
-      "title": "Google Mapste yakıt fiyatları artık görünür",
-      "narration": "Google Maps artık yakıt fiyatlarını gösteriyor Google Maps sürücülere en yakın benzin istasyonlarını fiyatlarıyla birlikte sunarak tasarruf etmelerini sağlıyor İngiltere hükümeti istasyonların fiyatlarını otuz dakika içinde Fuel Finder sistemine eklemelerini zorunlu kılıyor Bu özellik sürücülerin yakıt maliyetlerini azaltmalarına yardımcı oluyor Global Haber kanalına abone ol",
-      "publish_at": "2026-10-08T21:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "processing_status": "readback_scope_unavailable",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 28.2,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/DXXYMoxpyIM.jpg"
+      "stage": "render_or_upload",
+      "error": "No relevant stock selection: None of the candidate clips show an ICE officer shooting at a vehicle, a child in the car, or related protest scenes; they only depict officers in or around a police car, which does not match the narrated event."
     },
     {
       "index": 3,
-      "video_id": "PRjBgjaDWDg",
-      "youtube_url": "https://youtu.be/PRjBgjaDWDg",
-      "title": "SpaceX otuz beşinci ISS ikmal görevi ne zaman",
-      "narration": "SpaceX otuz beşinci ISS ikmal görevi ne zaman Uzay aracının fırlatılması on üç Ekim sabahı altı otuz üç dakikada planlanmıştır Görev Uluslararası Uzay İstasyonu için son güneş paneli seti ve bilimsel deneyler taşıyacak Araç Falcon dokuz roketiyle Cape Canaveral den fırlatılacak ve otomatik bağlanacak İstasyonun Harmony modülüne Global Haber kanalına abone ol",
-      "publish_at": "2026-10-09T05:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "processing_status": "readback_scope_unavailable",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 29.0,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/PRjBgjaDWDg.jpg"
+      "stage": "render_or_upload",
+      "error": "No relevant stock selection: No candidate footage depicts a Sydney public square or related government planning context; available clips show trams, fire trucks, harbour, or non‑Sydney square."
     }
   ],
-  "errors": [],
-  "accepted_count": 3,
-  "processed_count": 0,
-  "complete": false,
-  "generation_errors": [],
   "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
