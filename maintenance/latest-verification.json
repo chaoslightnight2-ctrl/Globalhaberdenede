@@ -1,6 +1,6 @@
 {
-  "source_run": "37868199178",
-  "verified_at": "2026-10-09T07:08:18.168611+00:00",
+  "source_run": "38010000075",
+  "verified_at": "2026-10-10T06:40:49.422311+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
@@ -10,19 +10,45 @@
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "No relevant stock selection: No candidate footage depicts Turkish or Pakistani troops, military equipment, or joint defense activities; all candidates are flags, monuments, traffic, or rural scenes, which do not match the narration about defense cooperation."
+      "error": "cannot open resource"
     },
     {
       "index": 2,
       "stage": "render_or_upload",
-      "error": "No relevant stock selection: None of the candidate clips show an ICE officer shooting at a vehicle, a child in the car, or related protest scenes; they only depict officers in or around a police car, which does not match the narrated event."
+      "error": "No relevant stock selection: Neither candidate depicts diesel shipment, Russian fuel, or the political context of Trump, Putin, and Zelensky; they show a Trump building or supporters at an India Day parade, which do not match the narration."
     },
     {
       "index": 3,
       "stage": "render_or_upload",
-      "error": "No relevant stock selection: No candidate footage depicts a Sydney public square or related government planning context; available clips show trams, fire trucks, harbour, or non‑Sydney square."
+      "error": "cannot open resource"
+    },
+    {
+      "index": 4,
+      "stage": "render_or_upload",
+      "error": "cannot open resource"
+    },
+    {
+      "source": "Questions remain over Ebola patient who travelled across three nations undetected",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    },
+    {
+      "index": 5,
+      "stage": "render_or_upload",
+      "error": "No relevant stock selection: Candidate clip shows Trump supporters at an India Day parade in New York, which does not depict Trump negotiating a diesel agreement with Russia; the objects and actions described in the narration are absent."
+    },
+    {
+      "index": 6,
+      "stage": "render_or_upload",
+      "error": "cannot open resource"
+    },
+    {
+      "index": 7,
+      "stage": "render_or_upload",
+      "error": "No relevant stock selection: None of the candidate clips depict a crash, pedestrians, police or emergency responders as described; they only show parked or static white cars, which does not match the narrated accident scene."
     }
   ],
+  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
