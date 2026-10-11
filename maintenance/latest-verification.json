@@ -1,6 +1,6 @@
 {
-  "source_run": "38010000075",
-  "verified_at": "2026-10-10T06:40:49.422311+00:00",
+  "source_run": "38097514394",
+  "verified_at": "2026-10-11T06:11:05.711209+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
@@ -10,17 +10,27 @@
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "cannot open resource"
+      "error": "No relevant stock selection: None of the candidate clips depict a climate summit stage or any setting that matches the narration about a global energy target announcement. All descriptions refer to concert or entertainment stages, which do not align with the required context."
     },
     {
       "index": 2,
       "stage": "render_or_upload",
-      "error": "No relevant stock selection: Neither candidate depicts diesel shipment, Russian fuel, or the political context of Trump, Putin, and Zelensky; they show a Trump building or supporters at an India Day parade, which do not match the narration."
+      "error": "cannot open resource"
+    },
+    {
+      "source": "Falling international student numbers create ‘massive problems’ for Australian universities, expert warns",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    },
+    {
+      "source": "Twelve killed in attack on airport in Saudi capital Riyadh",
+      "stage": "generation",
+      "error": "Same-Groq generation failed after 5 repairs: Editorial review: Kaynak 12 ölüyi doğrularken yaralı sayısını 309 olarak verir; paket 390 yaralı iddiası kaynakla eşleşmiyor. Diğer iddialar (Houthi sorumluluğu, saldırının King Khalid Uluslararası Havalimanı'na yönelik olması, koalisyonun saldırıyı savaş suçu olarak nitelendirmesi) kaynakta yer alıyor. Bu nedenle paket tam olarak desteklenmiyor."
     },
     {
       "index": 3,
       "stage": "render_or_upload",
-      "error": "cannot open resource"
+      "error": "No relevant stock selection: Neither candidate shows Trump discussing a diesel contract with Russia or Zelensky's reaction; one shows a building and the other a parade, so no suitable real footage matches the narration."
     },
     {
       "index": 4,
@@ -28,24 +38,14 @@
       "error": "cannot open resource"
     },
     {
-      "source": "Questions remain over Ebola patient who travelled across three nations undetected",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
-    },
-    {
       "index": 5,
-      "stage": "render_or_upload",
-      "error": "No relevant stock selection: Candidate clip shows Trump supporters at an India Day parade in New York, which does not depict Trump negotiating a diesel agreement with Russia; the objects and actions described in the narration are absent."
-    },
-    {
-      "index": 6,
       "stage": "render_or_upload",
       "error": "cannot open resource"
     },
     {
-      "index": 7,
-      "stage": "render_or_upload",
-      "error": "No relevant stock selection: None of the candidate clips depict a crash, pedestrians, police or emergency responders as described; they only show parked or static white cars, which does not match the narrated accident scene."
+      "source": "Expedition hopes to find aviator Amelia Earhart's plane on remote island",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
     }
   ],
   "public_listing_error": "HTTPError",
