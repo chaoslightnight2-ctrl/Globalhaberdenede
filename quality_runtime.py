@@ -139,7 +139,7 @@ def labelled_captions(chunks):
     clips = _original_captions(chunks)
     end = max((start + duration for start, duration, text in chunks), default=0)
     if end:
-        canvas = label_image(bot.ensure_font())
+        canvas = label_image(os.getenv('SUBTITLE_FONT', 'DejaVu-Sans-Bold'))
         clips.append(ImageClip(np.array(canvas)).set_duration(end).set_position(('center', 90)))
     return clips
 bot.generate_captions = labelled_captions
