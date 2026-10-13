@@ -91,8 +91,12 @@ def upload_to_youtube(video_path, item, publish_at):
     if os.getenv("DRY_RUN", "0") == "1":
         return {"video_id": "dry-run", "youtube_url": f"DRY-RUN artifact: {video_path}", "publish_at_local": publish_at.isoformat(), "publish_at_utc": at}
     description = item["youtube_description"] + "\n\n" + item["youtube_hashtags"]
+    private_recovery = os.getenv('YOUTUBE_UPLOAD_SMOKE') == '1'
+    status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False}
+    if not private_recovery:
+        status['publishAt'] = at
     body = {"snippet": {"title": item["title"], "description": description, "tags": item["youtube_tags"], "categoryId": bot.YOUTUBE_CATEGORY_ID},
-            "status": {"privacyStatus": "private", "publishAt": at, "selfDeclaredMadeForKids": False}}
+            "status": status}
     youtube = bot.get_youtube_service()
     request = youtube.videos().insert(part="snippet,status", body=body,
         media_body=bot.MediaFileUpload(str(video_path), mimetype="video/mp4", resumable=True, chunksize=5 * 1024 * 1024))
@@ -102,7 +106,7 @@ def upload_to_youtube(video_path, item, publish_at):
     video_id = response.get("id")
     if not video_id:
         raise RuntimeError("YouTube insert returned no video ID")
-    return {"video_id": video_id, "youtube_url": f"https://youtu.be/{video_id}", "publish_at_local": publish_at.isoformat(), "publish_at_utc": at, "upload_status": "api_insert_confirmed"}
+    return {"video_id": video_id, "youtube_url": f"https://youtu.be/{video_id}", "publish_at_local": None if private_recovery else publish_at.isoformat(), "publish_at_utc": None if private_recovery else at, "upload_status": "api_insert_confirmed", "private_recovery": private_recovery}
 
 
 def build_background_queries(item):
@@ -129,15 +133,13 @@ bot.search_pexels_video = search_pexels_video
 # Stock clips illustrate the topic; they are never represented as footage of the event.
 _original_captions = bot.generate_captions
 def labelled_captions(chunks):
-    from PIL import Image, ImageDraw, ImageFont
+    from news_label import label_image
     import numpy as np
     from moviepy.editor import ImageClip
     clips = _original_captions(chunks)
     end = max((start + duration for start, duration, text in chunks), default=0)
     if end:
-        canvas = Image.new('RGBA', (440, 66), (0, 0, 0, 155))
-        font = ImageFont.truetype(bot.ensure_font(), 30)
-        ImageDraw.Draw(canvas).text((220, 33), 'Temsili görüntü', font=font, fill='white', anchor='mm')
+        canvas = label_image(bot.ensure_font())
         clips.append(ImageClip(np.array(canvas)).set_duration(end).set_position(('center', 90)))
     return clips
 bot.generate_captions = labelled_captions
