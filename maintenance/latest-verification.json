@@ -1,59 +1,13 @@
 {
-  "source_run": "38187828798",
-  "verified_at": "2026-10-12T06:24:38.066612+00:00",
+  "source_run": "38337125814",
+  "verified_at": "2026-10-13T02:31:19.178854+00:00",
   "videos": [],
-  "errors": [],
+  "errors": [
+    "Artifact report belongs to another run"
+  ],
   "accepted_count": 0,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "cannot open resource"
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: ranch fire fence"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "cannot open resource"
-    },
-    {
-      "source": "Watch: Endangered orangutans released back into the wild after Borneo fires",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "index": 4,
-      "stage": "render_or_upload",
-      "error": "No relevant stock selection: Narration describes a projectile causing fire and casualties at Riyadh airport, but all candidate clips are generic airport terminal overviews without any fire, explosion, or related incident; therefore none are appropriate."
-    },
-    {
-      "index": 5,
-      "stage": "render_or_upload",
-      "error": "cannot open resource"
-    },
-    {
-      "index": 6,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 3 attempts: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=28b884bb99fa4d3ca54c8c46b6f8b4be&Sec-MS-GEC=503868A83E3AAC818859D684DE32F22129E42C7A99E70289DE8AA9F8AF17DCF1&Sec-MS-GEC-Version=1-143.0.3650.75'"
-    },
-    {
-      "index": 7,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 3 attempts: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=71c613277bcb40bf9eba2b32d296208b&Sec-MS-GEC=A174D1C0E222358ABB2E427A5D03ABB86F19BBE14A2F590E077C171445D89E00&Sec-MS-GEC-Version=1-143.0.3650.75'"
-    },
-    {
-      "source": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
-    }
-  ],
-  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
