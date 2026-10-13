@@ -1,18 +1,6 @@
 {
   "processed_news": [
     {
-      "title": "ABD'de belediye başkanı Çin casusu çıktı - Odatv",
-      "summary": "ABD'de belediye başkanı Çin casusu çıktı Odatv",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVUhJTGlfdkozeERWM1BURzFEWjBqR25sdC15akx5SmE2ZUVnSjVwOGNrZU54a182RTVKWGgxZ0tDd0J6UG1oZVRTMUdwZ3hjWm5rWFUyNVFXQklLRjlSR2ZpeU8tTWN0clJYYmhlZGZXYkgxdVgwX0d1QUtYQnVrb0xmYw?oc=5",
-      "source": "Google News RSS",
-      "published_at": "2026-05-14T10:28:03+03:00",
-      "fingerprint": "478e9c13e8b671ff126e2dddb054641886ddf10d",
-      "viral_score": 59.77,
-      "scheduled_slot": "18:00",
-      "youtube_url": "https://youtu.be/x8MWetXap08",
-      "processed_at": "2026-05-14T10:45:08.153912+03:00"
-    },
-    {
       "title": "IMF: Küresel ekonomi yükselen petrol fiyatlarıyla \"olumsuz\" senaryoya ilerliyor - TRT Haber",
       "summary": "IMF: Küresel ekonomi yükselen petrol fiyatlarıyla \"olumsuz\" senaryoya ilerliyor TRT Haber",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdUlHRDNSc1lMcWE5SmpJWGZ6dkJHdEY2d3Ywc1F0UFhYMnZMV2FIMk9ob3lySnpRMXRkZUJ6MWRDSS1kOW1BWThOVXRfb1I5MDRaSnd0RUFMMnBhLUx5cHJRRnhBek9PaGRPaFNmU3RHcU9wRWdDdXY4aE1ZVjkySWFvSVFrRVJJSGdsN19ZcG0wNW93LWFhUklSRUFBTFNsTHJQcGNvNFBfR1pPaEZKN0w2cWtRbUxrWWVmaktTX0Y3Y1k?oc=5",
@@ -4856,6 +4844,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Almanya’da iki Türk vatandaşının tutuklanması neden önemli",
+      "summary": "Polish authorities have reported the arrests of two Turkish citizens in Germany in connection with alleged sabotage of a Starlink station last month. Prime Minister Donald Tusk called the fire an act of \"hybrid warfare.\"",
+      "url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-10-12T21:05:00+03:00",
+      "fingerprint": "67851827cb07431d065de5d223db756d5934e19f",
+      "viral_score": 2.0,
+      "scheduled_slot": "08:00",
+      "youtube_url": "https://youtu.be/P6XfLpU069s",
+      "processed_at": "2026-10-14T01:32:09.615722+03:00",
+      "video_id": "P6XfLpU069s",
+      "publish_at_local": "2026-10-14T08:00:00+03:00",
+      "publish_at_utc": "2026-10-14T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Poland: Germany detains 2 in connection with Starlink fire",
+      "resolved_url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
