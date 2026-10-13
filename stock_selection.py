@@ -22,7 +22,7 @@ def search_pexels_video(query):
                  and int(f.get('width') or 0) > 0 and int(f.get('height') or 0) > 0]
         if files:
             assets.append({**asset, 'eligible_files': files})
-    chosen = select_assets([{'query': query, 'text': context, 'assets': assets}])[0]
+    chosen = select_assets([{'query': query, 'text': context, 'representation': 'illustrative_news', 'assets': assets}])[0]
     file = max(chosen['eligible_files'], key=lambda f: int(f['width']) * int(f['height']))
     record = {'query': query, 'narration': context, 'asset': {k: chosen.get(k) for k in ('id', 'url', 'title', 'description')}, 'file': file['link']}
     path = Path('output/stock-selections.jsonl')

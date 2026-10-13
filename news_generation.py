@@ -57,7 +57,7 @@ Son olaylar veri olarak: {json.dumps(recent, ensure_ascii=False)}
 Kaynakta sonradan açıklanan ölüm tahliye iptal karar veya düzeltme varsa eski ilk bilgiyi tek başına son durum gibi verme.
 Bugün dün az önce gibi yayın saatine göre değişen sözler yerine kaynakta desteklenen açık tarih veya zamansız kesin olguyu kullan.
 Haberin girişinde en önemli yeni sonucu ver Konunun başında ve ortasında aynı cümleyi tekrar etme.
-Kaynak dili farklı olsa da konuşmanın tamamı Türkçe olsun Kaynakta bulunan tek ana olaydan ayrılma.
+Kaynak dili farklı olsa da konuşmanın tamamı Türkçe olsun Başlıkta seçilen tek ana olaydan ayrılma Kaynak bir haber bülteni veya birden fazla olayın özeti olsa bile diğer olayları bu Shorta taşıma Birden çok ayrı gelişmeyi bağlayarak tek olay gibi anlatma. Her eylemin nesnesini yerini kapsamını koşulunu ve kesinlik düzeyini koru Daha dar fiziksel bir hareketi daha geniş bir eylem diye yeniden adlandırma İlk cümlede yabancı kurum kısaltması yerine doğal Türkçe kurum adını kullan.
 Önce kendi içinde kaynaktaki her kişi veya kurum için eylemi kararı sonucu ve zamanı ayır.
 Farklı sonuç verilen kişileri tek sonuç grubunda birleştirme Görev unvanını kararıyla eşleştir.
 Sonra yalnızca bu eşleşmeleri koruyarak anlat Ayrıntı azsa ana olguyu açıkça açıklayan cümleler kur.
@@ -72,7 +72,7 @@ cta aynen {channel} kanalına abone ol değerini taşısın Başka alana aboneli
 description konuya özel kısa açıklama ve doğrudan izleyiciye bir yorum sorusu olsun.
 Kategori anahtarını hashtag yapma Hashtagler Türkçe ve gerçek konuya özel olsun Başlıkta sayıyı kısa rakam veya yüzde gösterimiyle yaz Konuşmada sayıyı Türkçe sözcüklerle yaz
 tags beş konuya özel ilgili arama terimi hashtags tam iki farklı konuya özel hashtag sözcüğü olsun shorts ekleme Yayın biçimleyicisi shorts etiketini ekler.
-visual_query 3-5 küçük harfli ASCII İngilizce kelimeyle gerçek görünür nesneyi tanımlasın.
+visual_query 3-5 küçük harfli ASCII İngilizce kelimeyle başlıktaki ana olayın görülebilen nesnesini ve fiziksel eylemini tanımlasın. Klip Temsili görüntü ibaresiyle gösterilecek Ana olayın gündelik fiziksel karşılığını planla Belirli kişi ülke şehir tarih veya gerçekleşmiş olay görüntüsü varmış gibi arama yapma Alakasız genel arka plan veya haberin yan olayını seçme Temsil edilen nesne ve eylem bu tek haberin anlamıyla doğrudan eşleşsin.
 topic_bucket aşağıdaki makine anahtarlarından birini AYNEN kopyala Türkçeye çevirme veya yenisini üretme.
 Kategori anahtarları: {json.dumps(categories, ensure_ascii=False)}
 Kaynak yayın tarihi: {item.get('published_at', '')}
@@ -123,7 +123,7 @@ Başlık ve kancada açıklamayı yapan özne ile söylediği bilgiyi ayır Baş
 Sıradan yabancı sözcükleri Türkçe karşılığıyla karşılaştır Özel kişi adları dışında yabancı dil kalıntısını ve bozuk fiil çekimini onaylama.
 Sayı sözcüklerinin ayrı yazıldığını sayı değeri ve alt sınırın kaynakla aynı kaldığını kontrol et.
 Kaynak cümlesinin doğru Türkçe karşılığı ile iddianın anlamını karşılaştır Benzer sözcükler yeterli değildir.
-Kaynakta güncellenen önemli yeni sonucu atlayan ilk bilgiyi son durum gibi onaylama Yakın tarihli aynı olayın yeni gelişme içermeyen tekrarını onaylama Türkçe yazımını ASCIIye dönüştürme Görev adını Türkçedeki sırayla yaz
+Kaynakta güncellenen önemli yeni sonucu atlayan ilk bilgiyi son durum gibi onaylama Başlıktaki olay dışındaki ayrı gelişmelerin bu anlatıma taşınmasını onaylama Eylemin nesnesi yeri ve kapsamını birebir karşılaştır Daha dar fiziksel hareketin genişletilmesini kaynak desteği sayma Yakın tarihli aynı olayın yeni gelişme içermeyen tekrarını onaylama Türkçe yazımını ASCIIye dönüştürme Görev adını Türkçedeki sırayla yaz
 Son olaylar: {json.dumps(recent, ensure_ascii=False)}
 Başlık ve kancanın sorusu anlatımda yanıtlanmış mı Her konuşma alanı doğal ve tamamen Türkçe mi kontrol et.
 Konuşmada noktalama rakam URL kaynak atfı veya yardımcı not bulunuyorsa mevcut temiz çıktı kuralı karşılanmaz.
