@@ -1,5 +1,6 @@
 {
   "mode": "verify_one_private_upload",
   "enabled": true,
-  "request_id": "2026-10-14-private-recovery-explicit-source-roles-Globalhaberdenede"
+  "request_id": "2026-10-14T18:24:36.331942+00:00-Globalhaberdenede",
+  "reason": "Human requested real YouTube upload test after removing Groq clip calls and updating publication hours"
 }
