@@ -1,0 +1,31 @@
+{
+  "verified_at": "2026-10-14T06:57:16.609143+00:00",
+  "channel_id": "UCMVToyerFF_UxUP0k_2GAPQ",
+  "public_count": 1,
+  "videos": [
+    {
+      "video_id": "GwI8ASuKO-I",
+      "youtube_url": "https://youtu.be/GwI8ASuKO-I",
+      "publication_status": "public_verified",
+      "title": "İnsan vücudunun dış kısmında kaç temel bölge bulunur?",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      }
+    },
+    {
+      "video_id": "jxnLl_G2cnM",
+      "youtube_url": "https://youtu.be/jxnLl_G2cnM",
+      "publication_status": "not_publicly_verified"
+    },
+    {
+      "video_id": "dWbWj5nrXAs",
+      "youtube_url": "https://youtu.be/dWbWj5nrXAs",
+      "publication_status": "not_publicly_verified"
+    }
+  ]
+}
