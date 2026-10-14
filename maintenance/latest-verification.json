@@ -1,63 +1,7 @@
 {
   "source_run": "38473222960",
-  "verified_at": "2026-10-14T06:35:32.200138+00:00",
+  "verified_at": "2026-10-14T06:42:33.545997+00:00",
   "videos": [
-    {
-      "index": 1,
-      "video_id": "yzqSEE_1BqM",
-      "youtube_url": "https://youtu.be/yzqSEE_1BqM",
-      "title": "Trump ekibi Feridun Sinirlioglu'yu BM adayına ekledi",
-      "narration": "Türkiye nin yeni BM başkanı adayını kim belirleyecek Trump yönetimi BM başkanlığı için yeni adayları gözden geçiriyor Feridun Sinirlioglu eski dışişleri bakanı İsrail i savaş suçlarıyla suçlayan aday listesine eklendi Bu adım BM nin reform ihtiyacını karşılamak ve ABD nin taleplerine yanıt vermek amacıyla yapıldı Global Haber kanalına abone ol",
-      "publish_at": "2026-10-14T13:00:00Z",
-      "upload_status": "youtube_processed",
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.7,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/yzqSEE_1BqM.jpg",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-14T13:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      }
-    },
-    {
-      "index": 2,
-      "video_id": "DkwxRqfXwLI",
-      "youtube_url": "https://youtu.be/DkwxRqfXwLI",
-      "title": "AI ile CV Hazırlama ve İşveren Tarama Artıyor",
-      "narration": "AI ile CV hazırlamak yaygın şimdi Tom iki yüzden fazla iş başvurusunda AI ile CV hazırladı ve mektup İşverenler adayları taramak için AI kullanıyor ve etik sorunlar ortaya çıkıyor bu süreçte AI süreci hızlandırsa da insan faktörü hâlâ işe alımda kritik ve kararları başına belirlemiyor Global Haber kanalına abone ol",
-      "publish_at": "2026-10-14T21:00:00Z",
-      "upload_status": "youtube_processed",
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 26.166667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/DkwxRqfXwLI.jpg",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-14T21:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      }
-    },
     {
       "index": 1,
       "video_id": "P6XfLpU069s",
@@ -90,18 +34,7 @@
   "accepted_count": 1,
   "processed_count": 1,
   "complete": false,
-  "generation_errors": [
-    {
-      "source": "Why the lonely in China are hiring 'temporary children'",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "Urban October: Istanbul - United Nations Development Programme",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    }
-  ],
+  "generation_errors": [],
   "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 1,
