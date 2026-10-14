@@ -1,38 +1,37 @@
 {
-  "run_id": "38582721117",
-  "generated_at": "2026-10-14T17:42:03.745287+03:00",
+  "run_id": "38617368202",
+  "generated_at": "2026-10-14T21:46:03.658445+03:00",
   "target_count": 1,
   "dry_run": false,
   "private_recovery": true,
-  "complete": true,
+  "complete": false,
   "videos": [
     {
-      "video_id": "Ce3Xl5aJKG4",
-      "youtube_url": "https://youtu.be/Ce3Xl5aJKG4",
+      "video_id": "00U_4pGbob4",
+      "youtube_url": "https://youtu.be/00U_4pGbob4",
       "publish_at_local": null,
       "publish_at_utc": null,
       "upload_status": "api_insert_confirmed",
       "private_recovery": true,
       "index": 1,
-      "title": "Kekova sahilinde binlerce yıllık antik gemi keşfedildi",
-      "narration": "Kekova sahilinde binlerce yıllık antik gemi gün yüzüne çıktı Prof Hakan Öniz liderliğindeki ekip Kekova kıyısında erken bronz çağına ait ticaret gemisini keşfetti Gemide bulunan otuzdan fazla amfora dört bin dört yüz ila dört bin yedi yüz yıl arasında tarihlendi Global Haber kanalına abone ol",
-      "description": "Bu keşif denizcilik tarihinin kökenlerini gözler önüne seriyor sizce antik ticaret nasıl şekillendi",
-      "visual_query": "underwater shipwreck dive",
+      "title": "İran füze saldırısı iki gemiyi Hormuzda batırdı",
+      "narration": "Hormuzda iki gemi gerçekten neden battı İran füze saldırısı iki gemisini Hormuz yakınında vurdu ve suya battı Bu saldırılar ABD ara seçimleri öncesinde yakıt fiyatlarını tamamen yükseltmeyi stratejik olarak hedefledi Artan saldırı temposu Hormuz geçidinden petrol sevkiyatını dramatik şekilde azaltarak küresel piyasayı etkiledi Global Haber kanalına abone ol",
+      "description": "İranın deniz saldırıları enerji piyasasını nasıl etkiledi sizce",
+      "visual_query": "container ship sinking",
       "tags": [
-        "antik gemi",
-        "akdeniz arkeolojisi",
-        "kekova",
-        "erken bronz çağ",
-        "deniz ticareti"
+        "İran",
+        "Hormuz",
+        "gemiler",
+        "füze saldırısı",
+        "petrol sevkiyatı"
       ],
       "video_path": "output/short_1.mp4",
-      "source_headline": "World's oldest shipwreck found off coast of Turkey",
-      "audience_bucket": "culture",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-14T14:42:21.739740+00:00",
-      "source_modified_at": "",
-      "run_id": "38582721117",
-      "processing_status": "readback_scope_unavailable"
+      "source_headline": "Two container ships sink near strait of Hormuz amid surge in Iranian attacks",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-14T18:46:18.605405+00:00",
+      "source_modified_at": "2026-10-14T17:26:41.000Z",
+      "run_id": "38617368202"
     }
   ],
   "errors": []

@@ -4971,6 +4971,28 @@
       "audience_bucket": "culture",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İran füze saldırısı iki gemiyi Hormuzda batırdı",
+      "summary": "Vessels were hit by missiles as rise in strikes suggests Iran is trying to close waterway before US midterm elections Two container ships near the strait of Hormuz have ⁠sunk after being struck by missiles, amid the sharpest rise in Iranian attacks on shipping since the start of the US-Israel war with Iran. The increase in attacks suggests Iran is trying to fully close the strategic waterway in an attempt to frustrate Donald Trump’s efforts to bring down fuel prices before the US midterm elections on 3 November. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
+      "source": "Guardian World",
+      "published_at": "2026-10-14T20:05:42+03:00",
+      "fingerprint": "16c119a2fa87ba885ce58ef0c3fa008bb317659a",
+      "viral_score": 49.32,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/00U_4pGbob4",
+      "processed_at": "2026-10-14T22:09:00.633910+03:00",
+      "video_id": "00U_4pGbob4",
+      "publish_at_local": null,
+      "publish_at_utc": null,
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": true,
+      "source_headline": "Two container ships sink near strait of Hormuz amid surge in Iranian attacks",
+      "resolved_url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
+      "source_modified_at": "2026-10-14T17:26:41.000Z",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
