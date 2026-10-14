@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-10-14T16:16:36.395461+03:00",
+  "generated_at": "2026-10-14T17:42:03.745287+03:00",
   "videos": [
     {
-      "video_id": "MFKzPA7LXx8",
-      "youtube_url": "https://youtu.be/MFKzPA7LXx8",
+      "video_id": "Ce3Xl5aJKG4",
+      "youtube_url": "https://youtu.be/Ce3Xl5aJKG4",
       "publish_at_local": null,
       "publish_at_utc": null,
       "upload_status": "api_insert_confirmed",
       "private_recovery": true,
       "index": 1,
-      "title": "Halk TV’ye polis baskını: Canlı yayınlar durduruldu",
-      "narration": "Halk TV canlı yayınları neden durduruldu Polis Halk TV merkezine baskın düzenledi ve on bir çalışanı gözaltına aldı Hükümet kanalın yönetimini devraldı ve canlı yayınları aniden kapattı ülke genelinde tamamen Eleştirmenler bu adımı otoriter bir hamle olarak nitelendiriyor ve basın özgürlüğüne saldırı olarak görüyor Global Haber kanalına abone ol",
-      "description": "Bu baskın medyanın özgürlüğüne ne kadar zarar verdi",
-      "visual_query": "police raid tv",
+      "title": "Kekova sahilinde binlerce yıllık antik gemi keşfedildi",
+      "narration": "Kekova sahilinde binlerce yıllık antik gemi gün yüzüne çıktı Prof Hakan Öniz liderliğindeki ekip Kekova kıyısında erken bronz çağına ait ticaret gemisini keşfetti Gemide bulunan otuzdan fazla amfora dört bin dört yüz ila dört bin yedi yüz yıl arasında tarihlendi Global Haber kanalına abone ol",
+      "description": "Bu keşif denizcilik tarihinin kökenlerini gözler önüne seriyor sizce antik ticaret nasıl şekillendi",
+      "visual_query": "underwater shipwreck dive",
       "tags": [
-        "Halk TV",
-        "polis baskını",
-        "medya özgürlüğü",
-        "Türkiye",
-        "gözetim"
+        "antik gemi",
+        "akdeniz arkeolojisi",
+        "kekova",
+        "erken bronz çağ",
+        "deniz ticareti"
       ],
       "video_path": "output/short_1.mp4",
-      "source_headline": "Turkish police raid opposition TV station, halting live broadcasts",
-      "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-10-14T13:16:54.544187+00:00",
+      "source_headline": "World's oldest shipwreck found off coast of Turkey",
+      "audience_bucket": "culture",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-14T14:42:21.739740+00:00",
       "source_modified_at": "",
-      "run_id": "38570312633",
+      "run_id": "38582721117",
       "processing_status": "readback_scope_unavailable"
     }
   ]
