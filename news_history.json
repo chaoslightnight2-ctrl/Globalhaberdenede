@@ -4948,6 +4948,28 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Kekova sahilinde binlerce yıllık antik gemi keşfedildi",
+      "summary": "Archaeologists say the wreck is up to 4,700 years old, dating to the Early Bronze Age.",
+      "url": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-10-14T08:00:35+03:00",
+      "fingerprint": "0912b8e64a5f2a96a8bb0b15d624b859740020ac",
+      "viral_score": 27.49,
+      "scheduled_slot": "08:00",
+      "youtube_url": "https://youtu.be/Ce3Xl5aJKG4",
+      "processed_at": "2026-10-14T18:10:59.602418+03:00",
+      "video_id": "Ce3Xl5aJKG4",
+      "publish_at_local": null,
+      "publish_at_utc": null,
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": true,
+      "source_headline": "World's oldest shipwreck found off coast of Turkey",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "culture",
+      "hook_style": "direct_change"
     }
   ]
 }
