@@ -1,14 +1,41 @@
 {
   "source_run": "38617368202",
-  "verified_at": "2026-10-14T18:44:11.725943+00:00",
-  "videos": [],
-  "errors": [
-    "Artifact report belongs to another run"
+  "verified_at": "2026-10-14T19:09:59.185198+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "00U_4pGbob4",
+      "youtube_url": "https://youtu.be/00U_4pGbob4",
+      "title": "İran füze saldırısı iki gemiyi Hormuzda batırdı",
+      "narration": "Hormuzda iki gemi gerçekten neden battı İran füze saldırısı iki gemisini Hormuz yakınında vurdu ve suya battı Bu saldırılar ABD ara seçimleri öncesinde yakıt fiyatlarını tamamen yükseltmeyi stratejik olarak hedefledi Artan saldırı temposu Hormuz geçidinden petrol sevkiyatını dramatik şekilde azaltarak küresel piyasayı etkiledi Global Haber kanalına abone ol",
+      "publish_at": null,
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "not_verified",
+      "media_check": {
+        "duration": 29.266667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/00U_4pGbob4.jpg"
+    }
   ],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "errors": [],
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
-  "target_count": 3,
+  "generation_errors": [],
+  "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
