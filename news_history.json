@@ -4925,6 +4925,28 @@
       "run_id": "38488871897",
       "processing_status": "readback_scope_unavailable",
       "recovered_from_artifact": true
+    },
+    {
+      "title": "Halk TV’ye polis baskını: Canlı yayınlar durduruldu",
+      "summary": "It is the latest in a series of crackdowns on media critical of the Turkish president and his government.",
+      "url": "https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-10-14T13:50:11+03:00",
+      "fingerprint": "a187875d7b2515caaceac689054eba857a071671",
+      "viral_score": 39.09,
+      "scheduled_slot": "08:00",
+      "youtube_url": "https://youtu.be/MFKzPA7LXx8",
+      "processed_at": "2026-10-14T16:26:50.810194+03:00",
+      "video_id": "MFKzPA7LXx8",
+      "publish_at_local": null,
+      "publish_at_utc": null,
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": true,
+      "source_headline": "Turkish police raid opposition TV station, halting live broadcasts",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
