@@ -1,13 +1,13 @@
 {
-  "source_run": "38570312633",
-  "verified_at": "2026-10-14T13:27:46.105884+00:00",
+  "source_run": "38582721117",
+  "verified_at": "2026-10-14T15:11:54.673509+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "MFKzPA7LXx8",
-      "youtube_url": "https://youtu.be/MFKzPA7LXx8",
-      "title": "Halk TV’ye polis baskını: Canlı yayınlar durduruldu",
-      "narration": "Halk TV canlı yayınları neden durduruldu Polis Halk TV merkezine baskın düzenledi ve on bir çalışanı gözaltına aldı Hükümet kanalın yönetimini devraldı ve canlı yayınları aniden kapattı ülke genelinde tamamen Eleştirmenler bu adımı otoriter bir hamle olarak nitelendiriyor ve basın özgürlüğüne saldırı olarak görüyor Global Haber kanalına abone ol",
+      "video_id": "Ce3Xl5aJKG4",
+      "youtube_url": "https://youtu.be/Ce3Xl5aJKG4",
+      "title": "Kekova sahilinde binlerce yıllık antik gemi keşfedildi",
+      "narration": "Kekova sahilinde binlerce yıllık antik gemi gün yüzüne çıktı Prof Hakan Öniz liderliğindeki ekip Kekova kıyısında erken bronz çağına ait ticaret gemisini keşfetti Gemide bulunan otuzdan fazla amfora dört bin dört yüz ila dört bin yedi yüz yıl arasında tarihlendi Global Haber kanalına abone ol",
       "publish_at": null,
       "upload_status": "youtube_processed",
       "youtube_status": {
@@ -22,12 +22,12 @@
       "processing_status": "succeeded",
       "publication_status": "not_verified",
       "media_check": {
-        "duration": 27.133333,
+        "duration": 22.3,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/MFKzPA7LXx8.jpg"
+      "preview": "maintenance/previews/Ce3Xl5aJKG4.jpg"
     }
   ],
   "errors": [],
