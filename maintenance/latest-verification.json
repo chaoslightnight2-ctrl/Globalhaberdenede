@@ -1,41 +1,14 @@
 {
-  "source_run": "38582721117",
-  "verified_at": "2026-10-14T15:11:54.673509+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "Ce3Xl5aJKG4",
-      "youtube_url": "https://youtu.be/Ce3Xl5aJKG4",
-      "title": "Kekova sahilinde binlerce yıllık antik gemi keşfedildi",
-      "narration": "Kekova sahilinde binlerce yıllık antik gemi gün yüzüne çıktı Prof Hakan Öniz liderliğindeki ekip Kekova kıyısında erken bronz çağına ait ticaret gemisini keşfetti Gemide bulunan otuzdan fazla amfora dört bin dört yüz ila dört bin yedi yüz yıl arasında tarihlendi Global Haber kanalına abone ol",
-      "publish_at": null,
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "not_verified",
-      "media_check": {
-        "duration": 22.3,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/Ce3Xl5aJKG4.jpg"
-    }
+  "source_run": "38614914562",
+  "verified_at": "2026-10-14T18:26:25.021052+00:00",
+  "videos": [],
+  "errors": [
+    "Artifact report belongs to another run"
   ],
-  "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
-  "generation_errors": [],
-  "target_count": 1,
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
