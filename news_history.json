@@ -4867,6 +4867,64 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "yzqSEE_1BqM",
+      "youtube_url": "https://youtu.be/yzqSEE_1BqM",
+      "publish_at_local": "2026-10-14T16:00:00+03:00",
+      "publish_at_utc": "2026-10-14T13:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Trump ekibi Feridun Sinirlioglu'yu BM adayına ekledi",
+      "narration": "Türkiye nin yeni BM başkanı adayını kim belirleyecek Trump yönetimi BM başkanlığı için yeni adayları gözden geçiriyor Feridun Sinirlioglu eski dışişleri bakanı İsrail i savaş suçlarıyla suçlayan aday listesine eklendi Bu adım BM nin reform ihtiyacını karşılamak ve ABD nin taleplerine yanıt vermek amacıyla yapıldı Global Haber kanalına abone ol",
+      "description": "Bu gelişme hakkında düşüncelerinizi paylaşın",
+      "visual_query": "turkish diplomat speaking",
+      "tags": [
+        "BM başkanı",
+        "Feridun Sinirlioglu",
+        "Trump ekibi",
+        "BM reformu",
+        "uluslararası politika"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Trump team eyes Turkish diplomat who accused Israel of war crimes for UN chief",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-14T00:34:36.662893+00:00",
+      "source_modified_at": "",
+      "run_id": "38488871897",
+      "processing_status": "readback_scope_unavailable",
+      "recovered_from_artifact": true
+    },
+    {
+      "video_id": "DkwxRqfXwLI",
+      "youtube_url": "https://youtu.be/DkwxRqfXwLI",
+      "publish_at_local": "2026-10-15T00:00:00+03:00",
+      "publish_at_utc": "2026-10-14T21:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "AI ile CV Hazırlama ve İşveren Tarama Artıyor",
+      "narration": "AI ile CV hazırlamak yaygın şimdi Tom iki yüzden fazla iş başvurusunda AI ile CV hazırladı ve mektup İşverenler adayları taramak için AI kullanıyor ve etik sorunlar ortaya çıkıyor bu süreçte AI süreci hızlandırsa da insan faktörü hâlâ işe alımda kritik ve kararları başına belirlemiyor Global Haber kanalına abone ol",
+      "description": "AI iş başvurularını kolaylaştırıyor mu sizce",
+      "visual_query": "person typing computer",
+      "tags": [
+        "AI iş başvurusu",
+        "CV hazırlama",
+        "işveren AI",
+        "etik tartışma",
+        "iş bulma"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Is it OK for jobseekers or employers to use AI?",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-14T02:40:26.633235+00:00",
+      "source_modified_at": "",
+      "run_id": "38488871897",
+      "processing_status": "readback_scope_unavailable",
+      "recovered_from_artifact": true
     }
   ]
 }

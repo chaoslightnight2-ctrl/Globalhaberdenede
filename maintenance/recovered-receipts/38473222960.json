@@ -1,0 +1,39 @@
+{
+  "run_id": "38473222960",
+  "generated_at": "2026-10-14T00:49:43.441851+03:00",
+  "target_count": 3,
+  "dry_run": false,
+  "private_recovery": false,
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "P6XfLpU069s",
+      "youtube_url": "https://youtu.be/P6XfLpU069s",
+      "publish_at_local": "2026-10-14T08:00:00+03:00",
+      "publish_at_utc": "2026-10-14T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Almanya’da iki Türk vatandaşının tutuklanması neden önemli",
+      "narration": "Almanyada iki Türk vatandaşının tutuklanması neden önemli Almanya polisleri iki Türk vatandaşını Polonyada bir Starlink istasyonuna ateş açtıkları iddiasıyla gözaltına aldı Polonya yetkilileri bu olayı hibrit savaşın bir parçası olarak nitelendirerek Rusyanın sorumlu olduğunu belirtti Global Haber kanalına abone ol",
+      "description": "Almanya’da iki Türk vatandaşının tutuklanması Avrupa güvenliğini nasıl etkiler",
+      "visual_query": "police arresting suspects",
+      "tags": [
+        "Almanya tutuklama",
+        "Starlink sabotaj",
+        "Polonya güvenlik",
+        "hibrit savaş",
+        "Türk vatandaşları"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Poland: Germany detains 2 in connection with Starlink fire",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-13T21:49:56.939427+00:00",
+      "source_modified_at": "",
+      "run_id": "38473222960",
+      "processing_status": "readback_scope_unavailable"
+    }
+  ],
+  "errors": []
+}
