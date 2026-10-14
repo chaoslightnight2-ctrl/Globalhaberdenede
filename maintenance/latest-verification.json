@@ -1,9 +1,28 @@
 {
-  "source_run": "38472249887",
-  "verified_at": "2026-10-13T21:49:28.173731+00:00",
-  "videos": [],
+  "source_run": "38473222960",
+  "verified_at": "2026-10-14T00:33:49.814877+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "P6XfLpU069s",
+      "youtube_url": "https://youtu.be/P6XfLpU069s",
+      "title": "Almanya’da iki Türk vatandaşının tutuklanması neden önemli",
+      "narration": "Almanyada iki Türk vatandaşının tutuklanması neden önemli Almanya polisleri iki Türk vatandaşını Polonyada bir Starlink istasyonuna ateş açtıkları iddiasıyla gözaltına aldı Polonya yetkilileri bu olayı hibrit savaşın bir parçası olarak nitelendirerek Rusyanın sorumlu olduğunu belirtti Global Haber kanalına abone ol",
+      "publish_at": "2026-10-14T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 23.733333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/P6XfLpU069s.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
+  "accepted_count": 1,
   "processed_count": 0,
   "complete": false,
   "generation_errors": [],
