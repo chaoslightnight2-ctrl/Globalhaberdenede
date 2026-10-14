@@ -1,6 +1,6 @@
 {
   "source_run": "38488871897",
-  "verified_at": "2026-10-14T06:09:22.791982+00:00",
+  "verified_at": "2026-10-14T06:30:49.664756+00:00",
   "videos": [
     {
       "index": 1,
@@ -9,8 +9,8 @@
       "title": "Trump ekibi Feridun Sinirlioglu'yu BM adayına ekledi",
       "narration": "Türkiye nin yeni BM başkanı adayını kim belirleyecek Trump yönetimi BM başkanlığı için yeni adayları gözden geçiriyor Feridun Sinirlioglu eski dışişleri bakanı İsrail i savaş suçlarıyla suçlayan aday listesine eklendi Bu adım BM nin reform ihtiyacını karşılamak ve ABD nin taleplerine yanıt vermek amacıyla yapıldı Global Haber kanalına abone ol",
       "publish_at": "2026-10-14T13:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "processing_status": "readback_scope_unavailable",
+      "upload_status": "youtube_processed",
+      "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
         "duration": 30.7,
@@ -18,7 +18,17 @@
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/yzqSEE_1BqM.jpg"
+      "preview": "maintenance/previews/yzqSEE_1BqM.jpg",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-14T13:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      }
     },
     {
       "index": 2,
@@ -27,8 +37,8 @@
       "title": "AI ile CV Hazırlama ve İşveren Tarama Artıyor",
       "narration": "AI ile CV hazırlamak yaygın şimdi Tom iki yüzden fazla iş başvurusunda AI ile CV hazırladı ve mektup İşverenler adayları taramak için AI kullanıyor ve etik sorunlar ortaya çıkıyor bu süreçte AI süreci hızlandırsa da insan faktörü hâlâ işe alımda kritik ve kararları başına belirlemiyor Global Haber kanalına abone ol",
       "publish_at": "2026-10-14T21:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "processing_status": "readback_scope_unavailable",
+      "upload_status": "youtube_processed",
+      "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
         "duration": 26.166667,
@@ -36,12 +46,22 @@
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/DkwxRqfXwLI.jpg"
+      "preview": "maintenance/previews/DkwxRqfXwLI.jpg",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-14T21:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      }
     }
   ],
   "errors": [],
   "accepted_count": 2,
-  "processed_count": 0,
+  "processed_count": 2,
   "complete": false,
   "generation_errors": [
     {
