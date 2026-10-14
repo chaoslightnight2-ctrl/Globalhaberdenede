@@ -60,6 +60,12 @@ Haberin girişinde en önemli yeni sonucu ver Konunun başında ve ortasında ay
 Kaynak dili farklı olsa da konuşmanın tamamı Türkçe olsun Başlıkta seçilen tek ana olaydan ayrılma Kaynak bir haber bülteni veya birden fazla olayın özeti olsa bile diğer olayları bu Shorta taşıma Birden çok ayrı gelişmeyi bağlayarak tek olay gibi anlatma. Her eylemin nesnesini yerini kapsamını koşulunu ve kesinlik düzeyini koru Daha dar fiziksel bir hareketi daha geniş bir eylem diye yeniden adlandırma İlk cümlede yabancı kurum kısaltması yerine doğal Türkçe kurum adını kullan.
 Önce kendi içinde kaynaktaki her kişi veya kurum için eylemi kararı sonucu ve zamanı ayır.
 Farklı sonuç verilen kişileri tek sonuç grubunda birleştirme Görev unvanını kararıyla eşleştir.
+Kaynağın kimliğini veya mesleğini belirtmediği gruba bağlamdan meslek görev akrabalık ya da kurum üyeliği yükleme.
+Bir kurumla ilgili haberde anılan herkes o kurumun çalışanı değildir Her grubun kaynakta verilen tanımını koru.
+Edilgen anlatılmış sonuçta eylemi yapan taraf açıkça yazmıyorsa onu sen belirleme Edilgen anlamı koru.
+Kaynakta olmayan yer veya kapsam nitelemesiyle sonucu genişletme Kelime hedefi için cümlenin arkasına kopuk niteleyici ekleme.
+Haberin tek ana olgusu için gerekmeyen kişi adlarını uzun liste halinde sıralama Kurumun kaynakta bulunan tam Türkçe adını kullan veya açık Türkçe gönderim yap.
+Türkçe kurum adını ve kısaltmasını ASCII harflere dönüştürme Ekleri Türkçe yazımı ve cümle anlamıyla birlikte koru.
 Sonra yalnızca bu eşleşmeleri koruyarak anlat Ayrıntı azsa ana olguyu açıkça açıklayan cümleler kur.
 Geçmiş olaylarla yeni olayları birleştirme Yorum iddia ve kesin sonucu birbirinden ayır.
 Kaynak yetmiyorsa suitable=false döndür Kaynaksız ayrıntı veya gelecek tahmini ekleme.
@@ -131,7 +137,24 @@ Metadata başlığın noktalamasını hashtag veya görsel sorgunun İngilizcesi
 CTA ve yorum sorusu haber iddiası değildir Bu alanların kaynakta bulunması gerekmez.
 JSON valid ve reason döndür Kaynaktaki destek açık değilse valid=false döndür.
 KAYNAK: {headline}\n{context}
-PAKET: {json.dumps({key: data[key] for key in ('title', 'hook', 'narration_parts', 'description')}, ensure_ascii=False)}""", temperature=0, max_tokens=1800, schema=REVIEW_SCHEMA)
+PAKET: {json.dumps({key: data[key] for key in ('title', 'hook', 'narration_parts', 'description')}, ensure_ascii=False)}""",
+                system=(
+                    'You are a source-bound Turkish news editor. The supplied source '
+                    'is the sole evidence, not your memory or the producer story. '
+                    'For each narration sentence identify literal source words for '
+                    'the subject, participant role, actor, action, outcome and scope. '
+                    'An unspecified participant cannot become an employee, relative '
+                    'or institution member from context alone. A passive outcome '
+                    'cannot gain an invented actor. Do not broaden place, duration, '
+                    'certainty or extent. Your Turkish reason must pair the exact '
+                    'source wording with the narrated claim, including every added '
+                    'qualifier; a generic supported verdict is insufficient. '
+                    'Evaluate natural Turkish grammar without inventing punctuation: '
+                    'spoken fields intentionally have no punctuation. Metadata may '
+                    'have punctuation. Preserve Turkish letters in institution names '
+                    'and use their source-supported Turkish full names when possible. '
+                    'Return only the declared valid/reason schema.'),
+                temperature=0, max_tokens=1800, schema=REVIEW_SCHEMA)
             if verdict.get("valid") is not True:
                 raise ValueError("Editorial review: " + str(verdict.get("reason", "rejected")))
             item.update(source_headline=headline, title=checked["title"], shorts_hook=checked["hook"],
