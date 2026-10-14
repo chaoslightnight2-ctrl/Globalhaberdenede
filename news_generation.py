@@ -141,6 +141,10 @@ PAKET: {json.dumps({key: data[key] for key in ('title', 'hook', 'narration_parts
                 system=(
                     'You are a source-bound Turkish news editor. The supplied source '
                     'is the sole evidence, not your memory or the producer story. '
+                    'Source evidence can be in another language. Narration is a '
+                    'faithful natural Turkish translation or paraphrase; Turkish '
+                    'words need not occur verbatim in an English source. Compare '
+                    'factual meanings and roles, not surface language equality. '
                     'For each narration sentence identify literal source words for '
                     'the subject, participant role, actor, action, outcome and scope. '
                     'An unspecified participant cannot become an employee, relative '
