@@ -4992,7 +4992,8 @@
       "resolved_url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
       "source_modified_at": "2026-10-14T17:26:41.000Z",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
