@@ -1,31 +1,60 @@
 {
-  "source_run": "38473222960",
-  "verified_at": "2026-10-14T00:33:49.814877+00:00",
+  "source_run": "38488871897",
+  "verified_at": "2026-10-14T06:09:22.791982+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "P6XfLpU069s",
-      "youtube_url": "https://youtu.be/P6XfLpU069s",
-      "title": "Almanya’da iki Türk vatandaşının tutuklanması neden önemli",
-      "narration": "Almanyada iki Türk vatandaşının tutuklanması neden önemli Almanya polisleri iki Türk vatandaşını Polonyada bir Starlink istasyonuna ateş açtıkları iddiasıyla gözaltına aldı Polonya yetkilileri bu olayı hibrit savaşın bir parçası olarak nitelendirerek Rusyanın sorumlu olduğunu belirtti Global Haber kanalına abone ol",
-      "publish_at": "2026-10-14T05:00:00Z",
+      "video_id": "yzqSEE_1BqM",
+      "youtube_url": "https://youtu.be/yzqSEE_1BqM",
+      "title": "Trump ekibi Feridun Sinirlioglu'yu BM adayına ekledi",
+      "narration": "Türkiye nin yeni BM başkanı adayını kim belirleyecek Trump yönetimi BM başkanlığı için yeni adayları gözden geçiriyor Feridun Sinirlioglu eski dışişleri bakanı İsrail i savaş suçlarıyla suçlayan aday listesine eklendi Bu adım BM nin reform ihtiyacını karşılamak ve ABD nin taleplerine yanıt vermek amacıyla yapıldı Global Haber kanalına abone ol",
+      "publish_at": "2026-10-14T13:00:00Z",
       "upload_status": "api_insert_confirmed",
       "processing_status": "readback_scope_unavailable",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 23.733333,
+        "duration": 30.7,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/P6XfLpU069s.jpg"
+      "preview": "maintenance/previews/yzqSEE_1BqM.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "DkwxRqfXwLI",
+      "youtube_url": "https://youtu.be/DkwxRqfXwLI",
+      "title": "AI ile CV Hazırlama ve İşveren Tarama Artıyor",
+      "narration": "AI ile CV hazırlamak yaygın şimdi Tom iki yüzden fazla iş başvurusunda AI ile CV hazırladı ve mektup İşverenler adayları taramak için AI kullanıyor ve etik sorunlar ortaya çıkıyor bu süreçte AI süreci hızlandırsa da insan faktörü hâlâ işe alımda kritik ve kararları başına belirlemiyor Global Haber kanalına abone ol",
+      "publish_at": "2026-10-14T21:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 26.166667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/DkwxRqfXwLI.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 1,
+  "accepted_count": 2,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [],
+  "generation_errors": [
+    {
+      "source": "Why the lonely in China are hiring 'temporary children'",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "Urban October: Istanbul - United Nations Development Programme",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
   "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
