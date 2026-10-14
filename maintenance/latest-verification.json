@@ -1,18 +1,18 @@
 {
-  "source_run": "38473222960",
-  "verified_at": "2026-10-14T06:57:13.296957+00:00",
+  "source_run": "38570312633",
+  "verified_at": "2026-10-14T13:27:46.105884+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "P6XfLpU069s",
-      "youtube_url": "https://youtu.be/P6XfLpU069s",
-      "title": "Almanya’da iki Türk vatandaşının tutuklanması neden önemli",
-      "narration": "Almanyada iki Türk vatandaşının tutuklanması neden önemli Almanya polisleri iki Türk vatandaşını Polonyada bir Starlink istasyonuna ateş açtıkları iddiasıyla gözaltına aldı Polonya yetkilileri bu olayı hibrit savaşın bir parçası olarak nitelendirerek Rusyanın sorumlu olduğunu belirtti Global Haber kanalına abone ol",
-      "publish_at": "2026-10-14T05:00:00Z",
+      "video_id": "MFKzPA7LXx8",
+      "youtube_url": "https://youtu.be/MFKzPA7LXx8",
+      "title": "Halk TV’ye polis baskını: Canlı yayınlar durduruldu",
+      "narration": "Halk TV canlı yayınları neden durduruldu Polis Halk TV merkezine baskın düzenledi ve on bir çalışanı gözaltına aldı Hükümet kanalın yönetimini devraldı ve canlı yayınları aniden kapattı ülke genelinde tamamen Eleştirmenler bu adımı otoriter bir hamle olarak nitelendiriyor ve basın özgürlüğüne saldırı olarak görüyor Global Haber kanalına abone ol",
+      "publish_at": null,
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
-        "privacyStatus": "public",
+        "privacyStatus": "private",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -20,14 +20,14 @@
         "selfDeclaredMadeForKids": false
       },
       "processing_status": "succeeded",
-      "publication_status": "public_verified",
+      "publication_status": "not_verified",
       "media_check": {
-        "duration": 23.733333,
+        "duration": 27.133333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/P6XfLpU069s.jpg"
+      "preview": "maintenance/previews/MFKzPA7LXx8.jpg"
     }
   ],
   "errors": [],
@@ -35,8 +35,7 @@
   "processed_count": 1,
   "complete": false,
   "generation_errors": [],
-  "public_listing_error": "HTTPError",
-  "target_count": 3,
-  "published_count": 1,
-  "accepted_complete": false
+  "target_count": 1,
+  "published_count": 0,
+  "accepted_complete": true
 }
