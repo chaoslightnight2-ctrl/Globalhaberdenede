@@ -1,10 +1,39 @@
 {
-  "run_id": "38656335957",
-  "generated_at": "2026-10-15T02:49:44.326823+03:00",
-  "target_count": 3,
+  "run_id": "38770057748",
+  "generated_at": "2026-10-15T19:47:52.973093+03:00",
+  "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": []
+  "videos": [
+    {
+      "video_id": "qM9G0tqBi8k",
+      "youtube_url": "https://youtu.be/qM9G0tqBi8k",
+      "publish_at_local": "2026-10-15T21:00:00+03:00",
+      "publish_at_utc": "2026-10-15T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Azerbaycan’da okul başörtüsü yasağı protestoları",
+      "narration": "Okul başörtüsü yasağı genç kızları sokakta topladı Azerbaycan eğitim bakanlığı okul başörtüsü yasağını yürürlüğe koydu ve kızları okula almadı Bakı ve güney ilçelerinde genç kızların protestosu başladı içişleri bakanlığı otuz yedi kişiyi gözaltına aldı Global Haber kanalına abone ol",
+      "description": "Okul başörtüsü yasağı gençleri nasıl etkiledi sizce",
+      "visual_query": "girls protest school",
+      "tags": [
+        "Azerbaycan",
+        "okul protestosu",
+        "başörtüsü yasağı",
+        "gözaltı",
+        "Bakı"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
+      "audience_bucket": "health_education",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-15T16:48:08.770470+00:00",
+      "source_modified_at": "",
+      "run_id": "38770057748"
+    }
+  ],
+  "errors": [],
+  "daily_existing_count": 1
 }
