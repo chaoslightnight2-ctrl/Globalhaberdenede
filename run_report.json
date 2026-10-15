@@ -1,10 +1,39 @@
 {
-  "run_id": "38810060806",
-  "generated_at": "2026-10-16T00:29:04.412026+03:00",
+  "run_id": "38824664837",
+  "generated_at": "2026-10-16T02:38:19.577015+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": []
+  "videos": [
+    {
+      "video_id": "KxRConFMrNU",
+      "youtube_url": "https://youtu.be/KxRConFMrNU",
+      "publish_at_local": "2026-10-16T19:00:00+03:00",
+      "publish_at_utc": "2026-10-16T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Halk TV'ye polis baskını canlı yayın durdu",
+      "narration": "Halk TVye polis baskını canlı yayın durdu İstanbulda Halk TV merkezine polis baskını yapıldı ve canlı yayın aniden kesildi Hükümet yeni bir yönetici atadı CEO Cafer Mahiroğlu tutuklama kararıyla karşı karşıya Global Haber kanalına abone ol",
+      "description": "Bu baskın medyanın özgürlüğünü nasıl etkiliyor siz ne düşünüyorsunuz",
+      "visual_query": "police raid tv studio",
+      "tags": [
+        "Halk TV",
+        "polis baskını",
+        "canlı yayın",
+        "yeni yönetici",
+        "basın özgürlüğü"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Police raid major pro-opposition Halk TV channel in Turkey",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-15T23:38:36.024234+00:00",
+      "source_modified_at": "",
+      "run_id": "38824664837"
+    }
+  ],
+  "errors": [],
+  "daily_existing_count": 0
 }

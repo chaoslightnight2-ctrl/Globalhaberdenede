@@ -5040,6 +5040,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Halk TV'ye polis baskını canlı yayın durdu",
+      "summary": "Turkish police raided the Istanbul headquarters of an important pro-opposition television station on Wednesdazy, the day that jailed Istanbul Mayor Ekrem Imamoglu was set to start his defense against corruption charges.",
+      "url": "https://www.dw.com/en/police-raid-the-major-pro-opposition-halk-tv-channel-in-turkey/a-79671673?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-10-15T19:48:00+03:00",
+      "fingerprint": "7d9f7b1515c6e4b9456ab5a77f801983d846b0a7",
+      "viral_score": 34.05,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/KxRConFMrNU",
+      "processed_at": "2026-10-16T02:52:14.297403+03:00",
+      "video_id": "KxRConFMrNU",
+      "publish_at_local": "2026-10-16T19:00:00+03:00",
+      "publish_at_utc": "2026-10-16T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Police raid major pro-opposition Halk TV channel in Turkey",
+      "resolved_url": "https://www.dw.com/en/police-raid-the-major-pro-opposition-halk-tv-channel-in-turkey/a-79671673?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
