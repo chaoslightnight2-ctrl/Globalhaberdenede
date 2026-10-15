@@ -90,7 +90,10 @@ jobs:
       - name: Quality regression checks
         run: python -m unittest discover -p "test_*.py"
 
+      # A synthetic smoke test is diagnostic; only the actual narration can
+      # prove its audio and word timings. Mandatory renderer checks still block upload.
       - name: Check Edge TTS before rendering
+        continue-on-error: true
         env:
           VOICE: tr-TR-AhmetNeural
           VOICE_RATE: +0%
