@@ -1,14 +1,81 @@
 {
   "source_run": "38770057748",
-  "verified_at": "2026-10-15T16:36:03.473560+00:00",
-  "videos": [],
-  "errors": [
-    "Artifact report belongs to another run"
+  "verified_at": "2026-10-15T17:11:04.086397+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "qM9G0tqBi8k",
+      "youtube_url": "https://youtu.be/qM9G0tqBi8k",
+      "title": "Azerbaycan’da okul başörtüsü yasağı protestoları",
+      "narration": "Okul başörtüsü yasağı genç kızları sokakta topladı Azerbaycan eğitim bakanlığı okul başörtüsü yasağını yürürlüğe koydu ve kızları okula almadı Bakı ve güney ilçelerinde genç kızların protestosu başladı içişleri bakanlığı otuz yedi kişiyi gözaltına aldı Global Haber kanalına abone ol",
+      "publish_at": "2026-10-15T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-15T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 21.866667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/qM9G0tqBi8k.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "UMXbOynS850",
+      "youtube_url": "https://youtu.be/UMXbOynS850",
+      "title": "AI hisseleri çöküşte: Enflasyon ve faiz korkusu",
+      "narration": "AI hisseleri neden çöküyor ve ne yapmalı ABD enflasyon verileri yükseldiği için yatırımcılar faiz artışı korkusuyla AI hisselerine satış yaptı Güney Kore ve Japonya borsaları da benzer düşüşler yaşadı ve işlem durdurucular devreye girdi Global Haber kanalına abone ol",
+      "publish_at": "2026-10-15T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-15T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 23.133333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/UMXbOynS850.jpg"
+    }
   ],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "errors": [],
+  "accepted_count": 2,
+  "processed_count": 2,
   "complete": false,
-  "target_count": 3,
+  "generation_errors": [
+    {
+      "source": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "NASA Awards Enable Research, Technology to Build Future Workforce",
+      "stage": "generation",
+      "error": "Source rejected: Kaynak, NASA'nın araştırma ve teknoloji projelerine 12 milyon dolar destek vermesini duyuruyor; bu, geniş kitle için önemli bir dünya gelişmesi ya da somut bir değişiklik içermediği için Global Haber Shorts paketine uygun değildir."
+    }
+  ],
+  "target_count": 2,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
