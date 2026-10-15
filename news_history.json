@@ -5038,7 +5038,8 @@
       "resolved_url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
       "source_modified_at": "2026-10-15T15:16:32.000Z",
       "audience_bucket": "technology_science",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
