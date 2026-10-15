@@ -31,9 +31,48 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-15T16:48:08.770470+00:00",
       "source_modified_at": "",
+      "run_id": "38770057748",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "UMXbOynS850",
+      "youtube_url": "https://youtu.be/UMXbOynS850",
+      "publish_at_local": "2026-10-15T23:00:00+03:00",
+      "publish_at_utc": "2026-10-15T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "AI hisseleri çöküşte: Enflasyon ve faiz korkusu",
+      "narration": "AI hisseleri neden çöküyor ve ne yapmalı ABD enflasyon verileri yükseldiği için yatırımcılar faiz artışı korkusuyla AI hisselerine satış yaptı Güney Kore ve Japonya borsaları da benzer düşüşler yaşadı ve işlem durdurucular devreye girdi Global Haber kanalına abone ol",
+      "description": "AI hisselerindeki çöküşün nedeni sizce nedir",
+      "visual_query": "stock market screen",
+      "tags": [
+        "AI",
+        "hisse",
+        "enflasyon",
+        "faiz",
+        "borsa"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Tech market sell-off deepens amid fears over US inflation and AI debt",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-15T16:57:06.146096+00:00",
+      "source_modified_at": "2026-10-15T15:16:32.000Z",
       "run_id": "38770057748"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "NASA Awards Enable Research, Technology to Build Future Workforce",
+      "stage": "generation",
+      "error": "Source rejected: Kaynak, NASA'nın araştırma ve teknoloji projelerine 12 milyon dolar destek vermesini duyuruyor; bu, geniş kitle için önemli bir dünya gelişmesi ya da somut bir değişiklik içermediği için Global Haber Shorts paketine uygun değildir."
+    }
+  ],
   "daily_existing_count": 1
 }
