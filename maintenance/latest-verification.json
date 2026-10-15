@@ -1,12 +1,47 @@
 {
-  "source_run": "38810060806",
-  "verified_at": "2026-10-15T21:41:49.716538+00:00",
-  "videos": [],
+  "source_run": "38824664837",
+  "verified_at": "2026-10-15T23:53:40.026805+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "KxRConFMrNU",
+      "youtube_url": "https://youtu.be/KxRConFMrNU",
+      "title": "Halk TV'ye polis baskını canlı yayın durdu",
+      "narration": "Halk TVye polis baskını canlı yayın durdu İstanbulda Halk TV merkezine polis baskını yapıldı ve canlı yayın aniden kesildi Hükümet yeni bir yönetici atadı CEO Cafer Mahiroğlu tutuklama kararıyla karşı karşıya Global Haber kanalına abone ol",
+      "publish_at": "2026-10-16T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-16T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 19.733333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/KxRConFMrNU.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
-  "generation_errors": [],
+  "generation_errors": [
+    {
+      "source": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
