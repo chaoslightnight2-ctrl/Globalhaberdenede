@@ -5061,7 +5061,8 @@
       "resolved_url": "https://www.dw.com/en/police-raid-the-major-pro-opposition-halk-tv-channel-in-turkey/a-79671673?maca=en-rss-en-world-4025-rdf",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }

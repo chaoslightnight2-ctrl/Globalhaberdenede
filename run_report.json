@@ -31,9 +31,16 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-15T23:38:36.024234+00:00",
       "source_modified_at": "",
-      "run_id": "38824664837"
+      "run_id": "38824664837",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
   "daily_existing_count": 0
 }
