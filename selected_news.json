@@ -46,7 +46,64 @@
       },
       "audience_bucket": "health_education",
       "hook_style": "direct_change",
-      "script": "Okul başörtüsü yasağı genç kızları sokakta topladı Azerbaycan eğitim bakanlığı okul başörtüsü yasağını yürürlüğe koydu ve kızları okula almadı Bakı ve güney ilçelerinde genç kızların protestosu başladı içişleri bakanlığı otuz yedi kişiyi gözaltına aldı Global Haber kanalına abone ol"
+      "script": "Okul başörtüsü yasağı genç kızları sokakta topladı Azerbaycan eğitim bakanlığı okul başörtüsü yasağını yürürlüğe koydu ve kızları okula almadı Bakı ve güney ilçelerinde genç kızların protestosu başladı içişleri bakanlığı otuz yedi kişiyi gözaltına aldı Global Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_1.mp3",
+      "background_path": "output/background_1.mp4",
+      "video_path": "output/short_1.mp4",
+      "video_id": "qM9G0tqBi8k",
+      "youtube_url": "https://youtu.be/qM9G0tqBi8k",
+      "publish_at_local": "2026-10-15T21:00:00+03:00",
+      "publish_at_utc": "2026-10-15T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "AI hisseleri çöküşte: Enflasyon ve faiz korkusu",
+      "summary": "Chip makers and tech investors such as Samsung and SoftBank plunge as potential interest rate hikes spook markets Business news – live updates Larry Elliott: the global economy is muddling through. But a storm is coming An accelerating sell-off of AI-linked shares has hit global markets, as fears over rising inflation and future interest rate hikes spooked traders already wary of the heavily indebted sector. South Korea’s benchmark Kospi 200 index, which is heavily skewed towards the companies that make memory chips, fell more than 8% overnight to a six-month closing low, triggering circuit breakers that brought trading to a halt at various points. Continue reading...",
+      "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+      "source": "Guardian World",
+      "source_name": "Guardian",
+      "query": "Guardian World",
+      "published_at": "2026-10-15T17:33:12+03:00",
+      "fingerprint": "c1c2730dd5c6937a46daa5cf592d5a5280580746",
+      "direct_source": true,
+      "viral_score": 48.4,
+      "topic_bucket": "technology_science",
+      "resolved_url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+      "source_headline": "Tech market sell-off deepens amid fears over US inflation and AI debt",
+      "source_modified_at": "2026-10-15T15:16:32.000Z",
+      "source_checked_at": "2026-10-15T16:57:06.146096+00:00",
+      "article_score": 122,
+      "article_text": "Chip makers and tech investors such as Samsung and SoftBank plunge as potential interest rate hikes spook markets Business news – live updates Larry Elliott: the global economy is muddling through. But a storm is coming An accelerating sell-off of AI-linked shares has hit global markets, as fears over rising inflation and future interest rate hikes spooked traders already wary of the heavily indebted sector South Korea’s benchmark Kospi 200 index, which is heavily skewed towards the companies that make memory chips, fell more than 8% overnight to a six-month closing low, triggering circuit breakers that brought trading to a halt at various points Some of those semiconductor stocks, such as SK Hynix and Samsung Electronics, plunged nearly 11% and 9.5% respectively. The index closed at a six-month low, down 8.1% Meanwhile, Japan’s Nikkei 225 dropped by 4.9% on Thursday, after an 11% slump in the memory chip maker Kioxia and a 10% drop in SoftBank, a big investor in the ChatGPT owner, OpenAI The falls followed a slide on Wall Street during the previous day’s session, where the Nasdaq Composite fell by 1.9% and the S&P 500 dropped 1.1%, its worst performance since July US stocks fell further when trading resumed on Thursday. The Nasdaq dropped another 1.4% at the start of trading, with Dell, which makes datacentre servers, and Coherent, which manufactures components for AI datacentres, leading the early fallers The sell-off came after US data on Wednesday showed stateside inflation jumped to a higher-than-expected 3.7% in September, marking the fastest increase in prices since the consumer price index (CPI) rate hit a three-year peak of 4.2% in May Fresh data on Thursday showing US producers increased their prices by 6.3% year on year in September – the sharpest rise since December 2022 – added to inflationary jitters The figures have rattled investors who are now expecting fresh interest rate increases by the US Federal Reserve, with some punters pricing in another increase as soon as the end of the month “Markets have just had an incredibly tumultuous 24 hours, as a strong US CPI print was then followed up with mounting fears around the AI trade,” Deutsche Bank analysts led by Jim Reid said Worryingly, the figures showed this was not about fuel costs, which have been pushed up by geopolitical tensions including the ripple effects from the US war on Iran. Reid said: “This wasn’t just an energy surge driving prices higher, as there were broad-based moves across the consumer basket.” The sell-off follows warnings from the International Monetary Fund, which said this week that the threat of an AI share price crash rippling out across global markets was putting world financial stability at risk “The consequences of an AI correction could be global,” the IMF said. Aside from the US, Asian markets would be most exposed, with the UK and eurozone potentially more insulated – although investors with US holdings would be hit The latest jitters hit China, where the Shanghai Shenzhen CSI 300 slipped by as much as 2.4%, marking the lowest level since August 2025. In Taiwan, one of the world’s leading chip makers and Asia’s most valuable company, TSMC, fell 2% despite reporting its sixth straight quarter of profits European stocks also came under pressure, with Germany’s DAX down 0.36% in afternoon trading and the Italian FTSE MIB dropping by 1.3%",
+      "model_source_context": "Chip makers and tech investors such as Samsung and SoftBank plunge as potential interest rate hikes spook markets Business news – live updates Larry Elliott: the global economy is muddling through. But a storm is coming An accelerating sell-off of AI-linked shares has hit global markets, as fears over rising inflation and future interest rate hikes spooked traders already wary of the heavily indebted sector South Korea’s benchmark Kospi 200 index, which is heavily skewed towards the companies that make memory chips, fell more than 8% overnight to a six-month closing low, triggering circuit breakers that brought trading to a halt at various points Some of those semiconductor stocks, such as SK Hynix and Samsung Electronics, plunged nearly 11% and 9.5% respectively. The index closed at a six-month low, down 8.1% Meanwhile, Japan’s Nikkei 225 dropped by 4.9% on Thursday, after an 11% slump in the memory chip maker Kioxia and a 10% drop in SoftBank, a big investor in the ChatGPT owner, OpenAI The falls followed a slide on Wall Street during the previous day’s session, where the Nasdaq Composite fell by 1.9% and the S&P 500 dropped 1.1%, its worst performance since July US stocks fell further when trading resumed on Thursday. The Nasdaq dropped another 1.4% at the start of trading, with Dell, which makes datacentre servers, and Coherent, which manufactures components for AI datacentres, leading the early fallers The sell-off came after US data on Wednesday showed stateside inflation jumped to a higher-than-expected 3.7% in September, marking the fastest increase in prices since the consumer price index (CPI) rate hit a three-year peak of 4.2% in May Fresh data on Thursday showing US producers increased their prices by 6.3% year on year in September – the sharpest rise since December 2022 – added to inflationary jitters The figures have rattled investors who are now expecting fresh interest rate increases by the US Federal Reserve, with some punters pricing in another increase as soon as the end of the month “Markets have just had an incredibly tumultuous 24 hours, as a strong US CPI print was then followed up with mounting fears around the AI trade,” Deutsche Bank analysts led by Jim Reid said Worryingly, the figures showed this was not about fuel costs, which have been pushed up by geopolitical tensions including the ripple effects from the US war on Iran. Reid said: “This wasn’t just an energy surge driving prices higher, as there were broad-based moves across the consumer basket.” The sell-off follows warnings from the International Monetary Fund, which said this week that the threat of an AI share price crash rippling out across global markets was putting world financial stability at risk “The consequences of an AI correction could be global,” the IMF said. Aside from the US, Asian markets would be most exposed, with the UK and eurozone potentially more insulated – although investors with US holdings would be hit The latest jitters hit China, where the Shanghai Shenzhen CSI 300 slipped by as much as 2.4%, marking the lowest level since August 2025. In Taiwan, one of the world’s leading chip makers and Asia’s most valuable company, TSMC, fell 2% despite reporting its sixth straight quarter of profits European stocks also came under pressure, with Germany’s DAX down 0.36% in afternoon trading and the Italian FTSE MIB dropping by 1.3%",
+      "shorts_hook": "AI hisseleri neden çöküyor ve ne yapmalı",
+      "quality_hook": "AI hisseleri neden çöküyor ve ne yapmalı",
+      "quality_narration": "ABD enflasyon verileri yükseldiği için yatırımcılar faiz artışı korkusuyla AI hisselerine satış yaptı Güney Kore ve Japonya borsaları da benzer düşüşler yaşadı ve işlem durdurucular devreye girdi",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "ABD enflasyon verileri yükseldiği için yatırımcılar faiz artışı korkusuyla AI hisselerine satış yaptı",
+        "Güney Kore ve Japonya borsaları da benzer düşüşler yaşadı ve işlem durdurucular devreye girdi"
+      ],
+      "youtube_description": "AI hisselerindeki çöküşün nedeni sizce nedir",
+      "visual_query": "stock market screen",
+      "spoken_text": "AI hisseleri neden çöküyor ve ne yapmalı ABD enflasyon verileri yükseldiği için yatırımcılar faiz artışı korkusuyla AI hisselerine satış yaptı Güney Kore ve Japonya borsaları da benzer düşüşler yaşadı ve işlem durdurucular devreye girdi Global Haber kanalına abone ol",
+      "tts_text": "AI hisseleri neden çöküyor ve ne yapmalı. ABD enflasyon verileri yükseldiği için yatırımcılar faiz artışı korkusuyla AI hisselerine satış yaptı. Güney Kore ve Japonya borsaları da benzer düşüşler yaşadı ve işlem durdurucular devreye girdi. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "AI",
+        "hisse",
+        "enflasyon",
+        "faiz",
+        "borsa"
+      ],
+      "youtube_hashtags": "#shorts #teknoloji #piyasa",
+      "editorial_review": {
+        "valid": true,
+        "reason": "1. 'ABD enflasyon verileri yükseldiği için yatırımcılar faiz artışı korkusuyla AI hisselerine satış yaptı' – kaynakta \"fears over rising inflation and future interest rate hikes spooked traders\" ve \"US data ... inflation jumped to 3.7%\" ifadeleri, yatırımcıların enflasyon artışı ve faiz artışı korkusuyla AI‑bağlantılı hisselere satış yaptığını gösteriyor. 2. 'Güney Kore ve Japonya borsaları da benzer düşüşler yaşadı ve işlem durdurucular devreye girdi' – kaynakta \"South Korea’s benchmark Kospi 200 index ... fell more than 8% ... triggering circuit breakers\" ve \"Japan’s Nikkei 225 dropped by 4.9%\" ifadeleri, iki borsanın da büyük düşüşler yaşadığını ve Güney Kore’de işlem durdurucuların devreye girdiğini doğruluyor."
+      },
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
+      "script": "AI hisseleri neden çöküyor ve ne yapmalı ABD enflasyon verileri yükseldiği için yatırımcılar faiz artışı korkusuyla AI hisselerine satış yaptı Güney Kore ve Japonya borsaları da benzer düşüşler yaşadı ve işlem durdurucular devreye girdi Global Haber kanalına abone ol"
     }
   ]
 }
