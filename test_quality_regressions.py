@@ -129,7 +129,10 @@ class QualityRegressionTests(unittest.TestCase):
         bad['visual_query'] = 'İstanbul şehir trafiği'
         source = 'Belediye ana caddelerde yeni trafik düzenini duyurdu Otobüsler belirlenen güzergahlardan geçecek Yolcular değişen durakları kontrol edebilecek Düzenlemenin amacı şehir içi ulaşımı kolaylaştırmak Yeni güzergah bilgileri yolcularla paylaşıldı Plan ana caddeleri kapsıyor'
         item = {'title': 'İstanbul trafik düzeni', 'summary': source}
-        with patch.object(news_generation, 'chat_json', side_effect=[bad, good, {'valid': True, 'reason': 'supported'}]) as request:
+        fields = news_generation.news_fields(good['title'], good['hook'], good['narration_parts'], good['description'])
+        verdict = {'valid': True, 'reason': 'test fixture only', 'evidence': [
+            {'field': key, 'supported': True, 'source_quote': source} for key in fields]}
+        with patch.object(news_generation, 'chat_json', side_effect=[bad, good, verdict]) as request:
             result = news_generation.generate(item, types.SimpleNamespace(logger=logging.getLogger('test')), 'Global Haber')
         self.assertEqual(request.call_count, 3)
         self.assertEqual(item['youtube_hashtags'], '#shorts #İstanbul #Ulaşım')
