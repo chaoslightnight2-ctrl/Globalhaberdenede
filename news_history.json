@@ -5063,6 +5063,28 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Starlink hızı Ukrayna’da yavaşladı: Senatörler soruşturma istedi",
+      "summary": "Ukraine says temporary speed limits to the Starlink internet network disrupted its battlefield missions.",
+      "url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-10-16T15:16:42+03:00",
+      "fingerprint": "d8239437e70ae40f36c90fe3852b87ccebc209a8",
+      "viral_score": 49.64,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/9y-nrXTUzb4",
+      "processed_at": "2026-10-16T15:41:31.733784+03:00",
+      "video_id": "9y-nrXTUzb4",
+      "publish_at_local": "2026-10-16T21:00:00+03:00",
+      "publish_at_utc": "2026-10-16T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "US senators call for investigation into Ukraine's Starlink restrictions",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
