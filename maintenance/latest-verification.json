@@ -1,86 +1,13 @@
 {
-  "source_run": "38900834640",
-  "verified_at": "2026-10-16T13:31:17.246604+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "9y-nrXTUzb4",
-      "youtube_url": "https://youtu.be/9y-nrXTUzb4",
-      "title": "Starlink hızı Ukrayna’da yavaşladı: Senatörler soruşturma istedi",
-      "narration": "Starlink hızı Ukraynada tam olarak neden yavaşladı ABD senatörleri Ukraynada Starlink internet hızının aniden düşürülmesini soruşturma talebiyle dile getirdi Bu kısıtlama dronların Rus hedeflerine yönlendirilmesini ve Ukraynanın savunma operasyonlarını zorlaştırdı Global Haber kanalına abone ol",
-      "publish_at": "2026-10-16T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-16T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 23.666667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/9y-nrXTUzb4.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "ajUVjK5vxT4",
-      "youtube_url": "https://youtu.be/ajUVjK5vxT4",
-      "title": "Bend Oregon okulunda beş kişi hayatını kaybetti",
-      "narration": "Bend Oregon okulunda beş kişi hayatını kaybetti Bend Oregon bir ilkokulda on altı yaşındaki genç ateş açtı ve üç çocuk bir öğretmen öldürdü Saldırgan olayın ardından bir topluluk üyesi tarafından vurularak hayatını kaybetti Global Haber kanalına abone ol",
-      "publish_at": "2026-10-16T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-16T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 20.366667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/ajUVjK5vxT4.jpg"
-    }
-  ],
+  "source_run": "38950346620",
+  "verified_at": "2026-10-16T18:51:42.522261+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
-  "complete": false,
-  "generation_errors": [
-    {
-      "source": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: school shooter intervention"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    }
-  ],
-  "target_count": 2,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
