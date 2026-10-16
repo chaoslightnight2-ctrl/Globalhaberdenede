@@ -837,6 +837,7 @@ def compute_publish_times() -> list[datetime]:
 
 
 def upload_to_youtube(video_path: Path, item: dict[str, Any], publish_at: datetime) -> dict[str, Any]:
+    raise ValueError("Legacy upload has no source approval; use the protected production runner")
     if DRY_RUN:
         logger.info("DRY_RUN: YouTube upload engellendi; MP4 artifact olarak saklanacak.")
         return {
