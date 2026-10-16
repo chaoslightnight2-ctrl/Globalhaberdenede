@@ -5084,7 +5084,30 @@
       "resolved_url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_medium=RSS&at_campaign=rss",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Bend Oregon okulunda beş kişi hayatını kaybetti",
+      "summary": "Attacker also killed a teacher and was shot dead by a community member. Plus, NAZA film-makers describe Israel’s attempts to retaliate Don’t already get First Thing in your inbox? Sign up here Good morning. A 16-year-old shooter opened fire at an elementary school in Bend, Oregon, on Thursday, killing three children and a teacher, before he was shot dead by a community member. The children killed were five, eight and 11, officials said. The gunman, who was a Bend resident, has not been publicly identified. In the aftermath of the attack, children were taken by bus to a nearby church serving as a reunification center for families. Parents hugged, kissed and held their children’s hands as they walked to their cars, with some bringing along favorite stuffed animals or other comfort items from home. Here is what we know so far . What have been the diplomatic moves in Europe? Amid growing doubts about long-term US commitment to Ukraine, European leaders declared their support for Zelenskyy. The European Commission president, Ursula von der Leyen, said the EU intended to increase pressure on Russia, promising a 22nd round of sanctions. The French president, Emmanuel Macron, said it was “crucial” that Ukraine received “all the means necessary to protect itself”. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/16/first-thing-three-young-children-killed-in-oregon-elementary-school-shooting",
+      "source": "Guardian World",
+      "published_at": "2026-10-16T14:07:08+03:00",
+      "fingerprint": "2fbbe4b5484e68a2b1a7dc6359e05a9857435808",
+      "viral_score": 42.78,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/ajUVjK5vxT4",
+      "processed_at": "2026-10-16T16:30:09.756375+03:00",
+      "video_id": "ajUVjK5vxT4",
+      "publish_at_local": "2026-10-16T23:00:00+03:00",
+      "publish_at_utc": "2026-10-16T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "First Thing: Three young children killed in Oregon elementary school shooting",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/oct/16/first-thing-three-young-children-killed-in-oregon-elementary-school-shooting",
+      "source_modified_at": "2026-10-16T11:52:50.000Z",
+      "audience_bucket": "health_education",
+      "hook_style": "direct_change"
     }
   ]
 }
