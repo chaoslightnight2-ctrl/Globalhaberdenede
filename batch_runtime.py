@@ -5,8 +5,10 @@ import time
 from datetime import datetime, timedelta
 from pathlib import Path
 from youtube_receipt import confirm
+from groq_budget import limited_requests
 from publish_schedule import next_slot, daily_receipts
 
+@limited_requests("GROQ_MAX_REQUESTS_PER_RUN", lambda *args, **kwargs: 6 * int(os.getenv('DAILY_VIDEO_COUNT', '3')))
 def run(bot, *, quiz=False):
     daily_count = int(os.getenv('DAILY_VIDEO_COUNT', '3'))
     if daily_count not in (3, 6):
@@ -131,7 +133,13 @@ def run(bot, *, quiz=False):
         return (value.netloc.casefold(), value.path.rstrip('/')) if value.netloc else None
     # Cross-run updates remain eligible; the source-aware Groq pass compares their new outcome.
     seen_articles = set()
+    seen_candidates = set()
     for item in candidates:
+        fingerprint = item.get('fingerprint')
+        if fingerprint and fingerprint in seen_candidates:
+            continue
+        if fingerprint:
+            seen_candidates.add(fingerprint)
         if not quiz and article_key(item) and article_key(item) in seen_articles:
             continue
         accepted = sum(row['upload_status'] in ({'dry_run'} if dry else {'api_insert_confirmed', 'youtube_processed'}) for row in report['videos'])

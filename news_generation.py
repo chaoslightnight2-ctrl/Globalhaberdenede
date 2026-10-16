@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 from news_context import source_context
 from groq_client import chat_json, object_schema
+from groq_budget import limited_requests
 from prompt_contract import CLEAN_OUTPUT_RULES, NATURAL_LANGUAGE_RULES
 from audience_strategy import brief, STORY_RULES, category
 from performance_feedback import prompt_feedback, choose_hook_style
@@ -32,6 +33,7 @@ def package_schema(categories, channel):
     return object_schema({key: fields[key] for key in order})
 
 
+@limited_requests("GROQ_MAX_REQUESTS_PER_ITEM", 6)
 def generate(item, bot, channel):
     history = bot.load_json(bot.HISTORY_FILE, {}) if hasattr(bot, 'HISTORY_FILE') and hasattr(bot, 'load_json') else {}
     hook_style = choose_hook_style(history)
