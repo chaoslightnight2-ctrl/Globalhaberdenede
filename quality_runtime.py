@@ -1,4 +1,4 @@
-"""Runtime integration for the fail-closed Shorts quality gate."""
+"""TTS, render and upload integration for prompt-first Shorts generation."""
 from __future__ import annotations
 
 import os
@@ -10,7 +10,6 @@ from quality_gate import (
     caption_chunks,
     compact,
     validate_caption_timing,
-    validate_package,
     validate_rendered_video,
     validate_visual_query,
     tts_text,
@@ -84,8 +83,6 @@ def build_video_for_item(item, index):
 
 
 def upload_to_youtube(video_path, item, publish_at):
-    from news_generation import verify_approved_item
-    verify_approved_item(item)
     validate_rendered_video(video_path)
     if item.get("script") != item.get("spoken_text"):
         raise ValueError("Upload narration differs from validated text")
@@ -145,6 +142,3 @@ def labelled_captions(chunks):
         clips.append(ImageClip(np.array(canvas)).set_duration(end).set_position(('center', 90)))
     return clips
 bot.generate_captions = labelled_captions
-
-from news_generation import verify_approved_item
-bot.verify_approved_item = verify_approved_item

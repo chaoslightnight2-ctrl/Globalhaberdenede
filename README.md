@@ -1,5 +1,8 @@
 # Haberdenede YouTube Shorts Bot
 
+Güncel üretim akışı tek Groq üretim isteği kullanır; ayrı editör ve ret sonrası yeniden yazım yoktur.
+Üretim girişi: `python run_quality_bot.py`. [Prompt ve kota davranışı](maintenance/PROMPT_FIRST.md).
+
 Bu repo `denede` reposundaki YouTube Shorts bot kodunun video/media dosyalari olmadan kopyalanmis halidir.
 
 ## Icerik

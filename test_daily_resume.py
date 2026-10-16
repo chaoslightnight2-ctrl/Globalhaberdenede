@@ -36,7 +36,7 @@ class DailyResumeTests(unittest.TestCase):
 
     def test_saved_ready_content_publishes_without_a_new_generation_call(self):
         runtime, bot, memory, inserted, clock = self.fixture()
-        queued = {'fingerprint': 'saved', 'title': 'Saved real draft', 'script': 'temiz metin', 'spoken_text': 'temiz metin', 'editorial_review': {'valid': True}}
+        queued = {'fingerprint': 'saved', 'title': 'Saved real draft', 'script': 'temiz metin', 'spoken_text': 'temiz metin', 'generation_mode': 'prompt_first_v1'}
         memory['selected.json'] = {'generated_at': clock[0].isoformat(), 'selected_news': [queued]}
         memory['history.json'] = {'processed_news': [
             {'video_id': f'old-{h}', 'publish_at_local': clock[0].replace(hour=h).isoformat()} for h in (19, 21)]}
