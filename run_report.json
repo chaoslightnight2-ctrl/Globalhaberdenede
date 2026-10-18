@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-18T12:06:35.290435+00:00",
       "source_modified_at": "2026-10-18T09:01:35.000Z",
+      "run_id": "39125848017",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "6sO1hrltGQ8",
+      "youtube_url": "https://youtu.be/6sO1hrltGQ8",
+      "publish_at_local": "2026-10-18T21:00:00+03:00",
+      "publish_at_utc": "2026-10-18T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Milan’da yaşam maliyeti protestosu: Bariyerler yanıyor",
+      "narration": "Milanda yaşam maliyeti protestosu şiddetle alev aldı Milanda yaşam maliyeti karşıtı yürüyüş maskeli göstericilerin taş ve bar tablosu bariyerlerini ateşe vermesiyle şiddete dönüştü Polis su topları ve göz yaşartıcı gazla müdahale ederken iki polis memuru yaralandı ve yaklaşık 50 gösterici birçok genç dahil gözaltına alındı Olay sonrası ciddi hasar gören bir karakol aracı da yangınla zarar gördü Global Haber kanalına abone ol",
+      "description": "Milan’da yükselen yaşam maliyetine karşı yürüyüş, maskeli göstericilerin bariyerleri yakmasıyla şiddete dönüştü. Bu tür protestolar toplumsal değişimi ne kadar etkileyebilir sizce?",
+      "visual_query": "masked protesters burning barricades",
+      "tags": [
+        "Milan",
+        "protesto",
+        "yaşam maliyeti",
+        "polis müdahalesi",
+        "göstericiler"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "‘We are suffocating’: protests spread to Lisbon and Milan as housing and living cost tensions intensify",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-18T12:13:49.276102+00:00",
+      "source_modified_at": "2026-10-18T11:45:11.000Z",
       "run_id": "39125848017"
     }
   ],

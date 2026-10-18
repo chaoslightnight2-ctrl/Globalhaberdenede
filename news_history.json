@@ -5130,7 +5130,30 @@
       "resolved_url": "https://www.theguardian.com/world/2026/oct/18/lagos-hypemen-redefining-afrobeats-music-afrohype",
       "source_modified_at": "2026-10-18T09:01:35.000Z",
       "audience_bucket": "economy_life",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Milan’da yaşam maliyeti protestosu: Bariyerler yanıyor",
+      "summary": "Hundreds at Lisbon tent camp demand action, as Giorgia Meloni says march in Italy was exploited by ‘hooligans’ The angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. A march in central Milan on Saturday to protest against rising living costs began peacefully but ended with masked rioters throwing stones, paving blocks and other objects at riot police and setting fire to barricades made from bar tables. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/18/lisbon-milan-protests-housing-living-costs",
+      "source": "Guardian World",
+      "published_at": "2026-10-18T14:02:39+03:00",
+      "fingerprint": "3fd1987de69d986f1752d190559ebdf6bfa1fb9f",
+      "viral_score": 43.3,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/6sO1hrltGQ8",
+      "processed_at": "2026-10-18T15:27:04.912529+03:00",
+      "video_id": "6sO1hrltGQ8",
+      "publish_at_local": "2026-10-18T21:00:00+03:00",
+      "publish_at_utc": "2026-10-18T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "‘We are suffocating’: protests spread to Lisbon and Milan as housing and living cost tensions intensify",
+      "resolved_url": "https://www.theguardian.com/world/2026/oct/18/lisbon-milan-protests-housing-living-costs",
+      "source_modified_at": "2026-10-18T11:45:11.000Z",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
