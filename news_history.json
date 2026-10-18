@@ -5109,6 +5109,28 @@
       "audience_bucket": "health_education",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Afrobeats’ta hypeman Shang, 5-8 milyon naira kazanıyor",
+      "summary": "Style of emceeing based on high-octane, ad-libbed vocals has flourished thanks to its unique way of captivating crowds For the 2015 freshmen cohort of the history degree programme at the University of Lagos, their classmate’s first-semester presentation was so captivating that they began calling him Toby Shang, after the 16th-century Chinese dynasty he had focused on. His crowd engagement that day had been harnessed from his high school days as a ginger-man (energiser) in a three-man band and as a private tutor. By his final year at university, his viral catchphrases and infectious energy had resulted in a hit song, Shedibalabala. Today, he is one of the self-acclaimed “evangelists and pioneers” in the Afrobeats sub-genre some are now calling Afrohype or lamba. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/18/lagos-hypemen-redefining-afrobeats-music-afrohype",
+      "source": "Guardian World",
+      "published_at": "2026-10-18T12:00:55+03:00",
+      "fingerprint": "df1ccb627f1a442a8cffd4eb6e21060008dff905",
+      "viral_score": 47.05,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/uu5JuHPEEEI",
+      "processed_at": "2026-10-18T15:13:46.998372+03:00",
+      "video_id": "uu5JuHPEEEI",
+      "publish_at_local": "2026-10-18T19:00:00+03:00",
+      "publish_at_utc": "2026-10-18T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Hilarious quips and ‘100,000-volt’ energy: the hypemen (and women) redefining Afrobeats music",
+      "resolved_url": "https://www.theguardian.com/world/2026/oct/18/lagos-hypemen-redefining-afrobeats-music-afrohype",
+      "source_modified_at": "2026-10-18T09:01:35.000Z",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }

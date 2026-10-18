@@ -1,17 +1,39 @@
 {
-  "run_id": "39077225299",
-  "generated_at": "2026-10-18T02:00:11.892841+03:00",
+  "run_id": "39125848017",
+  "generated_at": "2026-10-18T15:06:19.920603+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": [
+  "videos": [
     {
-      "source": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+      "video_id": "uu5JuHPEEEI",
+      "youtube_url": "https://youtu.be/uu5JuHPEEEI",
+      "publish_at_local": "2026-10-18T19:00:00+03:00",
+      "publish_at_utc": "2026-10-18T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Afrobeats’ta hypeman Shang, 5-8 milyon naira kazanıyor",
+      "narration": "Afrobeats sahnesinde hypeman Shang yüksek ücret alıyor 32 yaşındaki Tobi Michael Adeyeye sahne adı Shang Lagos Üniversitesinde başladığı kariyerini Afrobeats sahnesinde hypeman olarak sürdürüyor Şu anda kendi ravelarını düzenliyor School of Hype adlı bir günlüğü yönetiyor ve bir performans için 5 8 milyon naira ücret alıyor Hipemanler artık Nijerya eğlence dünyasında kalıcı bir unsur haline geldi ancak bazıları gürültü ve sahte yaşam tarzı yaratmalarından eleştiriyor Global Haber kanalına abone ol",
+      "description": "Tobi Michael Adeyeye, sahne adı Shang, Afrobeats etkinliklerinde 5-8 milyon naira kazanıyor. Siz de bu yeni müzik trendini takip ediyor musunuz?",
+      "visual_query": "hypeman dancing stage",
+      "tags": [
+        "Afrobeats",
+        "hypeman",
+        "Nijerya müziği",
+        "eğlence",
+        "rave"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Hilarious quips and ‘100,000-volt’ energy: the hypemen (and women) redefining Afrobeats music",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-18T12:06:35.290435+00:00",
+      "source_modified_at": "2026-10-18T09:01:35.000Z",
+      "run_id": "39125848017"
     }
   ],
+  "errors": [],
   "daily_existing_count": 0
 }
