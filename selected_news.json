@@ -99,7 +99,62 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Milanda yaşam maliyeti protestosu şiddetle alev aldı Milanda yaşam maliyeti karşıtı yürüyüş maskeli göstericilerin taş ve bar tablosu bariyerlerini ateşe vermesiyle şiddete dönüştü Polis su topları ve göz yaşartıcı gazla müdahale ederken iki polis memuru yaralandı ve yaklaşık 50 gösterici birçok genç dahil gözaltına alındı Olay sonrası ciddi hasar gören bir karakol aracı da yangınla zarar gördü Global Haber kanalına abone ol"
+      "script": "Milanda yaşam maliyeti protestosu şiddetle alev aldı Milanda yaşam maliyeti karşıtı yürüyüş maskeli göstericilerin taş ve bar tablosu bariyerlerini ateşe vermesiyle şiddete dönüştü Polis su topları ve göz yaşartıcı gazla müdahale ederken iki polis memuru yaralandı ve yaklaşık 50 gösterici birçok genç dahil gözaltına alındı Olay sonrası ciddi hasar gören bir karakol aracı da yangınla zarar gördü Global Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_2.mp3",
+      "background_path": "output/background_2.mp4",
+      "video_path": "output/short_2.mp4",
+      "video_id": "6sO1hrltGQ8",
+      "youtube_url": "https://youtu.be/6sO1hrltGQ8",
+      "publish_at_local": "2026-10-18T21:00:00+03:00",
+      "publish_at_utc": "2026-10-18T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Cornwall’da Çelik İşçisi, Yolları Ücretsiz Temizliyor",
+      "summary": "One man's battle against weeds and overgrown pathways makes a big difference to the town",
+      "url": "https://www.bbc.co.uk/news/articles/cly8q2rryejo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "source_name": "BBC",
+      "query": "BBC Science",
+      "published_at": "2026-10-18T13:59:32+03:00",
+      "fingerprint": "792ac725223e2bf386c29341ac2aa767decda17c",
+      "direct_source": true,
+      "viral_score": 41.21,
+      "topic_bucket": "society",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cly8q2rryejo?at_medium=RSS&at_campaign=rss",
+      "source_headline": "Free clear-up has big engagement on social media",
+      "source_modified_at": "",
+      "source_checked_at": "2026-10-18T12:27:07.340133+00:00",
+      "article_score": 72,
+      "article_text": "A resident of Launceston, Cornwall, goes above and beyond battling weeds and overgrown pathways free of charge to keep fit and help the community Jeremy Vernon, 51, said despite having his kidney removed due to cancer he could not resist clearing neglected paths in his free time and it had made him a hit on social media In one area he cut back the brambles and scraped off all the weeds before spending several hours pressure washing the steps He said he did it due to \"the satisfaction after walking down the path after it has been cleaned and the reaction you get from members of the public and people on social media that seem to appreciate what's being done\" Vernon is a self-employed steel erector who has worked on rollercoasters and movie sets, such as Death on the Nile and Ready Player One He had been living in Wiltshire until he discovered he had kidney cancer, had a kidney removed and moved back to Cornwall for what he called a \"better, nicer pace of life\" \"But work is still up London way, but when I get back down here I go for a walk see a mess get my shovel and wheelbarrow and start clearing places up \"It keeps you fit and I think it is better than going to the gym \"I rang Launceston Town Council, they explained the pathways are not theirs and gave me a number for Cornwall Council \"I have rang them two or three times explaining that I have the public liability insurance but I don't have permission to be where I am so it kind of invalidates my insurance.\" In a statement Cornwall Council said: \"We support residents volunteering and our contractor Cormac oversees a range of community-led projects on council land, from working on woodland to re-wilding parks to weeding open spaces \"Last year 60,000 hours of volunteering were undertaken on council land \"To ensure volunteers can carry out their work safely on council land and indemnity insurance is provided we request that volunteers register with Cormac at volunteers@cormacltd.co.uk so we can give ongoing advice and support.\" More news stories for Cornwall Listen to the latest news for Cornwall Resident Elz Ravenscroft asked Vernon if he would cut back the overgrown bushes on the pavement which her daughter used to walk to and from school \"Jeremy has worked so hard for all of town and gone above and beyond for us all out of his own free time,\" she said \"We're all so massively grateful for all his hard work and dedication to the town and town's people \"From making the zigzag a safe space to walk through, to tidying up graffitied benches down the Ridgegrove to cut through a path.\" She said: \"The man honestly deserves so much recognition by the town council and beyond for all he's done.\" Follow BBC Cornwall on X, external, Facebook, external and Instagram, external. Send your story ideas to spotlight@bbc.co.uk, external Concerns over weedkiller reintroduction plan Improvements completed on 75 miles of coast path Council 'will listen' to weedkiller objections Cormac - home",
+      "model_source_context": "A resident of Launceston, Cornwall, goes above and beyond battling weeds and overgrown pathways free of charge to keep fit and help the community Jeremy Vernon, 51, said despite having his kidney removed due to cancer he could not resist clearing neglected paths in his free time and it had made him a hit on social media In one area he cut back the brambles and scraped off all the weeds before spending several hours pressure washing the steps He said he did it due to \"the satisfaction after walking down the path after it has been cleaned and the reaction you get from members of the public and people on social media that seem to appreciate what's being done\" Vernon is a self-employed steel erector who has worked on rollercoasters and movie sets, such as Death on the Nile and Ready Player One He had been living in Wiltshire until he discovered he had kidney cancer, had a kidney removed and moved back to Cornwall for what he called a \"better, nicer pace of life\" \"But work is still up London way, but when I get back down here I go for a walk see a mess get my shovel and wheelbarrow and start clearing places up \"It keeps you fit and I think it is better than going to the gym \"I rang Launceston Town Council, they explained the pathways are not theirs and gave me a number for Cornwall Council \"I have rang them two or three times explaining that I have the public liability insurance but I don't have permission to be where I am so it kind of invalidates my insurance.\" In a statement Cornwall Council said: \"We support residents volunteering and our contractor Cormac oversees a range of community-led projects on council land, from working on woodland to re-wilding parks to weeding open spaces \"Last year 60,000 hours of volunteering were undertaken on council land \"To ensure volunteers can carry out their work safely on council land and indemnity insurance is provided we request that volunteers register with Cormac at volunteers@cormacltd.co.uk so we can give ongoing advice and support.\" More news stories for Cornwall Listen to the latest news for Cornwall Resident Elz Ravenscroft asked Vernon if he would cut back the overgrown bushes on the pavement which her daughter used to walk to and from school \"Jeremy has worked so hard for all of town and gone above and beyond for us all out of his own free time,\" she said \"We're all so massively grateful for all his hard work and dedication to the town and town's people \"From making the zigzag a safe space to walk through, to tidying up graffitied benches down the Ridgegrove to cut through a path.\" She said: \"The man honestly deserves so much recognition by the town council and beyond for all he's done.\" Follow BBC Cornwall on X, external, Facebook, external and Instagram, external. Send your story ideas to spotlight@bbc.co.uk, external Concerns over weedkiller reintroduction plan Improvements completed on 75 miles of coast path Council 'will listen' to weedkiller objections Cormac - home",
+      "shorts_hook": "Cornwall’da bir vatandaş, yolları ücretsiz temizliyor",
+      "quality_hook": "Cornwall’da bir vatandaş, yolları ücretsiz temizliyor",
+      "quality_narration": "Launceston’da yaşayan 51 yaşındaki Jeremy Vernon, kanser nedeniyle bir böbreğini kaybettikten sonra boş zamanlarını yol temizliğine adıyor. Kendisi çelik montajcısı olarak roller coaster ve film setlerinde çalışmış, ancak artık köy yollarını süpürmek için kürek ve çapa kullanıyor. Vernon, bu gönüllü çabası sayesinde hem formda kalıyor hem de sosyal medyada büyük takdir topluyor.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Launceston’da yaşayan 51 yaşındaki Jeremy Vernon, kanser nedeniyle bir böbreğini kaybettikten sonra boş zamanlarını yol temizliğine adıyor.",
+        "Kendisi çelik montajcısı olarak roller coaster ve film setlerinde çalışmış, ancak artık köy yollarını süpürmek için kürek ve çapa kullanıyor.",
+        "Vernon, bu gönüllü çabası sayesinde hem formda kalıyor hem de sosyal medyada büyük takdir topluyor."
+      ],
+      "youtube_description": "Jeremy Vernon, kanser sonrası böbrek kaybına rağmen Cornwall’da yolları ücretsiz temizliyor. Siz de topluluğunuzda benzer bir katkı yapar mıydınız?",
+      "visual_query": "man shoveling path",
+      "spoken_text": "Cornwallda bir vatandaş yolları ücretsiz temizliyor Launcestonda yaşayan 51 yaşındaki Jeremy Vernon kanser nedeniyle bir böbreğini kaybettikten sonra boş zamanlarını yol temizliğine adıyor Kendisi çelik montajcısı olarak roller coaster ve film setlerinde çalışmış ancak artık köy yollarını süpürmek için kürek ve çapa kullanıyor Vernon bu gönüllü çabası sayesinde hem formda kalıyor hem de sosyal medyada büyük takdir topluyor Global Haber kanalına abone ol",
+      "tts_text": "Cornwallda bir vatandaş yolları ücretsiz temizliyor. Launcestonda yaşayan 51 yaşındaki Jeremy Vernon kanser nedeniyle bir böbreğini kaybettikten sonra boş zamanlarını yol temizliğine adıyor. Kendisi çelik montajcısı olarak roller coaster ve film setlerinde çalışmış ancak artık köy yollarını süpürmek için kürek ve çapa kullanıyor. Vernon bu gönüllü çabası sayesinde hem formda kalıyor hem de sosyal medyada büyük takdir topluyor. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "gönüllü temizlik",
+        "Cornwall",
+        "Jeremy Vernon",
+        "toplum hizmeti",
+        "sağlık sonrası aktivite"
+      ],
+      "youtube_hashtags": "#shorts #gönüllülük #toplum",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Cornwallda bir vatandaş yolları ücretsiz temizliyor Launcestonda yaşayan 51 yaşındaki Jeremy Vernon kanser nedeniyle bir böbreğini kaybettikten sonra boş zamanlarını yol temizliğine adıyor Kendisi çelik montajcısı olarak roller coaster ve film setlerinde çalışmış ancak artık köy yollarını süpürmek için kürek ve çapa kullanıyor Vernon bu gönüllü çabası sayesinde hem formda kalıyor hem de sosyal medyada büyük takdir topluyor Global Haber kanalına abone ol"
     }
   ]
 }
