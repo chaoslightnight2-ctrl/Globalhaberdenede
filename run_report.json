@@ -59,6 +59,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-18T12:13:49.276102+00:00",
       "source_modified_at": "2026-10-18T11:45:11.000Z",
+      "run_id": "39125848017",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "wZDzOr2fUkk",
+      "youtube_url": "https://youtu.be/wZDzOr2fUkk",
+      "publish_at_local": "2026-10-18T23:00:00+03:00",
+      "publish_at_utc": "2026-10-18T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Cornwall’da Çelik İşçisi, Yolları Ücretsiz Temizliyor",
+      "narration": "Cornwallda bir vatandaş yolları ücretsiz temizliyor Launcestonda yaşayan 51 yaşındaki Jeremy Vernon kanser nedeniyle bir böbreğini kaybettikten sonra boş zamanlarını yol temizliğine adıyor Kendisi çelik montajcısı olarak roller coaster ve film setlerinde çalışmış ancak artık köy yollarını süpürmek için kürek ve çapa kullanıyor Vernon bu gönüllü çabası sayesinde hem formda kalıyor hem de sosyal medyada büyük takdir topluyor Global Haber kanalına abone ol",
+      "description": "Jeremy Vernon, kanser sonrası böbrek kaybına rağmen Cornwall’da yolları ücretsiz temizliyor. Siz de topluluğunuzda benzer bir katkı yapar mıydınız?",
+      "visual_query": "man shoveling path",
+      "tags": [
+        "gönüllü temizlik",
+        "Cornwall",
+        "Jeremy Vernon",
+        "toplum hizmeti",
+        "sağlık sonrası aktivite"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Free clear-up has big engagement on social media",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-18T12:27:07.340133+00:00",
+      "source_modified_at": "",
       "run_id": "39125848017"
     }
   ],

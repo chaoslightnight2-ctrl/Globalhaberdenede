@@ -5153,7 +5153,30 @@
       "resolved_url": "https://www.theguardian.com/world/2026/oct/18/lisbon-milan-protests-housing-living-costs",
       "source_modified_at": "2026-10-18T11:45:11.000Z",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Cornwall’da Çelik İşçisi, Yolları Ücretsiz Temizliyor",
+      "summary": "One man's battle against weeds and overgrown pathways makes a big difference to the town",
+      "url": "https://www.bbc.co.uk/news/articles/cly8q2rryejo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "published_at": "2026-10-18T13:59:32+03:00",
+      "fingerprint": "792ac725223e2bf386c29341ac2aa767decda17c",
+      "viral_score": 41.21,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/wZDzOr2fUkk",
+      "processed_at": "2026-10-18T15:31:28.344964+03:00",
+      "video_id": "wZDzOr2fUkk",
+      "publish_at_local": "2026-10-18T23:00:00+03:00",
+      "publish_at_utc": "2026-10-18T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Free clear-up has big engagement on social media",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cly8q2rryejo?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
