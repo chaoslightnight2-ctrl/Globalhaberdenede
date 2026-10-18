@@ -1,12 +1,17 @@
 {
-  "run_id": "39165065763",
-  "generated_at": "2026-10-18T23:50:31.625019+03:00",
-  "target_count": 0,
+  "run_id": "39174426015",
+  "generated_at": "2026-10-19T01:58:04.774714+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
+  "complete": false,
   "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "errors": [
+    {
+      "source": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
+    }
+  ],
+  "daily_existing_count": 0
 }
