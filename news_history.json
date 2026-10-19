@@ -5224,6 +5224,28 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Avustralya’da AI destekli işyeri gözetimi yaygınlaşıyor",
+      "summary": "Monitoring tools common in a range of workplaces, including factories, office jobs, delivery work and in retail – often without employees being informed Get our breaking news email , free app or daily news podcast Employers are increasingly using technology, from CCTV to keystroke monitoring, to track workers’ moves and it is being accelerated by the use of AI, the Human Technology Institute has warned. Examples provided to Guardian Australia by the institute include a fast-food restaurant using surveillance cameras to stop workers using their phones, and AI tracking leading to a cashier warned over making a mistake once every 533 scans. Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/oct/20/workplace-privacy-concerns-employers-use-ai-to-monitor-staff",
+      "source": "Guardian World",
+      "published_at": "2026-10-19T17:00:03+03:00",
+      "fingerprint": "8ba96353fc45d7c6bb49d252120e85b222b092b6",
+      "viral_score": 43.81,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/d2BXeG_C00k",
+      "processed_at": "2026-10-20T00:13:50.477660+03:00",
+      "video_id": "d2BXeG_C00k",
+      "publish_at_local": "2026-10-20T19:00:00+03:00",
+      "publish_at_utc": "2026-10-20T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Calls to strengthen workplace privacy in Australia as employers turn to AI to track staff",
+      "resolved_url": "https://www.theguardian.com/technology/2026/oct/20/workplace-privacy-concerns-employers-use-ai-to-monitor-staff",
+      "source_modified_at": "2026-10-19T19:22:18.000Z",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question"
     }
   ]
 }
