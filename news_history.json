@@ -5199,6 +5199,29 @@
       "resolved_url": "https://www.theguardian.com/world/2026/oct/19/ebola-cases-kenya-us-quarantine",
       "source_modified_at": "2026-10-19T14:11:08.000Z",
       "audience_bucket": "health_education",
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Long Beach'te ICE Ajanları Gonzalez'in Kolunu Kırdı",
+      "summary": "Ricardo Gonzalez was injured and taken to hospital after confrontation in Long Beach, according to officials Federal immigration agents broke the arm of a US citizen in what a Democratic congressman said was a “brutal attack” during a confrontation with protesters in California. Video of Saturday’s encounter in Long Beach shows Ricardo Gonzalez, identified as a former city employee, handcuffed and face down in a gutter, with Immigration and Customs Enforcement ( ICE ) officers kneeling on his back. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/19/ice-broke-us-citizen-arm-california",
+      "source": "Guardian World",
+      "published_at": "2026-10-19T16:28:37+03:00",
+      "fingerprint": "6fbbbb9940c3e9173ecba439b5370dd607a32798",
+      "viral_score": 42.97,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/m3X0xRB-j8M",
+      "processed_at": "2026-10-19T18:53:43.150456+03:00",
+      "video_id": "m3X0xRB-j8M",
+      "publish_at_local": "2026-10-19T21:00:00+03:00",
+      "publish_at_utc": "2026-10-19T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "ICE agents broke US citizen’s arm as they detained him in California, officials say",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/oct/19/ice-broke-us-citizen-arm-california",
+      "source_modified_at": "2026-10-19T13:30:02.000Z",
+      "audience_bucket": "other",
       "hook_style": "direct_change"
     }
   ]

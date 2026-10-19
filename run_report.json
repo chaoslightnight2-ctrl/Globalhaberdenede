@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-19T15:10:47.291501+00:00",
       "source_modified_at": "2026-10-19T14:11:08.000Z",
+      "run_id": "39271540934",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "m3X0xRB-j8M",
+      "youtube_url": "https://youtu.be/m3X0xRB-j8M",
+      "publish_at_local": "2026-10-19T21:00:00+03:00",
+      "publish_at_utc": "2026-10-19T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "Long Beach'te ICE Ajanları Gonzalez'in Kolunu Kırdı",
+      "narration": "ICEnin Long Beachteki müdahalesi kol kırdı ICE ajanları Long Beachte Ricardo Gonzalezi kelepçeli halde bir olukta tutarken sırtına dizlerini koyarak kolunu kırdı Gonzalez iki kez Taser ile şoklandı e bisikletinden düşürülerek hastaneye kaldırıldı Long Beach polis olayın bir vandalizm müdahalesi olduğunu belirterek ICEnin sahadan çıkarıldığını duyurdu Global Haber kanalına abone ol",
+      "description": "ICE ajanlarının Long Beach'te bir vatandaşın kolunu kırması, göçmen politikalarına yönelik tepkileri artırıyor. Sizce bu tür müdahaleler nasıl önlenebilir?",
+      "visual_query": "ice officer breaking arm",
+      "tags": [
+        "ICE",
+        "Long Beach",
+        "göçmen politikası",
+        "polis müdahalesi",
+        "kol kırılması"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "ICE agents broke US citizen’s arm as they detained him in California, officials say",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-19T15:41:22.197615+00:00",
+      "source_modified_at": "2026-10-19T13:30:02.000Z",
       "run_id": "39271540934"
     }
   ],
@@ -42,6 +70,11 @@
     },
     {
       "index": 2,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "index": 4,
       "stage": "render_or_upload",
       "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
