@@ -1,19 +1,89 @@
 {
-  "source_run": "39174426015",
-  "verified_at": "2026-10-18T23:01:51.386098+00:00",
-  "videos": [],
+  "source_run": "39271540934",
+  "verified_at": "2026-10-19T16:25:42.664134+00:00",
+  "videos": [
+    {
+      "index": 3,
+      "video_id": "og22WxSkaF8",
+      "youtube_url": "https://youtu.be/og22WxSkaF8",
+      "title": "Kenya Mahkemesi, ABD Karantina Merkezini Durdurdu",
+      "narration": "Kenya mahkemesi ABD karantina merkezini durdurdu Kenya Ebola vakalarının sekizinci kişisinin Bundibugyo suşunu taşımasıyla ABDnin Laikipia hava üssünde kurduğu karantina merkezine yönelik protestoları artırdı Kenya mahkemesi merkezin faaliyetlerini durdurma kararı vererek halkın bilgi eksikliği ve güvensizlik endişelerini dikkate aldı ABD Senatörleri Raphael Warnock ve Bill Cassidy Trump yönetiminin sağlık yardımı kesintilerini ve karantina planını eleştirerek Senato bütçe komitesine mektup gönderdi Global Haber kanalına abone ol",
+      "publish_at": "2026-10-19T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "public_verified",
+      "public_listing": {
+        "title": "Kenya Mahkemesi, ABD Karantina Merkezini Durdurdu",
+        "published": "2026-10-19T16:00:04+00:00"
+      },
+      "media_check": {
+        "duration": 39.366667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/og22WxSkaF8.jpg"
+    },
+    {
+      "index": 5,
+      "video_id": "m3X0xRB-j8M",
+      "youtube_url": "https://youtu.be/m3X0xRB-j8M",
+      "title": "Long Beach'te ICE Ajanları Gonzalez'in Kolunu Kırdı",
+      "narration": "ICEnin Long Beachteki müdahalesi kol kırdı ICE ajanları Long Beachte Ricardo Gonzalezi kelepçeli halde bir olukta tutarken sırtına dizlerini koyarak kolunu kırdı Gonzalez iki kez Taser ile şoklandı e bisikletinden düşürülerek hastaneye kaldırıldı Long Beach polis olayın bir vandalizm müdahalesi olduğunu belirterek ICEnin sahadan çıkarıldığını duyurdu Global Haber kanalına abone ol",
+      "publish_at": "2026-10-19T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-19T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 28.566667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/m3X0xRB-j8M.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 2,
+  "processed_count": 2,
   "complete": false,
   "generation_errors": [
     {
-      "source": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: anthropic shares donate"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "index": 4,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
   ],
   "target_count": 3,
-  "published_count": 0,
+  "published_count": 1,
   "accepted_complete": false
 }
