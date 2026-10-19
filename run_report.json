@@ -1,16 +1,49 @@
 {
-  "run_id": "39174426015",
-  "generated_at": "2026-10-19T01:58:04.774714+03:00",
+  "run_id": "39271540934",
+  "generated_at": "2026-10-19T17:44:30.695095+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "og22WxSkaF8",
+      "youtube_url": "https://youtu.be/og22WxSkaF8",
+      "publish_at_local": "2026-10-19T19:00:00+03:00",
+      "publish_at_utc": "2026-10-19T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Kenya Mahkemesi, ABD Karantina Merkezini Durdurdu",
+      "narration": "Kenya mahkemesi ABD karantina merkezini durdurdu Kenya Ebola vakalarının sekizinci kişisinin Bundibugyo suşunu taşımasıyla ABDnin Laikipia hava üssünde kurduğu karantina merkezine yönelik protestoları artırdı Kenya mahkemesi merkezin faaliyetlerini durdurma kararı vererek halkın bilgi eksikliği ve güvensizlik endişelerini dikkate aldı ABD Senatörleri Raphael Warnock ve Bill Cassidy Trump yönetiminin sağlık yardımı kesintilerini ve karantina planını eleştirerek Senato bütçe komitesine mektup gönderdi Global Haber kanalına abone ol",
+      "description": "Kenya'da Ebola vakaları artarken, mahkeme ABD'nin Laikipia karantina merkezini durdurdu. Sizce bu karar bölgedeki salgın kontrolüne nasıl etki eder?",
+      "visual_query": "court stops quarantine",
+      "tags": [
+        "Ebola",
+        "Kenya",
+        "karantina",
+        "ABD",
+        "sağlık"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Ebola cases in Kenya highlight US failures amid Trump cuts to key services",
+      "audience_bucket": "health_education",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-19T15:10:47.291501+00:00",
+      "source_modified_at": "2026-10-19T14:11:08.000Z",
+      "run_id": "39271540934"
+    }
+  ],
   "errors": [
     {
-      "source": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: anthropic shares donate"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
   ],
   "daily_existing_count": 0
