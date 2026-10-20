@@ -1,81 +1,13 @@
 {
-  "source_run": "39346133182",
-  "verified_at": "2026-10-20T01:06:03.874272+00:00",
-  "videos": [
-    {
-      "index": 3,
-      "video_id": "ixgBwhhpwgQ",
-      "youtube_url": "https://youtu.be/ixgBwhhpwgQ",
-      "title": "AI ile Tek Selfie'den Kanser Hayatta Kalma Tahmini",
-      "narration": "Yeni AI tek bir selfieyle kanser prognozunu belirliyor Mass General Brigham Massachusettstaki kar amacı gütmeyen sağlık sistemi yüz fotoğrafından biyolojik yaşı tahmin eden bir yapay zeka geliştirdi Aynı model FAHR FaceSurvival adıyla kanser hastalarının hayatta kalma olasılığını doğrudan bir selfie üzerinden öngörüyor Araç 40 milyondan fazla farklı etnik köken ve yaş grubundan gelen fotoğrafla eğitildi ve burun kenarından ağız köşelerine kadar olan kırışıklıkları analiz ediyor Global Haber kanalına abone ol",
-      "publish_at": "2026-10-20T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-20T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 35.833333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/ixgBwhhpwgQ.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "oh5nR9uemYM",
-      "youtube_url": "https://youtu.be/oh5nR9uemYM",
-      "title": "Colorado Overpass Cuts Wildlife-Vehicle Crashes 91%",
-      "narration": "Colorados wildlife overpass slashes road deaths by 91 Colorados new wildlife overpass spanning six lanes of I 25 and linking 39000 acres has lowered wildlife vehicle crashes by 91 in the ten months since opening The grass covered bridge 200 ft wide and 209 ft long is already used by elk bears pronghorn and even northern leopard frogs crossing the interstate Built with 22 million federal and 8 million state funds but completed for 15 million the structure is part of a larger system that includes fencing and five underpasses to protect animal movement between Denver and Colorado Springs Global Haber kanalına abone ol",
-      "publish_at": "2026-10-20T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-20T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 44.533333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/oh5nR9uemYM.jpg"
-    }
-  ],
+  "source_run": "39424802715",
+  "verified_at": "2026-10-20T12:47:48.727075+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    }
-  ],
-  "target_count": 2,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
