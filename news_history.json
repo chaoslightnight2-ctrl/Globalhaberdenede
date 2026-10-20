@@ -5247,6 +5247,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "AI ile Tek Selfie'den Kanser Hayatta Kalma Tahmini",
+      "summary": "System can estimate a person’s biological age and predict chances of cancer survival from a single photograph Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face. The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+      "source": "Guardian World",
+      "published_at": "2026-10-20T01:30:08+03:00",
+      "fingerprint": "69df7ec26c2cdd3452f9b57dbea595cd6a38c107",
+      "viral_score": 48.81,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/ixgBwhhpwgQ",
+      "processed_at": "2026-10-20T03:45:25.558352+03:00",
+      "video_id": "ixgBwhhpwgQ",
+      "publish_at_local": "2026-10-20T21:00:00+03:00",
+      "publish_at_utc": "2026-10-20T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
+      "resolved_url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+      "source_modified_at": "2026-10-19T22:30:08.000Z",
+      "audience_bucket": "health_education",
+      "hook_style": "direct_change"
     }
   ]
 }
