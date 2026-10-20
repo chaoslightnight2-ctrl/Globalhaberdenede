@@ -5268,7 +5268,30 @@
       "resolved_url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
       "source_modified_at": "2026-10-19T22:30:08.000Z",
       "audience_bucket": "health_education",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Colorado Overpass Cuts Wildlife-Vehicle Crashes 91%",
+      "summary": "Elk, bear, frogs and other animals have used the overpass, which connects 39,000 acres of habitat, since its completion Colorado officials have tracked herds of elk, bears, pronghorn and even northern leopard frogs ambling across its new wildlife overpass. According to a newly released report, the overpass, which acts as a bridge over a busy stretch of interstate, has helped cut wildlife-vehicle collisions by 91% since its completion 10 months ago. The overpass is the centerpiece of a larger system built by the state to assist wildlife crossing the highway, which also includes miles of 8-ft tall fencing and five large wildlife underpasses. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/19/colorado-wildlife-overpass-vehicle-animal-collisions-results",
+      "source": "Guardian World",
+      "published_at": "2026-10-20T02:17:12+03:00",
+      "fingerprint": "9bd3acbf473c9deff68f1dba57119b685c71fe95",
+      "viral_score": 43.07,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/oh5nR9uemYM",
+      "processed_at": "2026-10-20T04:05:18.584486+03:00",
+      "video_id": "oh5nR9uemYM",
+      "publish_at_local": "2026-10-20T23:00:00+03:00",
+      "publish_at_utc": "2026-10-20T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Colorado wildlife overpass cut vehicle-animal collisions by 91%, report finds",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/oct/19/colorado-wildlife-overpass-vehicle-animal-collisions-results",
+      "source_modified_at": "2026-10-19T23:17:12.000Z",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question"
     }
   ]
 }
