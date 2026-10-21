@@ -5293,6 +5293,28 @@
       "audience_bucket": "transport_cities",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Uzbekistan, Artemis Anlaşması’nı Koalisyonuna Katıldı",
+      "summary": "Credit: NASA The Republic of Uzbekistan became the 77th signatory of the Artemis Accords during a ceremony in Samarkand on Monday, committing to the practical principles that guide safe, transparent, and responsible civil space exploration. “Uzbekistan joins the Artemis Accords at a pivotal moment,” said NASA Deputy Administrator Matt Anderson. “President Trump has directed NASA to build a Moon Base and establish an enduring presence on the lunar surface. As we put the principles of the Artemis Accords into practice, we are expanding opportunities for like-minded nations around the world to contribute to humanity’s return to the Moon. Uzbekistan is a welcome addition to this growing coalition.” Minister of Foreign Affairs of the Republic of Uzbekistan Bakhtiyor Saidov signed the Artemis Accords on behalf of the country. The signing took place during a visit by U.S. Secretary of State Marco Rubio. Uzbekistan has increasingly engaged with NASA and the broader international space community through its development of a national space program aimed at advancing Uzbekistan’s space industry and participation in global space forums. Uzbek students also are working to develop and launch the country’s first CubeSat, or small satellite technology demonstration, by 2028. In early October, NASA officials met with representatives from Uzbekistan’s Ministry of Digital Technologies and Uzbekistan’s space agency, Uzcosmos, during the 2026 International Astronautical Congress in Antalya, Türkiye, where the two sides discussed civil space cooperation and opportunities for increased engagement. Uzbekistan is scheduled to host the annual global space event in 2028. In 2020, NASA and the State Department joined with seven other founding nations to establish the Artemis Accords, responding to the growing interest in lunar activities by both governments and private companies. They introduced the first set of practical principles aimed at enhancing the safety and coordination between nations as they explore the Moon, Mars, and beyond. Signing the Artemis Accords means committing to explore peaceably and transparently, to render aid to those in need, to enable access to scientific data that all of humanity can learn from, to ensure activities do not interfere with those of others, and to preserve historically significant sites and artifacts by developing best practices for space exploration for the benefit of all. More countries are expected to sign the Artemis Accords in the months and years ahead, as NASA continues its work to establish a safe, peaceful, and prosperous future in space. Learn more about the Artemis Accords at: https://www.nasa.gov/artemis-accords Share Details Last Updated Oct 20, 2026 Location NASA Headquarters Related Terms Artemis Accords Office of International and Interagency Relations (OIIR)",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
+      "source": "NASA",
+      "published_at": "2026-10-20T17:21:42+03:00",
+      "fingerprint": "aee1f650ebc34deef7844da628caab51a2842ab1",
+      "viral_score": 36.56,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/01yvI0nM7WU",
+      "processed_at": "2026-10-21T03:18:57.993947+03:00",
+      "video_id": "01yvI0nM7WU",
+      "publish_at_local": "2026-10-21T19:00:00+03:00",
+      "publish_at_utc": "2026-10-21T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
+      "resolved_url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
+      "source_modified_at": "2026-10-20T10:21:43-04:00",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }
