@@ -1,13 +1,86 @@
 {
-  "source_run": "39482479129",
-  "verified_at": "2026-10-20T19:21:10.204440+00:00",
-  "videos": [],
+  "source_run": "39516976650",
+  "verified_at": "2026-10-21T00:29:56.882849+00:00",
+  "videos": [
+    {
+      "index": 3,
+      "video_id": "01yvI0nM7WU",
+      "youtube_url": "https://youtu.be/01yvI0nM7WU",
+      "title": "Uzbekistan, Artemis Anlaşması’nı Koalisyonuna Katıldı",
+      "narration": "Uzbekistan Samarkandda 77 ülke olarak Artemis Anlaşmasını imzaladı Uzbekistan Samarkandda 77 ülke olarak Artemis Anlaşmasını imzaladı Uzbekistan Dışişleri Bakanı Bakhtiyor Saidov ABD Dışişleri Bakanı Marco Rubionun katılımıyla anlaşmayı imzaladı NASA Yardımcı Yöneticisi Matt Anderson bu imzanın uzay işbirliğini genişlettiğini ve ülkenin 2028de CubeSat fırlatmayı ve küresel uzay etkinliğine ev sahipliği yapmayı planladığını belirtti Global Haber kanalına abone ol",
+      "publish_at": "2026-10-21T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-21T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 37.2,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/01yvI0nM7WU.jpg"
+    },
+    {
+      "index": 4,
+      "video_id": "mGAXWe8AonU",
+      "youtube_url": "https://youtu.be/mGAXWe8AonU",
+      "title": "NATO Karadeniz’e Yeni Gözetim ve Drone Desteği Gönderdi",
+      "narration": "NATO Black Sea savunması için yeni gözetim araçları gönderiyor NATO Karadeniz bölgesine deniz devriyesi radar ve dronları içeren ek gözetim varlıkları gönderdi Bu karar son haftalarda beş kargo gemisinin saldırıya uğraması ve 23 denizcinin hayatını kaybetmesi üzerine alındı Romanya bu yıl 35 yetkisiz drone girişimi kaydetti ve NATOnun karşı drone yeteneklerini artırmasını talep etti Global Haber kanalına abone ol",
+      "publish_at": "2026-10-21T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-21T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 31.4,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/mGAXWe8AonU.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "accepted_count": 2,
+  "processed_count": 2,
+  "complete": false,
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: anthropic shares donate"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: students foam fight"
+    },
+    {
+      "source": "Borneo is burning - living on the frontline of Asia's toxic haze",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
