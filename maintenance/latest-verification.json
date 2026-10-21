@@ -1,53 +1,13 @@
 {
-  "source_run": "39603944742",
-  "verified_at": "2026-10-21T13:40:47.924429+00:00",
-  "videos": [
-    {
-      "index": 3,
-      "video_id": "d_5kEK3J0tw",
-      "youtube_url": "https://youtu.be/d_5kEK3J0tw",
-      "title": "NASA CASALS Lidarı Uzayda 3D Haritalama Testi",
-      "narration": "NASAnın yeni CASALS lidarı uzayda harita yapıyor NASAnın Goddard Uzay Uçuş Merkezindeki ekip CASALS adlı ultra kompakt lidar sistemini makine öğrenmesiyle birleştirerek lazer ışığını dalga boyu üzerinden yönlendiriyor Bu yöntem geleneksel motorlu aynalar yerine 256 farklı dalga boyu kullanan bir seed lazeri ve bir transmisyon ızgarası sayesinde sürekli 3D bir şerit taraması yapıyor Takım enstrümanın tarama genişliğini artırıp yerleşik veri işleme yazılımı ekleyerek uzay uyumlu bir prototip geliştirmeyi hedefliyor Global Haber kanalına abone ol",
-      "publish_at": "2026-10-21T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-21T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 38.866667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/d_5kEK3J0tw.jpg"
-    }
-  ],
+  "source_run": "39660670057",
+  "verified_at": "2026-10-21T19:21:25.190050+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: students foam fight"
-    }
-  ],
-  "target_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
