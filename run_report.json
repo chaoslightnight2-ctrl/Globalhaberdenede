@@ -1,51 +1,12 @@
 {
-  "run_id": "39603944742",
-  "generated_at": "2026-10-21T15:59:32.630490+03:00",
-  "target_count": 1,
+  "run_id": "39660670057",
+  "generated_at": "2026-10-21T22:20:44.660865+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "d_5kEK3J0tw",
-      "youtube_url": "https://youtu.be/d_5kEK3J0tw",
-      "publish_at_local": "2026-10-21T23:00:00+03:00",
-      "publish_at_utc": "2026-10-21T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 3,
-      "title": "NASA CASALS Lidarı Uzayda 3D Haritalama Testi",
-      "narration": "NASAnın yeni CASALS lidarı uzayda harita yapıyor NASAnın Goddard Uzay Uçuş Merkezindeki ekip CASALS adlı ultra kompakt lidar sistemini makine öğrenmesiyle birleştirerek lazer ışığını dalga boyu üzerinden yönlendiriyor Bu yöntem geleneksel motorlu aynalar yerine 256 farklı dalga boyu kullanan bir seed lazeri ve bir transmisyon ızgarası sayesinde sürekli 3D bir şerit taraması yapıyor Takım enstrümanın tarama genişliğini artırıp yerleşik veri işleme yazılımı ekleyerek uzay uyumlu bir prototip geliştirmeyi hedefliyor Global Haber kanalına abone ol",
-      "description": "NASA, Goddard'daki araştırmacı ekibi CASALS adlı yeni lidar sistemini geliştiriyor; bu cihaz, dalga boyu yönlendirmesiyle uzaydan kesintisiz 3D yüzey haritaları oluşturabilecek. Sizce bu teknoloji iklim değişikliği takibine nasıl katkı sağlar?",
-      "visual_query": "lidar scanning earth",
-      "tags": [
-        "NASA",
-        "lidar",
-        "uzay",
-        "3D haritalama",
-        "teknoloji"
-      ],
-      "video_path": "output/short_3.mp4",
-      "source_headline": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
-      "audience_bucket": "technology_science",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-21T13:18:22.357176+00:00",
-      "source_modified_at": "2026-10-21T08:21:08-04:00",
-      "run_id": "39603944742",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: students foam fight"
-    }
-  ],
-  "daily_existing_count": 2
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
