@@ -5360,7 +5360,8 @@
       "resolved_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
       "source_modified_at": "2026-10-21T08:21:08-04:00",
       "audience_bucket": "technology_science",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
