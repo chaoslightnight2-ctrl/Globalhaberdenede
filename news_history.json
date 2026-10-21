@@ -5314,7 +5314,30 @@
       "resolved_url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
       "source_modified_at": "2026-10-20T10:21:43-04:00",
       "audience_bucket": "technology_science",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "NATO Karadeniz’e Yeni Gözetim ve Drone Desteği Gönderdi",
+      "summary": "Mounting anxiety as Russia’s war on Ukraine reaches Nato’s borders with targeting of vessels transporting agricultural cargo Nato is deploying additional military assets to the Black Sea amid the recent deadly escalation of Russian attacks on merchant shipping, as five more vessels were attacked on Tuesday. Russia’s military said it ⁠struck ​three cargo vessels in Ukraine’s ⁠port of Reni and two ⁠other cargo vessels en ​route ‌to ‌Odesa. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships",
+      "source": "Guardian World",
+      "published_at": "2026-10-20T20:43:40+03:00",
+      "fingerprint": "5e738eab675f5bf7c5b7f558014c276bba28295d",
+      "viral_score": 51.94,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/mGAXWe8AonU",
+      "processed_at": "2026-10-21T03:26:00.749242+03:00",
+      "video_id": "mGAXWe8AonU",
+      "publish_at_local": "2026-10-21T21:00:00+03:00",
+      "publish_at_utc": "2026-10-21T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Nato increases Black Sea deployment amid escalating deadly Russian attacks",
+      "resolved_url": "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships",
+      "source_modified_at": "2026-10-20T18:34:24.000Z",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }

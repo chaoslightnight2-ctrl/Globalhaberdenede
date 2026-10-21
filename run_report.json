@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-21T00:00:46.117136+00:00",
       "source_modified_at": "2026-10-20T10:21:43-04:00",
+      "run_id": "39516976650",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "mGAXWe8AonU",
+      "youtube_url": "https://youtu.be/mGAXWe8AonU",
+      "publish_at_local": "2026-10-21T21:00:00+03:00",
+      "publish_at_utc": "2026-10-21T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "NATO Karadeniz’e Yeni Gözetim ve Drone Desteği Gönderdi",
+      "narration": "NATO Black Sea savunması için yeni gözetim araçları gönderiyor NATO Karadeniz bölgesine deniz devriyesi radar ve dronları içeren ek gözetim varlıkları gönderdi Bu karar son haftalarda beş kargo gemisinin saldırıya uğraması ve 23 denizcinin hayatını kaybetmesi üzerine alındı Romanya bu yıl 35 yetkisiz drone girişimi kaydetti ve NATOnun karşı drone yeteneklerini artırmasını talep etti Global Haber kanalına abone ol",
+      "description": "NATO, Karadeniz’de artan Rus saldırılarına yanıt olarak ek deniz devriyesi, radar ve dronları bölgeye gönderiyor. Sizce bu adım bölgesel güvenliği artırır mı? Bu güçlendirme, gemi kazalarını ve mürettebat kayıplarını önlemeyi hedefliyor.",
+      "visual_query": "drone surveillance deployment",
+      "tags": [
+        "NATO",
+        "Karadeniz",
+        "askeri",
+        "deniz güvenliği",
+        "Rus saldırısı"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Nato increases Black Sea deployment amid escalating deadly Russian attacks",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-21T00:19:00.175517+00:00",
+      "source_modified_at": "2026-10-20T18:34:24.000Z",
       "run_id": "39516976650"
     }
   ],
