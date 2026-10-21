@@ -1,19 +1,19 @@
 {
-  "source_run": "39516976650",
-  "verified_at": "2026-10-21T00:29:56.882849+00:00",
+  "source_run": "39603944742",
+  "verified_at": "2026-10-21T13:40:47.924429+00:00",
   "videos": [
     {
       "index": 3,
-      "video_id": "01yvI0nM7WU",
-      "youtube_url": "https://youtu.be/01yvI0nM7WU",
-      "title": "Uzbekistan, Artemis Anlaşması’nı Koalisyonuna Katıldı",
-      "narration": "Uzbekistan Samarkandda 77 ülke olarak Artemis Anlaşmasını imzaladı Uzbekistan Samarkandda 77 ülke olarak Artemis Anlaşmasını imzaladı Uzbekistan Dışişleri Bakanı Bakhtiyor Saidov ABD Dışişleri Bakanı Marco Rubionun katılımıyla anlaşmayı imzaladı NASA Yardımcı Yöneticisi Matt Anderson bu imzanın uzay işbirliğini genişlettiğini ve ülkenin 2028de CubeSat fırlatmayı ve küresel uzay etkinliğine ev sahipliği yapmayı planladığını belirtti Global Haber kanalına abone ol",
-      "publish_at": "2026-10-21T16:00:00Z",
+      "video_id": "d_5kEK3J0tw",
+      "youtube_url": "https://youtu.be/d_5kEK3J0tw",
+      "title": "NASA CASALS Lidarı Uzayda 3D Haritalama Testi",
+      "narration": "NASAnın yeni CASALS lidarı uzayda harita yapıyor NASAnın Goddard Uzay Uçuş Merkezindeki ekip CASALS adlı ultra kompakt lidar sistemini makine öğrenmesiyle birleştirerek lazer ışığını dalga boyu üzerinden yönlendiriyor Bu yöntem geleneksel motorlu aynalar yerine 256 farklı dalga boyu kullanan bir seed lazeri ve bir transmisyon ızgarası sayesinde sürekli 3D bir şerit taraması yapıyor Takım enstrümanın tarama genişliğini artırıp yerleşik veri işleme yazılımı ekleyerek uzay uyumlu bir prototip geliştirmeyi hedefliyor Global Haber kanalına abone ol",
+      "publish_at": "2026-10-21T20:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-21T16:00:00Z",
+        "publishAt": "2026-10-21T20:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,64 +23,31 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 37.2,
+        "duration": 38.866667,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/01yvI0nM7WU.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "mGAXWe8AonU",
-      "youtube_url": "https://youtu.be/mGAXWe8AonU",
-      "title": "NATO Karadeniz’e Yeni Gözetim ve Drone Desteği Gönderdi",
-      "narration": "NATO Black Sea savunması için yeni gözetim araçları gönderiyor NATO Karadeniz bölgesine deniz devriyesi radar ve dronları içeren ek gözetim varlıkları gönderdi Bu karar son haftalarda beş kargo gemisinin saldırıya uğraması ve 23 denizcinin hayatını kaybetmesi üzerine alındı Romanya bu yıl 35 yetkisiz drone girişimi kaydetti ve NATOnun karşı drone yeteneklerini artırmasını talep etti Global Haber kanalına abone ol",
-      "publish_at": "2026-10-21T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-21T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 31.4,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/mGAXWe8AonU.jpg"
+      "preview": "maintenance/previews/d_5kEK3J0tw.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
   "generation_errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: anthropic shares donate"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
       "index": 2,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: students foam fight"
-    },
-    {
-      "source": "Borneo is burning - living on the frontline of Asia's toxic haze",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
-  "target_count": 3,
+  "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
