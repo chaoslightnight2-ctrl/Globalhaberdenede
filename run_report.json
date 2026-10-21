@@ -59,7 +59,8 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-21T00:19:00.175517+00:00",
       "source_modified_at": "2026-10-20T18:34:24.000Z",
-      "run_id": "39516976650"
+      "run_id": "39516976650",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -72,6 +73,11 @@
       "index": 2,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: students foam fight"
+    },
+    {
+      "source": "Borneo is burning - living on the frontline of Asia's toxic haze",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
   "daily_existing_count": 0
