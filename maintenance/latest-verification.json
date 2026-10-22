@@ -1,110 +1,13 @@
 {
-  "source_run": "39696660787",
-  "verified_at": "2026-10-22T00:40:19.579802+00:00",
-  "videos": [
-    {
-      "index": 3,
-      "video_id": "ncNcJ7YXKeU",
-      "youtube_url": "https://youtu.be/ncNcJ7YXKeU",
-      "title": "Avustralya’da MP’lerin Güvenliği: Helen Haines Saldırısı",
-      "narration": "Avustralyada milletvekili güvenliği acil gündemde önlemler hükümet tarafından hızla tartışılıyor Avustralya federal polis ve Asio Helen Hainese yönelik saldırı sonrası milletvekillerinin ev ve ofis güvenliğini gözden geçireceklerini belirtti Labor Koalisyon ve çapraz bankalar güvenlik önlemleri için kendi bütçelerinden binlerce dolar harcadıklarını söyledi Bazı milletvekilleri bakanlıkların ofis güvenliği için yeterli fon sağlamadığını ve daha fazla koruma ekipmanı talep ettiklerini dile getirdi Global Haber kanalına abone ol",
-      "publish_at": "2026-10-22T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-22T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 37.4,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/ncNcJ7YXKeU.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "v3Aspqx82mw",
-      "youtube_url": "https://youtu.be/v3Aspqx82mw",
-      "title": "Tesla ve SpaceX’te Birleşme Planı, Kazanç Rekoru Kırdı",
-      "narration": "Tesla SpaceX birleşme planı çeyrek kazançta öne çıktı Elon Musk Tesla ve SpaceX CEOsu çeyrek kazanç çağrısında iki şirketin potansiyel birleşmesinden bahsetti Şirket üçüncü çeyrek gelirini 28 virgül 05 milyar dolar olarak açıklayarak Wall Street tahminlerini aştı Musk yeni nesil uçan araçların tanıtımını yaparken bu aracın 200000 doların üzerinde fiyatla satılacağını belirtti Global Haber kanalına abone ol",
-      "publish_at": "2026-10-22T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-22T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 31.666667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/v3Aspqx82mw.jpg"
-    },
-    {
-      "index": 5,
-      "video_id": "Dw-0TMTfjUk",
-      "youtube_url": "https://youtu.be/Dw-0TMTfjUk",
-      "title": "Nagoya Başkanı Asya Oyunları Hatalarını Özürledi",
-      "narration": "Nagoya Belediye Başkanı Asya Oyunları hatalarını özürledi Nagoya Belediye Başkanı Ichiro Hirosawa Asya Oyunlarında yaşanan konaklama ve ulaşım sorunlarını kabul edilemez olarak nitelendirerek özür diledi Organizasyon komitesi katılımcıların yeterli oda bulamaması ve konteyner birimlerdeki yetersiz koşullar nedeniyle eleştirildiğini kabul etti Paralympic Oyunlarında üç farklı etkinlikte yanlış ulusal marşların çalınması gibi hatalar da devam ediyor Global Haber kanalına abone ol",
-      "publish_at": "2026-10-22T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-22T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 33.8,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/Dw-0TMTfjUk.jpg"
-    }
-  ],
+  "source_run": "39783088997",
+  "verified_at": "2026-10-22T13:02:21.319482+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: anthropic shares donate"
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: students foam fight"
-    }
-  ],
-  "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
