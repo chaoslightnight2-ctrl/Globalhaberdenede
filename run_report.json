@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-22T00:09:40.581449+00:00",
       "source_modified_at": "2026-10-21T23:45:19.000Z",
+      "run_id": "39696660787",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "v3Aspqx82mw",
+      "youtube_url": "https://youtu.be/v3Aspqx82mw",
+      "publish_at_local": "2026-10-22T21:00:00+03:00",
+      "publish_at_utc": "2026-10-22T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "Tesla ve SpaceX’te Birleşme Planı, Kazanç Rekoru Kırdı",
+      "narration": "Tesla SpaceX birleşme planı çeyrek kazançta öne çıktı Elon Musk Tesla ve SpaceX CEOsu çeyrek kazanç çağrısında iki şirketin potansiyel birleşmesinden bahsetti Şirket üçüncü çeyrek gelirini 28 virgül 05 milyar dolar olarak açıklayarak Wall Street tahminlerini aştı Musk yeni nesil uçan araçların tanıtımını yaparken bu aracın 200000 doların üzerinde fiyatla satılacağını belirtti Global Haber kanalına abone ol",
+      "description": "Tesla, çeyrek gelirini beklentilerin üzerinde açıklarken, Musk iki şirketin birleşme olasılığını gündeme getirdi. Sizce bu birleşme otomotiv ve uzay sektörlerini nasıl şekillendirecek?",
+      "visual_query": "car fly",
+      "tags": [
+        "Tesla",
+        "SpaceX",
+        "birleşme",
+        "kâr",
+        "robotaxi"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Tesla beats earnings projections after Musk floats SpaceX merger plan",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-22T00:21:05.980224+00:00",
+      "source_modified_at": "2026-10-21T23:04:04.000Z",
       "run_id": "39696660787"
     }
   ],

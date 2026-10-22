@@ -5383,7 +5383,30 @@
       "resolved_url": "https://www.theguardian.com/australia-news/2026/oct/22/politicians-say-they-are-paying-thousands-for-own-security-upgrades-amid-rising-threats-ntwnfb",
       "source_modified_at": "2026-10-21T23:45:19.000Z",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Tesla ve SpaceX’te Birleşme Planı, Kazanç Rekoru Kırdı",
+      "summary": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of all Tesla shareholders, but he declined to elaborate Investors were paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. But they didn’t glean further information after the company announced there would be no questions on the matter. “With regard to a potential merger with SpaceX, I think I said everything that should be said yesterday,” Musk, the CEO of both companies, said on Tesla’s earnings call. He repeated a phrase he said on Tuesday: “I feel like I’m tap dancing through a minefield.” Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex",
+      "source": "Guardian World",
+      "published_at": "2026-10-22T02:03:16+03:00",
+      "fingerprint": "570ed6890fdb607641b178e18840db146bd5e011",
+      "viral_score": 43.23,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/v3Aspqx82mw",
+      "processed_at": "2026-10-22T03:30:23.410669+03:00",
+      "video_id": "v3Aspqx82mw",
+      "publish_at_local": "2026-10-22T21:00:00+03:00",
+      "publish_at_utc": "2026-10-22T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Tesla beats earnings projections after Musk floats SpaceX merger plan",
+      "resolved_url": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex",
+      "source_modified_at": "2026-10-21T23:04:04.000Z",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }
