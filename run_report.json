@@ -1,12 +1,50 @@
 {
-  "run_id": "39660670057",
-  "generated_at": "2026-10-21T22:20:44.660865+03:00",
-  "target_count": 0,
+  "run_id": "39696660787",
+  "generated_at": "2026-10-22T02:57:59.277330+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "ncNcJ7YXKeU",
+      "youtube_url": "https://youtu.be/ncNcJ7YXKeU",
+      "publish_at_local": "2026-10-22T19:00:00+03:00",
+      "publish_at_utc": "2026-10-22T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Avustralya’da MP’lerin Güvenliği: Helen Haines Saldırısı",
+      "narration": "Avustralyada milletvekili güvenliği acil gündemde önlemler hükümet tarafından hızla tartışılıyor Avustralya federal polis ve Asio Helen Hainese yönelik saldırı sonrası milletvekillerinin ev ve ofis güvenliğini gözden geçireceklerini belirtti Labor Koalisyon ve çapraz bankalar güvenlik önlemleri için kendi bütçelerinden binlerce dolar harcadıklarını söyledi Bazı milletvekilleri bakanlıkların ofis güvenliği için yeterli fon sağlamadığını ve daha fazla koruma ekipmanı talep ettiklerini dile getirdi Global Haber kanalına abone ol",
+      "description": "Helen Haines’e yönelik saldırı sonrası Avustralya’da milletvekillerinin ev ve ofis güvenliği gündeme geldi. Sizce bu tür bir güvenlik incelemesi yeterli olacak mı?",
+      "visual_query": "politician office security",
+      "tags": [
+        "Avustralya politikası",
+        "MP güvenliği",
+        "Helen Haines",
+        "parlamento güvenlik",
+        "federal polis"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Labor, Coalition and crossbench MPs afraid at home and work after alleged attack on Helen Haines",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-22T00:09:40.581449+00:00",
+      "source_modified_at": "2026-10-21T23:45:19.000Z",
+      "run_id": "39696660787"
+    }
+  ],
+  "errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: anthropic shares donate"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: students foam fight"
+    }
+  ],
+  "daily_existing_count": 0
 }

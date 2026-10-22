@@ -5362,6 +5362,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Avustralya’da MP’lerin Güvenliği: Helen Haines Saldırısı",
+      "summary": "Home and office safety a common concern in Australian federal police and Asio safety briefings with politicians following alleged attack on MP Helen Haines Get our new political email , free app or daily news podcast Security agencies will review safety precautions for MPs’ homes and offices after numerous federal politicians told police and Asio in safety briefings that they were worried about widening threats after the alleged attack on Helen Haines. The Labor government and politicians across the parliament are still considering how they will respond when they return to Canberra next week, with ideas being floated including a new committee on MPs’ safety, greater resources for police, and motions of condolence for Haines, who lost both her legs after Monday’s incident . Renewed calls from the crossbench for reforms to question time and the tone of debate in parliament are unlikely to be taken up by the major parties. Sign up for Guardian Australia’s Politics, really newsletter here Continue reading...",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/22/politicians-say-they-are-paying-thousands-for-own-security-upgrades-amid-rising-threats-ntwnfb",
+      "source": "Guardian World",
+      "published_at": "2026-10-22T02:04:49+03:00",
+      "fingerprint": "5adacbb10b2575d2d7ddee12053e59a0f5fe68a7",
+      "viral_score": 43.27,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/ncNcJ7YXKeU",
+      "processed_at": "2026-10-22T03:21:04.170297+03:00",
+      "video_id": "ncNcJ7YXKeU",
+      "publish_at_local": "2026-10-22T19:00:00+03:00",
+      "publish_at_utc": "2026-10-22T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Labor, Coalition and crossbench MPs afraid at home and work after alleged attack on Helen Haines",
+      "resolved_url": "https://www.theguardian.com/australia-news/2026/oct/22/politicians-say-they-are-paying-thousands-for-own-security-upgrades-amid-rising-threats-ntwnfb",
+      "source_modified_at": "2026-10-21T23:45:19.000Z",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
