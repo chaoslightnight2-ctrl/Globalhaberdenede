@@ -59,6 +59,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-22T00:21:05.980224+00:00",
       "source_modified_at": "2026-10-21T23:04:04.000Z",
+      "run_id": "39696660787",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "Dw-0TMTfjUk",
+      "youtube_url": "https://youtu.be/Dw-0TMTfjUk",
+      "publish_at_local": "2026-10-22T23:00:00+03:00",
+      "publish_at_utc": "2026-10-22T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "Nagoya Başkanı Asya Oyunları Hatalarını Özürledi",
+      "narration": "Nagoya Belediye Başkanı Asya Oyunları hatalarını özürledi Nagoya Belediye Başkanı Ichiro Hirosawa Asya Oyunlarında yaşanan konaklama ve ulaşım sorunlarını kabul edilemez olarak nitelendirerek özür diledi Organizasyon komitesi katılımcıların yeterli oda bulamaması ve konteyner birimlerdeki yetersiz koşullar nedeniyle eleştirildiğini kabul etti Paralympic Oyunlarında üç farklı etkinlikte yanlış ulusal marşların çalınması gibi hatalar da devam ediyor Global Haber kanalına abone ol",
+      "description": "Nagoya'da Asya Oyunları'nda yaşanan konaklama ve ulaşım sorunları sonrası başkan özür diledi. Sizce bu tür organizasyonlarda kalite nasıl sağlanmalı?",
+      "visual_query": "mayor apologizing stadium",
+      "tags": [
+        "Asya Oyunları",
+        "Nagoya",
+        "konaklama sorunu",
+        "spor organizasyonu",
+        "başkan özürü"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "Japan is known for world-class events - but the Asian Games were chaotic",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-22T00:30:25.588276+00:00",
+      "source_modified_at": "",
       "run_id": "39696660787"
     }
   ],

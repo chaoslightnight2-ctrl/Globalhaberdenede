@@ -5406,7 +5406,30 @@
       "resolved_url": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex",
       "source_modified_at": "2026-10-21T23:04:04.000Z",
       "audience_bucket": "technology_science",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Nagoya Başkanı Asya Oyunları Hatalarını Özürledi",
+      "summary": "Hotel chaos, transport mishaps and diplomatic blunders cast a spotlight on organisers and the firm hired to deliver the games.",
+      "url": "https://www.bbc.co.uk/news/articles/cvze414811jlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-10-22T01:00:58+03:00",
+      "fingerprint": "beac63e50ac018244eecd8207201dc58a92dca8f",
+      "viral_score": 41.57,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/Dw-0TMTfjUk",
+      "processed_at": "2026-10-22T03:39:27.633611+03:00",
+      "video_id": "Dw-0TMTfjUk",
+      "publish_at_local": "2026-10-22T23:00:00+03:00",
+      "publish_at_utc": "2026-10-22T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Japan is known for world-class events - but the Asian Games were chaotic",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cvze414811jlo?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question"
     }
   ]
 }
