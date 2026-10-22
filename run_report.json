@@ -1,12 +1,27 @@
 {
-  "run_id": "39838353590",
-  "generated_at": "2026-10-22T22:15:32.507444+03:00",
-  "target_count": 0,
+  "run_id": "39865045177",
+  "generated_at": "2026-10-23T01:27:54.175908+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
+  "complete": false,
   "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: anthropic shares donate"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: students foam fight"
+    },
+    {
+      "source": "Greece Raises Illegal Turkey-Libya Maritime Deal at UN Security Council: “The Law of the Sea Cannot Be Rewritten Through Unilateral Decisions” - The National Herald",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
+  "daily_existing_count": 0
 }
