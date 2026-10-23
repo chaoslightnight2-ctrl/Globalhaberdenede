@@ -1,7 +1,7 @@
 {
-  "run_id": "40010390382",
-  "generated_at": "2026-10-23T22:19:36.851826+03:00",
-  "target_count": 2,
+  "run_id": "40041644998",
+  "generated_at": "2026-10-24T02:48:52.153639+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
@@ -20,13 +20,13 @@
     {
       "index": 3,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: TTS word boundaries differ from narration; subtitles stopped"
+      "error": "No described asset matches scene 0: summit ministers warn"
     },
     {
-      "source": "RS-25 Engine Tests at NASA Stennis",
+      "source": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
       "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
-  "daily_existing_count": 1
+  "daily_existing_count": 0
 }
