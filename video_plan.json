@@ -1,4 +1,33 @@
 {
-  "generated_at": "2026-10-23T02:57:05.310834+03:00",
-  "videos": []
+  "generated_at": "2026-10-23T15:40:34.062793+03:00",
+  "videos": [
+    {
+      "video_id": "Kyr5PCKH1eI",
+      "youtube_url": "https://youtu.be/Kyr5PCKH1eI",
+      "publish_at_local": "2026-10-23T19:00:00+03:00",
+      "publish_at_utc": "2026-10-23T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Eski Trump danışmanı Lewandowski’ye DOJ’dan soruşturma",
+      "narration": "Eski DHS yardımcısı Lewandowskiye suç soruşturması açıldı Corey Lewandowski eski Trump danışmanı ve DHS üst yardımcısı Adalet Bakanlığı tarafından suç soruşturmasıyla karşı karşıya Soruşturma onun hükümet görevini kötüye kullanarak DHS sözleşmeleri imzaladığı ve hibeleri yetkisiz yönlendirdiği iddialarını inceliyor DOJ henüz bir celpname çıkarmamış ve Lewandowskinin avukatı yorum yapmayı reddetti Global Haber kanalına abone ol",
+      "description": "Corey Lewandowski, eski DHS yardımcısı ve Trump danışmanı, DOJ tarafından görevini kötüye kullanma iddialarıyla soruşturuluyor. Sizce bu tür politikacıların denetimi yeterli mi?",
+      "visual_query": "man signing contract",
+      "tags": [
+        "Corey Lewandowski",
+        "DOJ",
+        "DHS",
+        "Trump",
+        "soruşturma"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "First Thing: Former DHS aide Lewandowski investigated over claims he profited from government role",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-23T12:57:59.357310+00:00",
+      "source_modified_at": "2026-10-23T11:52:49.000Z",
+      "run_id": "39954984802",
+      "processing_status": "readback_scope_unavailable"
+    }
+  ]
 }

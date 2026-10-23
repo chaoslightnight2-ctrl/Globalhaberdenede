@@ -31,7 +31,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-23T12:57:59.357310+00:00",
       "source_modified_at": "2026-10-23T11:52:49.000Z",
-      "run_id": "39954984802"
+      "run_id": "39954984802",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -44,6 +45,11 @@
       "index": 2,
       "stage": "render_or_upload",
       "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "source": "Weather warnings in place ahead of Storm Boelo",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
     }
   ],
   "daily_existing_count": 0
