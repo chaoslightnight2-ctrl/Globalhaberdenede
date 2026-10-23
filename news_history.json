@@ -5431,6 +5431,28 @@
       "audience_bucket": "health_education",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Eski Trump danışmanı Lewandowski’ye DOJ’dan soruşturma",
+      "summary": "Investigation marks rare move by DoJ against an ally of the US president. Plus, why the world’s coral reefs are facing a dire future Good morning. Corey Lewandowski, a former political adviser to Donald Trump and ⁠top aide at the Department ⁠of Homeland Security, ​is under criminal investigation over allegations he profited off his role in the US government. The Department of Justice has not yet issued subpoenas or other legal demands in the criminal investigation, and a lawyer ​for Lewandowski did not immediately respond to ‌a request for comment. The justice department under Trump has investigated several prominent critics of the president, but investigations of people close to Trump have been rare. Lewandowski served as a top aide to Kristi Noem during her tenure as homeland security secretary. Lewandowski allegedly signed some DHS contracts despite having questionable legal authority ​as a special government ‌employee, according to one ​DHS official. Certain grants ​and contracts, including those involving the Federal Emergency Management Agency, were put on hold at Lewandowski’s direction, according to two other sources. Where else has Trump suffered a legal setback? Donald Trump has been ordered by a US judge to cooperate with the discovery process mandated for his lawsuit against the BBC and to sit for a deposition by 11 December – or else he could be subject to sanctions, including possible dismissal of the $10bn lawsuit. What request has Trump claimed he made of Google? Trump has said Google rejected his request to rename the Atlantic Ocean after himself or America. Google has previously acceded to Trump’s demands, with locations labelled “Gulf of America” and “Lake America” for US users at the president’s request. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/23/first-thing-corey-lewandowski-under-investigation-homeland-security",
+      "source": "Guardian World",
+      "published_at": "2026-10-23T13:53:00+03:00",
+      "fingerprint": "e7f21633001bd6e34e66e699ecbd88c6e07caf34",
+      "viral_score": 48.67,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/Kyr5PCKH1eI",
+      "processed_at": "2026-10-23T16:06:38.447795+03:00",
+      "video_id": "Kyr5PCKH1eI",
+      "publish_at_local": "2026-10-23T19:00:00+03:00",
+      "publish_at_utc": "2026-10-23T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "First Thing: Former DHS aide Lewandowski investigated over claims he profited from government role",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/oct/23/first-thing-corey-lewandowski-under-investigation-homeland-security",
+      "source_modified_at": "2026-10-23T11:52:49.000Z",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }
