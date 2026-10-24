@@ -1,63 +1,13 @@
 {
-  "source_run": "40119566626",
-  "verified_at": "2026-10-24T19:03:18.482540+00:00",
-  "videos": [
-    {
-      "index": 5,
-      "video_id": "FfA6xpp1z0g",
-      "youtube_url": "https://youtu.be/FfA6xpp1z0g",
-      "title": "Doğu Libya, Türkiye ile Deniz Koridorunu Onayladı",
-      "narration": "Doğu Libya Türkiye ile deniz koridorunu onayladı Doğu Libya Parlamentosu Türkiye ile ortak bir deniz ekonomik koridoru kurma anlaşmasını onayladı Karar Türkiye Dışişleri Bakanlığı tarafından memnuniyetle karşılandı ve Yunanistan ile ABnin güçlü tepkisini tetikledi Anlaşma bölgedeki yüzlerce milyar dolarlık doğal gaz rezervlerine erişimi ve EastMed boru hattının rotasını etkileyebilir Global Haber kanalına abone ol",
-      "publish_at": "2026-10-24T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-24T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.933333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/FfA6xpp1z0g.jpg"
-    }
-  ],
+  "source_run": "40131875789",
+  "verified_at": "2026-10-24T20:55:54.040689+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 4,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: whitehouse spokesperson statement"
-    }
-  ],
-  "target_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
