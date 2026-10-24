@@ -5500,6 +5500,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Doğu Libya, Türkiye ile Deniz Koridorunu Onayladı",
+      "summary": "Turkey and Libya plan to redraw maritime boundaries in the Mediterranean as part of a new economic corridor. This has sparked strong protests from Greece, and has also drawn the European Union into the conflict.",
+      "url": "https://www.dw.com/en/turkey-s-new-deal-on-mediterranean-maritime-boundaries-with-libya-is-exacerbating-issues-with-greece-and-the-eu/a-79745971?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-10-24T17:09:00+03:00",
+      "fingerprint": "f4a646478cf441882c289c85ef800df25f3cdad0",
+      "viral_score": 34.42,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/FfA6xpp1z0g",
+      "processed_at": "2026-10-24T22:02:34.330569+03:00",
+      "video_id": "FfA6xpp1z0g",
+      "publish_at_local": "2026-10-24T23:00:00+03:00",
+      "publish_at_utc": "2026-10-24T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Greece protests Turkey-Libya deal on Mediterranean maritime corridor",
+      "resolved_url": "https://www.dw.com/en/turkeys-new-deal-on-mediterranean-maritime-boundaries-with-libya-is-exacerbating-issues-with-greece-and-the-eu/a-79745971?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }

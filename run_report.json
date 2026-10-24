@@ -1,73 +1,44 @@
 {
-  "run_id": "40092302942",
-  "generated_at": "2026-10-24T15:03:32.727834+03:00",
-  "target_count": 3,
+  "run_id": "40119566626",
+  "generated_at": "2026-10-24T21:12:38.477866+03:00",
+  "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
   "videos": [
     {
-      "video_id": "BW8zDLhXbvs",
-      "youtube_url": "https://youtu.be/BW8zDLhXbvs",
-      "publish_at_local": "2026-10-24T19:00:00+03:00",
-      "publish_at_utc": "2026-10-24T16:00:00Z",
+      "video_id": "FfA6xpp1z0g",
+      "youtube_url": "https://youtu.be/FfA6xpp1z0g",
+      "publish_at_local": "2026-10-24T23:00:00+03:00",
+      "publish_at_utc": "2026-10-24T20:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
-      "index": 4,
-      "title": "Minnesota’da Çocuklu Otobüsü Durduran Eritreli Genç",
-      "narration": "Bir genç kaçan okul otobüsünü durdurdu Ebro Ahmed 27 Minnesotada bir okul otobüsü sürücüsünün tıbbi acil durumu nedeniyle kontrolden çıkınca müdahale etti Kendi sözlerine göre Kuran ayeti bir canı kurtarmak bütün insanlığı kurtarmaktır motivasyon kaynağıydı Olay sonrası Ahmede bir yerel şirket 1000 dolar bağış yaptı ve şehir meclisi üyesi tebrik gönderdi Global Haber kanalına abone ol",
-      "description": "Minnesota’da bir genç, Kuran ayeti ilhamıyla kaçan okul otobüsünü durdurdu. Siz de benzer bir kahramanlık anını hayal eder misiniz?",
-      "visual_query": "man stops bus",
+      "index": 5,
+      "title": "Doğu Libya, Türkiye ile Deniz Koridorunu Onayladı",
+      "narration": "Doğu Libya Türkiye ile deniz koridorunu onayladı Doğu Libya Parlamentosu Türkiye ile ortak bir deniz ekonomik koridoru kurma anlaşmasını onayladı Karar Türkiye Dışişleri Bakanlığı tarafından memnuniyetle karşılandı ve Yunanistan ile ABnin güçlü tepkisini tetikledi Anlaşma bölgedeki yüzlerce milyar dolarlık doğal gaz rezervlerine erişimi ve EastMed boru hattının rotasını etkileyebilir Global Haber kanalına abone ol",
+      "description": "Doğu Libya Parlamentosu, Türkiye ile deniz ekonomik koridorunu onayladı. Bu karar, bölgedeki enerji rekabetini nasıl şekillendirecek? Sizce Yunanistan ve AB tepkisi ne kadar etkili olur?",
+      "visual_query": "map showing maritime corridor",
       "tags": [
-        "okul otobüsü",
-        "kahramanlık",
-        "Minnesota",
-        "Eritreli",
-        "Kuran"
+        "Türkiye",
+        "Libya",
+        "deniz koridoru",
+        "Doğu Akdeniz",
+        "enerji"
       ],
-      "video_path": "output/short_4.mp4",
-      "source_headline": "Verse from Qu’ran inspired US man to leap on runaway school bus and halt it",
-      "audience_bucket": "health_education",
+      "video_path": "output/short_5.mp4",
+      "source_headline": "Greece protests Turkey-Libya deal on Mediterranean maritime corridor",
+      "audience_bucket": "other",
       "hook_style": "concrete_question",
-      "source_checked_at": "2026-10-24T12:26:46.090142+00:00",
-      "source_modified_at": "2026-10-24T10:01:50.000Z",
-      "run_id": "40092302942",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "L_73yqknFQY",
-      "youtube_url": "https://youtu.be/L_73yqknFQY",
-      "publish_at_local": "2026-10-24T21:00:00+03:00",
-      "publish_at_utc": "2026-10-24T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 6,
-      "title": "Storm Boelo: 80 mph rüzgarla Britanya’da büyük uyarı",
-      "narration": "Storm Boelo Britanyayı 80 mil saat rüzgârla vuruyor Storm Boelo Cumartesi 21 00 BSTden Pazar 21 00 BSTye kadar İskoçya Kuzey İrlanda ve kuzey İngilterede amber rüzgar uyarısı getirecek Rüzgar hızı 80 mil saat 128 km s kadar ulaşabilir ve seyahat enerji ve su baskını risklerini artırıyor Geçen gün etkili olan Storm Austen 75 mil saatin üzerindeki rüzgarlarla ağaçları devirdi tren seferlerini iptal ettirdi ve binlerce evin elektriğini kesti Global Haber kanalına abone ol",
-      "description": "Storm Boelo, 80 mil/saat rüzgarlarla Britanya’nın kuzeyinde uyarı oluşturuyor. Bu şiddetli fırtına sizi nasıl etkiler?",
-      "visual_query": "storm wind gusts",
-      "tags": [
-        "storm",
-        "hava durumu",
-        "rüzgar hızı",
-        "İngiltere",
-        "İskoçya"
-      ],
-      "video_path": "output/short_6.mp4",
-      "source_headline": "Storm Boelo to bring severe gales and heavy rain into Sunday",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-24T12:46:33.340474+00:00",
+      "source_checked_at": "2026-10-24T18:53:12.723951+00:00",
       "source_modified_at": "",
-      "run_id": "40092302942",
-      "processing_status": "readback_scope_unavailable"
+      "run_id": "40119566626"
     }
   ],
   "errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: anthropic shares donate"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
       "index": 2,
@@ -80,15 +51,10 @@
       "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
-      "index": 5,
+      "index": 4,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "source": "Istanbul meeting: A new division of labor in the Iran war? - Iran International",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+      "error": "No described asset matches scene 0: whitehouse spokesperson statement"
     }
   ],
-  "daily_existing_count": 0
+  "daily_existing_count": 2
 }
