@@ -1,10 +1,67 @@
 {
-  "source_run": "40041644998",
-  "verified_at": "2026-10-23T23:57:47.138635+00:00",
-  "videos": [],
+  "source_run": "40092302942",
+  "verified_at": "2026-10-24T13:02:40.304740+00:00",
+  "videos": [
+    {
+      "index": 4,
+      "video_id": "BW8zDLhXbvs",
+      "youtube_url": "https://youtu.be/BW8zDLhXbvs",
+      "title": "Minnesota’da Çocuklu Otobüsü Durduran Eritreli Genç",
+      "narration": "Bir genç kaçan okul otobüsünü durdurdu Ebro Ahmed 27 Minnesotada bir okul otobüsü sürücüsünün tıbbi acil durumu nedeniyle kontrolden çıkınca müdahale etti Kendi sözlerine göre Kuran ayeti bir canı kurtarmak bütün insanlığı kurtarmaktır motivasyon kaynağıydı Olay sonrası Ahmede bir yerel şirket 1000 dolar bağış yaptı ve şehir meclisi üyesi tebrik gönderdi Global Haber kanalına abone ol",
+      "publish_at": "2026-10-24T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-24T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 29.333333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/BW8zDLhXbvs.jpg"
+    },
+    {
+      "index": 6,
+      "video_id": "L_73yqknFQY",
+      "youtube_url": "https://youtu.be/L_73yqknFQY",
+      "title": "Storm Boelo: 80 mph rüzgarla Britanya’da büyük uyarı",
+      "narration": "Storm Boelo Britanyayı 80 mil saat rüzgârla vuruyor Storm Boelo Cumartesi 21 00 BSTden Pazar 21 00 BSTye kadar İskoçya Kuzey İrlanda ve kuzey İngilterede amber rüzgar uyarısı getirecek Rüzgar hızı 80 mil saat 128 km s kadar ulaşabilir ve seyahat enerji ve su baskını risklerini artırıyor Geçen gün etkili olan Storm Austen 75 mil saatin üzerindeki rüzgarlarla ağaçları devirdi tren seferlerini iptal ettirdi ve binlerce evin elektriğini kesti Global Haber kanalına abone ol",
+      "publish_at": "2026-10-24T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-24T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 38.833333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/L_73yqknFQY.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 2,
+  "processed_count": 2,
   "complete": false,
   "generation_errors": [
     {
@@ -15,17 +72,22 @@
     {
       "index": 2,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: students foam fight"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
       "index": 3,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: summit ministers warn"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
-      "source": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
+      "index": 5,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "source": "Istanbul meeting: A new division of labor in the Iran war? - Iran International",
       "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
   "target_count": 3,
