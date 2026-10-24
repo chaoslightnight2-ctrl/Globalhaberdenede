@@ -1,61 +1,12 @@
 {
-  "run_id": "40119566626",
-  "generated_at": "2026-10-24T21:12:38.477866+03:00",
-  "target_count": 1,
+  "run_id": "40131875789",
+  "generated_at": "2026-10-24T23:55:17.634090+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "FfA6xpp1z0g",
-      "youtube_url": "https://youtu.be/FfA6xpp1z0g",
-      "publish_at_local": "2026-10-24T23:00:00+03:00",
-      "publish_at_utc": "2026-10-24T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 5,
-      "title": "Doğu Libya, Türkiye ile Deniz Koridorunu Onayladı",
-      "narration": "Doğu Libya Türkiye ile deniz koridorunu onayladı Doğu Libya Parlamentosu Türkiye ile ortak bir deniz ekonomik koridoru kurma anlaşmasını onayladı Karar Türkiye Dışişleri Bakanlığı tarafından memnuniyetle karşılandı ve Yunanistan ile ABnin güçlü tepkisini tetikledi Anlaşma bölgedeki yüzlerce milyar dolarlık doğal gaz rezervlerine erişimi ve EastMed boru hattının rotasını etkileyebilir Global Haber kanalına abone ol",
-      "description": "Doğu Libya Parlamentosu, Türkiye ile deniz ekonomik koridorunu onayladı. Bu karar, bölgedeki enerji rekabetini nasıl şekillendirecek? Sizce Yunanistan ve AB tepkisi ne kadar etkili olur?",
-      "visual_query": "map showing maritime corridor",
-      "tags": [
-        "Türkiye",
-        "Libya",
-        "deniz koridoru",
-        "Doğu Akdeniz",
-        "enerji"
-      ],
-      "video_path": "output/short_5.mp4",
-      "source_headline": "Greece protests Turkey-Libya deal on Mediterranean maritime corridor",
-      "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-10-24T18:53:12.723951+00:00",
-      "source_modified_at": "",
-      "run_id": "40119566626",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 4,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: whitehouse spokesperson statement"
-    }
-  ],
-  "daily_existing_count": 2
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
