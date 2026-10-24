@@ -1,13 +1,68 @@
 {
-  "source_run": "40131875789",
-  "verified_at": "2026-10-24T20:55:54.040689+00:00",
-  "videos": [],
+  "source_run": "40141089249",
+  "verified_at": "2026-10-24T23:53:46.299658+00:00",
+  "videos": [
+    {
+      "index": 5,
+      "video_id": "VTnftlqQ2y0",
+      "youtube_url": "https://youtu.be/VTnftlqQ2y0",
+      "title": "İstanbul'da 8 Ülke Bakanları Diplomatik Çözüm Talep Etti",
+      "narration": "İstanbulda sekiz ülke dışişleri bakanı diplomasi çağrısı yaptı Türkiye Mısır Pakistan Suudi Arabistan Fransa Almanya İtalya ve Birleşik Krallık dışişleri bakanları 23 Ekimde İstanbulda bir araya geldi Toplantıda İsrailin Filistin topraklarını işgali ve 1967 sınırları temelinde iki devletli çözümün uygulanması talep edildi Ayrıca Husi saldırıları ve Hormoz Boğazındaki deniz güvenliği riskleri gibi bölgesel güvenlik sorunlarının diplomatik yollarla çözülmesi gerektiği vurgulandı Global Haber kanalına abone ol",
+      "publish_at": "2026-10-25T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-25T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 37.6,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/VTnftlqQ2y0.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
+  "complete": false,
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: summit ministers warn"
+    },
+    {
+      "index": 4,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: whitehouse spokesperson statement"
+    },
+    {
+      "source": "Israeli occupation is main source of regional instability, Saudi Arabia, Turkiye, Egypt and Pakistan warn - Arab News",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
