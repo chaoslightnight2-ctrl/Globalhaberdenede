@@ -5475,7 +5475,30 @@
       "resolved_url": "https://www.theguardian.com/us-news/2026/oct/24/runaway-school-bus-quran-minnesota",
       "source_modified_at": "2026-10-24T10:01:50.000Z",
       "audience_bucket": "health_education",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Storm Boelo: 80 mph rüzgarla Britanya’da büyük uyarı",
+      "summary": "An amber weather warning has been issued for much of Scotland, parts of Northern Ireland and northern England, as Storm Boelo approaches.",
+      "url": "https://www.bbc.co.uk/weather/articles/cv8ez97k0wnlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "published_at": "2026-10-24T14:48:58+03:00",
+      "fingerprint": "1dd5f5fd70a2510207e542303019aae0748b6355",
+      "viral_score": 43.99,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/L_73yqknFQY",
+      "processed_at": "2026-10-24T16:01:54.988159+03:00",
+      "video_id": "L_73yqknFQY",
+      "publish_at_local": "2026-10-24T21:00:00+03:00",
+      "publish_at_utc": "2026-10-24T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Storm Boelo to bring severe gales and heavy rain into Sunday",
+      "resolved_url": "https://www.bbc.co.uk/weather/articles/cv8ez97k0wnlo?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
