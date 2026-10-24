@@ -5521,7 +5521,8 @@
       "resolved_url": "https://www.dw.com/en/turkeys-new-deal-on-mediterranean-maritime-boundaries-with-libya-is-exacerbating-issues-with-greece-and-the-eu/a-79745971?maca=en-rss-en-world-4025-rdf",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
