@@ -5544,7 +5544,8 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYW12ampuRk9ETVBITHEtNHM1R0Voc0JndVFUeklvWTJYbVNtZWdUUFJYaVhpNFNqaHBvQlgyRTBvQXNiWTJGcUVRR2JFX3l4T2l1Mk9DMGpub29sSUEwSjdFeWZaaVk4X214VlJzaXhjQ3MzVjVUOWhueE1tM0lUYllidGNUcFBsNld4RlZIa3l2blhpeDh5a2Exb2JpT2hpd2wwaXNvVG1vNHhTYWtyV9IBtgFBVV95cUxNbXcyX19hUjdiNXg4RkNoVWh6MGpTbjhuRHJMYTMySExVYXVuUUVvWXJBaEZQTnQ3UldFWkFXd1BOaVpDcFBtVWVTTFJCX1g4WWZURTdRVnBFVFp0NTkyUEVqSzA2OVdzZHFvYlBTbVhnczV5bWhybWdxM2RzbkhlVV9wX04xQk9NZ1NJSmMydGNaVnVNUWtDOTZfaXpLQzAzenNBLS0zR3hmaVdjZE9aTl8xbkZidw?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }

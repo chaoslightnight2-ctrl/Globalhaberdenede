@@ -31,7 +31,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-24T23:44:13.299182+00:00",
       "source_modified_at": "",
-      "run_id": "40141089249"
+      "run_id": "40141089249",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -54,6 +55,11 @@
       "index": 4,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: whitehouse spokesperson statement"
+    },
+    {
+      "source": "Israeli occupation is main source of regional instability, Saudi Arabia, Turkiye, Egypt and Pakistan warn - Arab News",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
   "daily_existing_count": 0
