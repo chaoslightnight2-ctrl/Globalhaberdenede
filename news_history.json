@@ -5454,6 +5454,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Minnesota’da Çocuklu Otobüsü Durduran Eritreli Genç",
+      "summary": "Ebro Ahmed, who acted after driver’s medical emergency, said he hopes incident will show Eritreans ‘in a good way’ A man who hopped on to a school bus full of terrified children that was careering down a Minnesota street after its driver had a medical emergency and manually halted it says he was motivated to act by a Qu’ran verse about how saving one life is equivalent to saving all of humanity. “I’m a numbers guy, and those numbers make sense to me,” Ebro Ahmed, 27, said on Friday during an interview about his actions four days earlier in front of his family’s convenience store in Saint Paul, Minnesota. “I didn’t do it for me. It was selflessness in the name of God.” Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/24/runaway-school-bus-quran-minnesota",
+      "source": "Guardian World",
+      "published_at": "2026-10-24T13:00:31+03:00",
+      "fingerprint": "103457c0b30b6c9b406f0156b4117efd1854043b",
+      "viral_score": 48.1,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/BW8zDLhXbvs",
+      "processed_at": "2026-10-24T15:35:59.830823+03:00",
+      "video_id": "BW8zDLhXbvs",
+      "publish_at_local": "2026-10-24T19:00:00+03:00",
+      "publish_at_utc": "2026-10-24T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Verse from Qu’ran inspired US man to leap on runaway school bus and halt it",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/oct/24/runaway-school-bus-quran-minnesota",
+      "source_modified_at": "2026-10-24T10:01:50.000Z",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question"
     }
   ]
 }
