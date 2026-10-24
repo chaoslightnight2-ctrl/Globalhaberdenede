@@ -5523,6 +5523,28 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbul'da 8 Ülke Bakanları Diplomatik Çözüm Talep Etti",
+      "summary": "8-nation Istanbul talks urge diplomacy to quell Mideast conflicts | Daily Sabah Daily Sabah",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYW12ampuRk9ETVBITHEtNHM1R0Voc0JndVFUeklvWTJYbVNtZWdUUFJYaVhpNFNqaHBvQlgyRTBvQXNiWTJGcUVRR2JFX3l4T2l1Mk9DMGpub29sSUEwSjdFeWZaaVk4X214VlJzaXhjQ3MzVjVUOWhueE1tM0lUYllidGNUcFBsNld4RlZIa3l2blhpeDh5a2Exb2JpT2hpd2wwaXNvVG1vNHhTYWtyV9IBtgFBVV95cUxNbXcyX19hUjdiNXg4RkNoVWh6MGpTbjhuRHJMYTMySExVYXVuUUVvWXJBaEZQTnQ3UldFWkFXd1BOaVpDcFBtVWVTTFJCX1g4WWZURTdRVnBFVFp0NTkyUEVqSzA2OVdzZHFvYlBTbVhnczV5bWhybWdxM2RzbkhlVV9wX04xQk9NZ1NJSmMydGNaVnVNUWtDOTZfaXpLQzAzenNBLS0zR3hmaVdjZE9aTl8xbkZidw?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-10-24T12:38:00+03:00",
+      "fingerprint": "f2a6e36f46f0254e23062a39eda060f02e76cbc6",
+      "viral_score": 20.44,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/VTnftlqQ2y0",
+      "processed_at": "2026-10-25T02:53:10.565335+03:00",
+      "video_id": "VTnftlqQ2y0",
+      "publish_at_local": "2026-10-25T19:00:00+03:00",
+      "publish_at_utc": "2026-10-25T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "8-nation Istanbul talks urge diplomacy to quell Mideast conflicts",
+      "resolved_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYW12ampuRk9ETVBITHEtNHM1R0Voc0JndVFUeklvWTJYbVNtZWdUUFJYaVhpNFNqaHBvQlgyRTBvQXNiWTJGcUVRR2JFX3l4T2l1Mk9DMGpub29sSUEwSjdFeWZaaVk4X214VlJzaXhjQ3MzVjVUOWhueE1tM0lUYllidGNUcFBsNld4RlZIa3l2blhpeDh5a2Exb2JpT2hpd2wwaXNvVG1vNHhTYWtyV9IBtgFBVV95cUxNbXcyX19hUjdiNXg4RkNoVWh6MGpTbjhuRHJMYTMySExVYXVuUUVvWXJBaEZQTnQ3UldFWkFXd1BOaVpDcFBtVWVTTFJCX1g4WWZURTdRVnBFVFp0NTkyUEVqSzA2OVdzZHFvYlBTbVhnczV5bWhybWdxM2RzbkhlVV9wX04xQk9NZ1NJSmMydGNaVnVNUWtDOTZfaXpLQzAzenNBLS0zR3hmaVdjZE9aTl8xbkZidw?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
