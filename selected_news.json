@@ -228,7 +228,62 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Macron yeni protesto yasasıyla sendika tepkisiyle karşı karşıya Ticaret sendikaları Emmanuel Macronun protesto hakkını kısıtlayacak vandal yasasını hızlandırdığını iddia ediyor Tasarı protestocuların doğrudan sorumlu olmasalar bile 10000 a kadar zarar ödemesini öngörüyor Senato bu hafta yasa tasarısını tartışacak ve okul grevleriyle artan toplumsal huzursuzluk devam ediyor Global Haber kanalına abone ol"
+      "script": "Macron yeni protesto yasasıyla sendika tepkisiyle karşı karşıya Ticaret sendikaları Emmanuel Macronun protesto hakkını kısıtlayacak vandal yasasını hızlandırdığını iddia ediyor Tasarı protestocuların doğrudan sorumlu olmasalar bile 10000 a kadar zarar ödemesini öngörüyor Senato bu hafta yasa tasarısını tartışacak ve okul grevleriyle artan toplumsal huzursuzluk devam ediyor Global Haber kanalına abone ol",
+      "scheduled_slot": "19:00",
+      "audio_path": "output/voiceover_5.mp3",
+      "background_path": "output/background_5.mp4",
+      "video_path": "output/short_5.mp4",
+      "video_id": "VbLZhIjNQ4s",
+      "youtube_url": "https://youtu.be/VbLZhIjNQ4s",
+      "publish_at_local": "2026-10-26T19:00:00+03:00",
+      "publish_at_utc": "2026-10-26T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Mary Peltola, araç kazasıyla kampanya turunu erteledi",
+      "summary": "Peltola and her family sustained minor injuries after a driver struck the car transporting group to campaign stop Mary Peltola , a Democrat who is running for Alaska ’s lone US Senate seat, and her family suffered minor injuries in a car crash while driving to a campaign stop on Saturday, her campaign said. The family was on its way to the Alaska Federation of Natives annual banquet when another vehicle crashed into the one transporting Peltola and her family, her campaign said in a statement on Sunday. Peltola required medical attention after the collision. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/25/mary-peltola-family-car-crash-alaska-senate",
+      "source": "Guardian World",
+      "source_name": "Guardian",
+      "query": "Guardian World",
+      "published_at": "2026-10-25T23:28:27+03:00",
+      "fingerprint": "718102d5a3da721d34144c461c6aac414b9da12a",
+      "direct_source": true,
+      "viral_score": 45.06,
+      "topic_bucket": "politics_diplomacy",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/oct/25/mary-peltola-family-car-crash-alaska-senate",
+      "source_headline": "Alaska Senate candidate Mary Peltola delays campaign stops after car crash",
+      "source_modified_at": "2026-10-25T20:28:27.000Z",
+      "source_checked_at": "2026-10-25T22:24:13.439648+00:00",
+      "article_score": 122,
+      "article_text": "Peltola and her family sustained minor injuries after a driver struck the car transporting group to campaign stop Mary Peltola, a Democrat who is running for Alaska’s lone US Senate seat, and her family suffered minor injuries in a car crash while driving to a campaign stop on Saturday, her campaign said The family was on its way to the Alaska Federation of Natives annual banquet when another vehicle crashed into the one transporting Peltola and her family, her campaign said in a statement on Sunday. Peltola required medical attention after the collision “Mary and her family sustained minor injuries but are in good spirits,” Cheryl Bruce, Peltola’s campaign manager, said in a statement. “Unfortunately, per the advice of medical professionals, Mary’s upcoming events in Fairbanks and Bethel will be rescheduled for later in the week as she takes time to recover.” Bruce added: “Mary is disappointed that the accident is delaying the start of her Alaska Always tour, and she is eager to get back on the campaign trail to speak directly with Alaskans about her plan to take on the rigged system and lower costs for working families.” Police responded to a “multi-vehicle collision” at about 6.55pm on Saturday, according to the Anchorage police department. Peltola’s family and the occupant of a second vehicle were taken to a local hospital “with non-life-threatening injuries”, according to the authorities, while the occupant of a third vehicle refused medical transport “The circumstances of the collision are under investigation,” reads a statement from the police department Peltola, an Alaska Native and former congresswoman, is challenging Republican incumbent senator Dan Sullivan, hoping to become the first Democrat in nearly two decades to represent the state in the Senate. Both candidates have tried to rally support from Alaska Native voters, a key constituency in the high-stakes race that has become one of the most watched in the nation On Friday, Donald Trump ordered the justice department to block the certification of the Senate election in Alaska if Sullivan loses. The lawsuit cites potential confusion with another Republican candidate who is listed on the ranked-choice ballot as Daniel J Sullivan Jr, who is a retired schoolteacher Peltola’s incident delayed what her campaign announced as the “Alaska Always tour,” an eight-stop push through the last week before election day. Her campaign said she will resume events on Tuesday, with a stop in Homer, Alaska",
+      "model_source_context": "Peltola and her family sustained minor injuries after a driver struck the car transporting group to campaign stop Mary Peltola, a Democrat who is running for Alaska’s lone US Senate seat, and her family suffered minor injuries in a car crash while driving to a campaign stop on Saturday, her campaign said The family was on its way to the Alaska Federation of Natives annual banquet when another vehicle crashed into the one transporting Peltola and her family, her campaign said in a statement on Sunday. Peltola required medical attention after the collision “Mary and her family sustained minor injuries but are in good spirits,” Cheryl Bruce, Peltola’s campaign manager, said in a statement. “Unfortunately, per the advice of medical professionals, Mary’s upcoming events in Fairbanks and Bethel will be rescheduled for later in the week as she takes time to recover.” Bruce added: “Mary is disappointed that the accident is delaying the start of her Alaska Always tour, and she is eager to get back on the campaign trail to speak directly with Alaskans about her plan to take on the rigged system and lower costs for working families.” Police responded to a “multi-vehicle collision” at about 6.55pm on Saturday, according to the Anchorage police department. Peltola’s family and the occupant of a second vehicle were taken to a local hospital “with non-life-threatening injuries”, according to the authorities, while the occupant of a third vehicle refused medical transport “The circumstances of the collision are under investigation,” reads a statement from the police department Peltola, an Alaska Native and former congresswoman, is challenging Republican incumbent senator Dan Sullivan, hoping to become the first Democrat in nearly two decades to represent the state in the Senate. Both candidates have tried to rally support from Alaska Native voters, a key constituency in the high-stakes race that has become one of the most watched in the nation On Friday, Donald Trump ordered the justice department to block the certification of the Senate election in Alaska if Sullivan loses. The lawsuit cites potential confusion with another Republican candidate who is listed on the ranked-choice ballot as Daniel J Sullivan Jr, who is a retired schoolteacher Peltola’s incident delayed what her campaign announced as the “Alaska Always tour,” an eight-stop push through the last week before election day. Her campaign said she will resume events on Tuesday, with a stop in Homer, Alaska",
+      "shorts_hook": "Mary Peltola’nın kampanya turu araç kazasıyla durdu",
+      "quality_hook": "Mary Peltola’nın kampanya turu araç kazasıyla durdu",
+      "quality_narration": "Mary Peltola ve ailesi, kampanya durağına giderken başka bir araçla çarpıştı ve hafif yaralanmalar yaşadı. Çarpışma sonrası Fairbanks ve Bethel’de planlanan etkinlikler, tıbbi tavsiye üzerine haftaya ertelendi. Polis, çarpışmanın çoklu araçlı olduğunu ve olayın soruşturulduğunu belirtti.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Mary Peltola ve ailesi, kampanya durağına giderken başka bir araçla çarpıştı ve hafif yaralanmalar yaşadı.",
+        "Çarpışma sonrası Fairbanks ve Bethel’de planlanan etkinlikler, tıbbi tavsiye üzerine haftaya ertelendi.",
+        "Polis, çarpışmanın çoklu araçlı olduğunu ve olayın soruşturulduğunu belirtti."
+      ],
+      "youtube_description": "Mary Peltola, Alaskalı seçmenlerle buluşmak üzereyken araç çarpması sonucu kampanya duraklarını erteledi. Sizce bu gecikme seçmen desteğini nasıl etkiler?",
+      "visual_query": "car crash campaign",
+      "spoken_text": "Mary Peltolanın kampanya turu araç kazasıyla durdu Mary Peltola ve ailesi kampanya durağına giderken başka bir araçla çarpıştı ve hafif yaralanmalar yaşadı Çarpışma sonrası Fairbanks ve Bethelde planlanan etkinlikler tıbbi tavsiye üzerine haftaya ertelendi Polis çarpışmanın çoklu araçlı olduğunu ve olayın soruşturulduğunu belirtti Global Haber kanalına abone ol",
+      "tts_text": "Mary Peltolanın kampanya turu araç kazasıyla durdu. Mary Peltola ve ailesi kampanya durağına giderken başka bir araçla çarpıştı ve hafif yaralanmalar yaşadı. Çarpışma sonrası Fairbanks ve Bethelde planlanan etkinlikler tıbbi tavsiye üzerine haftaya ertelendi. Polis çarpışmanın çoklu araçlı olduğunu ve olayın soruşturulduğunu belirtti. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "Alaska",
+        "senato",
+        "Mary Peltola",
+        "kampanya",
+        "araç kazası"
+      ],
+      "youtube_hashtags": "#shorts #politika #seçim",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Mary Peltolanın kampanya turu araç kazasıyla durdu Mary Peltola ve ailesi kampanya durağına giderken başka bir araçla çarpıştı ve hafif yaralanmalar yaşadı Çarpışma sonrası Fairbanks ve Bethelde planlanan etkinlikler tıbbi tavsiye üzerine haftaya ertelendi Polis çarpışmanın çoklu araçlı olduğunu ve olayın soruşturulduğunu belirtti Global Haber kanalına abone ol"
     }
   ]
 }
