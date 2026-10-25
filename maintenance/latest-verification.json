@@ -1,119 +1,13 @@
 {
-  "source_run": "40237393699",
-  "verified_at": "2026-10-25T22:47:27.280527+00:00",
-  "videos": [
-    {
-      "index": 5,
-      "video_id": "VbLZhIjNQ4s",
-      "youtube_url": "https://youtu.be/VbLZhIjNQ4s",
-      "title": "Macron’a ‘Vandal’ Yasasıyla Protesto Hakkı Tehdidi",
-      "narration": "Macron yeni protesto yasasıyla sendika tepkisiyle karşı karşıya Ticaret sendikaları Emmanuel Macronun protesto hakkını kısıtlayacak vandal yasasını hızlandırdığını iddia ediyor Tasarı protestocuların doğrudan sorumlu olmasalar bile 10000 a kadar zarar ödemesini öngörüyor Senato bu hafta yasa tasarısını tartışacak ve okul grevleriyle artan toplumsal huzursuzluk devam ediyor Global Haber kanalına abone ol",
-      "publish_at": "2026-10-26T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-26T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.833333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/VbLZhIjNQ4s.jpg"
-    },
-    {
-      "index": 6,
-      "video_id": "xQjhWATB7bw",
-      "youtube_url": "https://youtu.be/xQjhWATB7bw",
-      "title": "Mary Peltola, araç kazasıyla kampanya turunu erteledi",
-      "narration": "Mary Peltolanın kampanya turu araç kazasıyla durdu Mary Peltola ve ailesi kampanya durağına giderken başka bir araçla çarpıştı ve hafif yaralanmalar yaşadı Çarpışma sonrası Fairbanks ve Bethelde planlanan etkinlikler tıbbi tavsiye üzerine haftaya ertelendi Polis çarpışmanın çoklu araçlı olduğunu ve olayın soruşturulduğunu belirtti Global Haber kanalına abone ol",
-      "publish_at": "2026-10-26T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-26T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 28.2,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/xQjhWATB7bw.jpg"
-    },
-    {
-      "index": 7,
-      "video_id": "AIr2juaBx_A",
-      "youtube_url": "https://youtu.be/AIr2juaBx_A",
-      "title": "Vučić, Öğrenci Hareketine Seçimi Kaybetti",
-      "narration": "Vučić seçim kaybını öğrenci hareketine itiraf etti Uzun süredir iktidarda olan Aleksandar Vučiç Pazar akşamı seçim sonuçlarını kaybettiğini kabul etti Ön seçimlerde yüzde 64 virgül 9 oranında tarihî yüksek katılım sağlanırken öğrenci hareketi sokaklarda zafer sevinci yaşattı Vučiç Avrupa Birliği adaylığına destek verirken Rusyaya yaptırım uygulamaktan kaçındığını da vurguladı Global Haber kanalına abone ol",
-      "publish_at": "2026-10-26T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-26T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.466667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/AIr2juaBx_A.jpg"
-    }
-  ],
+  "source_run": "40243313338",
+  "verified_at": "2026-10-25T23:08:52.602030+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: anthropic shares donate"
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: summit ministers warn"
-    },
-    {
-      "index": 4,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    }
-  ],
-  "target_count": 3,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
