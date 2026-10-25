@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-25T13:20:36.081810+00:00",
       "source_modified_at": "2026-10-25T13:02:03.000Z",
+      "run_id": "40193817387",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "zxNa2SncQIk",
+      "youtube_url": "https://youtu.be/zxNa2SncQIk",
+      "publish_at_local": "2026-10-25T23:00:00+03:00",
+      "publish_at_utc": "2026-10-25T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 6,
+      "title": "Karanlık Madde Evreni Örümcek Ağı Gibi Gösterdi",
+      "narration": "Karanlık madde haritası evreni örümcek ağı gibi gösterdi Amerikan Doğa Tarihi Müzesi Hayden Planetaryum Space Show programından alınan simülasyon karanlık maddeyi siyah iplikler gibi evrende yayılmış gösteriyor Bu görüntüde baryonik madde turuncu renkle vurgulanırken karanlık madde filamanları evreni örümcek ağı gibi sarıyor Astronomlar karanlık enerjinin şimdi evrenin genişlemesini yönlendiren ana itici güç olduğunu belirtiyor Global Haber kanalına abone ol",
+      "description": "Simülasyon, karanlık maddeyi siyah filamanlar olarak gösteriyor ve evrenin yapısını nasıl etkilediğini gözler önüne seriyor. Sizce karanlık madde araştırmaları gelecekte ne gibi keşiflere yol açabilir?",
+      "visual_query": "dark matter swirling",
+      "tags": [
+        "karsilikli madde",
+        "evren simülasyonu",
+        "astronomi",
+        "karanlık enerji",
+        "galaksi rotasyonu"
+      ],
+      "video_path": "output/short_6.mp4",
+      "source_headline": "Dark Matter in a Simulated Universe",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-25T13:39:15.854657+00:00",
+      "source_modified_at": "2026-10-25T04:19:53-04:00",
       "run_id": "40193817387"
     }
   ],

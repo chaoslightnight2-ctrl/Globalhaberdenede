@@ -5567,7 +5567,30 @@
       "resolved_url": "https://www.theguardian.com/politics/2026/oct/25/former-tory-candidate-suspended-over-contract-killer-claims-was-adviser-in-kemi-badenoch-office-jack-ross",
       "source_modified_at": "2026-10-25T13:02:03.000Z",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Karanlık Madde Evreni Örümcek Ağı Gibi Gösterdi",
+      "summary": "APOD Science APOD APOD: 2026 October 25 – Dark… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Dark Matter in a Simulated Universe Explanation: Is our universe haunted? It might look that way on this dark matter map. The gravity of unseen dark matter is the leading explanation for why galaxies rotate so fast , why galaxies orbit clusters so fast , why gravitational lenses so strongly deflect light, and how visible matter is distributed. The featured image from the American Museum of Natural History ‘s Hayden Planetarium Space Show, Dark Universe, highlights one example of how pervasive dark matter might haunt our universe. In this frame from a detailed computer simulation , complex filaments of dark matter, shown in black, are strewn about the universe like spider webs , while the relatively rare clumps of familiar baryon ic matter are colored orange. These simulations are good statistical matches to astronomical observations. In what is perhaps a scarier turn of events, dark matter — although quite strange and in an unknown form — is no longer thought to be the strangest source of gravity in the universe . That honor now falls to dark energy , a more uniform source of repulsive gravity that seems to now dominate the expansion of the entire universe . Tomorrow’s picture: Orion the Great Date: October 25, 2026 Credit & Copyright: Tom Abel & Ralf Kaehler ( KIPAC , SLAC ), AMNH Authors & editors: Robert Nemiroff, Jerry Bonnell, Cecilia Chirenti, Keighley Rockcliffe A service of: ASD at NASA / GSFC , NASA Science Activation & Michigan Tech. U. Random APOD Generator Yesterday’s Image APOD: 2026 October 24 – Rosetta’s Selfie Tomorrow’s Image",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+      "source": "NASA",
+      "published_at": "2026-10-25T11:19:48+03:00",
+      "fingerprint": "71de9c80b9549b36d7e79162273ba6da0daedd11",
+      "viral_score": 43.98,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/zxNa2SncQIk",
+      "processed_at": "2026-10-25T17:04:17.492131+03:00",
+      "video_id": "zxNa2SncQIk",
+      "publish_at_local": "2026-10-25T23:00:00+03:00",
+      "publish_at_utc": "2026-10-25T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Dark Matter in a Simulated Universe",
+      "resolved_url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+      "source_modified_at": "2026-10-25T04:19:53-04:00",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }
