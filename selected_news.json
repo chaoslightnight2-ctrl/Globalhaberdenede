@@ -228,7 +228,62 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Jack Ross suikast teklifiyle askıya alındı Jack Ross eski bir Tory adayının parti üyeliği Al Jazeera belgeselinde sözde suikastçi kiralama konuşması yaptığı için askıya alındı Röportajda Ross Kemi Badenochun ofisinde dış danışman olarak çalıştığını ve Ne yapılmasını istersiniz sorusuna yanıt verdiğini iddia etti Parti bu iddiaları soruşturuyor ve Rossun üyeliği anında durduruldu Global Haber kanalına abone ol"
+      "script": "Jack Ross suikast teklifiyle askıya alındı Jack Ross eski bir Tory adayının parti üyeliği Al Jazeera belgeselinde sözde suikastçi kiralama konuşması yaptığı için askıya alındı Röportajda Ross Kemi Badenochun ofisinde dış danışman olarak çalıştığını ve Ne yapılmasını istersiniz sorusuna yanıt verdiğini iddia etti Parti bu iddiaları soruşturuyor ve Rossun üyeliği anında durduruldu Global Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_5.mp3",
+      "background_path": "output/background_5.mp4",
+      "video_path": "output/short_5.mp4",
+      "video_id": "W5v03tYb5y0",
+      "youtube_url": "https://youtu.be/W5v03tYb5y0",
+      "publish_at_local": "2026-10-25T21:00:00+03:00",
+      "publish_at_utc": "2026-10-25T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Karanlık Madde Evreni Örümcek Ağı Gibi Gösterdi",
+      "summary": "APOD Science APOD APOD: 2026 October 25 – Dark… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Dark Matter in a Simulated Universe Explanation: Is our universe haunted? It might look that way on this dark matter map. The gravity of unseen dark matter is the leading explanation for why galaxies rotate so fast , why galaxies orbit clusters so fast , why gravitational lenses so strongly deflect light, and how visible matter is distributed. The featured image from the American Museum of Natural History ‘s Hayden Planetarium Space Show, Dark Universe, highlights one example of how pervasive dark matter might haunt our universe. In this frame from a detailed computer simulation , complex filaments of dark matter, shown in black, are strewn about the universe like spider webs , while the relatively rare clumps of familiar baryon ic matter are colored orange. These simulations are good statistical matches to astronomical observations. In what is perhaps a scarier turn of events, dark matter — although quite strange and in an unknown form — is no longer thought to be the strangest source of gravity in the universe . That honor now falls to dark energy , a more uniform source of repulsive gravity that seems to now dominate the expansion of the entire universe . Tomorrow’s picture: Orion the Great Date: October 25, 2026 Credit & Copyright: Tom Abel & Ralf Kaehler ( KIPAC , SLAC ), AMNH Authors & editors: Robert Nemiroff, Jerry Bonnell, Cecilia Chirenti, Keighley Rockcliffe A service of: ASD at NASA / GSFC , NASA Science Activation & Michigan Tech. U. Random APOD Generator Yesterday’s Image APOD: 2026 October 24 – Rosetta’s Selfie Tomorrow’s Image",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+      "source": "NASA",
+      "source_name": "",
+      "query": "NASA",
+      "published_at": "2026-10-25T11:19:48+03:00",
+      "fingerprint": "71de9c80b9549b36d7e79162273ba6da0daedd11",
+      "direct_source": true,
+      "viral_score": 43.98,
+      "topic_bucket": "technology_science",
+      "resolved_url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+      "source_headline": "Dark Matter in a Simulated Universe",
+      "source_modified_at": "2026-10-25T04:19:53-04:00",
+      "source_checked_at": "2026-10-25T13:39:15.854657+00:00",
+      "article_score": 60,
+      "article_text": "APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer Explanation: Is our universe haunted? It might look that way on this dark matter map. The gravity of unseen dark matter is the leading explanation for why galaxies rotate so fast, why galaxies orbit clusters so fast, why gravitational lenses so strongly deflect light, and how visible matter is distributed. The featured image from the American Museum of Natural History's Hayden Planetarium Space Show, Dark Universe, highlights one example of how pervasive dark matter might haunt our universe. In this frame from a detailed computer simulation, complex filaments of dark matter, shown in black, are strewn about the universe like spider webs, while the relatively rare clumps of familiar baryonic matter are colored orange. These simulations are good statistical matches to astronomical observations. In what is perhaps a scarier turn of events, dark matter -- although quite strange and in an unknown form -- is no longer thought to be the strangest source of gravity in the universe. That honor now falls to dark energy, a more uniform source of repulsive gravity that seems to now dominate the expansion of the entire universe.Tomorrow's picture: Orion the Great",
+      "model_source_context": "APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer Explanation: Is our universe haunted? It might look that way on this dark matter map. The gravity of unseen dark matter is the leading explanation for why galaxies rotate so fast, why galaxies orbit clusters so fast, why gravitational lenses so strongly deflect light, and how visible matter is distributed. The featured image from the American Museum of Natural History's Hayden Planetarium Space Show, Dark Universe, highlights one example of how pervasive dark matter might haunt our universe. In this frame from a detailed computer simulation, complex filaments of dark matter, shown in black, are strewn about the universe like spider webs, while the relatively rare clumps of familiar baryonic matter are colored orange. These simulations are good statistical matches to astronomical observations. In what is perhaps a scarier turn of events, dark matter -- although quite strange and in an unknown form -- is no longer thought to be the strangest source of gravity in the universe. That honor now falls to dark energy, a more uniform source of repulsive gravity that seems to now dominate the expansion of the entire universe.Tomorrow's picture: Orion the Great",
+      "shorts_hook": "Karanlık madde haritası evreni örümcek ağı gibi gösterdi",
+      "quality_hook": "Karanlık madde haritası evreni örümcek ağı gibi gösterdi",
+      "quality_narration": "Amerikan Doğa Tarihi Müzesi Hayden Planetaryum Space Show programından alınan simülasyon, karanlık maddeyi siyah iplikler gibi evrende yayılmış gösteriyor. Bu görüntüde baryonik madde turuncu renkle vurgulanırken, karanlık madde filamanları evreni örümcek ağı gibi sarıyor. Astronomlar, karanlık enerjinin şimdi evrenin genişlemesini yönlendiren ana itici güç olduğunu belirtiyor.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Amerikan Doğa Tarihi Müzesi Hayden Planetaryum Space Show programından alınan simülasyon, karanlık maddeyi siyah iplikler gibi evrende yayılmış gösteriyor.",
+        "Bu görüntüde baryonik madde turuncu renkle vurgulanırken, karanlık madde filamanları evreni örümcek ağı gibi sarıyor.",
+        "Astronomlar, karanlık enerjinin şimdi evrenin genişlemesini yönlendiren ana itici güç olduğunu belirtiyor."
+      ],
+      "youtube_description": "Simülasyon, karanlık maddeyi siyah filamanlar olarak gösteriyor ve evrenin yapısını nasıl etkilediğini gözler önüne seriyor. Sizce karanlık madde araştırmaları gelecekte ne gibi keşiflere yol açabilir?",
+      "visual_query": "dark matter swirling",
+      "spoken_text": "Karanlık madde haritası evreni örümcek ağı gibi gösterdi Amerikan Doğa Tarihi Müzesi Hayden Planetaryum Space Show programından alınan simülasyon karanlık maddeyi siyah iplikler gibi evrende yayılmış gösteriyor Bu görüntüde baryonik madde turuncu renkle vurgulanırken karanlık madde filamanları evreni örümcek ağı gibi sarıyor Astronomlar karanlık enerjinin şimdi evrenin genişlemesini yönlendiren ana itici güç olduğunu belirtiyor Global Haber kanalına abone ol",
+      "tts_text": "Karanlık madde haritası evreni örümcek ağı gibi gösterdi. Amerikan Doğa Tarihi Müzesi Hayden Planetaryum Space Show programından alınan simülasyon karanlık maddeyi siyah iplikler gibi evrende yayılmış gösteriyor. Bu görüntüde baryonik madde turuncu renkle vurgulanırken karanlık madde filamanları evreni örümcek ağı gibi sarıyor. Astronomlar karanlık enerjinin şimdi evrenin genişlemesini yönlendiren ana itici güç olduğunu belirtiyor. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "karsilikli madde",
+        "evren simülasyonu",
+        "astronomi",
+        "karanlık enerji",
+        "galaksi rotasyonu"
+      ],
+      "youtube_hashtags": "#shorts #astronomi #kozmoloji",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Karanlık madde haritası evreni örümcek ağı gibi gösterdi Amerikan Doğa Tarihi Müzesi Hayden Planetaryum Space Show programından alınan simülasyon karanlık maddeyi siyah iplikler gibi evrende yayılmış gösteriyor Bu görüntüde baryonik madde turuncu renkle vurgulanırken karanlık madde filamanları evreni örümcek ağı gibi sarıyor Astronomlar karanlık enerjinin şimdi evrenin genişlemesini yönlendiren ana itici güç olduğunu belirtiyor Global Haber kanalına abone ol"
     }
   ]
 }
