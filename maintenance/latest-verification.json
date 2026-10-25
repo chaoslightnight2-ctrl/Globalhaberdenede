@@ -1,19 +1,19 @@
 {
-  "source_run": "40193817387",
-  "verified_at": "2026-10-25T14:05:57.378593+00:00",
+  "source_run": "40237393699",
+  "verified_at": "2026-10-25T22:47:27.280527+00:00",
   "videos": [
     {
       "index": 5,
-      "video_id": "W5v03tYb5y0",
-      "youtube_url": "https://youtu.be/W5v03tYb5y0",
-      "title": "Jack Ross, Tory adayı, sözde suikastla askıya alındı",
-      "narration": "Jack Ross suikast teklifiyle askıya alındı Jack Ross eski bir Tory adayının parti üyeliği Al Jazeera belgeselinde sözde suikastçi kiralama konuşması yaptığı için askıya alındı Röportajda Ross Kemi Badenochun ofisinde dış danışman olarak çalıştığını ve Ne yapılmasını istersiniz sorusuna yanıt verdiğini iddia etti Parti bu iddiaları soruşturuyor ve Rossun üyeliği anında durduruldu Global Haber kanalına abone ol",
-      "publish_at": "2026-10-25T18:00:00Z",
+      "video_id": "VbLZhIjNQ4s",
+      "youtube_url": "https://youtu.be/VbLZhIjNQ4s",
+      "title": "Macron’a ‘Vandal’ Yasasıyla Protesto Hakkı Tehdidi",
+      "narration": "Macron yeni protesto yasasıyla sendika tepkisiyle karşı karşıya Ticaret sendikaları Emmanuel Macronun protesto hakkını kısıtlayacak vandal yasasını hızlandırdığını iddia ediyor Tasarı protestocuların doğrudan sorumlu olmasalar bile 10000 a kadar zarar ödemesini öngörüyor Senato bu hafta yasa tasarısını tartışacak ve okul grevleriyle artan toplumsal huzursuzluk devam ediyor Global Haber kanalına abone ol",
+      "publish_at": "2026-10-26T16:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-25T18:00:00Z",
+        "publishAt": "2026-10-26T16:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,25 +23,25 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 30.2,
+        "duration": 30.833333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/W5v03tYb5y0.jpg"
+      "preview": "maintenance/previews/VbLZhIjNQ4s.jpg"
     },
     {
       "index": 6,
-      "video_id": "zxNa2SncQIk",
-      "youtube_url": "https://youtu.be/zxNa2SncQIk",
-      "title": "Karanlık Madde Evreni Örümcek Ağı Gibi Gösterdi",
-      "narration": "Karanlık madde haritası evreni örümcek ağı gibi gösterdi Amerikan Doğa Tarihi Müzesi Hayden Planetaryum Space Show programından alınan simülasyon karanlık maddeyi siyah iplikler gibi evrende yayılmış gösteriyor Bu görüntüde baryonik madde turuncu renkle vurgulanırken karanlık madde filamanları evreni örümcek ağı gibi sarıyor Astronomlar karanlık enerjinin şimdi evrenin genişlemesini yönlendiren ana itici güç olduğunu belirtiyor Global Haber kanalına abone ol",
-      "publish_at": "2026-10-25T20:00:00Z",
+      "video_id": "xQjhWATB7bw",
+      "youtube_url": "https://youtu.be/xQjhWATB7bw",
+      "title": "Mary Peltola, araç kazasıyla kampanya turunu erteledi",
+      "narration": "Mary Peltolanın kampanya turu araç kazasıyla durdu Mary Peltola ve ailesi kampanya durağına giderken başka bir araçla çarpıştı ve hafif yaralanmalar yaşadı Çarpışma sonrası Fairbanks ve Bethelde planlanan etkinlikler tıbbi tavsiye üzerine haftaya ertelendi Polis çarpışmanın çoklu araçlı olduğunu ve olayın soruşturulduğunu belirtti Global Haber kanalına abone ol",
+      "publish_at": "2026-10-26T18:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-25T20:00:00Z",
+        "publishAt": "2026-10-26T18:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -51,23 +51,51 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 32.766667,
+        "duration": 28.2,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/zxNa2SncQIk.jpg"
+      "preview": "maintenance/previews/xQjhWATB7bw.jpg"
+    },
+    {
+      "index": 7,
+      "video_id": "AIr2juaBx_A",
+      "youtube_url": "https://youtu.be/AIr2juaBx_A",
+      "title": "Vučić, Öğrenci Hareketine Seçimi Kaybetti",
+      "narration": "Vučić seçim kaybını öğrenci hareketine itiraf etti Uzun süredir iktidarda olan Aleksandar Vučiç Pazar akşamı seçim sonuçlarını kaybettiğini kabul etti Ön seçimlerde yüzde 64 virgül 9 oranında tarihî yüksek katılım sağlanırken öğrenci hareketi sokaklarda zafer sevinci yaşattı Vučiç Avrupa Birliği adaylığına destek verirken Rusyaya yaptırım uygulamaktan kaçındığını da vurguladı Global Haber kanalına abone ol",
+      "publish_at": "2026-10-26T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-26T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 30.466667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/AIr2juaBx_A.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 3,
+  "processed_count": 3,
   "complete": false,
   "generation_errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: anthropic shares donate"
     },
     {
       "index": 2,
@@ -77,7 +105,7 @@
     {
       "index": 3,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: summit ministers warn"
     },
     {
       "index": 4,
@@ -85,7 +113,7 @@
       "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
   ],
-  "target_count": 2,
+  "target_count": 3,
   "published_count": 0,
   "accepted_complete": true
 }
