@@ -5590,7 +5590,8 @@
       "resolved_url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
       "source_modified_at": "2026-10-25T04:19:53-04:00",
       "audience_bucket": "technology_science",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
