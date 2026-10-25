@@ -5592,6 +5592,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Macron’a ‘Vandal’ Yasasıyla Protesto Hakkı Tehdidi",
+      "summary": "Making innocent protesters liable for damage would be bad for rule of law and play into far-right hands, say opponents Emmanuel Macron has been accused by trade unions of trying to curb the fundamental French right to protest as the government fast-tracks a bill to make protesters pay for damage caused by vandalism at street demonstrations even if they did not directly cause it themselves. The French president, who leaves office next spring, has faced more than a month of protests in which high-school students have blockaded schools demanding a response to teacher absences, repairs to decrepit buildings and changes to the university applications platform. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
+      "source": "Guardian World",
+      "published_at": "2026-10-25T22:57:40+03:00",
+      "fingerprint": "d247252c7963ee78f9e58f3511d581e038432250",
+      "viral_score": 48.24,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/VbLZhIjNQ4s",
+      "processed_at": "2026-10-26T01:24:11.443912+03:00",
+      "video_id": "VbLZhIjNQ4s",
+      "publish_at_local": "2026-10-26T19:00:00+03:00",
+      "publish_at_utc": "2026-10-26T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Macron accused of putting France’s right to protest at risk with ‘vandal’s law’",
+      "resolved_url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
+      "source_modified_at": "2026-10-25T20:30:05.000Z",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }

@@ -1,12 +1,60 @@
 {
-  "run_id": "40221208521",
-  "generated_at": "2026-10-25T21:26:42.068821+03:00",
-  "target_count": 0,
+  "run_id": "40237393699",
+  "generated_at": "2026-10-26T00:51:45.032494+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "VbLZhIjNQ4s",
+      "youtube_url": "https://youtu.be/VbLZhIjNQ4s",
+      "publish_at_local": "2026-10-26T19:00:00+03:00",
+      "publish_at_utc": "2026-10-26T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "Macron’a ‘Vandal’ Yasasıyla Protesto Hakkı Tehdidi",
+      "narration": "Macron yeni protesto yasasıyla sendika tepkisiyle karşı karşıya Ticaret sendikaları Emmanuel Macronun protesto hakkını kısıtlayacak vandal yasasını hızlandırdığını iddia ediyor Tasarı protestocuların doğrudan sorumlu olmasalar bile 10000 a kadar zarar ödemesini öngörüyor Senato bu hafta yasa tasarısını tartışacak ve okul grevleriyle artan toplumsal huzursuzluk devam ediyor Global Haber kanalına abone ol",
+      "description": "Fransa’da hükümet, protestocuları zararları ödemeye zorlayacak bir yasa hazırlıyor. Sizce bu adım demokratik hakları korur mu?",
+      "visual_query": "macron signing law",
+      "tags": [
+        "Fransa",
+        "protesto",
+        "Macron",
+        "vandal yasası",
+        "sendika"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "Macron accused of putting France’s right to protest at risk with ‘vandal’s law’",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-25T22:18:32.007239+00:00",
+      "source_modified_at": "2026-10-25T20:30:05.000Z",
+      "run_id": "40237393699"
+    }
+  ],
+  "errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: anthropic shares donate"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: summit ministers warn"
+    },
+    {
+      "index": 4,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    }
+  ],
+  "daily_existing_count": 0
 }
