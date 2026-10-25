@@ -5546,6 +5546,28 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Jack Ross, Tory adayı, sözde suikastla askıya alındı",
+      "summary": "Sources close to Tory leader say Jack Ross, who faces party investigation after undercover report, worked as social media consultant A former Conservative election candidate who was suspended after he was filmed discussing the cost of hiring contract killers worked as a consultant in Kemi Badenoch’s office as recently as last year. Jack Ross is facing an investigation by the Tories after he was filmed apparently asking an undercover reporter: “What do you want done?” and apparently offering to “broker” the services of an alleged far-right paramilitary group. Continue reading...",
+      "url": "https://www.theguardian.com/politics/2026/oct/25/former-tory-candidate-suspended-over-contract-killer-claims-was-adviser-in-kemi-badenoch-office-jack-ross",
+      "source": "Guardian World",
+      "published_at": "2026-10-25T16:00:03+03:00",
+      "fingerprint": "87e785aa3f6eb20fa33ab309ef2e62a44b28e55c",
+      "viral_score": 44.45,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/W5v03tYb5y0",
+      "processed_at": "2026-10-25T16:39:13.885921+03:00",
+      "video_id": "W5v03tYb5y0",
+      "publish_at_local": "2026-10-25T21:00:00+03:00",
+      "publish_at_utc": "2026-10-25T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Former Tory candidate suspended over contract killer claims was adviser in Kemi Badenoch’s office",
+      "resolved_url": "https://www.theguardian.com/politics/2026/oct/25/former-tory-candidate-suspended-over-contract-killer-claims-was-adviser-in-kemi-badenoch-office-jack-ross",
+      "source_modified_at": "2026-10-25T13:02:03.000Z",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
