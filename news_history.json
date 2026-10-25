@@ -5613,7 +5613,30 @@
       "resolved_url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
       "source_modified_at": "2026-10-25T20:30:05.000Z",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Mary Peltola, araç kazasıyla kampanya turunu erteledi",
+      "summary": "Peltola and her family sustained minor injuries after a driver struck the car transporting group to campaign stop Mary Peltola , a Democrat who is running for Alaska ’s lone US Senate seat, and her family suffered minor injuries in a car crash while driving to a campaign stop on Saturday, her campaign said. The family was on its way to the Alaska Federation of Natives annual banquet when another vehicle crashed into the one transporting Peltola and her family, her campaign said in a statement on Sunday. Peltola required medical attention after the collision. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/25/mary-peltola-family-car-crash-alaska-senate",
+      "source": "Guardian World",
+      "published_at": "2026-10-25T23:28:27+03:00",
+      "fingerprint": "718102d5a3da721d34144c461c6aac414b9da12a",
+      "viral_score": 45.06,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/xQjhWATB7bw",
+      "processed_at": "2026-10-26T01:30:22.076738+03:00",
+      "video_id": "xQjhWATB7bw",
+      "publish_at_local": "2026-10-26T21:00:00+03:00",
+      "publish_at_utc": "2026-10-26T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Alaska Senate candidate Mary Peltola delays campaign stops after car crash",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/oct/25/mary-peltola-family-car-crash-alaska-senate",
+      "source_modified_at": "2026-10-25T20:28:27.000Z",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }

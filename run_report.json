@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-25T22:18:32.007239+00:00",
       "source_modified_at": "2026-10-25T20:30:05.000Z",
+      "run_id": "40237393699",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "xQjhWATB7bw",
+      "youtube_url": "https://youtu.be/xQjhWATB7bw",
+      "publish_at_local": "2026-10-26T21:00:00+03:00",
+      "publish_at_utc": "2026-10-26T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 6,
+      "title": "Mary Peltola, araç kazasıyla kampanya turunu erteledi",
+      "narration": "Mary Peltolanın kampanya turu araç kazasıyla durdu Mary Peltola ve ailesi kampanya durağına giderken başka bir araçla çarpıştı ve hafif yaralanmalar yaşadı Çarpışma sonrası Fairbanks ve Bethelde planlanan etkinlikler tıbbi tavsiye üzerine haftaya ertelendi Polis çarpışmanın çoklu araçlı olduğunu ve olayın soruşturulduğunu belirtti Global Haber kanalına abone ol",
+      "description": "Mary Peltola, Alaskalı seçmenlerle buluşmak üzereyken araç çarpması sonucu kampanya duraklarını erteledi. Sizce bu gecikme seçmen desteğini nasıl etkiler?",
+      "visual_query": "car crash campaign",
+      "tags": [
+        "Alaska",
+        "senato",
+        "Mary Peltola",
+        "kampanya",
+        "araç kazası"
+      ],
+      "video_path": "output/short_6.mp4",
+      "source_headline": "Alaska Senate candidate Mary Peltola delays campaign stops after car crash",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-25T22:24:13.439648+00:00",
+      "source_modified_at": "2026-10-25T20:28:27.000Z",
       "run_id": "40237393699"
     }
   ],
