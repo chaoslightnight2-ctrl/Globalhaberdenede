@@ -1,13 +1,39 @@
 {
-  "source_run": "40338681572",
-  "verified_at": "2026-10-26T14:39:48.896621+00:00",
+  "source_run": "40396616200",
+  "verified_at": "2026-10-26T21:47:10.611281+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "complete": false,
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: anthropic shares donate"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: students foam fight"
+    },
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: summit ministers warn"
+    },
+    {
+      "index": 4,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: whitehouse spokesperson statement"
+    },
+    {
+      "source": "How the streets and social media drove Lula to a historic comeback in Brazil",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
