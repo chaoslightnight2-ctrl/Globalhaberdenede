@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:17:46.378049+03:00",
+  "generated_at": "2026-10-27T23:07:53.946673+03:00",
   "selected_news": [
     {
       "title": "Anthropic allocates 5% of shares to public‑good fund",
@@ -16,7 +16,7 @@
       "resolved_url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
       "source_headline": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
       "source_modified_at": "2026-10-25T17:11:35.000Z",
-      "source_checked_at": "2026-10-27T13:17:46.744727+00:00",
+      "source_checked_at": "2026-10-27T20:07:54.048562+00:00",
       "article_score": 122,
       "article_text": "The $48bn giveaway comes amid concerns about the tech and as the company prepares for a stock market listing Anthropic has said it will commit 5% of its shares to a fund for the “public good”, as the AI developer behind the Claude chatbot seeks to bolster its appeal before its stock market listing The company announced it would commit the shares, worth around $48bn (£36bn) at its latest valuation in May, subject to shareholder approval. It will add a further 2% of its stock to the fund for every 50% increase in its value above an undisclosed baseline The fund will allow Anthropic to “explore large donations to traditional nonprofits or direct distributions to specific populations”, the company said The move comes amid growing public nervousness about AI, from the threat to human labour to the impact on the environment and its influence on social behaviours “AI may generate enormous economic value, but it could also cause instability for many workers,” Anthropic wrote in a blogpost It said that while it had already committed $200m to addressing the issue, “given the pace of AI progress, bolder approaches may be needed. The fund will have the versatility to pursue them.” The company, which is preparing to list on the stock market, has called for a slowdown in breakneck development of AI, a warning later echoed by rivals such as OpenAI Anthropic was valued at $965bn in May when it raised $65bn in a funding round. The company is reportedly considering a $1.5tn valuation when it floats on the stock market, with an IPO planned for November Last week, Anthropic said some of its AI models could soon become “self-replicating” and find ways to infiltrate internet-connected devices such as smart fridges and automatic vacuum cleaners It said that once this happens, the models would be able to power themselves without the need of datacentres Elon Musk, the chief executive of Tesla and founder of SpaceX, responded to Anthropic’s plans for a public benefit fund on social media by pledging to give some of his own shares away “I recommend giving the shares directly to the public,” he wrote. “This is what I will be doing.” He later announced: “Next year, I will give one of my SpaceX shares to every kid in America. This will be the first of many.” Shares in SpaceX, which is listed on the Nasdaq in the US, rose by 1% in pre-market trading on Monday. The company has lost about 9% of its value since it joined the stock market in June OpenAI, the developer behind ChatGPT, also reportedly engaged in early talks to give a 5% stake in its organisation to the US government Anthropic, which was founded in 2021 by seven former OpenAI employees, was established as a public benefit corporation. It means that all of the company’s directors must balance financial returns with its public interest mission",
       "model_source_context": "The $48bn giveaway comes amid concerns about the tech and as the company prepares for a stock market listing Anthropic has said it will commit 5% of its shares to a fund for the “public good”, as the AI developer behind the Claude chatbot seeks to bolster its appeal before its stock market listing The company announced it would commit the shares, worth around $48bn (£36bn) at its latest valuation in May, subject to shareholder approval. It will add a further 2% of its stock to the fund for every 50% increase in its value above an undisclosed baseline The fund will allow Anthropic to “explore large donations to traditional nonprofits or direct distributions to specific populations”, the company said The move comes amid growing public nervousness about AI, from the threat to human labour to the impact on the environment and its influence on social behaviours “AI may generate enormous economic value, but it could also cause instability for many workers,” Anthropic wrote in a blogpost It said that while it had already committed $200m to addressing the issue, “given the pace of AI progress, bolder approaches may be needed. The fund will have the versatility to pursue them.” The company, which is preparing to list on the stock market, has called for a slowdown in breakneck development of AI, a warning later echoed by rivals such as OpenAI Anthropic was valued at $965bn in May when it raised $65bn in a funding round. The company is reportedly considering a $1.5tn valuation when it floats on the stock market, with an IPO planned for November Last week, Anthropic said some of its AI models could soon become “self-replicating” and find ways to infiltrate internet-connected devices such as smart fridges and automatic vacuum cleaners It said that once this happens, the models would be able to power themselves without the need of datacentres Elon Musk, the chief executive of Tesla and founder of SpaceX, responded to Anthropic’s plans for a public benefit fund on social media by pledging to give some of his own shares away “I recommend giving the shares directly to the public,” he wrote. “This is what I will be doing.” He later announced: “Next year, I will give one of my SpaceX shares to every kid in America. This will be the first of many.” Shares in SpaceX, which is listed on the Nasdaq in the US, rose by 1% in pre-market trading on Monday. The company has lost about 9% of its value since it joined the stock market in June OpenAI, the developer behind ChatGPT, also reportedly engaged in early talks to give a 5% stake in its organisation to the US government Anthropic, which was founded in 2021 by seven former OpenAI employees, was established as a public benefit corporation. It means that all of the company’s directors must balance financial returns with its public interest mission",
@@ -91,7 +91,8 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "St Andrewsta yüzlerce öğrenci köpükle savaştı Bu Pazartesi St Andrews Üniversitesi öğrencileri sabah 11de St Salvators çimlerine renkli kostümlerle ve köpük kutularıyla akın etti Etkinlik sırasında katılımcılar yerel gıda bankasına bağış yapmayı da şart koşarak birbirlerini köpük bulutlarıyla kapladı Sıcaklık tek haneli derecelerde olmasına rağmen öğrenciler kostümlerini sürdürerek yarım saat boyunca köpük yağdırdı Global Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
+      "scheduled_slot": "19:00",
+      "_ready_to_resume": true
     },
     {
       "title": "İstanbul Zirvesi'nde ABD-İsrail'e Saldırı Uyarısı",
@@ -137,7 +138,8 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "İstanbulda dışişleri bakanları ABD ve İsraili uyardı İstanbulda gerçekleşen zirvede sekiz ülkenin dışişleri bakanları ABD ve İsrailin İrana yeni saldırı planlarını durdurmaları gerektiğini vurguladı Toplantı yeni bir çok uluslu anti savaş bloğu oluşturulmasını ve Hormuz Boğazının açılmasını da talep etti Fransız dışişleri bakanı Jean Noël Barrot yeni bir savaşın petrol fiyatlarını yükselteceğini ve bölge ekonomisini sarsacağını belirtti Global Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
+      "scheduled_slot": "19:00",
+      "_ready_to_resume": true
     },
     {
       "title": "Beyaz Saray: Trump, Epstein mağdurları için en çok şey yapan",
@@ -183,52 +185,8 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Beyaz Saray Trumpın Epstein mağdurları için yaptığıları açıkladı Beyaz Saray sözcüsü Lauren Bis Başkan Trumpın Epstein mağdurları için daha önceki hiçbir kişiden daha fazla şey yaptığını belirtti Avukat Spencer Kuvin Epstein davasının haber döngüsüyle silinmemesi gerektiğini vurguladı Adalet Bakanlığı New Mexico Başsavcısı Raúl Torrezin iddialarını reddederek mağdurların gizliliğini korumaya devam edeceğini söyledi Global Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
-    },
-    {
-      "title": "İran’a Yardım Suçlamasıyla İki Britanyalı Tutuklandı",
-      "summary": "Pair charged under National Security Act as part of investigation into suspected terror incident near airbase Two British nationals have been charged over an alleged plot to assist Iran’s intelligence service as part of the investigation into the suspected terror incident near RAF Fairford. Counter Terrorism Policing (CTP) said Mohmed Abdulkarim, 24, of London, would appear at Westminster magistrates court on Tuesday charged with assisting a foreign intelligence service under the National Security Act 2023. Continue reading...",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford",
-      "source": "Guardian World",
-      "source_name": "Guardian",
-      "query": "Guardian World",
-      "published_at": "2026-10-27T13:36:01+03:00",
-      "fingerprint": "15a75660aba68b8d819aeb49ba80ec6c943fa350",
-      "direct_source": true,
-      "viral_score": 45.74,
-      "topic_bucket": "politics_diplomacy",
-      "resolved_url": "https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford",
-      "source_headline": "Two men charged over alleged plot to assist Iran after RAF Fairford incident",
-      "source_modified_at": "2026-10-27T10:59:40.000Z",
-      "source_checked_at": "2026-10-27T13:53:20.652749+00:00",
-      "article_score": 109,
-      "article_text": "Pair charged under National Security Act as part of investigation into suspected terror incident near airbase Two British nationals have been charged over an alleged plot to assist Iran’s intelligence service as part of the investigation into the suspected terror incident near RAF Fairford Counter Terrorism Policing (CTP) said Mohmed Abdulkarim, 24, of London, would appear at Westminster magistrates court on Tuesday charged with assisting a foreign intelligence service under the National Security Act 2023 He will appear alongside Nouman Essghir, 24, also of London, who is charged with entering a prohibited place for a purpose prejudicial to the UK, after initially being arrested at the scene near the Gloucestershire base on 27 September and then re-arrested on 20 October CTP said they believed the foreign intelligence service involved in the case was Iran’s The assistant commissioner Laurence Taylor, the head of national counter-terrorism policing in the UK, said: “We have seen a range of incidents in recent months that we believe have been directed by the Iranian state, and as the director general of MI5 said just the other week, we are working together to intervene, identify and respond to that threat “The public can help us with this, and as always I would urge them to report anything that they’re worried about – those reports can and do make a difference.” A 25-year-old UK-Iranian dual national who was also arrested on 20 October on suspicion of aiding Iran’s intelligence service has been released without charge but remains on police bail after being arrested on 1 October on suspicion of preparation of terrorist acts Five other men arrested during the investigation remain on police bail Frank Ferguson, the chief crown prosecutor for the CPS special crime and counter terrorism division, said: “The Crown Prosecution Service has decided to prosecute two individuals with National Security Act offences following a Counter Terrorism Policing investigation into a high-profile incident involving RAF Fairford. We will continue to work closely with our partners as this complex investigation continues.”",
-      "model_source_context": "Pair charged under National Security Act as part of investigation into suspected terror incident near airbase Two British nationals have been charged over an alleged plot to assist Iran’s intelligence service as part of the investigation into the suspected terror incident near RAF Fairford Counter Terrorism Policing (CTP) said Mohmed Abdulkarim, 24, of London, would appear at Westminster magistrates court on Tuesday charged with assisting a foreign intelligence service under the National Security Act 2023 He will appear alongside Nouman Essghir, 24, also of London, who is charged with entering a prohibited place for a purpose prejudicial to the UK, after initially being arrested at the scene near the Gloucestershire base on 27 September and then re-arrested on 20 October CTP said they believed the foreign intelligence service involved in the case was Iran’s The assistant commissioner Laurence Taylor, the head of national counter-terrorism policing in the UK, said: “We have seen a range of incidents in recent months that we believe have been directed by the Iranian state, and as the director general of MI5 said just the other week, we are working together to intervene, identify and respond to that threat “The public can help us with this, and as always I would urge them to report anything that they’re worried about – those reports can and do make a difference.” A 25-year-old UK-Iranian dual national who was also arrested on 20 October on suspicion of aiding Iran’s intelligence service has been released without charge but remains on police bail after being arrested on 1 October on suspicion of preparation of terrorist acts Five other men arrested during the investigation remain on police bail Frank Ferguson, the chief crown prosecutor for the CPS special crime and counter terrorism division, said: “The Crown Prosecution Service has decided to prosecute two individuals with National Security Act offences following a Counter Terrorism Policing investigation into a high-profile incident involving RAF Fairford. We will continue to work closely with our partners as this complex investigation continues.”",
-      "shorts_hook": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı",
-      "quality_hook": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı",
-      "quality_narration": "Londra'dan 24 yaşındaki Mohmed Abdulkarim, İran istihbaratına yardım suçlamasıyla Westminster Magistrates Court'ta yargılanacak. Aynı yaşta olan Nouman Essghir, yasaklı bir alana girmekle suçlanıyor ve 27 Eylül'de tutuklanıp 20 Ekim'de yeniden gözaltına alındı. Counter Terrorism Policing, olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti.",
-      "quality_cta": "Global Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Londra'dan 24 yaşındaki Mohmed Abdulkarim, İran istihbaratına yardım suçlamasıyla Westminster Magistrates Court'ta yargılanacak.",
-        "Aynı yaşta olan Nouman Essghir, yasaklı bir alana girmekle suçlanıyor ve 27 Eylül'de tutuklanıp 20 Ekim'de yeniden gözaltına alındı.",
-        "Counter Terrorism Policing, olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti."
-      ],
-      "youtube_description": "İki Londra vatandaşı, İran istihbaratına yardım iddiasıyla mahkemeye çıkarıldı. Sizce bu tür casusluk davaları güvenliği nasıl etkiler?",
-      "visual_query": "court hearing men",
-      "spoken_text": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı Londradan 24 yaşındaki Mohmed Abdulkarim İran istihbaratına yardım suçlamasıyla Westminster Magistrates Courtta yargılanacak Aynı yaşta olan Nouman Essghir yasaklı bir alana girmekle suçlanıyor ve 27 Eylülde tutuklanıp 20 Ekimde yeniden gözaltına alındı Counter Terrorism Policing olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti Global Haber kanalına abone ol",
-      "tts_text": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı. Londradan 24 yaşındaki Mohmed Abdulkarim İran istihbaratına yardım suçlamasıyla Westminster Magistrates Courtta yargılanacak. Aynı yaşta olan Nouman Essghir yasaklı bir alana girmekle suçlanıyor ve 27 Eylülde tutuklanıp 20 Ekimde yeniden gözaltına alındı. Counter Terrorism Policing olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti. Global Haber kanalına abone ol.",
-      "youtube_tags": [
-        "İran",
-        "casusluk",
-        "ulusal güvenlik",
-        "RAF Fairford",
-        "Britanyalılar"
-      ],
-      "youtube_hashtags": "#shorts #güvenlik #terör",
-      "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "generation_mode": "prompt_first_v1",
-      "script": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı Londradan 24 yaşındaki Mohmed Abdulkarim İran istihbaratına yardım suçlamasıyla Westminster Magistrates Courtta yargılanacak Aynı yaşta olan Nouman Essghir yasaklı bir alana girmekle suçlanıyor ve 27 Eylülde tutuklanıp 20 Ekimde yeniden gözaltına alındı Counter Terrorism Policing olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti Global Haber kanalına abone ol"
+      "scheduled_slot": "19:00",
+      "_ready_to_resume": true
     }
   ]
 }
