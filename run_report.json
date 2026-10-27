@@ -1,6 +1,6 @@
 {
-  "run_id": "40396616200",
-  "generated_at": "2026-10-27T00:19:18.313317+03:00",
+  "run_id": "40425613699",
+  "generated_at": "2026-10-27T03:54:59.618515+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
@@ -28,7 +28,7 @@
       "error": "No described asset matches scene 0: whitehouse spokesperson statement"
     },
     {
-      "source": "How the streets and social media drove Lula to a historic comeback in Brazil",
+      "source": "Oil and shipping disruption adds urgency to Turkey’s renewable energy plans - Middle East Eye",
       "stage": "generation",
       "error": "Source has no bounded complete lead and update sentences"
     }
