@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-27T20:47:26.031828+00:00",
       "source_modified_at": "2026-10-27T20:25:53.000Z",
+      "run_id": "40575128043",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "VzDYnrWWRHY",
+      "youtube_url": "https://youtu.be/VzDYnrWWRHY",
+      "publish_at_local": "2026-10-28T21:00:00+03:00",
+      "publish_at_utc": "2026-10-28T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 6,
+      "title": "Flávio Bolsonaro, seçim kaybının ardından ABD'ye kaçtı",
+      "narration": "Flávio Bolsonaro ABDye kaçtı kaçış planı ortaya çıktı Flávio Bolsonaro sağcı senatör seçim kaybının ardından ABDye kaçtı Pasaport teslim süresini kaçırdı ve Floridaya iniş planı avukatı tarafından organize edildi Trump yönetiminin bilgilendirildiği ve kaçışın bir avukat tarafından koordine edildiği bildirildi Global Haber kanalına abone ol",
+      "description": "Flávio Bolsonaro, seçim kaybı sonrası pasaport teslim süresini kaçırarak Florida'ya uçtu. Sizce bu kaçış, Brezilya siyasetinde ne gibi sonuçlar doğurur?",
+      "visual_query": "plane flying brazil senator",
+      "tags": [
+        "Flávio Bolsonaro",
+        "Brezilya seçimleri",
+        "siyasi kaçış",
+        "ABD sığınma",
+        "Lula"
+      ],
+      "video_path": "output/short_6.mp4",
+      "source_headline": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-27T20:54:53.233594+00:00",
+      "source_modified_at": "2026-10-27T18:27:32.000Z",
       "run_id": "40575128043"
     }
   ],
