@@ -184,6 +184,51 @@
       "generation_mode": "prompt_first_v1",
       "script": "Beyaz Saray Trumpın Epstein mağdurları için yaptığıları açıkladı Beyaz Saray sözcüsü Lauren Bis Başkan Trumpın Epstein mağdurları için daha önceki hiçbir kişiden daha fazla şey yaptığını belirtti Avukat Spencer Kuvin Epstein davasının haber döngüsüyle silinmemesi gerektiğini vurguladı Adalet Bakanlığı New Mexico Başsavcısı Raúl Torrezin iddialarını reddederek mağdurların gizliliğini korumaya devam edeceğini söyledi Global Haber kanalına abone ol",
       "scheduled_slot": "19:00"
+    },
+    {
+      "title": "İran’a Yardım Suçlamasıyla İki Britanyalı Tutuklandı",
+      "summary": "Pair charged under National Security Act as part of investigation into suspected terror incident near airbase Two British nationals have been charged over an alleged plot to assist Iran’s intelligence service as part of the investigation into the suspected terror incident near RAF Fairford. Counter Terrorism Policing (CTP) said Mohmed Abdulkarim, 24, of London, would appear at Westminster magistrates court on Tuesday charged with assisting a foreign intelligence service under the National Security Act 2023. Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford",
+      "source": "Guardian World",
+      "source_name": "Guardian",
+      "query": "Guardian World",
+      "published_at": "2026-10-27T13:36:01+03:00",
+      "fingerprint": "15a75660aba68b8d819aeb49ba80ec6c943fa350",
+      "direct_source": true,
+      "viral_score": 45.74,
+      "topic_bucket": "politics_diplomacy",
+      "resolved_url": "https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford",
+      "source_headline": "Two men charged over alleged plot to assist Iran after RAF Fairford incident",
+      "source_modified_at": "2026-10-27T10:59:40.000Z",
+      "source_checked_at": "2026-10-27T13:53:20.652749+00:00",
+      "article_score": 109,
+      "article_text": "Pair charged under National Security Act as part of investigation into suspected terror incident near airbase Two British nationals have been charged over an alleged plot to assist Iran’s intelligence service as part of the investigation into the suspected terror incident near RAF Fairford Counter Terrorism Policing (CTP) said Mohmed Abdulkarim, 24, of London, would appear at Westminster magistrates court on Tuesday charged with assisting a foreign intelligence service under the National Security Act 2023 He will appear alongside Nouman Essghir, 24, also of London, who is charged with entering a prohibited place for a purpose prejudicial to the UK, after initially being arrested at the scene near the Gloucestershire base on 27 September and then re-arrested on 20 October CTP said they believed the foreign intelligence service involved in the case was Iran’s The assistant commissioner Laurence Taylor, the head of national counter-terrorism policing in the UK, said: “We have seen a range of incidents in recent months that we believe have been directed by the Iranian state, and as the director general of MI5 said just the other week, we are working together to intervene, identify and respond to that threat “The public can help us with this, and as always I would urge them to report anything that they’re worried about – those reports can and do make a difference.” A 25-year-old UK-Iranian dual national who was also arrested on 20 October on suspicion of aiding Iran’s intelligence service has been released without charge but remains on police bail after being arrested on 1 October on suspicion of preparation of terrorist acts Five other men arrested during the investigation remain on police bail Frank Ferguson, the chief crown prosecutor for the CPS special crime and counter terrorism division, said: “The Crown Prosecution Service has decided to prosecute two individuals with National Security Act offences following a Counter Terrorism Policing investigation into a high-profile incident involving RAF Fairford. We will continue to work closely with our partners as this complex investigation continues.”",
+      "model_source_context": "Pair charged under National Security Act as part of investigation into suspected terror incident near airbase Two British nationals have been charged over an alleged plot to assist Iran’s intelligence service as part of the investigation into the suspected terror incident near RAF Fairford Counter Terrorism Policing (CTP) said Mohmed Abdulkarim, 24, of London, would appear at Westminster magistrates court on Tuesday charged with assisting a foreign intelligence service under the National Security Act 2023 He will appear alongside Nouman Essghir, 24, also of London, who is charged with entering a prohibited place for a purpose prejudicial to the UK, after initially being arrested at the scene near the Gloucestershire base on 27 September and then re-arrested on 20 October CTP said they believed the foreign intelligence service involved in the case was Iran’s The assistant commissioner Laurence Taylor, the head of national counter-terrorism policing in the UK, said: “We have seen a range of incidents in recent months that we believe have been directed by the Iranian state, and as the director general of MI5 said just the other week, we are working together to intervene, identify and respond to that threat “The public can help us with this, and as always I would urge them to report anything that they’re worried about – those reports can and do make a difference.” A 25-year-old UK-Iranian dual national who was also arrested on 20 October on suspicion of aiding Iran’s intelligence service has been released without charge but remains on police bail after being arrested on 1 October on suspicion of preparation of terrorist acts Five other men arrested during the investigation remain on police bail Frank Ferguson, the chief crown prosecutor for the CPS special crime and counter terrorism division, said: “The Crown Prosecution Service has decided to prosecute two individuals with National Security Act offences following a Counter Terrorism Policing investigation into a high-profile incident involving RAF Fairford. We will continue to work closely with our partners as this complex investigation continues.”",
+      "shorts_hook": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı",
+      "quality_hook": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı",
+      "quality_narration": "Londra'dan 24 yaşındaki Mohmed Abdulkarim, İran istihbaratına yardım suçlamasıyla Westminster Magistrates Court'ta yargılanacak. Aynı yaşta olan Nouman Essghir, yasaklı bir alana girmekle suçlanıyor ve 27 Eylül'de tutuklanıp 20 Ekim'de yeniden gözaltına alındı. Counter Terrorism Policing, olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Londra'dan 24 yaşındaki Mohmed Abdulkarim, İran istihbaratına yardım suçlamasıyla Westminster Magistrates Court'ta yargılanacak.",
+        "Aynı yaşta olan Nouman Essghir, yasaklı bir alana girmekle suçlanıyor ve 27 Eylül'de tutuklanıp 20 Ekim'de yeniden gözaltına alındı.",
+        "Counter Terrorism Policing, olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti."
+      ],
+      "youtube_description": "İki Londra vatandaşı, İran istihbaratına yardım iddiasıyla mahkemeye çıkarıldı. Sizce bu tür casusluk davaları güvenliği nasıl etkiler?",
+      "visual_query": "court hearing men",
+      "spoken_text": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı Londradan 24 yaşındaki Mohmed Abdulkarim İran istihbaratına yardım suçlamasıyla Westminster Magistrates Courtta yargılanacak Aynı yaşta olan Nouman Essghir yasaklı bir alana girmekle suçlanıyor ve 27 Eylülde tutuklanıp 20 Ekimde yeniden gözaltına alındı Counter Terrorism Policing olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti Global Haber kanalına abone ol",
+      "tts_text": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı. Londradan 24 yaşındaki Mohmed Abdulkarim İran istihbaratına yardım suçlamasıyla Westminster Magistrates Courtta yargılanacak. Aynı yaşta olan Nouman Essghir yasaklı bir alana girmekle suçlanıyor ve 27 Eylülde tutuklanıp 20 Ekimde yeniden gözaltına alındı. Counter Terrorism Policing olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "İran",
+        "casusluk",
+        "ulusal güvenlik",
+        "RAF Fairford",
+        "Britanyalılar"
+      ],
+      "youtube_hashtags": "#shorts #güvenlik #terör",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı Londradan 24 yaşındaki Mohmed Abdulkarim İran istihbaratına yardım suçlamasıyla Westminster Magistrates Courtta yargılanacak Aynı yaşta olan Nouman Essghir yasaklı bir alana girmekle suçlanıyor ve 27 Eylülde tutuklanıp 20 Ekimde yeniden gözaltına alındı Counter Terrorism Policing olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti Global Haber kanalına abone ol"
     }
   ]
 }
