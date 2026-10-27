@@ -31,7 +31,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-27T13:53:20.652749+00:00",
       "source_modified_at": "2026-10-27T10:59:40.000Z",
-      "run_id": "40510661056"
+      "run_id": "40510661056",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -54,6 +55,11 @@
       "index": 4,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: whitehouse spokesperson statement"
+    },
+    {
+      "source": "Cut spending on ‘fairytale’ carbon capture plans, campaigners urge chancellor",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
     }
   ],
   "daily_existing_count": 0
