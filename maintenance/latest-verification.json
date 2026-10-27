@@ -1,40 +1,91 @@
 {
-  "source_run": "40425613699",
-  "verified_at": "2026-10-27T01:41:43.826006+00:00",
-  "videos": [],
+  "source_run": "40575128043",
+  "verified_at": "2026-10-27T21:02:03.316155+00:00",
+  "videos": [
+    {
+      "index": 5,
+      "video_id": "tzgWQqe2JrU",
+      "youtube_url": "https://youtu.be/tzgWQqe2JrU",
+      "title": "San Francisco’da AI ile 28,5 Milyon Dolarlık Ev Rekoru",
+      "narration": "San Franciscoda AI etkisiyle ev fiyatları rekor kırdı San Franciscoda Presidio Wall semtinde bulunan sekiz yatak odalı malikane 18 virgül 5 milyon dolar listelenirken 28 virgül 5 milyon dolara satıldı Bu satış şehirde yapay zeka sektörünün yükselişiyle konut fiyatlarının artması sonucu kaydedilen yeni bir rekor oldu Evin 1966 yılında Cherry Streette inşa edildiği ve özel bahçe ile üç araçlık garajı bulunduğu belirtiliyor Global Haber kanalına abone ol",
+      "publish_at": "2026-10-28T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-28T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 35.166667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/tzgWQqe2JrU.jpg"
+    },
+    {
+      "index": 6,
+      "video_id": "VzDYnrWWRHY",
+      "youtube_url": "https://youtu.be/VzDYnrWWRHY",
+      "title": "Flávio Bolsonaro, seçim kaybının ardından ABD'ye kaçtı",
+      "narration": "Flávio Bolsonaro ABDye kaçtı kaçış planı ortaya çıktı Flávio Bolsonaro sağcı senatör seçim kaybının ardından ABDye kaçtı Pasaport teslim süresini kaçırdı ve Floridaya iniş planı avukatı tarafından organize edildi Trump yönetiminin bilgilendirildiği ve kaçışın bir avukat tarafından koordine edildiği bildirildi Global Haber kanalına abone ol",
+      "publish_at": "2026-10-28T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-28T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 25.933333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/VzDYnrWWRHY.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 2,
+  "processed_count": 2,
   "complete": false,
   "generation_errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: anthropic shares donate"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
       "index": 2,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: students foam fight"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
       "index": 3,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: summit ministers warn"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
       "index": 4,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: whitehouse spokesperson statement"
-    },
-    {
-      "source": "Oil and shipping disruption adds urgency to Turkey’s renewable energy plans - Middle East Eye",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
   ],
-  "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "target_count": 2,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
