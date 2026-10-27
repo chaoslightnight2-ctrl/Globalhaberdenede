@@ -1,66 +1,60 @@
 {
-  "run_id": "40510661056",
-  "generated_at": "2026-10-27T16:17:46.378049+03:00",
-  "target_count": 3,
+  "run_id": "40575128043",
+  "generated_at": "2026-10-27T23:07:53.946673+03:00",
+  "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
   "videos": [
     {
-      "video_id": "-nRV5k-4qjE",
-      "youtube_url": "https://youtu.be/-nRV5k-4qjE",
-      "publish_at_local": "2026-10-27T19:00:00+03:00",
-      "publish_at_utc": "2026-10-27T16:00:00Z",
+      "video_id": "tzgWQqe2JrU",
+      "youtube_url": "https://youtu.be/tzgWQqe2JrU",
+      "publish_at_local": "2026-10-28T19:00:00+03:00",
+      "publish_at_utc": "2026-10-28T16:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 5,
-      "title": "İran’a Yardım Suçlamasıyla İki Britanyalı Tutuklandı",
-      "narration": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı Londradan 24 yaşındaki Mohmed Abdulkarim İran istihbaratına yardım suçlamasıyla Westminster Magistrates Courtta yargılanacak Aynı yaşta olan Nouman Essghir yasaklı bir alana girmekle suçlanıyor ve 27 Eylülde tutuklanıp 20 Ekimde yeniden gözaltına alındı Counter Terrorism Policing olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti Global Haber kanalına abone ol",
-      "description": "İki Londra vatandaşı, İran istihbaratına yardım iddiasıyla mahkemeye çıkarıldı. Sizce bu tür casusluk davaları güvenliği nasıl etkiler?",
-      "visual_query": "court hearing men",
+      "title": "San Francisco’da AI ile 28,5 Milyon Dolarlık Ev Rekoru",
+      "narration": "San Franciscoda AI etkisiyle ev fiyatları rekor kırdı San Franciscoda Presidio Wall semtinde bulunan sekiz yatak odalı malikane 18 virgül 5 milyon dolar listelenirken 28 virgül 5 milyon dolara satıldı Bu satış şehirde yapay zeka sektörünün yükselişiyle konut fiyatlarının artması sonucu kaydedilen yeni bir rekor oldu Evin 1966 yılında Cherry Streette inşa edildiği ve özel bahçe ile üç araçlık garajı bulunduğu belirtiliyor Global Haber kanalına abone ol",
+      "description": "AI patlaması, San Francisco’da bir konutun liste fiyatının 10 milyon dolar üzerine çıkmasına yol açtı. Sizce bu trend şehirdeki konut krizini derinleştirir mi?",
+      "visual_query": "mansion sale ai",
       "tags": [
-        "İran",
-        "casusluk",
-        "ulusal güvenlik",
-        "RAF Fairford",
-        "Britanyalılar"
+        "San Francisco",
+        "emlak",
+        "yapay zeka",
+        "konut fiyatları",
+        "rekor satış"
       ],
       "video_path": "output/short_5.mp4",
-      "source_headline": "Two men charged over alleged plot to assist Iran after RAF Fairford incident",
-      "audience_bucket": "other",
+      "source_headline": "San Francisco estate sells for $10m above listing price as AI boom drives up costs",
+      "audience_bucket": "economy_life",
       "hook_style": "direct_change",
-      "source_checked_at": "2026-10-27T13:53:20.652749+00:00",
-      "source_modified_at": "2026-10-27T10:59:40.000Z",
-      "run_id": "40510661056",
-      "processing_status": "readback_scope_unavailable"
+      "source_checked_at": "2026-10-27T20:47:26.031828+00:00",
+      "source_modified_at": "2026-10-27T20:25:53.000Z",
+      "run_id": "40575128043"
     }
   ],
   "errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: anthropic shares donate"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
       "index": 2,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: students foam fight"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
       "index": 3,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: summit ministers warn"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
       "index": 4,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: whitehouse spokesperson statement"
-    },
-    {
-      "source": "Cut spending on ‘fairytale’ carbon capture plans, campaigners urge chancellor",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
   ],
-  "daily_existing_count": 0
+  "daily_existing_count": 1
 }
