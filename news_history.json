@@ -5661,6 +5661,28 @@
       "audience_bucket": "health_education",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İran’a Yardım Suçlamasıyla İki Britanyalı Tutuklandı",
+      "summary": "Pair charged under National Security Act as part of investigation into suspected terror incident near airbase Two British nationals have been charged over an alleged plot to assist Iran’s intelligence service as part of the investigation into the suspected terror incident near RAF Fairford. Counter Terrorism Policing (CTP) said Mohmed Abdulkarim, 24, of London, would appear at Westminster magistrates court on Tuesday charged with assisting a foreign intelligence service under the National Security Act 2023. Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford",
+      "source": "Guardian World",
+      "published_at": "2026-10-27T13:36:01+03:00",
+      "fingerprint": "15a75660aba68b8d819aeb49ba80ec6c943fa350",
+      "viral_score": 45.74,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/-nRV5k-4qjE",
+      "processed_at": "2026-10-27T17:09:48.072176+03:00",
+      "video_id": "-nRV5k-4qjE",
+      "publish_at_local": "2026-10-27T19:00:00+03:00",
+      "publish_at_utc": "2026-10-27T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Two men charged over alleged plot to assist Iran after RAF Fairford incident",
+      "resolved_url": "https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford",
+      "source_modified_at": "2026-10-27T10:59:40.000Z",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }

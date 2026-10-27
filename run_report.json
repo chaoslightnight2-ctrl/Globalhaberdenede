@@ -1,11 +1,39 @@
 {
-  "run_id": "40425613699",
-  "generated_at": "2026-10-27T03:54:59.618515+03:00",
+  "run_id": "40510661056",
+  "generated_at": "2026-10-27T16:17:46.378049+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "-nRV5k-4qjE",
+      "youtube_url": "https://youtu.be/-nRV5k-4qjE",
+      "publish_at_local": "2026-10-27T19:00:00+03:00",
+      "publish_at_utc": "2026-10-27T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "İran’a Yardım Suçlamasıyla İki Britanyalı Tutuklandı",
+      "narration": "İran destekli casusluk planı iki Britanyalıyı mahkemeye taşıdı Londradan 24 yaşındaki Mohmed Abdulkarim İran istihbaratına yardım suçlamasıyla Westminster Magistrates Courtta yargılanacak Aynı yaşta olan Nouman Essghir yasaklı bir alana girmekle suçlanıyor ve 27 Eylülde tutuklanıp 20 Ekimde yeniden gözaltına alındı Counter Terrorism Policing olayın İran devletine bağlı olduğunu ve iki sanığın Ulusal Güvenlik Yasası kapsamında yargılanacağını belirtti Global Haber kanalına abone ol",
+      "description": "İki Londra vatandaşı, İran istihbaratına yardım iddiasıyla mahkemeye çıkarıldı. Sizce bu tür casusluk davaları güvenliği nasıl etkiler?",
+      "visual_query": "court hearing men",
+      "tags": [
+        "İran",
+        "casusluk",
+        "ulusal güvenlik",
+        "RAF Fairford",
+        "Britanyalılar"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "Two men charged over alleged plot to assist Iran after RAF Fairford incident",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-27T13:53:20.652749+00:00",
+      "source_modified_at": "2026-10-27T10:59:40.000Z",
+      "run_id": "40510661056"
+    }
+  ],
   "errors": [
     {
       "index": 1,
@@ -26,11 +54,6 @@
       "index": 4,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: whitehouse spokesperson statement"
-    },
-    {
-      "source": "Oil and shipping disruption adds urgency to Turkey’s renewable energy plans - Middle East Eye",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
     }
   ],
   "daily_existing_count": 0
