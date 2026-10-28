@@ -1,19 +1,19 @@
 {
-  "source_run": "40575128043",
-  "verified_at": "2026-10-27T21:02:03.316155+00:00",
+  "source_run": "40608384994",
+  "verified_at": "2026-10-28T00:37:40.178392+00:00",
   "videos": [
     {
       "index": 5,
-      "video_id": "tzgWQqe2JrU",
-      "youtube_url": "https://youtu.be/tzgWQqe2JrU",
-      "title": "San Francisco’da AI ile 28,5 Milyon Dolarlık Ev Rekoru",
-      "narration": "San Franciscoda AI etkisiyle ev fiyatları rekor kırdı San Franciscoda Presidio Wall semtinde bulunan sekiz yatak odalı malikane 18 virgül 5 milyon dolar listelenirken 28 virgül 5 milyon dolara satıldı Bu satış şehirde yapay zeka sektörünün yükselişiyle konut fiyatlarının artması sonucu kaydedilen yeni bir rekor oldu Evin 1966 yılında Cherry Streette inşa edildiği ve özel bahçe ile üç araçlık garajı bulunduğu belirtiliyor Global Haber kanalına abone ol",
-      "publish_at": "2026-10-28T16:00:00Z",
+      "video_id": "d07JWtpx3yk",
+      "youtube_url": "https://youtu.be/d07JWtpx3yk",
+      "title": "Flávio Bolsonaro, seçim yenilgisi sonrası ABD'ye kaçtı",
+      "narration": "Flávio Bolsonaro ABDye kaçıyor uçak havada Sağ kanat senatörü Flávio Bolsonaro başkanlık seçiminde yenilgiye uğradıktan sonra ABDye kaçmak üzere Floridaya doğru uçuyor Metrópolesin haberine göre uçak şu anda havada ve Salı öğleden sonra Floridaya iniş yaparak siyasi sığınma talep edecek Lula bu kaçışı utanç verici olarak nitelendirirken kampanya şefi Rogério Marinho ise 48 virgül 21 oy alan Bolsonaronun muhalefet liderliğine devam etmesi gerektiğini vurguladı Global Haber kanalına abone ol",
+      "publish_at": "2026-10-28T20:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-28T16:00:00Z",
+        "publishAt": "2026-10-28T20:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,69 +23,42 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 35.166667,
+        "duration": 35.633333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/tzgWQqe2JrU.jpg"
-    },
-    {
-      "index": 6,
-      "video_id": "VzDYnrWWRHY",
-      "youtube_url": "https://youtu.be/VzDYnrWWRHY",
-      "title": "Flávio Bolsonaro, seçim kaybının ardından ABD'ye kaçtı",
-      "narration": "Flávio Bolsonaro ABDye kaçtı kaçış planı ortaya çıktı Flávio Bolsonaro sağcı senatör seçim kaybının ardından ABDye kaçtı Pasaport teslim süresini kaçırdı ve Floridaya iniş planı avukatı tarafından organize edildi Trump yönetiminin bilgilendirildiği ve kaçışın bir avukat tarafından koordine edildiği bildirildi Global Haber kanalına abone ol",
-      "publish_at": "2026-10-28T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-28T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 25.933333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/VzDYnrWWRHY.jpg"
+      "preview": "maintenance/previews/d07JWtpx3yk.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
   "generation_errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: anthropic shares donate"
     },
     {
       "index": 2,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: students foam fight"
     },
     {
       "index": 3,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: summit ministers warn"
     },
     {
       "index": 4,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: whitehouse spokesperson statement"
     }
   ],
-  "target_count": 2,
+  "public_listing_error": "HTTPError",
+  "target_count": 1,
   "published_count": 0,
   "accepted_complete": true
 }
