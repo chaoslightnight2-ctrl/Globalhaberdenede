@@ -5730,6 +5730,28 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Flávio Bolsonaro, seçim yenilgisi sonrası ABD'ye kaçtı",
+      "summary": "Far-right senator en route to US after missing deadline to hand over his passport since loss to Lula The far-right senator Flávio Bolsonaro has reportedly fled Brazil and is on his way to the United States after losing Sunday’s presidential election to the leftwing incumbent, Luiz Inácio Lula da Silva, who called the act “shameful”. A report by the news website Metrópoles , citing people close to the politician’s family, said he was en route to the US. “The plane is in flight,” Metrópoles reported, without making clear where it had departed from. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
+      "source": "Guardian World",
+      "published_at": "2026-10-28T01:03:00+03:00",
+      "fingerprint": "85374a5877985625ddff9ba55eae297dc22b0fe1",
+      "viral_score": 51.1,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/d07JWtpx3yk",
+      "processed_at": "2026-10-28T03:36:15.611416+03:00",
+      "video_id": "d07JWtpx3yk",
+      "publish_at_local": "2026-10-28T23:00:00+03:00",
+      "publish_at_utc": "2026-10-28T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
+      "resolved_url": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
+      "source_modified_at": "2026-10-28T00:14:06.000Z",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }

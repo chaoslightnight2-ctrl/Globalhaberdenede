@@ -1,89 +1,60 @@
 {
-  "run_id": "40575128043",
-  "generated_at": "2026-10-27T23:07:53.946673+03:00",
-  "target_count": 2,
+  "run_id": "40608384994",
+  "generated_at": "2026-10-28T03:23:49.282755+03:00",
+  "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
+  "complete": false,
   "videos": [
     {
-      "video_id": "tzgWQqe2JrU",
-      "youtube_url": "https://youtu.be/tzgWQqe2JrU",
-      "publish_at_local": "2026-10-28T19:00:00+03:00",
-      "publish_at_utc": "2026-10-28T16:00:00Z",
+      "video_id": "d07JWtpx3yk",
+      "youtube_url": "https://youtu.be/d07JWtpx3yk",
+      "publish_at_local": "2026-10-28T23:00:00+03:00",
+      "publish_at_utc": "2026-10-28T20:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 5,
-      "title": "San Francisco’da AI ile 28,5 Milyon Dolarlık Ev Rekoru",
-      "narration": "San Franciscoda AI etkisiyle ev fiyatları rekor kırdı San Franciscoda Presidio Wall semtinde bulunan sekiz yatak odalı malikane 18 virgül 5 milyon dolar listelenirken 28 virgül 5 milyon dolara satıldı Bu satış şehirde yapay zeka sektörünün yükselişiyle konut fiyatlarının artması sonucu kaydedilen yeni bir rekor oldu Evin 1966 yılında Cherry Streette inşa edildiği ve özel bahçe ile üç araçlık garajı bulunduğu belirtiliyor Global Haber kanalına abone ol",
-      "description": "AI patlaması, San Francisco’da bir konutun liste fiyatının 10 milyon dolar üzerine çıkmasına yol açtı. Sizce bu trend şehirdeki konut krizini derinleştirir mi?",
-      "visual_query": "mansion sale ai",
-      "tags": [
-        "San Francisco",
-        "emlak",
-        "yapay zeka",
-        "konut fiyatları",
-        "rekor satış"
-      ],
-      "video_path": "output/short_5.mp4",
-      "source_headline": "San Francisco estate sells for $10m above listing price as AI boom drives up costs",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-27T20:47:26.031828+00:00",
-      "source_modified_at": "2026-10-27T20:25:53.000Z",
-      "run_id": "40575128043",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "VzDYnrWWRHY",
-      "youtube_url": "https://youtu.be/VzDYnrWWRHY",
-      "publish_at_local": "2026-10-28T21:00:00+03:00",
-      "publish_at_utc": "2026-10-28T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 6,
-      "title": "Flávio Bolsonaro, seçim kaybının ardından ABD'ye kaçtı",
-      "narration": "Flávio Bolsonaro ABDye kaçtı kaçış planı ortaya çıktı Flávio Bolsonaro sağcı senatör seçim kaybının ardından ABDye kaçtı Pasaport teslim süresini kaçırdı ve Floridaya iniş planı avukatı tarafından organize edildi Trump yönetiminin bilgilendirildiği ve kaçışın bir avukat tarafından koordine edildiği bildirildi Global Haber kanalına abone ol",
-      "description": "Flávio Bolsonaro, seçim kaybı sonrası pasaport teslim süresini kaçırarak Florida'ya uçtu. Sizce bu kaçış, Brezilya siyasetinde ne gibi sonuçlar doğurur?",
-      "visual_query": "plane flying brazil senator",
+      "title": "Flávio Bolsonaro, seçim yenilgisi sonrası ABD'ye kaçtı",
+      "narration": "Flávio Bolsonaro ABDye kaçıyor uçak havada Sağ kanat senatörü Flávio Bolsonaro başkanlık seçiminde yenilgiye uğradıktan sonra ABDye kaçmak üzere Floridaya doğru uçuyor Metrópolesin haberine göre uçak şu anda havada ve Salı öğleden sonra Floridaya iniş yaparak siyasi sığınma talep edecek Lula bu kaçışı utanç verici olarak nitelendirirken kampanya şefi Rogério Marinho ise 48 virgül 21 oy alan Bolsonaronun muhalefet liderliğine devam etmesi gerektiğini vurguladı Global Haber kanalına abone ol",
+      "description": "Flávio Bolsonaro seçim yenilgisinin ardından ABD'ye sığınma talebiyle kaçıyor. Sizce bu kaçış ülke siyasetini nasıl etkiler?",
+      "visual_query": "senator plane flying",
       "tags": [
         "Flávio Bolsonaro",
         "Brezilya seçimleri",
-        "siyasi kaçış",
         "ABD sığınma",
-        "Lula"
+        "Lula",
+        "politik kaçış"
       ],
-      "video_path": "output/short_6.mp4",
+      "video_path": "output/short_5.mp4",
       "source_headline": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
       "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-10-27T20:54:53.233594+00:00",
-      "source_modified_at": "2026-10-27T18:27:32.000Z",
-      "run_id": "40575128043",
-      "processing_status": "readback_scope_unavailable"
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-28T00:29:18.214029+00:00",
+      "source_modified_at": "2026-10-28T00:14:06.000Z",
+      "run_id": "40608384994"
     }
   ],
   "errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: anthropic shares donate"
     },
     {
       "index": 2,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: students foam fight"
     },
     {
       "index": 3,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: summit ministers warn"
     },
     {
       "index": 4,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: whitehouse spokesperson statement"
     }
   ],
-  "daily_existing_count": 1
+  "daily_existing_count": 2
 }
