@@ -1,61 +1,12 @@
 {
-  "run_id": "40608384994",
-  "generated_at": "2026-10-28T03:23:49.282755+03:00",
-  "target_count": 1,
+  "run_id": "40702238142",
+  "generated_at": "2026-10-28T17:04:26.369723+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "d07JWtpx3yk",
-      "youtube_url": "https://youtu.be/d07JWtpx3yk",
-      "publish_at_local": "2026-10-28T23:00:00+03:00",
-      "publish_at_utc": "2026-10-28T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 5,
-      "title": "Flávio Bolsonaro, seçim yenilgisi sonrası ABD'ye kaçtı",
-      "narration": "Flávio Bolsonaro ABDye kaçıyor uçak havada Sağ kanat senatörü Flávio Bolsonaro başkanlık seçiminde yenilgiye uğradıktan sonra ABDye kaçmak üzere Floridaya doğru uçuyor Metrópolesin haberine göre uçak şu anda havada ve Salı öğleden sonra Floridaya iniş yaparak siyasi sığınma talep edecek Lula bu kaçışı utanç verici olarak nitelendirirken kampanya şefi Rogério Marinho ise 48 virgül 21 oy alan Bolsonaronun muhalefet liderliğine devam etmesi gerektiğini vurguladı Global Haber kanalına abone ol",
-      "description": "Flávio Bolsonaro seçim yenilgisinin ardından ABD'ye sığınma talebiyle kaçıyor. Sizce bu kaçış ülke siyasetini nasıl etkiler?",
-      "visual_query": "senator plane flying",
-      "tags": [
-        "Flávio Bolsonaro",
-        "Brezilya seçimleri",
-        "ABD sığınma",
-        "Lula",
-        "politik kaçış"
-      ],
-      "video_path": "output/short_5.mp4",
-      "source_headline": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
-      "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-28T00:29:18.214029+00:00",
-      "source_modified_at": "2026-10-28T00:14:06.000Z",
-      "run_id": "40608384994",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: anthropic shares donate"
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: students foam fight"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: summit ministers warn"
-    },
-    {
-      "index": 4,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: whitehouse spokesperson statement"
-    }
-  ],
-  "daily_existing_count": 2
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
