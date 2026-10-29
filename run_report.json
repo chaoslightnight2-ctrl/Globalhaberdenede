@@ -1,12 +1,39 @@
 {
-  "run_id": "40762296250",
-  "generated_at": "2026-10-28T23:20:31.412854+03:00",
-  "target_count": 0,
+  "run_id": "40795916327",
+  "generated_at": "2026-10-29T03:44:30.200768+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "z7phkvhiVtk",
+      "youtube_url": "https://youtu.be/z7phkvhiVtk",
+      "publish_at_local": "2026-10-29T19:00:00+03:00",
+      "publish_at_utc": "2026-10-29T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Arizona’da Chiricahua Ulusal Parkı Resmen Açıldı",
+      "narration": "Chiricahua Ulusal Parkı resmi olarak ilan edildi Ekim 2026da Arizonanın güneydoğusundaki The Land of the Standing Up Rocks Chiricahua Ulusal Parkı olarak yeniden adlandırıldı Park 12 mil 19 km çapında ve 1500 metre derinliğinde bir kaldera içinde 500 metre kalınlığındaki kayalık tüt tabakalarıyla kaplı Bölgede 1000den fazla bitki türü bulunuyor çöl çam ormanı ve çalılık gibi dört farklı ekosistem bir arada yaşıyor Global Haber kanalına abone ol",
+      "description": "Chiricahua Ulusal Parkı, The Land of the Standing-Up Rocks, Ekim 2026'da resmi olarak ilan edildi. Bu eşsiz jeolojik alanı ziyaret etmeyi düşünüyor musunuz? Parkta 1.000'den fazla bitki türü ve dört farklı biyocoğrafik bölge bir arada bulunuyor.",
+      "visual_query": "rock spires hiking",
+      "tags": [
+        "ulusal park",
+        "Arizona",
+        "jeoloji",
+        "doğa",
+        "turizm"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "The Land of the Standing-Up Rocks",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-29T00:44:45.255389+00:00",
+      "source_modified_at": "2026-10-28T07:55:28-04:00",
+      "run_id": "40795916327"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }
