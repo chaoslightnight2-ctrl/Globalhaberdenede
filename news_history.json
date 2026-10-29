@@ -5797,7 +5797,30 @@
       "resolved_url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-world-4025-rdf",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "EU 'Made in Europe' Plan Threatens Turkish Auto Exports",
+      "summary": "In shielding Europe's carmakers from Chinese rivals, the EU risks hurting close partners from Turkey and Morocco to Japan and South Korea. Billions in trade and hundreds of thousands of European jobs are at stake.",
+      "url": "https://www.dw.com/en/eu-s-made-in-europe-push-unnerves-global-auto-suppliers/a-79732579?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-10-28T13:24:00+03:00",
+      "fingerprint": "77fc6efbe975c5bf65729ff9165079a87be2be3f",
+      "viral_score": 22.05,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/fk6Jr9ip_zY",
+      "processed_at": "2026-10-29T04:09:24.904083+03:00",
+      "video_id": "fk6Jr9ip_zY",
+      "publish_at_local": "2026-10-29T23:00:00+03:00",
+      "publish_at_utc": "2026-10-29T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "EU's 'Made in Europe' plan unnerves global auto suppliers",
+      "resolved_url": "https://www.dw.com/en/eus-made-in-europe-push-unnerves-global-auto-suppliers/a-79732579?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }

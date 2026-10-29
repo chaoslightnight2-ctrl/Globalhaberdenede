@@ -59,6 +59,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-29T00:58:09.149483+00:00",
       "source_modified_at": "",
+      "run_id": "40795916327",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "fk6Jr9ip_zY",
+      "youtube_url": "https://youtu.be/fk6Jr9ip_zY",
+      "publish_at_local": "2026-10-29T23:00:00+03:00",
+      "publish_at_utc": "2026-10-29T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "EU 'Made in Europe' Plan Threatens Turkish Auto Exports",
+      "narration": "EU plan blocks Turkey from Made in Europe benefits The EUs Industrial Accelerator Act now excludes Turkey from the Made in Europe status despite its 73 auto export share to the bloc Franco German leaders reached a compromise allowing UK and Norway suppliers to qualify while industry warns up to 650000 jobs could vanish by 2035 without stronger protection Global Haber kanalına abone ol",
+      "description": "EU's new auto policy sidelines Turkey, risking massive job losses. Sizce bu karar Türkiye otomotiv sektörünü nasıl etkiler?",
+      "visual_query": "turkey car factory",
+      "tags": [
+        "otomotiv",
+        "AB",
+        "ticaret",
+        "Türkiye",
+        "işsahibi"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "EU's 'Made in Europe' plan unnerves global auto suppliers",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-29T01:03:38.891839+00:00",
+      "source_modified_at": "",
       "run_id": "40795916327"
     }
   ],
