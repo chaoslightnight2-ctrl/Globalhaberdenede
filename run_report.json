@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-29T00:44:45.255389+00:00",
       "source_modified_at": "2026-10-28T07:55:28-04:00",
+      "run_id": "40795916327",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "NiWgCdJr22k",
+      "youtube_url": "https://youtu.be/NiWgCdJr22k",
+      "publish_at_local": "2026-10-29T21:00:00+03:00",
+      "publish_at_utc": "2026-10-29T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Pakistan, Suudi ve Türkiye yetkilileri Tahran’da görüşti",
+      "narration": "Tahranda üç ülke temsilcisi kritik diplomasi görüşmesi yaptı Pakistan ordusu başkanı Asim Munir Suudi Savunma Bakanı Khalid bin Salman ve Türkiye istihbarat şefi İbrahim Kalın İran Cumhurbaşkanı Masoud Pezeshkian ile Tahranda bir araya geldi Üç ülke Mecca savunma paktı kapsamında bölgesel saldırmazlık ağı ve ABD İran görüşmeleri gibi konuları ele aldı İran görüşmelerin olumlu atmosferini vurgulasa da somut bir anlaşma ya da ultimatom duyurulmadı Global Haber kanalına abone ol",
+      "description": "Pakistan, Suudi Arabistan ve Türkiye, İran’da bölgesel güvenlik ve ABD‑İran görüşmeleri üzerine bir araya geldi. Sizce bu diplomatik çaba bölgedeki tansiyonu azaltabilir mi?",
+      "visual_query": "envoys meeting iran",
+      "tags": [
+        "Mecca paktı",
+        "Tahran görüşmesi",
+        "bölgesel güvenlik",
+        "İran diplomasi",
+        "Orta Doğu"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Is Iran headed to war or peace after Mecca alliance meeting?",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-29T00:58:09.149483+00:00",
+      "source_modified_at": "",
       "run_id": "40795916327"
     }
   ],

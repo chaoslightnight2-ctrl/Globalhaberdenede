@@ -5774,7 +5774,30 @@
       "resolved_url": "https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/",
       "source_modified_at": "2026-10-28T07:55:28-04:00",
       "audience_bucket": "technology_science",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Pakistan, Suudi ve Türkiye yetkilileri Tahran’da görüşti",
+      "summary": "Saudi Arabia, Pakistan and Turkey have taken their latest peace push directly to Tehran. Officially, it was to avert a new military escalation, but their diplomatic outreach can also be seen as a warning to Iran.",
+      "url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-10-28T17:20:00+03:00",
+      "fingerprint": "4d6aa9c537d386bd3b57628d34caa2f6deb8a45d",
+      "viral_score": 28.34,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/NiWgCdJr22k",
+      "processed_at": "2026-10-29T04:03:36.350309+03:00",
+      "video_id": "NiWgCdJr22k",
+      "publish_at_local": "2026-10-29T21:00:00+03:00",
+      "publish_at_utc": "2026-10-29T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Is Iran headed to war or peace after Mecca alliance meeting?",
+      "resolved_url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
