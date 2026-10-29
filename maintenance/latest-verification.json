@@ -1,99 +1,13 @@
 {
-  "source_run": "40795916327",
-  "verified_at": "2026-10-29T01:10:12.883298+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "z7phkvhiVtk",
-      "youtube_url": "https://youtu.be/z7phkvhiVtk",
-      "title": "Arizona’da Chiricahua Ulusal Parkı Resmen Açıldı",
-      "narration": "Chiricahua Ulusal Parkı resmi olarak ilan edildi Ekim 2026da Arizonanın güneydoğusundaki The Land of the Standing Up Rocks Chiricahua Ulusal Parkı olarak yeniden adlandırıldı Park 12 mil 19 km çapında ve 1500 metre derinliğinde bir kaldera içinde 500 metre kalınlığındaki kayalık tüt tabakalarıyla kaplı Bölgede 1000den fazla bitki türü bulunuyor çöl çam ormanı ve çalılık gibi dört farklı ekosistem bir arada yaşıyor Global Haber kanalına abone ol",
-      "publish_at": "2026-10-29T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-29T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 33.3,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/z7phkvhiVtk.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "NiWgCdJr22k",
-      "youtube_url": "https://youtu.be/NiWgCdJr22k",
-      "title": "Pakistan, Suudi ve Türkiye yetkilileri Tahran’da görüşti",
-      "narration": "Tahranda üç ülke temsilcisi kritik diplomasi görüşmesi yaptı Pakistan ordusu başkanı Asim Munir Suudi Savunma Bakanı Khalid bin Salman ve Türkiye istihbarat şefi İbrahim Kalın İran Cumhurbaşkanı Masoud Pezeshkian ile Tahranda bir araya geldi Üç ülke Mecca savunma paktı kapsamında bölgesel saldırmazlık ağı ve ABD İran görüşmeleri gibi konuları ele aldı İran görüşmelerin olumlu atmosferini vurgulasa da somut bir anlaşma ya da ultimatom duyurulmadı Global Haber kanalına abone ol",
-      "publish_at": "2026-10-29T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-29T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 36.166667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/NiWgCdJr22k.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "fk6Jr9ip_zY",
-      "youtube_url": "https://youtu.be/fk6Jr9ip_zY",
-      "title": "EU 'Made in Europe' Plan Threatens Turkish Auto Exports",
-      "narration": "EU plan blocks Turkey from Made in Europe benefits The EUs Industrial Accelerator Act now excludes Turkey from the Made in Europe status despite its 73 auto export share to the bloc Franco German leaders reached a compromise allowing UK and Norway suppliers to qualify while industry warns up to 650000 jobs could vanish by 2035 without stronger protection Global Haber kanalına abone ol",
-      "publish_at": "2026-10-29T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-29T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.266667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/fk6Jr9ip_zY.jpg"
-    }
-  ],
+  "source_run": "40891276066",
+  "verified_at": "2026-10-29T14:26:55.520718+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
   "generation_errors": [],
-  "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
