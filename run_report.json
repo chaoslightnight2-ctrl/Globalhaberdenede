@@ -31,9 +31,16 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-30T14:16:37.273100+00:00",
       "source_modified_at": "2026-10-30T11:59:00.000Z",
-      "run_id": "41070275293"
+      "run_id": "41070275293",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Spain transport minister says he won't resign over high-speed rail disaster",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
   "daily_existing_count": 1
 }
