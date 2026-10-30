@@ -1,19 +1,19 @@
 {
-  "source_run": "41070275293",
-  "verified_at": "2026-10-30T14:26:44.058129+00:00",
+  "source_run": "41119300760",
+  "verified_at": "2026-10-30T20:07:22.105385+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "04f7igt1yDA",
-      "youtube_url": "https://youtu.be/04f7igt1yDA",
-      "title": "Antalya’da tornado dört işçiyi öldürdü, sel uyarısı",
-      "narration": "Antalyada ölümlü tornado ve sel uyarısı geldi Antalyada meydana gelen şiddetli gök gürültülü fırtına sırasında oluşan tornado Salı günü dört inşaat işçisinin hayatını kaybetmesine yol açtı Grekya ve Türkiye yetkilileri bu hafta merkezi Yunanistan ve batı Türkiyede 100 150 mm yağış beklenmesi nedeniyle şiddetli yağış ve sel uyarısı yayınladı Hindistanın Odisha ve Andhra Pradesh bölgelerinde 200 mmyi aşan yağışlarla 180 bin kişilik büyük bir tahliye gerçekleştirildi Global Haber kanalına abone ol",
-      "publish_at": "2026-10-30T18:00:00Z",
+      "video_id": "UbftsHRId18",
+      "youtube_url": "https://youtu.be/UbftsHRId18",
+      "title": "Konya’da 684 Çöküntü Kayıt Altına Alındı",
+      "narration": "Konyada 684 yeni çöküntü tarım bölgesinde kaydedildi AFAD Konya Karaman ve Aksarayda toplam 684 çöküntüyü belgeledi Bu çöküntüler yıllık yaklaşık 20 yeni çöküntünün çok üzerinde bir artışı gösteriyor Uzmanlar bu artışın kuraklık ve yoğun yeraltı suyu çekilmesinden kaynaklandığını belirtiyor Global Haber kanalına abone ol",
+      "publish_at": "2026-10-31T16:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-30T18:00:00Z",
+        "publishAt": "2026-10-31T16:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,26 +23,20 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 36.6,
+        "duration": 26.9,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/04f7igt1yDA.jpg"
+      "preview": "maintenance/previews/UbftsHRId18.jpg"
     }
   ],
   "errors": [],
   "accepted_count": 1,
   "processed_count": 1,
   "complete": false,
-  "generation_errors": [
-    {
-      "source": "Spain transport minister says he won't resign over high-speed rail disaster",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
-    }
-  ],
-  "target_count": 2,
+  "generation_errors": [],
+  "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
