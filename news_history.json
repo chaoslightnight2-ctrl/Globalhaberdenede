@@ -5845,6 +5845,28 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Antalya’da tornado dört işçiyi öldürdü, sel uyarısı",
+      "summary": "Turkey has been hit by powerful thunderstorms and a fatal tornado this week with more heavy rain expected Heavy rain and strong winds will continue to affect parts of south-eastern Europe and Turkey over the next few days, as an area of low pressure in the region has allowed for the formation of powerful thunderstorms. During a particularly intense thunderstorm in Antalya, a coastal city in the south-west of Turkey, the formation of a tornado resulted in the deaths of four construction workers on Tuesday. Authorities in Greece and Turkey have released severe rainfall and flooding warnings, as a further 100-150mm (nearly 4-6in) of rain is expected this week in central Greece and western parts of Turkey, with locally higher totals possible. Travelling eastwards towards south Asia, strong winds and heavy rainfall have swept across the Indian regions of Odisha and Andhra Pradesh as Cyclone Arnab made landfall. With wind gusts in excess of 85mph (140km/h) and rainfall totals in some regions exceeding 200mm, the severe storm has prompted mass evacuations of more than 180,000 people, as well as widespread disruption to energy and transport infrastructure. The cyclone will weaken as it continues to traverse northwards over the coming days, though will continue to deliver heavy rain to parts of northern and central India as it does so. Continue reading...",
+      "url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
+      "source": "Guardian World",
+      "published_at": "2026-10-30T13:07:16+03:00",
+      "fingerprint": "5c63ad36a7f0c6c0e66cc82048a0d163e180e1b5",
+      "viral_score": 38.35,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/04f7igt1yDA",
+      "processed_at": "2026-10-30T17:25:16.930735+03:00",
+      "video_id": "04f7igt1yDA",
+      "publish_at_local": "2026-10-30T21:00:00+03:00",
+      "publish_at_utc": "2026-10-30T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+      "resolved_url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
+      "source_modified_at": "2026-10-30T11:59:00.000Z",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }

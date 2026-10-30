@@ -1,46 +1,39 @@
 {
-  "run_id": "40981553411",
-  "generated_at": "2026-10-30T03:45:12.049835+03:00",
-  "target_count": 3,
+  "run_id": "41070275293",
+  "generated_at": "2026-10-30T17:16:21.988546+03:00",
+  "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
   "videos": [
     {
-      "video_id": "NcYQAleTa7o",
-      "youtube_url": "https://youtu.be/NcYQAleTa7o",
-      "publish_at_local": "2026-10-30T19:00:00+03:00",
-      "publish_at_utc": "2026-10-30T16:00:00Z",
+      "video_id": "04f7igt1yDA",
+      "youtube_url": "https://youtu.be/04f7igt1yDA",
+      "publish_at_local": "2026-10-30T21:00:00+03:00",
+      "publish_at_utc": "2026-10-30T18:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 1,
-      "title": "Göreme’de Peri Bacası Çöküşü: 2 Ölü, 5 Yaralı",
-      "narration": "Göremede peri bacası çöküşü iki ölüye yol açtı Kapadokyanın Göreme açık hava müzesinde bir peri bacası çöktü en az iki kişi hayatını kaybetti beşi yaralandı Nevşehir Valisi Hüseyin Kök cesetlerin enkaz altında bulunduğunu ve adalet bakanının hâlâ mahsur kalabilecek kişileri olası risk olarak belirtti Yerel medyaya göre çöküş şiddetli yağışların etkisiyle tetiklenmiş olabilir ve olay saat 15 15te gerçekleşti Global Haber kanalına abone ol",
-      "description": "Göreme açık hava müzesinde bir peri bacasının çökmesi iki kişinin ölümüne, beşinin yaralanmasına neden oldu. Sizce bu tür doğal yapıların korunması yeterince sağlanıyor mu?",
-      "visual_query": "rock collapse tourism",
+      "title": "Antalya’da tornado dört işçiyi öldürdü, sel uyarısı",
+      "narration": "Antalyada ölümlü tornado ve sel uyarısı geldi Antalyada meydana gelen şiddetli gök gürültülü fırtına sırasında oluşan tornado Salı günü dört inşaat işçisinin hayatını kaybetmesine yol açtı Grekya ve Türkiye yetkilileri bu hafta merkezi Yunanistan ve batı Türkiyede 100 150 mm yağış beklenmesi nedeniyle şiddetli yağış ve sel uyarısı yayınladı Hindistanın Odisha ve Andhra Pradesh bölgelerinde 200 mmyi aşan yağışlarla 180 bin kişilik büyük bir tahliye gerçekleştirildi Global Haber kanalına abone ol",
+      "description": "Antalya’da meydana gelen tornado dört işçiyi öldürdü, Grekya ve Türkiye’de şiddetli yağış uyarısı yapıldı. Sizce iklim değişikliği bu tür felaketleri artırıyor mu?",
+      "visual_query": "tornado destroying building",
       "tags": [
-        "kapadokya",
-        "peribacası",
-        "turizm",
-        "afet",
-        "göreme"
+        "tornado",
+        "sel uyarısı",
+        "Antalya",
+        "hava durumu",
+        "afet"
       ],
       "video_path": "output/short_1.mp4",
-      "source_headline": "Rock collapse kills two in Turkey's Cappadocia, local media reports",
+      "source_headline": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
       "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-30T00:45:26.576959+00:00",
-      "source_modified_at": "",
-      "run_id": "40981553411",
-      "processing_status": "readback_scope_unavailable"
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-30T14:16:37.273100+00:00",
+      "source_modified_at": "2026-10-30T11:59:00.000Z",
+      "run_id": "41070275293"
     }
   ],
-  "errors": [
-    {
-      "source": "Met refers itself to police watchdog over Meghan warning letter",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
-    }
-  ],
-  "daily_existing_count": 0
+  "errors": [],
+  "daily_existing_count": 1
 }
