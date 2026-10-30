@@ -1,12 +1,39 @@
 {
-  "run_id": "40948165820",
-  "generated_at": "2026-10-29T23:21:37.956031+03:00",
-  "target_count": 0,
+  "run_id": "40981553411",
+  "generated_at": "2026-10-30T03:45:12.049835+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "NcYQAleTa7o",
+      "youtube_url": "https://youtu.be/NcYQAleTa7o",
+      "publish_at_local": "2026-10-30T19:00:00+03:00",
+      "publish_at_utc": "2026-10-30T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Göreme’de Peri Bacası Çöküşü: 2 Ölü, 5 Yaralı",
+      "narration": "Göremede peri bacası çöküşü iki ölüye yol açtı Kapadokyanın Göreme açık hava müzesinde bir peri bacası çöktü en az iki kişi hayatını kaybetti beşi yaralandı Nevşehir Valisi Hüseyin Kök cesetlerin enkaz altında bulunduğunu ve adalet bakanının hâlâ mahsur kalabilecek kişileri olası risk olarak belirtti Yerel medyaya göre çöküş şiddetli yağışların etkisiyle tetiklenmiş olabilir ve olay saat 15 15te gerçekleşti Global Haber kanalına abone ol",
+      "description": "Göreme açık hava müzesinde bir peri bacasının çökmesi iki kişinin ölümüne, beşinin yaralanmasına neden oldu. Sizce bu tür doğal yapıların korunması yeterince sağlanıyor mu?",
+      "visual_query": "rock collapse tourism",
+      "tags": [
+        "kapadokya",
+        "peribacası",
+        "turizm",
+        "afet",
+        "göreme"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Rock collapse kills two in Turkey's Cappadocia, local media reports",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-30T00:45:26.576959+00:00",
+      "source_modified_at": "",
+      "run_id": "40981553411"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }

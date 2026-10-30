@@ -5822,6 +5822,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Göreme’de Peri Bacası Çöküşü: 2 Ölü, 5 Yaralı",
+      "summary": "One of the region's famous rock formations, known as \"fairy chimneys\", reportedly collapsed outside an open-air museum.",
+      "url": "https://www.bbc.co.uk/news/articles/cknv08nvzld4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-10-29T16:44:39+03:00",
+      "fingerprint": "0deb369ee11621bd8e27b80adbd39373f1510d57",
+      "viral_score": 25.38,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/NcYQAleTa7o",
+      "processed_at": "2026-10-30T03:53:52.763411+03:00",
+      "video_id": "NcYQAleTa7o",
+      "publish_at_local": "2026-10-30T19:00:00+03:00",
+      "publish_at_utc": "2026-10-30T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Rock collapse kills two in Turkey's Cappadocia, local media reports",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cknv08nvzld4o?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
