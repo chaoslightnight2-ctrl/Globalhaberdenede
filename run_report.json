@@ -4,7 +4,7 @@
   "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
-  "complete": false,
+  "complete": true,
   "videos": [
     {
       "video_id": "UbftsHRId18",
@@ -31,7 +31,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-30T19:57:30.900118+00:00",
       "source_modified_at": "",
-      "run_id": "41119300760"
+      "run_id": "41119300760",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [],
