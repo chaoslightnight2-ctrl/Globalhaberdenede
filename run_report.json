@@ -31,9 +31,16 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-30T00:45:26.576959+00:00",
       "source_modified_at": "",
-      "run_id": "40981553411"
+      "run_id": "40981553411",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Met refers itself to police watchdog over Meghan warning letter",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
   "daily_existing_count": 0
 }
