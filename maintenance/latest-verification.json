@@ -1,13 +1,49 @@
 {
-  "source_run": "40948165820",
-  "verified_at": "2026-10-29T20:22:13.621744+00:00",
-  "videos": [],
+  "source_run": "40981553411",
+  "verified_at": "2026-10-30T00:54:33.671548+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "NcYQAleTa7o",
+      "youtube_url": "https://youtu.be/NcYQAleTa7o",
+      "title": "Göreme’de Peri Bacası Çöküşü: 2 Ölü, 5 Yaralı",
+      "narration": "Göremede peri bacası çöküşü iki ölüye yol açtı Kapadokyanın Göreme açık hava müzesinde bir peri bacası çöktü en az iki kişi hayatını kaybetti beşi yaralandı Nevşehir Valisi Hüseyin Kök cesetlerin enkaz altında bulunduğunu ve adalet bakanının hâlâ mahsur kalabilecek kişileri olası risk olarak belirtti Yerel medyaya göre çöküş şiddetli yağışların etkisiyle tetiklenmiş olabilir ve olay saat 15 15te gerçekleşti Global Haber kanalına abone ol",
+      "publish_at": "2026-10-30T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-30T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 32.766667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/NcYQAleTa7o.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
+  "complete": false,
+  "generation_errors": [
+    {
+      "source": "Met refers itself to police watchdog over Meghan warning letter",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
+  "public_listing_error": "HTTPError",
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
