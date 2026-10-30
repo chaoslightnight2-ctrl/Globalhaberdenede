@@ -5868,6 +5868,28 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Konya’da 684 Çöküntü Kayıt Altına Alındı",
+      "summary": "Massive sinkholes open up across Turkey as it struggles with drought and climate change The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa0twVTRGZFBOQUxWU0M3enJBOFZqalAzVWE0Vm1hbHhaU3lwVVdtU0JOOWRjVVZpRTZzOWR5VDNjREpjYnhtSTJOQnlKbk0wRk1HS1lsTUpwdE1yWTZZT1hDd2w3Y1FBYjFsbFhtTkV5UVIwZVpHMEtvTXNVdzhhUG1kckVIaUt6X1FFX1REaHFRcGdIdzh4RHpOYlZRUnIyRnlxd2lUeWtveXBBOUhscUE0Qlpid0ZCaXliWW5aSQ?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-10-30T16:13:12+03:00",
+      "fingerprint": "43a3e696fb3a5afb0da6c1a909c6cee1a08bab14",
+      "viral_score": 29.22,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/UbftsHRId18",
+      "processed_at": "2026-10-30T23:05:34.054824+03:00",
+      "video_id": "UbftsHRId18",
+      "publish_at_local": "2026-10-31T19:00:00+03:00",
+      "publish_at_utc": "2026-10-31T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Massive sinkholes open up across Turkey as it struggles with drought and climate change",
+      "resolved_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa0twVTRGZFBOQUxWU0M3enJBOFZqalAzVWE0Vm1hbHhaU3lwVVdtU0JOOWRjVVZpRTZzOWR5VDNjREpjYnhtSTJOQnlKbk0wRk1HS1lsTUpwdE1yWTZZT1hDd2w3Y1FBYjFsbFhtTkV5UVIwZVpHMEtvTXNVdzhhUG1kckVIaUt6X1FFX1REaHFRcGdIdzh4RHpOYlZRUnIyRnlxd2lUeWtveXBBOUhscUE0Qlpid0ZCaXliWW5aSQ?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "nature",
+      "hook_style": "direct_change"
     }
   ]
 }
