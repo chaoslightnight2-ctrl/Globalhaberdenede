@@ -1,20 +1,70 @@
 {
-  "source_run": "41151063170",
-  "verified_at": "2026-10-31T00:41:41.816100+00:00",
-  "videos": [],
-  "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": false,
-  "generation_errors": [
+  "source_run": "41206662556",
+  "verified_at": "2026-10-31T14:01:07.631644+00:00",
+  "videos": [
     {
-      "source": "UK could see 10 days without rain after 'wettest week in two years'",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
+      "index": 1,
+      "video_id": "MhHOH6s1Cvs",
+      "youtube_url": "https://youtu.be/MhHOH6s1Cvs",
+      "title": "Pentagon Trump destekli girişime 600 Milyon Dolar Kredi",
+      "narration": "ABD savunma bütçesi nadir toprak yatırımlarını artırıyor Pentagon üç ay içinde Vulcan Elements adlı nadir toprak girişimine 600 milyon dolar kredi sağladı Donald Jr nin 1789 Capital firması aynı girişime hisse almıştı Wanda Vázquez Garced ve Julio Herrera Velutini 50 milyon dolarlık anlaşma sonrası af edildi Global Haber kanalına abone ol",
+      "publish_at": "2026-10-31T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-31T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 29.6,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/MhHOH6s1Cvs.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "xrcpHrRzTZo",
+      "youtube_url": "https://youtu.be/xrcpHrRzTZo",
+      "title": "Cambridgeshire, ABD pilotunun soruşturmasını devretti",
+      "narration": "ABD pilotunun soruşturması İngiliz polis tarafından ABDye devredildi Cambridgeshire polisi ABD pilotı Jacob Wulfsonun Cambridge dairesinde Sarah Steelee yönelik cinsel saldırı iddiasını ABD askeri polislerine devrederek soruşturmayı ABD tabanına taşıdı Wulfson bir eşini boğarak öldürme suçundan hüküm giyerken cinsel saldırı suçundan beraat etti ve altı ay Lakenheath askeri cezaevinde tutuklandı İngiltere hükümeti ABD askerlerinin Britanya mahkemelerinde yargılanmamasını inceleyen çok kurumlu bir soruşturma başlattı Global Haber kanalına abone ol",
+      "publish_at": "2026-10-31T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-31T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 44.833333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/xrcpHrRzTZo.jpg"
     }
   ],
-  "public_listing_error": "HTTPError",
+  "errors": [],
+  "accepted_count": 2,
+  "processed_count": 2,
+  "complete": false,
+  "generation_errors": [],
   "target_count": 2,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
