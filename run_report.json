@@ -1,40 +1,17 @@
 {
-  "run_id": "41119300760",
-  "generated_at": "2026-10-30T22:57:15.315782+03:00",
-  "target_count": 1,
+  "run_id": "41151063170",
+  "generated_at": "2026-10-31T03:37:03.286919+03:00",
+  "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [
+  "complete": false,
+  "videos": [],
+  "errors": [
     {
-      "video_id": "UbftsHRId18",
-      "youtube_url": "https://youtu.be/UbftsHRId18",
-      "publish_at_local": "2026-10-31T19:00:00+03:00",
-      "publish_at_utc": "2026-10-31T16:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 1,
-      "title": "Konya’da 684 Çöküntü Kayıt Altına Alındı",
-      "narration": "Konyada 684 yeni çöküntü tarım bölgesinde kaydedildi AFAD Konya Karaman ve Aksarayda toplam 684 çöküntüyü belgeledi Bu çöküntüler yıllık yaklaşık 20 yeni çöküntünün çok üzerinde bir artışı gösteriyor Uzmanlar bu artışın kuraklık ve yoğun yeraltı suyu çekilmesinden kaynaklandığını belirtiyor Global Haber kanalına abone ol",
-      "description": "Türkiye’nin tarım bölgesinde artan çöküntüler, su yönetimi sorununu gözler önüne seriyor. Sizce bu krizi önlemek için hangi adımlar atılmalı?",
-      "visual_query": "sinkhole collapse farmland",
-      "tags": [
-        "çöküntü",
-        "konya",
-        "su yönetimi",
-        "kuraklık",
-        "tarım"
-      ],
-      "video_path": "output/short_1.mp4",
-      "source_headline": "Massive sinkholes open up across Turkey as it struggles with drought and climate change",
-      "audience_bucket": "nature",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-30T19:57:30.900118+00:00",
-      "source_modified_at": "",
-      "run_id": "41119300760",
-      "processing_status": "readback_scope_unavailable"
+      "source": "UK could see 10 days without rain after 'wettest week in two years'",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
-  "errors": [],
-  "daily_existing_count": 2
+  "daily_existing_count": 1
 }
