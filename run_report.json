@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-31T13:42:10.098409+00:00",
       "source_modified_at": "2026-10-31T10:01:57.000Z",
+      "run_id": "41206662556",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "xrcpHrRzTZo",
+      "youtube_url": "https://youtu.be/xrcpHrRzTZo",
+      "publish_at_local": "2026-10-31T23:00:00+03:00",
+      "publish_at_utc": "2026-10-31T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Cambridgeshire, ABD pilotunun soruşturmasını devretti",
+      "narration": "ABD pilotunun soruşturması İngiliz polis tarafından ABDye devredildi Cambridgeshire polisi ABD pilotı Jacob Wulfsonun Cambridge dairesinde Sarah Steelee yönelik cinsel saldırı iddiasını ABD askeri polislerine devrederek soruşturmayı ABD tabanına taşıdı Wulfson bir eşini boğarak öldürme suçundan hüküm giyerken cinsel saldırı suçundan beraat etti ve altı ay Lakenheath askeri cezaevinde tutuklandı İngiltere hükümeti ABD askerlerinin Britanya mahkemelerinde yargılanmamasını inceleyen çok kurumlu bir soruşturma başlattı Global Haber kanalına abone ol",
+      "description": "İngiltere'de bir ABD pilotunun suç soruşturması yerel polis tarafından ABD askeri birimlerine devredildi. Bu durum iki ülke arasındaki adalet iş birliğini nasıl etkiler?",
+      "visual_query": "british police handing over investigation",
+      "tags": [
+        "ABD-İngiltere ilişkileri",
+        "askeri adalet",
+        "Cambridgeshire polisi",
+        "Jacob Wulfson",
+        "uluslararası hukuk"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "UK police should not have let US force take over airbase trial, MoD documents show",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-31T13:48:27.678266+00:00",
+      "source_modified_at": "2026-10-31T13:32:13.000Z",
       "run_id": "41206662556"
     }
   ],

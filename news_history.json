@@ -5912,7 +5912,30 @@
       "resolved_url": "https://www.theguardian.com/us-news/2026/oct/31/trump-government-corruption-midterms-voters",
       "source_modified_at": "2026-10-31T10:01:57.000Z",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Cambridgeshire, ABD pilotunun soruşturmasını devretti",
+      "summary": "According to documents obtained by the Guardian, officials accused Cambridgeshire force of breaching US-UK deal by handing over case of woman strangled by US pilot Ministry of Defence officials have privately accused a UK police force of wrongly handing over the investigation of an American fighter pilot who strangled a British woman to the US military, according to documents obtained by the Guardian. Cambridgeshire police allowed the US military police to quickly take control of the investigation into Capt Jacob Wulfson after he had been accused of sexually assaulting Sarah Steele in his Cambridge flat. Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/31/uk-police-should-not-have-let-us-force-take-over-airbase-trial-mod-documents-show",
+      "source": "Guardian World",
+      "published_at": "2026-10-31T16:30:43+03:00",
+      "fingerprint": "542b46bb2398ed979943b3e304acdaef0ad75997",
+      "viral_score": 44.7,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/xrcpHrRzTZo",
+      "processed_at": "2026-10-31T17:00:05.883925+03:00",
+      "video_id": "xrcpHrRzTZo",
+      "publish_at_local": "2026-10-31T23:00:00+03:00",
+      "publish_at_utc": "2026-10-31T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "UK police should not have let US force take over airbase trial, MoD documents show",
+      "resolved_url": "https://www.theguardian.com/uk-news/2026/oct/31/uk-police-should-not-have-let-us-force-take-over-airbase-trial-mod-documents-show",
+      "source_modified_at": "2026-10-31T13:32:13.000Z",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }
