@@ -1,17 +1,39 @@
 {
-  "run_id": "41151063170",
-  "generated_at": "2026-10-31T03:37:03.286919+03:00",
+  "run_id": "41206662556",
+  "generated_at": "2026-10-31T16:41:53.484726+03:00",
   "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": [
+  "videos": [
     {
-      "source": "UK could see 10 days without rain after 'wettest week in two years'",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
+      "video_id": "MhHOH6s1Cvs",
+      "youtube_url": "https://youtu.be/MhHOH6s1Cvs",
+      "publish_at_local": "2026-10-31T21:00:00+03:00",
+      "publish_at_utc": "2026-10-31T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Pentagon Trump destekli girişime 600 Milyon Dolar Kredi",
+      "narration": "ABD savunma bütçesi nadir toprak yatırımlarını artırıyor Pentagon üç ay içinde Vulcan Elements adlı nadir toprak girişimine 600 milyon dolar kredi sağladı Donald Jr nin 1789 Capital firması aynı girişime hisse almıştı Wanda Vázquez Garced ve Julio Herrera Velutini 50 milyon dolarlık anlaşma sonrası af edildi Global Haber kanalına abone ol",
+      "description": "Pentagon'un 600 milyon dolarlık kredisi, Trump'ın 1789 Capital yatırımıyla bağlantılı bir nadir toprak şirketine gitti. Sizce bu durum seçimlerdeki yolsuzluk algısını nasıl etkiler?",
+      "visual_query": "money loan pentagon",
+      "tags": [
+        "korupsi",
+        "savunma",
+        "nadir toprak",
+        "ABD",
+        "siyaset"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Trump beware: US voters are concerned about government corruption",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-31T13:42:10.098409+00:00",
+      "source_modified_at": "2026-10-31T10:01:57.000Z",
+      "run_id": "41206662556"
     }
   ],
+  "errors": [],
   "daily_existing_count": 1
 }

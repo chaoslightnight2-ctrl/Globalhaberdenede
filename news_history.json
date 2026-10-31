@@ -5891,6 +5891,28 @@
       "audience_bucket": "nature",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Pentagon Trump destekli girişime 600 Milyon Dolar Kredi",
+      "summary": "Alleged self-dealing by the president and his allies doesn’t look so good as corruption emerges as a key issue for midterm voters Government corruption a top issue for US midterm voters, exclusive poll finds Voters under 50 probably won’t remember the “ welfare queen ”. But she once embodied Republicans’ claim of the underlying reason for US societal decay: the poor are a bunch of fraudsters. Ronald Reagan introduced Linda Taylor to US voters at a rally during the Republican presidential primary season in 1976. A resident of Chicago’s South Side, Taylor had been arrested for welfare fraud. “She used 80 names, 30 addresses, five phone numbers to collect food stamps, social security, veteran’s benefits for four non-existing deceased veteran husbands,” Reagan said. “Her tax-free cash income alone has been running $150,000 a year.” The Qatari government gifted him a luxury jet , potentially violating the emoluments clause of the constitution. The UAE gained access to some tightly guarded, high-end American AI chips soon after an investment firm linked to its ruling family secretly bought a $500m stake in World Liberty Financial, the crypto company funded by the families of Trump and his chum Steve Witkoff. Rich people facing criminal charges have taken to donating to Trump’s political operations and then seeking pardons or clemency. Most recently, Wanda Vázquez Garced , the former governor of Puerto Rico, and the banker who paid her bribes, Julio Herrera Velutini, were pardoned after Velutini’s family gave a $50m deal to Alina Habba, Trump’s former personal lawyer, and donated $3.5m to Trump’s Maga Inc Super Pac. The first family is also making a killing from the government. The Pentagon lent more than $600m to Vulcan Elements, a rare earths startup, just three months after Donald Jr’s venture capital firm 1789 Capital bought a stake in the outfit. Powerus, a drone maker backed by Eric and Donald Jr is selling drone interceptors to Persian Gulf allies of the US that are under attack by Iran, enriching the kids from a misbegotten war launched by the dad without consulting Congress. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/31/trump-government-corruption-midterms-voters",
+      "source": "Guardian World",
+      "published_at": "2026-10-31T13:00:41+03:00",
+      "fingerprint": "701b0f7f85a5e7f7a5a92c3071958e22d6541c6c",
+      "viral_score": 46.09,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/MhHOH6s1Cvs",
+      "processed_at": "2026-10-31T16:48:25.761343+03:00",
+      "video_id": "MhHOH6s1Cvs",
+      "publish_at_local": "2026-10-31T21:00:00+03:00",
+      "publish_at_utc": "2026-10-31T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Trump beware: US voters are concerned about government corruption",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/oct/31/trump-government-corruption-midterms-voters",
+      "source_modified_at": "2026-10-31T10:01:57.000Z",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
