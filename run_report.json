@@ -1,46 +1,12 @@
 {
-  "run_id": "41315544436",
-  "generated_at": "2026-11-01T17:19:35.527504+03:00",
-  "target_count": 1,
+  "run_id": "41343174213",
+  "generated_at": "2026-11-01T22:44:24.100482+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "MPozP4TRwQI",
-      "youtube_url": "https://youtu.be/MPozP4TRwQI",
-      "publish_at_local": "2026-11-01T23:00:00+03:00",
-      "publish_at_utc": "2026-11-01T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "Şumer Ezgu, ABU Festivali’nde Cura’yı Çalacak",
-      "narration": "Şumer Ezgu ABU Festivalinde Anadoluyu sahneye taşıyor Folk müzik sanatçısı Şumer Ezgu 2 Kasımda Colombo Sri Lankada düzenlenecek ABU Müzik Festivalinde Anadoludan Geldik adlı eserini 66 yıllık bir cura ile seslendirecek Ezgu TRTde 15 yıl çalıştıktan sonra Şumer Ezgu ile Anadoludan Geldik programıyla Anadolunun yerel müziklerini belgeleyerek 53 bölüm hazırlamış Festivalde Fethiyeden kalan ve 66 yıl geçmiş bir curayı çalarak Anadolu kültürünü Asya Pasifik coğrafyasına taşıyacak Global Haber kanalına abone ol",
-      "description": "Şumer Ezgu, ABU Müzik Festivali’nde 66 yıllık cura ile “Anadolu’dan Geldik” eserini seslendirecek. Siz de Anadolu’nun müzikal mirasını nasıl değerlendiriyorsunuz?",
-      "visual_query": "folk artist playing cura",
-      "tags": [
-        "ABU Festivali",
-        "Türk halk müziği",
-        "Şumer Ezgu",
-        "cura",
-        "Anadolu kültürü"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "Folk artist Sumer Ezgu to represent Türkiye at ABU Music Festival in Sri Lanka",
-      "audience_bucket": "culture",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-01T14:20:13.280297+00:00",
-      "source_modified_at": "",
-      "run_id": "41315544436",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: azerbaycan destekli aday"
-    }
-  ],
-  "daily_existing_count": 2
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
