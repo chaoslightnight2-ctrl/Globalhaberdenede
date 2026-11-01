@@ -5958,7 +5958,30 @@
       "resolved_url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-world-4025-rdf",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İngiltere Bütçesinde Önleyici Harcamalar Korunuyor",
+      "summary": "Tucked away in John Healey’s budget is decision to ringfence preventative projects where future savings outweigh initial cost It merited the briefest of mentions in John Healey’s speech and just one paragraph in the 166-page budget document , but some believe it could revolutionise not just public spending but the very process of government itself: a new focus on long-term outcomes. The idea in the broad sense is very simple. Any spending deemed to be “preventative” – that is, the initial outlay will be more than made up for by future savings – will from now on be ringfenced, meaning it cannot be raided for more immediate needs. Continue reading...",
+      "url": "https://www.theguardian.com/politics/2026/oct/31/spending-plan-long-term-focus-uk-government",
+      "source": "Guardian World",
+      "published_at": "2026-10-31T18:00:46+03:00",
+      "fingerprint": "3f13c4a0dd30f617f1e6a6f1f6c6b9d2283e8ac6",
+      "viral_score": 37.58,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/rKJWmsBIM60",
+      "processed_at": "2026-11-01T03:29:40.033230+03:00",
+      "video_id": "rKJWmsBIM60",
+      "publish_at_local": "2026-11-01T21:00:00+03:00",
+      "publish_at_utc": "2026-11-01T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "A world-first focus on long-term outcomes could transform UK government – or create new spending fights",
+      "resolved_url": "https://www.theguardian.com/politics/2026/oct/31/spending-plan-long-term-focus-uk-government",
+      "source_modified_at": "2026-10-31T15:02:20.000Z",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
