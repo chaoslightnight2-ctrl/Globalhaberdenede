@@ -1,48 +1,13 @@
 {
-  "source_run": "41315544436",
-  "verified_at": "2026-11-01T14:34:51.639899+00:00",
-  "videos": [
-    {
-      "index": 2,
-      "video_id": "MPozP4TRwQI",
-      "youtube_url": "https://youtu.be/MPozP4TRwQI",
-      "title": "Şumer Ezgu, ABU Festivali’nde Cura’yı Çalacak",
-      "narration": "Şumer Ezgu ABU Festivalinde Anadoluyu sahneye taşıyor Folk müzik sanatçısı Şumer Ezgu 2 Kasımda Colombo Sri Lankada düzenlenecek ABU Müzik Festivalinde Anadoludan Geldik adlı eserini 66 yıllık bir cura ile seslendirecek Ezgu TRTde 15 yıl çalıştıktan sonra Şumer Ezgu ile Anadoludan Geldik programıyla Anadolunun yerel müziklerini belgeleyerek 53 bölüm hazırlamış Festivalde Fethiyeden kalan ve 66 yıl geçmiş bir curayı çalarak Anadolu kültürünü Asya Pasifik coğrafyasına taşıyacak Global Haber kanalına abone ol",
-      "publish_at": "2026-11-01T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-01T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 38.4,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/MPozP4TRwQI.jpg"
-    }
-  ],
+  "source_run": "41343174213",
+  "verified_at": "2026-11-01T19:44:57.992818+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: azerbaycan destekli aday"
-    }
-  ],
-  "target_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
