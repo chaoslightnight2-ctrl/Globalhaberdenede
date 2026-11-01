@@ -1,12 +1,45 @@
 {
-  "run_id": "41233725376",
-  "generated_at": "2026-10-31T22:20:52.470391+03:00",
-  "target_count": 0,
+  "run_id": "41254757765",
+  "generated_at": "2026-11-01T03:01:15.281741+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "YYN-BX-QSJc",
+      "youtube_url": "https://youtu.be/YYN-BX-QSJc",
+      "publish_at_local": "2026-11-01T19:00:00+03:00",
+      "publish_at_utc": "2026-11-01T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Sırbistan’da Öğrenci Listesi %53 oyla iktidarı kazandı",
+      "narration": "Öğrenci Listesi seçim zaferiyle Sırbistanda yeni dönemi başlatıyor 25 Ekimde yapılan seçimde Öğrenci Listesi yüzde 53 oy alarak iktidarı kazandı Vucicin partisi SNS ise yüzde 39 oyla ikinci sırada yer aldı Seçim sonrası birçok şehirde vatandaşlar Vucic portrelerini belediye binalarından kaldırdı Global Haber kanalına abone ol",
+      "description": "Öğrenci Listesi seçimleri %53 oyla kazandı, Vucic'in partisi geride kaldı. Sırbistan’da yeni hükümetin politikaları sizce nasıl şekillenecek?",
+      "visual_query": "people removing portraits",
+      "tags": [
+        "Sırbistan",
+        "Seçim2026",
+        "ÖğrenciListesi",
+        "Vucic",
+        "ABÜyeliği"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Serbia after Vucic: The winners are losing patience",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-01T00:13:33.499584+00:00",
+      "source_modified_at": "",
+      "run_id": "41254757765"
+    }
+  ],
+  "errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: azerbaycan destekli aday"
+    }
+  ],
+  "daily_existing_count": 0
 }

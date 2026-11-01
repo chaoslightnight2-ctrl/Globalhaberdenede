@@ -5937,6 +5937,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Sırbistan’da Öğrenci Listesi %53 oyla iktidarı kazandı",
+      "summary": "After the Student List's election victory, Aleksandar Vucic's power apparatus is disintegrating. People want justice as soon as possible. But the losers still hold sway in the judiciary and administration.",
+      "url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-10-31T22:49:00+03:00",
+      "fingerprint": "50c616e06ad0832eef1f52a0f1d8968c648f2bad",
+      "viral_score": 38.27,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/YYN-BX-QSJc",
+      "processed_at": "2026-11-01T03:21:27.752149+03:00",
+      "video_id": "YYN-BX-QSJc",
+      "publish_at_local": "2026-11-01T19:00:00+03:00",
+      "publish_at_utc": "2026-11-01T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Serbia after Vucic: The winners are losing patience",
+      "resolved_url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
