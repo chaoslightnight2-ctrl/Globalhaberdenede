@@ -1,13 +1,82 @@
 {
-  "source_run": "41233725376",
-  "verified_at": "2026-10-31T19:21:33.029913+00:00",
-  "videos": [],
+  "source_run": "41254757765",
+  "verified_at": "2026-11-01T00:31:37.048827+00:00",
+  "videos": [
+    {
+      "index": 2,
+      "video_id": "YYN-BX-QSJc",
+      "youtube_url": "https://youtu.be/YYN-BX-QSJc",
+      "title": "Sırbistan’da Öğrenci Listesi %53 oyla iktidarı kazandı",
+      "narration": "Öğrenci Listesi seçim zaferiyle Sırbistanda yeni dönemi başlatıyor 25 Ekimde yapılan seçimde Öğrenci Listesi yüzde 53 oy alarak iktidarı kazandı Vucicin partisi SNS ise yüzde 39 oyla ikinci sırada yer aldı Seçim sonrası birçok şehirde vatandaşlar Vucic portrelerini belediye binalarından kaldırdı Global Haber kanalına abone ol",
+      "publish_at": "2026-11-01T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-01T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 27.633333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/YYN-BX-QSJc.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "rKJWmsBIM60",
+      "youtube_url": "https://youtu.be/rKJWmsBIM60",
+      "title": "İngiltere Bütçesinde Önleyici Harcamalar Korunuyor",
+      "narration": "İngiltere bütçesinde önleyici harcamalar koruma altına alındı John Healeyin bütçe taslağında gelecekte tasarruf sağlayacak önleyici projeler ayrı bir bütçe kalemi olarak korundu Bu yeni preventatif departman harcama limiti PDEL acil ihtiyaçlar için diğer fonlardan çekilmesini engelleyecek Şu ana kadar Andy Burnhamın evsizliği önleme harcaması bu uygulamanın örneklerinden biri olarak gösterildi Global Haber kanalına abone ol",
+      "publish_at": "2026-11-01T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-01T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 31.366667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/rKJWmsBIM60.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "accepted_count": 2,
+  "processed_count": 2,
+  "complete": false,
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: azerbaycan destekli aday"
+    },
+    {
+      "source": "Türkiye puts forward OSCE chief Sinirlioglu for UN secretary-general post - UPDATED - Latest news from Azerbaijan",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
+  "public_listing_error": "HTTPError",
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
