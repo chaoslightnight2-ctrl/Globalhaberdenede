@@ -5983,6 +5983,28 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Şumer Ezgu, ABU Festivali’nde Cura’yı Çalacak",
+      "summary": "Folk artist Sumer Ezgu to represent Türkiye at ABU Music Festival in Sri Lanka Türkiye Today",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSDBSYWlsQ3B3MFp0ZE1yZW5UUG1wakRfandiVE9FM0hMT21Td194c0J1VXVScXpqcVlwbFVRNnJ5NXM5bEw3OFBVWFo5aVBLc1Zib3JTc0xVV3NnMUwzbkYteFJPNS1Cc280WEJReldLdm1yY0pfdU1UM1ZTOHc1TkpGb0J3TklPZWlnVzlJZExHTGRDZkhBNHdCUkZqZEhsYkgwdnAxbUZaWmNBOEpSa2ZaTngyRFZmamttT0djbXA?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-01T13:35:19+03:00",
+      "fingerprint": "cf0b96f8a9c2a9c8cac572085a50a021e636759f",
+      "viral_score": 34.0,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/MPozP4TRwQI",
+      "processed_at": "2026-11-01T17:34:07.318679+03:00",
+      "video_id": "MPozP4TRwQI",
+      "publish_at_local": "2026-11-01T23:00:00+03:00",
+      "publish_at_utc": "2026-11-01T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Folk artist Sumer Ezgu to represent Türkiye at ABU Music Festival in Sri Lanka",
+      "resolved_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSDBSYWlsQ3B3MFp0ZE1yZW5UUG1wakRfandiVE9FM0hMT21Td194c0J1VXVScXpqcVlwbFVRNnJ5NXM5bEw3OFBVWFo5aVBLc1Zib3JTc0xVV3NnMUwzbkYteFJPNS1Cc280WEJReldLdm1yY0pfdU1UM1ZTOHc1TkpGb0J3TklPZWlnVzlJZExHTGRDZkhBNHdCUkZqZEhsYkgwdnAxbUZaWmNBOEpSa2ZaTngyRFZmamttT0djbXA?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "culture",
+      "hook_style": "concrete_question"
     }
   ]
 }
