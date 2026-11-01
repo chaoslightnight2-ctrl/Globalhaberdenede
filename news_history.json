@@ -5981,7 +5981,8 @@
       "resolved_url": "https://www.theguardian.com/politics/2026/oct/31/spending-plan-long-term-focus-uk-government",
       "source_modified_at": "2026-10-31T15:02:20.000Z",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }

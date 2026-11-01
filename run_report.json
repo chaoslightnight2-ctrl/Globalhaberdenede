@@ -59,7 +59,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-01T00:21:29.795203+00:00",
       "source_modified_at": "2026-10-31T15:02:20.000Z",
-      "run_id": "41254757765"
+      "run_id": "41254757765",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -67,6 +68,11 @@
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: azerbaycan destekli aday"
+    },
+    {
+      "source": "Türkiye puts forward OSCE chief Sinirlioglu for UN secretary-general post - UPDATED - Latest news from Azerbaijan",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
   "daily_existing_count": 0
