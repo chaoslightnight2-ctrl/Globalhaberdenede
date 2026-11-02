@@ -142,7 +142,62 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Learjet 60 Floridada saat 12 50de felaketle çarpıştı Florida Palm Beach Countynde bir Learjet 60 Austin Bergstrom Havalimanından Bahamalar yönüne kalktıktan kısa bir süre sonra 12 50de Military Trail ve 10th Avenue North yakınlarında çarpıştı ve tüm dokuz yolcusu hayatını kaybetti Uçak evlerin çok yakınından geçerek büyük bir alev topu oluşturdu yol kenarındaki trafiği tehdit etti ve ardından yoğun duman içinde patladı olay anı araç içinden kaydedilen videoyla kayda geçti Ulaştırma Bakanı Sean Duffy X üzerinden olayı dehşet verici bir trajedi olarak nitelendirirken FAA NTSB soruşturmasını desteklemek üzere bir ekip gönderdi ve bölgedeki yollar kapatıldı Global Haber kanalına abone ol"
+      "script": "Learjet 60 Floridada saat 12 50de felaketle çarpıştı Florida Palm Beach Countynde bir Learjet 60 Austin Bergstrom Havalimanından Bahamalar yönüne kalktıktan kısa bir süre sonra 12 50de Military Trail ve 10th Avenue North yakınlarında çarpıştı ve tüm dokuz yolcusu hayatını kaybetti Uçak evlerin çok yakınından geçerek büyük bir alev topu oluşturdu yol kenarındaki trafiği tehdit etti ve ardından yoğun duman içinde patladı olay anı araç içinden kaydedilen videoyla kayda geçti Ulaştırma Bakanı Sean Duffy X üzerinden olayı dehşet verici bir trajedi olarak nitelendirirken FAA NTSB soruşturmasını desteklemek üzere bir ekip gönderdi ve bölgedeki yollar kapatıldı Global Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_3.mp3",
+      "background_path": "output/background_3.mp4",
+      "video_path": "output/short_3.mp4",
+      "video_id": "iyjFiEd3YPs",
+      "youtube_url": "https://youtu.be/iyjFiEd3YPs",
+      "publish_at_local": "2026-11-02T21:00:00+03:00",
+      "publish_at_utc": "2026-11-02T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "ABD Ara Seçimlerinde Yaşam Maliyeti Seçmenleri Etkiliyor",
+      "summary": "The BBC's Clive Myrie travelled to North Caroline where voters voiced their frustrations ahead of midterm elections.",
+      "url": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_name": "BBC",
+      "query": "BBC Business",
+      "published_at": "2026-11-02T01:25:51+03:00",
+      "fingerprint": "d6768b97897c497edebd3dd6dd6aa65e1df801e7",
+      "direct_source": true,
+      "viral_score": 39.66,
+      "topic_bucket": "politics_diplomacy",
+      "resolved_url": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
+      "source_headline": "'I've had people eating cat food': Rising cost of living top of mind for US voters",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-02T00:43:20.012396+00:00",
+      "article_score": 25,
+      "article_text": "This video can not be played As Americans prepare to head to the polls for crucial midterm elections that will determine control of Congress, surveys suggest the issue of rising prices is central to how many people will decide their vote The BBC's Clive Myrie visited North Carolina where he spoke to voters about the issue ahead of the elections on Tuesday Video produced by: Janet Heaney and Davy McIlveen Follow our coverage of the US midterm elections here",
+      "model_source_context": "This video can not be played As Americans prepare to head to the polls for crucial midterm elections that will determine control of Congress, surveys suggest the issue of rising prices is central to how many people will decide their vote The BBC's Clive Myrie visited North Carolina where he spoke to voters about the issue ahead of the elections on Tuesday Video produced by: Janet Heaney and Davy McIlveen Follow our coverage of the US midterm elections here",
+      "shorts_hook": "Yaşam maliyeti yükseliyor, seçmenler kararını veriyor",
+      "quality_hook": "Yaşam maliyeti yükseliyor, seçmenler kararını veriyor",
+      "quality_narration": "ABD'de yaklaşan ara seçimlerde yaşam maliyetindeki artış, seçmenlerin oy tercihinde belirleyici bir faktör olarak öne çıkıyor. BBC muhabiri Clive Myrie, Kuzey Karolina'da seçmenlerle bu konuyu görüşmek üzere saha çalışması yaptı. Anket sonuçları, fiyat artışlarının seçmen davranışını şekillendirdiğini gösteriyor.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "ABD'de yaklaşan ara seçimlerde yaşam maliyetindeki artış, seçmenlerin oy tercihinde belirleyici bir faktör olarak öne çıkıyor.",
+        "BBC muhabiri Clive Myrie, Kuzey Karolina'da seçmenlerle bu konuyu görüşmek üzere saha çalışması yaptı.",
+        "Anket sonuçları, fiyat artışlarının seçmen davranışını şekillendirdiğini gösteriyor."
+      ],
+      "youtube_description": "Ara seçimlerde yükselen yaşam maliyeti, Amerikan seçmenlerinin tercihlerini şekillendiriyor. Sizce fiyat artışı seçim sonuçlarını nasıl etkiler?",
+      "visual_query": "voter listening interview",
+      "spoken_text": "Yaşam maliyeti yükseliyor seçmenler kararını veriyor ABDde yaklaşan ara seçimlerde yaşam maliyetindeki artış seçmenlerin oy tercihinde belirleyici bir faktör olarak öne çıkıyor BBC muhabiri Clive Myrie Kuzey Karolinada seçmenlerle bu konuyu görüşmek üzere saha çalışması yaptı Anket sonuçları fiyat artışlarının seçmen davranışını şekillendirdiğini gösteriyor Global Haber kanalına abone ol",
+      "tts_text": "Yaşam maliyeti yükseliyor seçmenler kararını veriyor. ABDde yaklaşan ara seçimlerde yaşam maliyetindeki artış seçmenlerin oy tercihinde belirleyici bir faktör olarak öne çıkıyor. BBC muhabiri Clive Myrie Kuzey Karolinada seçmenlerle bu konuyu görüşmek üzere saha çalışması yaptı. Anket sonuçları fiyat artışlarının seçmen davranışını şekillendirdiğini gösteriyor. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "ABD seçimleri",
+        "yaşam maliyeti",
+        "ara seçim",
+        "seçmen davranışı",
+        "ekonomi"
+      ],
+      "youtube_hashtags": "#shorts #gündem #seçim",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Yaşam maliyeti yükseliyor seçmenler kararını veriyor ABDde yaklaşan ara seçimlerde yaşam maliyetindeki artış seçmenlerin oy tercihinde belirleyici bir faktör olarak öne çıkıyor BBC muhabiri Clive Myrie Kuzey Karolinada seçmenlerle bu konuyu görüşmek üzere saha çalışması yaptı Anket sonuçları fiyat artışlarının seçmen davranışını şekillendirdiğini gösteriyor Global Haber kanalına abone ol"
     }
   ]
 }
