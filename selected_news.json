@@ -43,7 +43,51 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Azerbaycan Şınırlıoğlunun BM adaylığını memnuniyetle karşıladı Azerbaycan Dışişleri Bakanlığı sözcüsü Ayhan Hacızade adaylığı resmi bir açıklamayla karşıladığını belirtti Hacızade seçim sürecinin adayların mesleki nitelikleri diplomatik deneyimleri ve tarafsızlıkları üzerine odaklanması gerektiğini vurguladı Sinırlioglu 2024 Aralıkta OSCE Genel Sekreteri seçilmiş ve Türkiyenin ilk bu görevdeki temsilcisi olmuştu Global Haber kanalına abone ol",
-      "scheduled_slot": "23:00"
+      "scheduled_slot": "19:00"
+    },
+    {
+      "title": "Trump, Iowa mitinginde El‑Sayed’i “cihadist” diye suçladı",
+      "summary": "President again took aim at progressive Senate candidate and lauded Haley Stevens for endorsing Mike Rogers Donald Trump railed against Democratic US senate hopeful Abdul El-Sayed at a campaign event in Iowa Sunday, repeatedly referring to the Michigan progressive as a “jihadist”. Trump’s comments aimed to influence a neck-and-neck race that will play an outsized role in determining which party controls the senate after Tuesday’s midterm elections. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/trump-iowa-rally",
+      "source": "Guardian World",
+      "source_name": "Guardian",
+      "query": "Guardian World",
+      "published_at": "2026-11-02T03:16:25+03:00",
+      "fingerprint": "41560cf67f2121828f915bb312fa2e31d6ee5564",
+      "direct_source": true,
+      "viral_score": 50.61,
+      "topic_bucket": "politics_diplomacy",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/nov/01/trump-iowa-rally",
+      "source_headline": "Trump launches racist diatribe against Abdul El-Sayed at Iowa rally",
+      "source_modified_at": "2026-11-02T00:18:02.000Z",
+      "source_checked_at": "2026-11-02T00:31:05.768088+00:00",
+      "article_score": 81,
+      "article_text": "President again took aim at progressive Senate candidate and lauded Haley Stevens for endorsing Mike Rogers Donald Trump railed against Democratic US senate hopeful Abdul El-Sayed at a campaign event in Iowa Sunday, repeatedly referring to the Michigan progressive as a “jihadist” Trump’s comments aimed to influence a neck-and-neck race that will play an outsized role in determining which party controls the senate after Tuesday’s midterm elections The president bashed El-Sayed, a practicing Muslim, in brazenly racist terms, saying that Congress would have to “get a special metal detector for Abdul” if he were elected “If you vote for this jihadist lunatic that wants to destroy you, you’re crazy,” Trump said The Michigan race has drawn national attention in recent days, as Hayley Stevens, who lost to El-Sayed in the August primary election, declined to campaign with him, while demanding that he publicly disavow an outside group’s political ad that posited a link between rising prices and US military support for Israel’s war on Gaza El-Sayed responded by telling Stevens to stay away from a campaign event at which they were supposed to appear together on Sunday. Stevens turned around and endorsed Mike Rogers, El-Sayed’s Republican opponent. Steven’s high-profile defection in the waning hours of the tight race drew the condemnation of Chuck Schumer, the Senate minority leader, who is Jewish Trump, on the other hand, heaped praise on Stevens for turning against El-Sayed, urging her to join the GOP “It was an incredible thing,” Trump said. “I’d love her to join the Republican party. I think that could happen.” Trump then lauded Rogers in metaphorical terms “Mike Rodgers is apple pie,” Trump said. “And you know what this country needs? A little apple pie. We don’t need the communists or jihadists, the Muslim Brotherhood. We need apple pie. He’s apple pie. He’ll be good.” Trump had little time to watch football this weekend, he noted, because he had been “going to these damn rallies all over the place” “Pretend I’m on the ballot,” Trump said. “Essentially, I am on the ballot.”",
+      "model_source_context": "President again took aim at progressive Senate candidate and lauded Haley Stevens for endorsing Mike Rogers Donald Trump railed against Democratic US senate hopeful Abdul El-Sayed at a campaign event in Iowa Sunday, repeatedly referring to the Michigan progressive as a “jihadist” Trump’s comments aimed to influence a neck-and-neck race that will play an outsized role in determining which party controls the senate after Tuesday’s midterm elections The president bashed El-Sayed, a practicing Muslim, in brazenly racist terms, saying that Congress would have to “get a special metal detector for Abdul” if he were elected “If you vote for this jihadist lunatic that wants to destroy you, you’re crazy,” Trump said The Michigan race has drawn national attention in recent days, as Hayley Stevens, who lost to El-Sayed in the August primary election, declined to campaign with him, while demanding that he publicly disavow an outside group’s political ad that posited a link between rising prices and US military support for Israel’s war on Gaza El-Sayed responded by telling Stevens to stay away from a campaign event at which they were supposed to appear together on Sunday. Stevens turned around and endorsed Mike Rogers, El-Sayed’s Republican opponent. Steven’s high-profile defection in the waning hours of the tight race drew the condemnation of Chuck Schumer, the Senate minority leader, who is Jewish Trump, on the other hand, heaped praise on Stevens for turning against El-Sayed, urging her to join the GOP “It was an incredible thing,” Trump said. “I’d love her to join the Republican party. I think that could happen.” Trump then lauded Rogers in metaphorical terms “Mike Rodgers is apple pie,” Trump said. “And you know what this country needs? A little apple pie. We don’t need the communists or jihadists, the Muslim Brotherhood. We need apple pie. He’s apple pie. He’ll be good.” Trump had little time to watch football this weekend, he noted, because he had been “going to these damn rallies all over the place” “Pretend I’m on the ballot,” Trump said. “Essentially, I am on the ballot.”",
+      "shorts_hook": "Trump, Iowa mitinginde El‑Sayed’i “cihadist” diye suçladı",
+      "quality_hook": "Trump, Iowa mitinginde El‑Sayed’i “cihadist” diye suçladı",
+      "quality_narration": "Donald Trump, Iowa’da bir mitingde, Michigan’lı Senato adayı Abdul El‑Sayed’i “cihadist” olarak nitelendirdi. Konuşmasında, El‑Sayed’in seçilmesi halinde “özel bir metal dedektörü” gerektiğini iddia ederken, Haley Stevens’in Mike Rogersı desteklemesini “elma turtası” benzetmesiyle övdü.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Donald Trump, Iowa’da bir mitingde, Michigan’lı Senato adayı Abdul El‑Sayed’i “cihadist” olarak nitelendirdi.",
+        "Konuşmasında, El‑Sayed’in seçilmesi halinde “özel bir metal dedektörü” gerektiğini iddia ederken, Haley Stevens’in Mike Rogersı desteklemesini “elma turtası” benzetmesiyle övdü."
+      ],
+      "youtube_description": "Trump, Iowa’da yaptığı konuşmada Abdul El‑Sayed’i “cihadist” olarak nitelendirip metal dedektörü talep etti. Sizce bu söylem seçim sürecini nasıl etkiler?",
+      "visual_query": "trump rally speech",
+      "spoken_text": "Trump Iowa mitinginde El Sayedi cihadist diye suçladı Donald Trump Iowada bir mitingde Michiganlı Senato adayı Abdul El Sayedi cihadist olarak nitelendirdi Konuşmasında El Sayedin seçilmesi halinde özel bir metal dedektörü gerektiğini iddia ederken Haley Stevensin Mike Rogersı desteklemesini elma turtası benzetmesiyle övdü Global Haber kanalına abone ol",
+      "tts_text": "Trump Iowa mitinginde El Sayedi cihadist diye suçladı. Donald Trump Iowada bir mitingde Michiganlı Senato adayı Abdul El Sayedi cihadist olarak nitelendirdi. Konuşmasında El Sayedin seçilmesi halinde özel bir metal dedektörü gerektiğini iddia ederken Haley Stevensin Mike Rogersı desteklemesini elma turtası benzetmesiyle övdü. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "Trump",
+        "Iowa",
+        "senato",
+        "siyasi söylem",
+        "ABD seçimleri"
+      ],
+      "youtube_hashtags": "#shorts #politika #seçim",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Trump Iowa mitinginde El Sayedi cihadist diye suçladı Donald Trump Iowada bir mitingde Michiganlı Senato adayı Abdul El Sayedi cihadist olarak nitelendirdi Konuşmasında El Sayedin seçilmesi halinde özel bir metal dedektörü gerektiğini iddia ederken Haley Stevensin Mike Rogersı desteklemesini elma turtası benzetmesiyle övdü Global Haber kanalına abone ol"
     }
   ]
 }
