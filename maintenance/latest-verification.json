@@ -1,105 +1,13 @@
 {
-  "source_run": "41367441602",
-  "verified_at": "2026-11-02T00:50:42.177778+00:00",
-  "videos": [
-    {
-      "index": 2,
-      "video_id": "_twiJ_jqQ70",
-      "youtube_url": "https://youtu.be/_twiJ_jqQ70",
-      "title": "Trump, Iowa mitinginde El‑Sayed’i “cihadist” diye suçladı",
-      "narration": "Trump Iowa mitinginde El Sayedi cihadist diye suçladı Donald Trump Iowada bir mitingde Michiganlı Senato adayı Abdul El Sayedi cihadist olarak nitelendirdi Konuşmasında El Sayedin seçilmesi halinde özel bir metal dedektörü gerektiğini iddia ederken Haley Stevensin Mike Rogersı desteklemesini elma turtası benzetmesiyle övdü Global Haber kanalına abone ol",
-      "publish_at": "2026-11-02T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-02T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 26.3,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/_twiJ_jqQ70.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "iyjFiEd3YPs",
-      "youtube_url": "https://youtu.be/iyjFiEd3YPs",
-      "title": "Florida’da 12:50'de Learjet 60 çarpıştı, 9 ölü",
-      "narration": "Learjet 60 Floridada saat 12 50de felaketle çarpıştı Florida Palm Beach Countynde bir Learjet 60 Austin Bergstrom Havalimanından Bahamalar yönüne kalktıktan kısa bir süre sonra 12 50de Military Trail ve 10th Avenue North yakınlarında çarpıştı ve tüm dokuz yolcusu hayatını kaybetti Uçak evlerin çok yakınından geçerek büyük bir alev topu oluşturdu yol kenarındaki trafiği tehdit etti ve ardından yoğun duman içinde patladı olay anı araç içinden kaydedilen videoyla kayda geçti Ulaştırma Bakanı Sean Duffy X üzerinden olayı dehşet verici bir trajedi olarak nitelendirirken FAA NTSB soruşturmasını desteklemek üzere bir ekip gönderdi ve bölgedeki yollar kapatıldı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-02T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-02T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 48.6,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/iyjFiEd3YPs.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "axGfX6DXA_U",
-      "youtube_url": "https://youtu.be/axGfX6DXA_U",
-      "title": "ABD Ara Seçimlerinde Yaşam Maliyeti Seçmenleri Etkiliyor",
-      "narration": "Yaşam maliyeti yükseliyor seçmenler kararını veriyor ABDde yaklaşan ara seçimlerde yaşam maliyetindeki artış seçmenlerin oy tercihinde belirleyici bir faktör olarak öne çıkıyor BBC muhabiri Clive Myrie Kuzey Karolinada seçmenlerle bu konuyu görüşmek üzere saha çalışması yaptı Anket sonuçları fiyat artışlarının seçmen davranışını şekillendirdiğini gösteriyor Global Haber kanalına abone ol",
-      "publish_at": "2026-11-02T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-02T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 29.366667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/axGfX6DXA_U.jpg"
-    }
-  ],
+  "source_run": "41488283338",
+  "verified_at": "2026-11-02T17:10:27.292038+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: azerbaycan destekli aday"
-    }
-  ],
-  "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
