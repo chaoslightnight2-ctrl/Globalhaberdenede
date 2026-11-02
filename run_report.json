@@ -1,12 +1,45 @@
 {
-  "run_id": "41343174213",
-  "generated_at": "2026-11-01T22:44:24.100482+03:00",
-  "target_count": 0,
+  "run_id": "41367441602",
+  "generated_at": "2026-11-02T03:30:32.936570+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "_twiJ_jqQ70",
+      "youtube_url": "https://youtu.be/_twiJ_jqQ70",
+      "publish_at_local": "2026-11-02T19:00:00+03:00",
+      "publish_at_utc": "2026-11-02T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Trump, Iowa mitinginde El‑Sayed’i “cihadist” diye suçladı",
+      "narration": "Trump Iowa mitinginde El Sayedi cihadist diye suçladı Donald Trump Iowada bir mitingde Michiganlı Senato adayı Abdul El Sayedi cihadist olarak nitelendirdi Konuşmasında El Sayedin seçilmesi halinde özel bir metal dedektörü gerektiğini iddia ederken Haley Stevensin Mike Rogersı desteklemesini elma turtası benzetmesiyle övdü Global Haber kanalına abone ol",
+      "description": "Trump, Iowa’da yaptığı konuşmada Abdul El‑Sayed’i “cihadist” olarak nitelendirip metal dedektörü talep etti. Sizce bu söylem seçim sürecini nasıl etkiler?",
+      "visual_query": "trump rally speech",
+      "tags": [
+        "Trump",
+        "Iowa",
+        "senato",
+        "siyasi söylem",
+        "ABD seçimleri"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Trump launches racist diatribe against Abdul El-Sayed at Iowa rally",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-02T00:31:05.768088+00:00",
+      "source_modified_at": "2026-11-02T00:18:02.000Z",
+      "run_id": "41367441602"
+    }
+  ],
+  "errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: azerbaycan destekli aday"
+    }
+  ],
+  "daily_existing_count": 0
 }

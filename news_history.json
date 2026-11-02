@@ -6006,6 +6006,28 @@
       "audience_bucket": "culture",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Trump, Iowa mitinginde El‑Sayed’i “cihadist” diye suçladı",
+      "summary": "President again took aim at progressive Senate candidate and lauded Haley Stevens for endorsing Mike Rogers Donald Trump railed against Democratic US senate hopeful Abdul El-Sayed at a campaign event in Iowa Sunday, repeatedly referring to the Michigan progressive as a “jihadist”. Trump’s comments aimed to influence a neck-and-neck race that will play an outsized role in determining which party controls the senate after Tuesday’s midterm elections. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/trump-iowa-rally",
+      "source": "Guardian World",
+      "published_at": "2026-11-02T03:16:25+03:00",
+      "fingerprint": "41560cf67f2121828f915bb312fa2e31d6ee5564",
+      "viral_score": 50.61,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/_twiJ_jqQ70",
+      "processed_at": "2026-11-02T03:35:47.484184+03:00",
+      "video_id": "_twiJ_jqQ70",
+      "publish_at_local": "2026-11-02T19:00:00+03:00",
+      "publish_at_utc": "2026-11-02T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Trump launches racist diatribe against Abdul El-Sayed at Iowa rally",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/nov/01/trump-iowa-rally",
+      "source_modified_at": "2026-11-02T00:18:02.000Z",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
