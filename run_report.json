@@ -1,102 +1,12 @@
 {
-  "run_id": "41367441602",
-  "generated_at": "2026-11-02T03:30:32.936570+03:00",
-  "target_count": 3,
+  "run_id": "41488283338",
+  "generated_at": "2026-11-02T20:09:23.615809+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "_twiJ_jqQ70",
-      "youtube_url": "https://youtu.be/_twiJ_jqQ70",
-      "publish_at_local": "2026-11-02T19:00:00+03:00",
-      "publish_at_utc": "2026-11-02T16:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "Trump, Iowa mitinginde El‑Sayed’i “cihadist” diye suçladı",
-      "narration": "Trump Iowa mitinginde El Sayedi cihadist diye suçladı Donald Trump Iowada bir mitingde Michiganlı Senato adayı Abdul El Sayedi cihadist olarak nitelendirdi Konuşmasında El Sayedin seçilmesi halinde özel bir metal dedektörü gerektiğini iddia ederken Haley Stevensin Mike Rogersı desteklemesini elma turtası benzetmesiyle övdü Global Haber kanalına abone ol",
-      "description": "Trump, Iowa’da yaptığı konuşmada Abdul El‑Sayed’i “cihadist” olarak nitelendirip metal dedektörü talep etti. Sizce bu söylem seçim sürecini nasıl etkiler?",
-      "visual_query": "trump rally speech",
-      "tags": [
-        "Trump",
-        "Iowa",
-        "senato",
-        "siyasi söylem",
-        "ABD seçimleri"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "Trump launches racist diatribe against Abdul El-Sayed at Iowa rally",
-      "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-02T00:31:05.768088+00:00",
-      "source_modified_at": "2026-11-02T00:18:02.000Z",
-      "run_id": "41367441602",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "iyjFiEd3YPs",
-      "youtube_url": "https://youtu.be/iyjFiEd3YPs",
-      "publish_at_local": "2026-11-02T21:00:00+03:00",
-      "publish_at_utc": "2026-11-02T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 3,
-      "title": "Florida’da 12:50'de Learjet 60 çarpıştı, 9 ölü",
-      "narration": "Learjet 60 Floridada saat 12 50de felaketle çarpıştı Florida Palm Beach Countynde bir Learjet 60 Austin Bergstrom Havalimanından Bahamalar yönüne kalktıktan kısa bir süre sonra 12 50de Military Trail ve 10th Avenue North yakınlarında çarpıştı ve tüm dokuz yolcusu hayatını kaybetti Uçak evlerin çok yakınından geçerek büyük bir alev topu oluşturdu yol kenarındaki trafiği tehdit etti ve ardından yoğun duman içinde patladı olay anı araç içinden kaydedilen videoyla kayda geçti Ulaştırma Bakanı Sean Duffy X üzerinden olayı dehşet verici bir trajedi olarak nitelendirirken FAA NTSB soruşturmasını desteklemek üzere bir ekip gönderdi ve bölgedeki yollar kapatıldı Global Haber kanalına abone ol",
-      "description": "Palm Beach County’de bir iş jetinin çarpması tüm yolcuların ölümüne yol açtı. Sizce bu tür uçuşların güvenliği nasıl artırılabilir?",
-      "visual_query": "plane crash fire",
-      "tags": [
-        "uçak kazası",
-        "Florida",
-        "Learjet",
-        "hava güvenliği",
-        "NTSB"
-      ],
-      "video_path": "output/short_3.mp4",
-      "source_headline": "All nine people aboard business jet that crashed in Florida have died",
-      "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-02T00:35:49.428268+00:00",
-      "source_modified_at": "2026-11-01T22:46:33.000Z",
-      "run_id": "41367441602",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "axGfX6DXA_U",
-      "youtube_url": "https://youtu.be/axGfX6DXA_U",
-      "publish_at_local": "2026-11-02T23:00:00+03:00",
-      "publish_at_utc": "2026-11-02T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 4,
-      "title": "ABD Ara Seçimlerinde Yaşam Maliyeti Seçmenleri Etkiliyor",
-      "narration": "Yaşam maliyeti yükseliyor seçmenler kararını veriyor ABDde yaklaşan ara seçimlerde yaşam maliyetindeki artış seçmenlerin oy tercihinde belirleyici bir faktör olarak öne çıkıyor BBC muhabiri Clive Myrie Kuzey Karolinada seçmenlerle bu konuyu görüşmek üzere saha çalışması yaptı Anket sonuçları fiyat artışlarının seçmen davranışını şekillendirdiğini gösteriyor Global Haber kanalına abone ol",
-      "description": "Ara seçimlerde yükselen yaşam maliyeti, Amerikan seçmenlerinin tercihlerini şekillendiriyor. Sizce fiyat artışı seçim sonuçlarını nasıl etkiler?",
-      "visual_query": "voter listening interview",
-      "tags": [
-        "ABD seçimleri",
-        "yaşam maliyeti",
-        "ara seçim",
-        "seçmen davranışı",
-        "ekonomi"
-      ],
-      "video_path": "output/short_4.mp4",
-      "source_headline": "'I've had people eating cat food': Rising cost of living top of mind for US voters",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-02T00:43:20.012396+00:00",
-      "source_modified_at": "",
-      "run_id": "41367441602",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: azerbaycan destekli aday"
-    }
-  ],
-  "daily_existing_count": 0
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
