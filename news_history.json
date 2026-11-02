@@ -6050,7 +6050,30 @@
       "resolved_url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
       "source_modified_at": "2026-11-01T22:46:33.000Z",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "ABD Ara Seçimlerinde Yaşam Maliyeti Seçmenleri Etkiliyor",
+      "summary": "The BBC's Clive Myrie travelled to North Caroline where voters voiced their frustrations ahead of midterm elections.",
+      "url": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "2026-11-02T01:25:51+03:00",
+      "fingerprint": "d6768b97897c497edebd3dd6dd6aa65e1df801e7",
+      "viral_score": 39.66,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/axGfX6DXA_U",
+      "processed_at": "2026-11-02T03:48:51.012900+03:00",
+      "video_id": "axGfX6DXA_U",
+      "publish_at_local": "2026-11-02T23:00:00+03:00",
+      "publish_at_utc": "2026-11-02T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "'I've had people eating cat food': Rising cost of living top of mind for US voters",
+      "resolved_url": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }

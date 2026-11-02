@@ -59,6 +59,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-02T00:35:49.428268+00:00",
       "source_modified_at": "2026-11-01T22:46:33.000Z",
+      "run_id": "41367441602",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "axGfX6DXA_U",
+      "youtube_url": "https://youtu.be/axGfX6DXA_U",
+      "publish_at_local": "2026-11-02T23:00:00+03:00",
+      "publish_at_utc": "2026-11-02T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "ABD Ara Seçimlerinde Yaşam Maliyeti Seçmenleri Etkiliyor",
+      "narration": "Yaşam maliyeti yükseliyor seçmenler kararını veriyor ABDde yaklaşan ara seçimlerde yaşam maliyetindeki artış seçmenlerin oy tercihinde belirleyici bir faktör olarak öne çıkıyor BBC muhabiri Clive Myrie Kuzey Karolinada seçmenlerle bu konuyu görüşmek üzere saha çalışması yaptı Anket sonuçları fiyat artışlarının seçmen davranışını şekillendirdiğini gösteriyor Global Haber kanalına abone ol",
+      "description": "Ara seçimlerde yükselen yaşam maliyeti, Amerikan seçmenlerinin tercihlerini şekillendiriyor. Sizce fiyat artışı seçim sonuçlarını nasıl etkiler?",
+      "visual_query": "voter listening interview",
+      "tags": [
+        "ABD seçimleri",
+        "yaşam maliyeti",
+        "ara seçim",
+        "seçmen davranışı",
+        "ekonomi"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "'I've had people eating cat food': Rising cost of living top of mind for US voters",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-02T00:43:20.012396+00:00",
+      "source_modified_at": "",
       "run_id": "41367441602"
     }
   ],
