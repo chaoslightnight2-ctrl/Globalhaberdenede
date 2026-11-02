@@ -87,7 +87,62 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Trump Iowa mitinginde El Sayedi cihadist diye suçladı Donald Trump Iowada bir mitingde Michiganlı Senato adayı Abdul El Sayedi cihadist olarak nitelendirdi Konuşmasında El Sayedin seçilmesi halinde özel bir metal dedektörü gerektiğini iddia ederken Haley Stevensin Mike Rogersı desteklemesini elma turtası benzetmesiyle övdü Global Haber kanalına abone ol"
+      "script": "Trump Iowa mitinginde El Sayedi cihadist diye suçladı Donald Trump Iowada bir mitingde Michiganlı Senato adayı Abdul El Sayedi cihadist olarak nitelendirdi Konuşmasında El Sayedin seçilmesi halinde özel bir metal dedektörü gerektiğini iddia ederken Haley Stevensin Mike Rogersı desteklemesini elma turtası benzetmesiyle övdü Global Haber kanalına abone ol",
+      "scheduled_slot": "19:00",
+      "audio_path": "output/voiceover_2.mp3",
+      "background_path": "output/background_2.mp4",
+      "video_path": "output/short_2.mp4",
+      "video_id": "_twiJ_jqQ70",
+      "youtube_url": "https://youtu.be/_twiJ_jqQ70",
+      "publish_at_local": "2026-11-02T19:00:00+03:00",
+      "publish_at_utc": "2026-11-02T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Florida’da 12:50'de Learjet 60 çarpıştı, 9 ölü",
+      "summary": "Aircraft had departed Austin-Bergstrom international airport and was headed to the Bahamas when it crashed All nine people have died who were aboard a business jet that crashed in a Florida neighborhood on Sunday, Sean Duffy, the US transportation secretary, said. The aircraft erupted in a massive fireball that appeared to just miss homes before crashing near a busy roadway. Duffy posted on X on Sunday that the Learjet 60 crashed in Palm Beach county at 12.50pm and called it a “horrific tragedy”. The Federal Aviation Administration is sending a team to support the National Transportation Safety Board’s investigation into the cause, he said. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
+      "source": "Guardian World",
+      "source_name": "Guardian",
+      "query": "Guardian World",
+      "published_at": "2026-11-02T00:13:23+03:00",
+      "fingerprint": "9912b1741947bef470b7251b7e8c3f3209161a78",
+      "direct_source": true,
+      "viral_score": 39.73,
+      "topic_bucket": "disasters_safety",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
+      "source_headline": "All nine people aboard business jet that crashed in Florida have died",
+      "source_modified_at": "2026-11-01T22:46:33.000Z",
+      "source_checked_at": "2026-11-02T00:35:49.428268+00:00",
+      "article_score": 37,
+      "article_text": "Aircraft had departed Austin-Bergstrom international airport and was headed to the Bahamas when it crashed All nine people have died who were aboard a business jet that crashed in a Florida neighborhood on Sunday, Sean Duffy, the US transportation secretary, said. The aircraft erupted in a massive fireball that appeared to just miss homes before crashing near a busy roadway Duffy posted on X on Sunday that the Learjet 60 crashed in Palm Beach county at 12.50pm and called it a “horrific tragedy”. The Federal Aviation Administration is sending a team to support the National Transportation Safety Board’s investigation into the cause, he said The aircraft had departed Austin-Bergstrom international airport in Texas and was headed to the Bahamas, according to the Federal Aviation Administration. Authorities did not immediately say what caused the jet to go down or who was on it Jim Reynolds, a spokesperson for the airport, said it was a private aircraft. He could not immediately provide details about who was on the flight “This is definitely a tragedy,” he said He said the tail number for the flight was N722BD Video shot from people inside their cars captured the terrifying moment the aircraft plunged from the sky, before striking near the roadway and exploding. Flames flickered around chunks of pavement lining the crater as people milled about, expressing shock it landed only feet from homes and only inches from passing vehicles. Thick black smoke engulfed the crash site It was unclear if the crash caused any damage to homes The crash occurred near Military Trail and 10th Avenue North. The Palm Beach county sheriff’s office closed roads in both directions and urged motorists to avoid the area. Firefighters and other emergency personnel rushed to the scene A woman working nearby said electricity in the area had been out for approximately two hours following the crash The circumstances of the crash remained under investigation",
+      "model_source_context": "Aircraft had departed Austin-Bergstrom international airport and was headed to the Bahamas when it crashed All nine people have died who were aboard a business jet that crashed in a Florida neighborhood on Sunday, Sean Duffy, the US transportation secretary, said. The aircraft erupted in a massive fireball that appeared to just miss homes before crashing near a busy roadway Duffy posted on X on Sunday that the Learjet 60 crashed in Palm Beach county at 12.50pm and called it a “horrific tragedy”. The Federal Aviation Administration is sending a team to support the National Transportation Safety Board’s investigation into the cause, he said The aircraft had departed Austin-Bergstrom international airport in Texas and was headed to the Bahamas, according to the Federal Aviation Administration. Authorities did not immediately say what caused the jet to go down or who was on it Jim Reynolds, a spokesperson for the airport, said it was a private aircraft. He could not immediately provide details about who was on the flight “This is definitely a tragedy,” he said He said the tail number for the flight was N722BD Video shot from people inside their cars captured the terrifying moment the aircraft plunged from the sky, before striking near the roadway and exploding. Flames flickered around chunks of pavement lining the crater as people milled about, expressing shock it landed only feet from homes and only inches from passing vehicles. Thick black smoke engulfed the crash site It was unclear if the crash caused any damage to homes The crash occurred near Military Trail and 10th Avenue North. The Palm Beach county sheriff’s office closed roads in both directions and urged motorists to avoid the area. Firefighters and other emergency personnel rushed to the scene A woman working nearby said electricity in the area had been out for approximately two hours following the crash The circumstances of the crash remained under investigation",
+      "shorts_hook": "Learjet 60, Florida’da saat 12:50'de felaketle çarpıştı",
+      "quality_hook": "Learjet 60, Florida’da saat 12:50'de felaketle çarpıştı",
+      "quality_narration": "Florida Palm Beach County'nde bir Learjet 60, Austin-Bergstrom Havalimanı'ndan Bahamalar yönüne kalktıktan kısa bir süre sonra 12:50'de Military Trail ve 10th Avenue North yakınlarında çarpıştı ve tüm dokuz yolcusu hayatını kaybetti. Uçak, evlerin çok yakınından geçerek büyük bir alev topu oluşturdu, yol kenarındaki trafiği tehdit etti ve ardından yoğun duman içinde patladı; olay anı, araç içinden kaydedilen videoyla kayda geçti. Ulaştırma Bakanı Sean Duffy, X üzerinden olayı “dehşet verici bir trajedi” olarak nitelendirirken, FAA NTSB soruşturmasını desteklemek üzere bir ekip gönderdi ve bölgedeki yollar kapatıldı.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Florida Palm Beach County'nde bir Learjet 60, Austin-Bergstrom Havalimanı'ndan Bahamalar yönüne kalktıktan kısa bir süre sonra 12:50'de Military Trail ve 10th Avenue North yakınlarında çarpıştı ve tüm dokuz yolcusu hayatını kaybetti.",
+        "Uçak, evlerin çok yakınından geçerek büyük bir alev topu oluşturdu, yol kenarındaki trafiği tehdit etti ve ardından yoğun duman içinde patladı; olay anı, araç içinden kaydedilen videoyla kayda geçti.",
+        "Ulaştırma Bakanı Sean Duffy, X üzerinden olayı “dehşet verici bir trajedi” olarak nitelendirirken, FAA NTSB soruşturmasını desteklemek üzere bir ekip gönderdi ve bölgedeki yollar kapatıldı."
+      ],
+      "youtube_description": "Palm Beach County’de bir iş jetinin çarpması tüm yolcuların ölümüne yol açtı. Sizce bu tür uçuşların güvenliği nasıl artırılabilir?",
+      "visual_query": "plane crash fire",
+      "spoken_text": "Learjet 60 Floridada saat 12 50de felaketle çarpıştı Florida Palm Beach Countynde bir Learjet 60 Austin Bergstrom Havalimanından Bahamalar yönüne kalktıktan kısa bir süre sonra 12 50de Military Trail ve 10th Avenue North yakınlarında çarpıştı ve tüm dokuz yolcusu hayatını kaybetti Uçak evlerin çok yakınından geçerek büyük bir alev topu oluşturdu yol kenarındaki trafiği tehdit etti ve ardından yoğun duman içinde patladı olay anı araç içinden kaydedilen videoyla kayda geçti Ulaştırma Bakanı Sean Duffy X üzerinden olayı dehşet verici bir trajedi olarak nitelendirirken FAA NTSB soruşturmasını desteklemek üzere bir ekip gönderdi ve bölgedeki yollar kapatıldı Global Haber kanalına abone ol",
+      "tts_text": "Learjet 60 Floridada saat 12 50de felaketle çarpıştı. Florida Palm Beach Countynde bir Learjet 60 Austin Bergstrom Havalimanından Bahamalar yönüne kalktıktan kısa bir süre sonra 12 50de Military Trail ve 10th Avenue North yakınlarında çarpıştı ve tüm dokuz yolcusu hayatını kaybetti. Uçak evlerin çok yakınından geçerek büyük bir alev topu oluşturdu yol kenarındaki trafiği tehdit etti ve ardından yoğun duman içinde patladı olay anı araç içinden kaydedilen videoyla kayda geçti. Ulaştırma Bakanı Sean Duffy X üzerinden olayı dehşet verici bir trajedi olarak nitelendirirken FAA NTSB soruşturmasını desteklemek üzere bir ekip gönderdi ve bölgedeki yollar kapatıldı. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "uçak kazası",
+        "Florida",
+        "Learjet",
+        "hava güvenliği",
+        "NTSB"
+      ],
+      "youtube_hashtags": "#shorts #kazalar #güvenlik",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Learjet 60 Floridada saat 12 50de felaketle çarpıştı Florida Palm Beach Countynde bir Learjet 60 Austin Bergstrom Havalimanından Bahamalar yönüne kalktıktan kısa bir süre sonra 12 50de Military Trail ve 10th Avenue North yakınlarında çarpıştı ve tüm dokuz yolcusu hayatını kaybetti Uçak evlerin çok yakınından geçerek büyük bir alev topu oluşturdu yol kenarındaki trafiği tehdit etti ve ardından yoğun duman içinde patladı olay anı araç içinden kaydedilen videoyla kayda geçti Ulaştırma Bakanı Sean Duffy X üzerinden olayı dehşet verici bir trajedi olarak nitelendirirken FAA NTSB soruşturmasını desteklemek üzere bir ekip gönderdi ve bölgedeki yollar kapatıldı Global Haber kanalına abone ol"
     }
   ]
 }
