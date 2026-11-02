@@ -6027,7 +6027,30 @@
       "resolved_url": "https://www.theguardian.com/us-news/2026/nov/01/trump-iowa-rally",
       "source_modified_at": "2026-11-02T00:18:02.000Z",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Florida’da 12:50'de Learjet 60 çarpıştı, 9 ölü",
+      "summary": "Aircraft had departed Austin-Bergstrom international airport and was headed to the Bahamas when it crashed All nine people have died who were aboard a business jet that crashed in a Florida neighborhood on Sunday, Sean Duffy, the US transportation secretary, said. The aircraft erupted in a massive fireball that appeared to just miss homes before crashing near a busy roadway. Duffy posted on X on Sunday that the Learjet 60 crashed in Palm Beach county at 12.50pm and called it a “horrific tragedy”. The Federal Aviation Administration is sending a team to support the National Transportation Safety Board’s investigation into the cause, he said. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
+      "source": "Guardian World",
+      "published_at": "2026-11-02T00:13:23+03:00",
+      "fingerprint": "9912b1741947bef470b7251b7e8c3f3209161a78",
+      "viral_score": 39.73,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/iyjFiEd3YPs",
+      "processed_at": "2026-11-02T03:43:17.772916+03:00",
+      "video_id": "iyjFiEd3YPs",
+      "publish_at_local": "2026-11-02T21:00:00+03:00",
+      "publish_at_utc": "2026-11-02T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "All nine people aboard business jet that crashed in Florida have died",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
+      "source_modified_at": "2026-11-01T22:46:33.000Z",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
