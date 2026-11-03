@@ -1,13 +1,19 @@
 {
-  "source_run": "41661846572",
-  "verified_at": "2026-11-03T15:18:04.144388+00:00",
+  "source_run": "41718609487",
+  "verified_at": "2026-11-03T21:08:57.981352+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "complete": false,
+  "generation_errors": [
+    {
+      "source": "Türkiye, Cameroon explore new economic opportunities at Istanbul roundtable: Trade minister - Anadolu Ajansı",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
