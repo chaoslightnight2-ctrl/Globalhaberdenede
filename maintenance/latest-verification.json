@@ -1,99 +1,14 @@
 {
-  "source_run": "41556978990",
-  "verified_at": "2026-11-03T01:28:00.986414+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "9QgevR1uG3U",
-      "youtube_url": "https://youtu.be/9QgevR1uG3U",
-      "title": "Haley Stevens'ın Mike Rogers desteği partiye şok",
-      "narration": "Haley Stevens Demokrat aniden Cumhuriyetçi adayı destekledi Demokrat milletvekili Haley Stevens Michiganin Senato adaylarından Mike Rogersı destekledi Bu beklenmedik destek parti içinde sert tepkilere ve Trumpın övgüsüne yol açtı Stevens daha önce Demokratik aday Abdul El Sayede karşı bir reklam kampanyası nedeniyle çatışma yaşamıştı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-03T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-03T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 28.466667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/9QgevR1uG3U.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "n0KTbEHwHsc",
-      "youtube_url": "https://youtu.be/n0KTbEHwHsc",
-      "title": "Florida'da Learjet 60 kazası: 9 ölü, NTSB soruşturması",
-      "narration": "NTSB Florida jet kazasını incelemeye başladı NTSB Floridada Military Trail üzerindeki Learjet 60 çarpışmasında 9 kişinin hayatını kaybettiğini doğruladı Araştırmacılar uçağın inişten kısa bir süre sonra buz ve orta şiddette türbülansla karşılaştığını ve bu koşulların kazaya etkisini inceleyeceklerini belirtti İlk mayday sinyali verildikten yaklaşık 30 saniye içinde uçak 20000 ft dakika hızla alçalırken zamanımız kalmadı diyerek çöküşe yol açtı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-03T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-03T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 36.1,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/n0KTbEHwHsc.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "2LluMOiIrpY",
-      "youtube_url": "https://youtu.be/2LluMOiIrpY",
-      "title": "NCSC: AI‑fidye 2028'de UK kritik altyapıyı hedef alacak",
-      "narration": "AI destekli fidye yazılımı 2028de kritik altyapıyı hedef alacak Ulusal Siber Güvenlik Merkezi NCSC 2028 yılına kadar yapay zeka destekli kötü amaçlı yazılımın Birleşik Krallıkın enerji havalimanı ve hastane gibi kritik altyapılarına fidye saldırısı düzenlemesinin yüksek ihtimal olduğunu belirtti NCSC yapay zekanın hedef tarama zayıf nokta tespiti ve zararlı kod yazımı gibi görevleri otomatikleştirerek fidye yazılımlarının etkisini artıracağını vurguladı Raporda Rusya ve Çinin de 2028 öncesinde yapay zekayı rutin bir saldırı aracı olarak kullanmaya başlayacağı uyarısı yer alıyor Global Haber kanalına abone ol",
-      "publish_at": "2026-11-03T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-03T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 44.666667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/2LluMOiIrpY.jpg"
-    }
-  ],
+  "source_run": "41568611607",
+  "verified_at": "2026-11-03T02:52:34.173234+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
   "generation_errors": [],
   "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
