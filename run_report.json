@@ -59,6 +59,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-03T01:08:25.118681+00:00",
       "source_modified_at": "",
+      "run_id": "41556978990",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "2LluMOiIrpY",
+      "youtube_url": "https://youtu.be/2LluMOiIrpY",
+      "publish_at_local": "2026-11-03T23:00:00+03:00",
+      "publish_at_utc": "2026-11-03T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "NCSC: AI‑fidye 2028'de UK kritik altyapıyı hedef alacak",
+      "narration": "AI destekli fidye yazılımı 2028de kritik altyapıyı hedef alacak Ulusal Siber Güvenlik Merkezi NCSC 2028 yılına kadar yapay zeka destekli kötü amaçlı yazılımın Birleşik Krallıkın enerji havalimanı ve hastane gibi kritik altyapılarına fidye saldırısı düzenlemesinin yüksek ihtimal olduğunu belirtti NCSC yapay zekanın hedef tarama zayıf nokta tespiti ve zararlı kod yazımı gibi görevleri otomatikleştirerek fidye yazılımlarının etkisini artıracağını vurguladı Raporda Rusya ve Çinin de 2028 öncesinde yapay zekayı rutin bir saldırı aracı olarak kullanmaya başlayacağı uyarısı yer alıyor Global Haber kanalına abone ol",
+      "description": "NCSC, yapay zekanın 2028 yılına kadar Birleşik Krallık’ın enerji, havalimanı ve hastane gibi kritik altyapılarına fidye saldırısı düzenlemesinin yüksek ihtimal olduğunu duyurdu. Sizce bu tehdit, kamu ve özel sektörün siber savunma yatırımlarını nasıl şekillendirecek?",
+      "visual_query": "computer hacking malware",
+      "tags": [
+        "siber güvenlik",
+        "yapay zeka",
+        "fidye yazılımı",
+        "kritik altyapı",
+        "Birleşik Krallık"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-03T01:17:05.290499+00:00",
+      "source_modified_at": "2026-11-03T00:03:04.000Z",
       "run_id": "41556978990"
     }
   ],

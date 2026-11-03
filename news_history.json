@@ -6119,7 +6119,30 @@
       "resolved_url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "NCSC: AI‑fidye 2028'de UK kritik altyapıyı hedef alacak",
+      "summary": "National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028, according to the state cybersecurity body. The National Cyber Security Centre (NCSC) said AI will probably enable a ransomware attack against critical national infrastructure [CNI] between now and 2028. The UK’s definition of CNI covers a range of facilities and services across sectors including energy, transport, defence, food, health and finance. Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
+      "source": "Guardian World",
+      "published_at": "2026-11-03T03:01:32+03:00",
+      "fingerprint": "e427eef9579381b81cf6bba16d550f66777ac510",
+      "viral_score": 43.36,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/2LluMOiIrpY",
+      "processed_at": "2026-11-03T04:27:18.322264+03:00",
+      "video_id": "2LluMOiIrpY",
+      "publish_at_local": "2026-11-03T23:00:00+03:00",
+      "publish_at_utc": "2026-11-03T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
+      "resolved_url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
+      "source_modified_at": "2026-11-03T00:03:04.000Z",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question"
     }
   ]
 }
