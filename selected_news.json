@@ -44,7 +44,62 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Haley Stevens Demokrat aniden Cumhuriyetçi adayı destekledi Demokrat milletvekili Haley Stevens Michiganin Senato adaylarından Mike Rogersı destekledi Bu beklenmedik destek parti içinde sert tepkilere ve Trumpın övgüsüne yol açtı Stevens daha önce Demokratik aday Abdul El Sayede karşı bir reklam kampanyası nedeniyle çatışma yaşamıştı Global Haber kanalına abone ol"
+      "script": "Haley Stevens Demokrat aniden Cumhuriyetçi adayı destekledi Demokrat milletvekili Haley Stevens Michiganin Senato adaylarından Mike Rogersı destekledi Bu beklenmedik destek parti içinde sert tepkilere ve Trumpın övgüsüne yol açtı Stevens daha önce Demokratik aday Abdul El Sayede karşı bir reklam kampanyası nedeniyle çatışma yaşamıştı Global Haber kanalına abone ol",
+      "scheduled_slot": "19:00",
+      "audio_path": "output/voiceover_1.mp3",
+      "background_path": "output/background_1.mp4",
+      "video_path": "output/short_1.mp4",
+      "video_id": "9QgevR1uG3U",
+      "youtube_url": "https://youtu.be/9QgevR1uG3U",
+      "publish_at_local": "2026-11-03T19:00:00+03:00",
+      "publish_at_utc": "2026-11-03T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Florida'da Learjet 60 kazası: 9 ölü, NTSB soruşturması",
+      "summary": "The National Transportation Safety Board also believes weather could have been a factor in the crash, but warns it is too early to determine the cause.",
+      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_name": "BBC",
+      "query": "BBC World",
+      "published_at": "2026-11-03T03:08:14+03:00",
+      "fingerprint": "5f44e6c82ecd07b0aea85ec4445bbdd1200e39e5",
+      "direct_source": true,
+      "viral_score": 46.54,
+      "topic_bucket": "disasters_safety",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+      "source_headline": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-03T01:08:25.118681+00:00",
+      "article_score": 122,
+      "article_text": "The US National Transportation Safety Board (NTSB) says it will investigate whether parts of a jet that crashed in Florida broke off before it nose-dived and exploded, killing all nine people on board The Learjet 60, which was travelling from Austin, Texas to the Bahamas on Sunday, crashed on a street nine miles (14 km) from President Donald Trump's Mar-a-Lago resort A tech entrepreneur and his young family, as well as the 20-year-old copilot, were among those who died The NTSB said on Monday that it would also investigate to what extent ice and turbulence may have been contributing factors It confirmed that, after the jet took off from Austin, the crew transmitted to air traffic control that they were encountering ice and moderate turbulence \"We are picking up precipitation, requesting to climb to 37,000 feet if able,\" the crew said NTSB member Tom Chapman said that less than 30 seconds later, the plane began to descend and the crew issued a mayday call The transmission then became \"unintelligible\", he said, adding that: \"Sadly, all aboard were lost.\" The NTSB said that ice and turbulence were factors in the crash but that determining its probable cause will be a \"lengthy investigatory process\" Thunderstorms had been reported in the area at the time Officials are also trying to find out whether a cockpit voice recorder was on board at the time of the crash and if it can be recovered As part of the investigation, the NTSB is working with the Federal Aviation Administration (FAA), representatives from Learjet as well as meteorologists and air traffic control experts Recovering the wreckage from the crater on the roadway will be a \"daunting challenge\", said Timothy Monville, an air safety investigator with the safety board Flight analysis indicates the jet was plummeting hundreds of feet per second before crashing In air traffic control audio, a crew member can be heard declaring an emergency, shouting \"we are in an overspeed condition descending 20,000ft per minute\", before saying, \"we are going to crash into the ground\" About 35 seconds after the initial mayday announcement, the last remark from the cockpit appears to be \"we're out of time\" The seven people killed who were travelling as passengers were identified in a joint statement from their families as tech entrepreneur Adam Robinson, his wife Helen Sharp, and their two children - Emma and Charlie - as well as Rachael Reed, Charmi Fehr and Anita Maria Cetina The pilot was named in media reports as Jeffery Gregory, while Nathalia Filgueiras, who earned her pilot's licence when she was 17, was reported to be the copilot As well as those killed, one man on the ground sustained a leg injury when the plane nosedived onto the street The Palm Beach County Sheriff's Office said the crash happened on Military Trail, a six-lane road lined with businesses and restaurants Images from the crash scene show a large fiery crater in the middle of a residential suburban street The debris was scattered across sports fields, businesses and homes in the area, officials told a news conference on Monday, possible evidence that the plane broke up before it hit the ground Unverified footage posted on social media shows what appears to be a dash-camera recording of the moment of the crash Trump was at Mar-a-Lago on Sunday morning, and departed from an airport nearby on Air Force One about an hour before the crash",
+      "model_source_context": "The US National Transportation Safety Board (NTSB) says it will investigate whether parts of a jet that crashed in Florida broke off before it nose-dived and exploded, killing all nine people on board The Learjet 60, which was travelling from Austin, Texas to the Bahamas on Sunday, crashed on a street nine miles (14 km) from President Donald Trump's Mar-a-Lago resort A tech entrepreneur and his young family, as well as the 20-year-old copilot, were among those who died The NTSB said on Monday that it would also investigate to what extent ice and turbulence may have been contributing factors It confirmed that, after the jet took off from Austin, the crew transmitted to air traffic control that they were encountering ice and moderate turbulence \"We are picking up precipitation, requesting to climb to 37,000 feet if able,\" the crew said NTSB member Tom Chapman said that less than 30 seconds later, the plane began to descend and the crew issued a mayday call The transmission then became \"unintelligible\", he said, adding that: \"Sadly, all aboard were lost.\" The NTSB said that ice and turbulence were factors in the crash but that determining its probable cause will be a \"lengthy investigatory process\" Thunderstorms had been reported in the area at the time Officials are also trying to find out whether a cockpit voice recorder was on board at the time of the crash and if it can be recovered As part of the investigation, the NTSB is working with the Federal Aviation Administration (FAA), representatives from Learjet as well as meteorologists and air traffic control experts Recovering the wreckage from the crater on the roadway will be a \"daunting challenge\", said Timothy Monville, an air safety investigator with the safety board Flight analysis indicates the jet was plummeting hundreds of feet per second before crashing In air traffic control audio, a crew member can be heard declaring an emergency, shouting \"we are in an overspeed condition descending 20,000ft per minute\", before saying, \"we are going to crash into the ground\" About 35 seconds after the initial mayday announcement, the last remark from the cockpit appears to be \"we're out of time\" The seven people killed who were travelling as passengers were identified in a joint statement from their families as tech entrepreneur Adam Robinson, his wife Helen Sharp, and their two children - Emma and Charlie - as well as Rachael Reed, Charmi Fehr and Anita Maria Cetina The pilot was named in media reports as Jeffery Gregory, while Nathalia Filgueiras, who earned her pilot's licence when she was 17, was reported to be the copilot As well as those killed, one man on the ground sustained a leg injury when the plane nosedived onto the street The Palm Beach County Sheriff's Office said the crash happened on Military Trail, a six-lane road lined with businesses and restaurants Images from the crash scene show a large fiery crater in the middle of a residential suburban street The debris was scattered across sports fields, businesses and homes in the area, officials told a news conference on Monday, possible evidence that the plane broke up before it hit the ground Unverified footage posted on social media shows what appears to be a dash-camera recording of the moment of the crash Trump was at Mar-a-Lago on Sunday morning, and departed from an airport nearby on Air Force One about an hour before the crash",
+      "shorts_hook": "NTSB, Florida jet kazasını incelemeye başladı",
+      "quality_hook": "NTSB, Florida jet kazasını incelemeye başladı",
+      "quality_narration": "NTSB, Florida'da Military Trail üzerindeki Learjet 60 çarpışmasında 9 kişinin hayatını kaybettiğini doğruladı. Araştırmacılar, uçağın inişten kısa bir süre sonra buz ve orta şiddette türbülansla karşılaştığını ve bu koşulların kazaya etkisini inceleyeceklerini belirtti. İlk mayday sinyali verildikten yaklaşık 30 saniye içinde uçak, 20.000 ft/dakika hızla alçalırken \"zamanımız kalmadı\" diyerek çöküşe yol açtı.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "NTSB, Florida'da Military Trail üzerindeki Learjet 60 çarpışmasında 9 kişinin hayatını kaybettiğini doğruladı.",
+        "Araştırmacılar, uçağın inişten kısa bir süre sonra buz ve orta şiddette türbülansla karşılaştığını ve bu koşulların kazaya etkisini inceleyeceklerini belirtti.",
+        "İlk mayday sinyali verildikten yaklaşık 30 saniye içinde uçak, 20.000 ft/dakika hızla alçalırken \"zamanımız kalmadı\" diyerek çöküşe yol açtı."
+      ],
+      "youtube_description": "NTSB, Florida'da Military Trail üzerindeki Learjet 60 çarpışmasında 9 kişinin öldüğünü ve buz‑türbülans etkilerini araştırıyor. Sizce bu tür hava koşulları uçuş güvenliğini ne kadar tehdit ediyor?",
+      "visual_query": "jet crash street",
+      "spoken_text": "NTSB Florida jet kazasını incelemeye başladı NTSB Floridada Military Trail üzerindeki Learjet 60 çarpışmasında 9 kişinin hayatını kaybettiğini doğruladı Araştırmacılar uçağın inişten kısa bir süre sonra buz ve orta şiddette türbülansla karşılaştığını ve bu koşulların kazaya etkisini inceleyeceklerini belirtti İlk mayday sinyali verildikten yaklaşık 30 saniye içinde uçak 20000 ft dakika hızla alçalırken zamanımız kalmadı diyerek çöküşe yol açtı Global Haber kanalına abone ol",
+      "tts_text": "NTSB Florida jet kazasını incelemeye başladı. NTSB Floridada Military Trail üzerindeki Learjet 60 çarpışmasında 9 kişinin hayatını kaybettiğini doğruladı. Araştırmacılar uçağın inişten kısa bir süre sonra buz ve orta şiddette türbülansla karşılaştığını ve bu koşulların kazaya etkisini inceleyeceklerini belirtti. İlk mayday sinyali verildikten yaklaşık 30 saniye içinde uçak 20000 ft dakika hızla alçalırken zamanımız kalmadı diyerek çöküşe yol açtı. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "Florida",
+        "Learjet",
+        "NTSB",
+        "uçak kazası",
+        "hava koşulları"
+      ],
+      "youtube_hashtags": "#shorts #uçakkazası #güvenlik",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "NTSB Florida jet kazasını incelemeye başladı NTSB Floridada Military Trail üzerindeki Learjet 60 çarpışmasında 9 kişinin hayatını kaybettiğini doğruladı Araştırmacılar uçağın inişten kısa bir süre sonra buz ve orta şiddette türbülansla karşılaştığını ve bu koşulların kazaya etkisini inceleyeceklerini belirtti İlk mayday sinyali verildikten yaklaşık 30 saniye içinde uçak 20000 ft dakika hızla alçalırken zamanımız kalmadı diyerek çöküşe yol açtı Global Haber kanalına abone ol"
     }
   ]
 }
