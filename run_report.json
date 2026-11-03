@@ -1,12 +1,39 @@
 {
-  "run_id": "41488283338",
-  "generated_at": "2026-11-02T20:09:23.615809+03:00",
-  "target_count": 0,
+  "run_id": "41556978990",
+  "generated_at": "2026-11-03T04:02:42.684590+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "9QgevR1uG3U",
+      "youtube_url": "https://youtu.be/9QgevR1uG3U",
+      "publish_at_local": "2026-11-03T19:00:00+03:00",
+      "publish_at_utc": "2026-11-03T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Haley Stevens'ın Mike Rogers desteği partiye şok",
+      "narration": "Haley Stevens Demokrat aniden Cumhuriyetçi adayı destekledi Demokrat milletvekili Haley Stevens Michiganin Senato adaylarından Mike Rogersı destekledi Bu beklenmedik destek parti içinde sert tepkilere ve Trumpın övgüsüne yol açtı Stevens daha önce Demokratik aday Abdul El Sayede karşı bir reklam kampanyası nedeniyle çatışma yaşamıştı Global Haber kanalına abone ol",
+      "description": "Haley Stevens, Demokrat, Michigan Senatosu'nda Cumhuriyetçi Mike Rogers'ı destekledi. Sizce bu tür bir parti değişimi seçmenleri nasıl etkiler?",
+      "visual_query": "woman endorses man",
+      "tags": [
+        "haley stevens",
+        "mike rogers",
+        "parti değişikliği",
+        "ABD seçimleri",
+        "siyasi skandal"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "‘A despicable betrayal’: Democrats incensed by Haley Stevens’s endorsement of Mike Rogers",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-03T01:03:05.051127+00:00",
+      "source_modified_at": "2026-11-02T23:22:57.000Z",
+      "run_id": "41556978990"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }

@@ -6075,6 +6075,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Haley Stevens'ın Mike Rogers desteği partiye şok",
+      "summary": "Stevens’s decision sparked fierce backlash from members of the party, while Donald Trump praised the sudden switch Democrat Haley Stevens’s shocking last-minute endorsement of Mike Rogers, the Michigan Republican Senate candidate, in the run-up to Tuesday’s midterm elections has sparked fierce backlash from members of her party. Stevens, who narrowly lost in the Democratic primary for Senate to Abdul El-Sayed, announced her support for Rogers after a feud with the El-Sayed campaign over an outside group’s advertisement, which blamed the high cost of living on US support for Israel. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/02/democrats-reaction-haley-steven-mike-rogers",
+      "source": "Guardian World",
+      "published_at": "2026-11-03T02:22:57+03:00",
+      "fingerprint": "1b8adb42323a0cf4dc8bc87f3428557a51c9d782",
+      "viral_score": 48.33,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/9QgevR1uG3U",
+      "processed_at": "2026-11-03T04:08:22.898715+03:00",
+      "video_id": "9QgevR1uG3U",
+      "publish_at_local": "2026-11-03T19:00:00+03:00",
+      "publish_at_utc": "2026-11-03T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "‘A despicable betrayal’: Democrats incensed by Haley Stevens’s endorsement of Mike Rogers",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/nov/02/democrats-reaction-haley-steven-mike-rogers",
+      "source_modified_at": "2026-11-02T23:22:57.000Z",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
