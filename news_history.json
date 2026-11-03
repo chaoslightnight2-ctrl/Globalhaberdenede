@@ -6096,7 +6096,30 @@
       "resolved_url": "https://www.theguardian.com/us-news/2026/nov/02/democrats-reaction-haley-steven-mike-rogers",
       "source_modified_at": "2026-11-02T23:22:57.000Z",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Florida'da Learjet 60 kazası: 9 ölü, NTSB soruşturması",
+      "summary": "The National Transportation Safety Board also believes weather could have been a factor in the crash, but warns it is too early to determine the cause.",
+      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-03T03:08:14+03:00",
+      "fingerprint": "5f44e6c82ecd07b0aea85ec4445bbdd1200e39e5",
+      "viral_score": 46.54,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/n0KTbEHwHsc",
+      "processed_at": "2026-11-03T04:17:02.518160+03:00",
+      "video_id": "n0KTbEHwHsc",
+      "publish_at_local": "2026-11-03T21:00:00+03:00",
+      "publish_at_utc": "2026-11-03T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }

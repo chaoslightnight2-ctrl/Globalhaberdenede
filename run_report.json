@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-03T01:03:05.051127+00:00",
       "source_modified_at": "2026-11-02T23:22:57.000Z",
+      "run_id": "41556978990",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "n0KTbEHwHsc",
+      "youtube_url": "https://youtu.be/n0KTbEHwHsc",
+      "publish_at_local": "2026-11-03T21:00:00+03:00",
+      "publish_at_utc": "2026-11-03T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Florida'da Learjet 60 kazası: 9 ölü, NTSB soruşturması",
+      "narration": "NTSB Florida jet kazasını incelemeye başladı NTSB Floridada Military Trail üzerindeki Learjet 60 çarpışmasında 9 kişinin hayatını kaybettiğini doğruladı Araştırmacılar uçağın inişten kısa bir süre sonra buz ve orta şiddette türbülansla karşılaştığını ve bu koşulların kazaya etkisini inceleyeceklerini belirtti İlk mayday sinyali verildikten yaklaşık 30 saniye içinde uçak 20000 ft dakika hızla alçalırken zamanımız kalmadı diyerek çöküşe yol açtı Global Haber kanalına abone ol",
+      "description": "NTSB, Florida'da Military Trail üzerindeki Learjet 60 çarpışmasında 9 kişinin öldüğünü ve buz‑türbülans etkilerini araştırıyor. Sizce bu tür hava koşulları uçuş güvenliğini ne kadar tehdit ediyor?",
+      "visual_query": "jet crash street",
+      "tags": [
+        "Florida",
+        "Learjet",
+        "NTSB",
+        "uçak kazası",
+        "hava koşulları"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-03T01:08:25.118681+00:00",
+      "source_modified_at": "",
       "run_id": "41556978990"
     }
   ],
