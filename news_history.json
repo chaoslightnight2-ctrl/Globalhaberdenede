@@ -6142,7 +6142,8 @@
       "resolved_url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
       "source_modified_at": "2026-11-03T00:03:04.000Z",
       "audience_bucket": "technology_science",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
