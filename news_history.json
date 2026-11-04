@@ -6211,7 +6211,8 @@
       "resolved_url": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
       "source_modified_at": "2026-11-04T16:07:11-05:00",
       "audience_bucket": "technology_science",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
