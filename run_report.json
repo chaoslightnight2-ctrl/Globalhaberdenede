@@ -59,9 +59,43 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-04T22:08:29.063731+00:00",
       "source_modified_at": "2026-11-04T20:43:27.000Z",
+      "run_id": "41920516728",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "UA1wELeadgk",
+      "youtube_url": "https://youtu.be/UA1wELeadgk",
+      "publish_at_local": "2026-11-05T23:00:00+03:00",
+      "publish_at_utc": "2026-11-05T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "NASA, 2028'de Ay'a İniş İçin Artemis'i Hızlandırıyor",
+      "narration": "NASA 2028 ayına ayak basacak Ay inişini hızlandırıyor NASA Artemis III test uçuşunu 2027de gerçekleştirecek ve 2028de Artemis IV ile Aya inişi planlıyor Program SpaceXin Starship ve Blue Originin Blue Moon iniş araçlarıyla ortak çalışarak lunik inişi destekleyecek Ayrıca Axiom Space ile geliştirilen hafif Sortie uzay giysisi astronotların yüzey yürüyüşlerini hızlandıracak Global Haber kanalına abone ol",
+      "description": "NASA, Artemis programını hızlandırarak 2028'de Ay'a inişi hedefliyor. Uzayda yeni bir adım atmaya hazır mısınız?",
+      "visual_query": "rocket launch moon",
+      "tags": [
+        "NASA",
+        "Artemis",
+        "Ay",
+        "Uzay",
+        "LunarMisyon"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-04T22:17:29.520180+00:00",
+      "source_modified_at": "2026-11-04T16:07:11-05:00",
       "run_id": "41920516728"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: burnham announces infrastructure"
+    }
+  ],
   "daily_existing_count": 0
 }
