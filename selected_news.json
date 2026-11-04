@@ -42,7 +42,62 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Yunanistan Türkiye Libya Anlaşmasına UNde İtiraz Etti Yunanistan 22 Ekimde Birleşmiş Milletler Genel Sekreteri António Guterrese Türkiye Libya 2019 deniz anlaşmasına itiraz mektubu gönderdi Mektup Yunanistanın Daimi Temsilcisi Aglaia Balta tarafından Dışişleri Bakanı George Gerapetritisin talimatıyla hazırlandı Libyanın doğu temelli Temsilciler Meclisinin anlaşmayı onaylaması Yunanistan Mısır ve Kıbrısın deniz haklarını tehdit ettiği gerekçesiyle eleştirildi Global Haber kanalına abone ol"
+      "script": "Yunanistan Türkiye Libya Anlaşmasına UNde İtiraz Etti Yunanistan 22 Ekimde Birleşmiş Milletler Genel Sekreteri António Guterrese Türkiye Libya 2019 deniz anlaşmasına itiraz mektubu gönderdi Mektup Yunanistanın Daimi Temsilcisi Aglaia Balta tarafından Dışişleri Bakanı George Gerapetritisin talimatıyla hazırlandı Libyanın doğu temelli Temsilciler Meclisinin anlaşmayı onaylaması Yunanistan Mısır ve Kıbrısın deniz haklarını tehdit ettiği gerekçesiyle eleştirildi Global Haber kanalına abone ol",
+      "scheduled_slot": "19:00",
+      "audio_path": "output/voiceover_1.mp3",
+      "background_path": "output/background_1.mp4",
+      "video_path": "output/short_1.mp4",
+      "video_id": "cbCCJbaCXos",
+      "youtube_url": "https://youtu.be/cbCCJbaCXos",
+      "publish_at_local": "2026-11-05T19:00:00+03:00",
+      "publish_at_utc": "2026-11-05T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "İngiltere'de akıllı gözlük satışına kısıtlama",
+      "summary": "Minister hints at restriction on selling technology ‘to certain users’ amid worries over surreptitious filming of women The government is considering placing restrictions on smart glasses amid concerns the technology is being used to surreptitiously film women, a minister has said. Speaking in the House of Commons, the safeguarding minister, Satvir Kaur, hinted at a ban on selling the technology “to certain users”. Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/04/uk-government-considers-smart-glasses-ban-over-secret-filming-concerns",
+      "source": "Guardian World",
+      "source_name": "Guardian",
+      "query": "Guardian World",
+      "published_at": "2026-11-04T23:43:21+03:00",
+      "fingerprint": "c20115ff64bf0aa8d7f4b768dd7481872cf93d39",
+      "direct_source": true,
+      "viral_score": 50.06,
+      "topic_bucket": "technology_science",
+      "resolved_url": "https://www.theguardian.com/uk-news/2026/nov/04/uk-government-considers-smart-glasses-ban-over-secret-filming-concerns",
+      "source_headline": "UK government considers smart glasses ban over secret filming concerns",
+      "source_modified_at": "2026-11-04T20:43:27.000Z",
+      "source_checked_at": "2026-11-04T22:08:29.063731+00:00",
+      "article_score": 119,
+      "article_text": "Minister hints at restriction on selling technology ‘to certain users’ amid worries over surreptitious filming of women The government is considering placing restrictions on smart glasses amid concerns the technology is being used to surreptitiously film women, a minister has said Speaking in the House of Commons, the safeguarding minister, Satvir Kaur, hinted at a ban on selling the technology “to certain users” Kaur said: “The benefits of smart glasses must be weighed against the harms they can cause. The government is already looking into options to restrict smart glasses in certain settings and restricting the sale to certain users.” The minister said people who used smart glasses for filming already risked breaking the law in certain settings, such as in a court where cameras are prohibited Kaur added: “Other settings, such as healthcare and education, have existing safeguarding or professional policies that are relevant to smart glasses and any kind of digital recording. NHS England and the Department for Education are currently looking into wearable technology in certain settings as well.” Anna Sabine, a Liberal Democrat MP and a culture spokesperson for the party who held Wednesday’s debate, said: “Women are reporting waking up after nights out to find videos of themselves have gone viral online, filmed without their knowledge or consent by men wearing smart glasses “To me, these devices not only have the potential to erode safety and privacy in public spaces, but raise really important questions about consent.” She said one of the selling points of the glasses in advertisements was that they could be used “to film discreetly”. Sabine said she did not want parliamentarians to “only regulate once it is too late” Kaur said smart glasses, which can come with built-in cameras, microphones and displays, could “be hugely beneficial” to some people. “For example, for those that are visually impaired, smart glasses have been a gamechanger, helping them navigate the world around them.” A politician in the Senedd has defended his use of smart glasses in the debating chamber. Jason O’Connell, a Reform UK MS for Pontypridd Cynon Merthyr, read a speech from an in-built teleprompter feature in his glasses last month He told the BBC’s Politics Wales: “One of the things I identified, a weakness of mine, was that my head was down looking at my notes a lot and I wanted to get away from that.”",
+      "model_source_context": "Minister hints at restriction on selling technology ‘to certain users’ amid worries over surreptitious filming of women The government is considering placing restrictions on smart glasses amid concerns the technology is being used to surreptitiously film women, a minister has said Speaking in the House of Commons, the safeguarding minister, Satvir Kaur, hinted at a ban on selling the technology “to certain users” Kaur said: “The benefits of smart glasses must be weighed against the harms they can cause. The government is already looking into options to restrict smart glasses in certain settings and restricting the sale to certain users.” The minister said people who used smart glasses for filming already risked breaking the law in certain settings, such as in a court where cameras are prohibited Kaur added: “Other settings, such as healthcare and education, have existing safeguarding or professional policies that are relevant to smart glasses and any kind of digital recording. NHS England and the Department for Education are currently looking into wearable technology in certain settings as well.” Anna Sabine, a Liberal Democrat MP and a culture spokesperson for the party who held Wednesday’s debate, said: “Women are reporting waking up after nights out to find videos of themselves have gone viral online, filmed without their knowledge or consent by men wearing smart glasses “To me, these devices not only have the potential to erode safety and privacy in public spaces, but raise really important questions about consent.” She said one of the selling points of the glasses in advertisements was that they could be used “to film discreetly”. Sabine said she did not want parliamentarians to “only regulate once it is too late” Kaur said smart glasses, which can come with built-in cameras, microphones and displays, could “be hugely beneficial” to some people. “For example, for those that are visually impaired, smart glasses have been a gamechanger, helping them navigate the world around them.” A politician in the Senedd has defended his use of smart glasses in the debating chamber. Jason O’Connell, a Reform UK MS for Pontypridd Cynon Merthyr, read a speech from an in-built teleprompter feature in his glasses last month He told the BBC’s Politics Wales: “One of the things I identified, a weakness of mine, was that my head was down looking at my notes a lot and I wanted to get away from that.”",
+      "shorts_hook": "Akıllı gözlük satışına kısıtlama gündemde, kadın güvenliği",
+      "quality_hook": "Akıllı gözlük satışına kısıtlama gündemde, kadın güvenliği",
+      "quality_narration": "Savunma Bakanı Satvir Kaur, akıllı gözlüklerin belirli kullanıcılar için satışının kısıtlanabileceğini söyledi. Liberal Demokrat milletvekili Anna Sabine, kadınların izinsiz çekilen videolarının internette yayılmasından endişe duyduğunu belirtti. Reform UK Senatörü Jason O’Connell, akıllı gözlükteki teleprompter özelliğiyle konuşma okuduğunu ve bu teknolojinin mecliste kullanımını savundu.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Savunma Bakanı Satvir Kaur, akıllı gözlüklerin belirli kullanıcılar için satışının kısıtlanabileceğini söyledi.",
+        "Liberal Demokrat milletvekili Anna Sabine, kadınların izinsiz çekilen videolarının internette yayılmasından endişe duyduğunu belirtti.",
+        "Reform UK Senatörü Jason O’Connell, akıllı gözlükteki teleprompter özelliğiyle konuşma okuduğunu ve bu teknolojinin mecliste kullanımını savundu."
+      ],
+      "youtube_description": "İngiltere hükümeti, akıllı gözlüklerin gizli film çekme riskine karşı satışını belirli kullanıcılara sınırlamayı düşünüyor. Sizce bu önlem mahremiyeti korur mu?",
+      "visual_query": "smart glasses filming women",
+      "spoken_text": "Akıllı gözlük satışına kısıtlama gündemde kadın güvenliği Savunma Bakanı Satvir Kaur akıllı gözlüklerin belirli kullanıcılar için satışının kısıtlanabileceğini söyledi Liberal Demokrat milletvekili Anna Sabine kadınların izinsiz çekilen videolarının internette yayılmasından endişe duyduğunu belirtti Reform UK Senatörü Jason OConnell akıllı gözlükteki teleprompter özelliğiyle konuşma okuduğunu ve bu teknolojinin mecliste kullanımını savundu Global Haber kanalına abone ol",
+      "tts_text": "Akıllı gözlük satışına kısıtlama gündemde kadın güvenliği. Savunma Bakanı Satvir Kaur akıllı gözlüklerin belirli kullanıcılar için satışının kısıtlanabileceğini söyledi. Liberal Demokrat milletvekili Anna Sabine kadınların izinsiz çekilen videolarının internette yayılmasından endişe duyduğunu belirtti. Reform UK Senatörü Jason OConnell akıllı gözlükteki teleprompter özelliğiyle konuşma okuduğunu ve bu teknolojinin mecliste kullanımını savundu. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "akıllı gözlük",
+        "gizli film çekme",
+        "İngiltere politikası",
+        "mahremiyet",
+        "teknoloji düzenlemesi"
+      ],
+      "youtube_hashtags": "#shorts #teknoloji #gizlilik",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Akıllı gözlük satışına kısıtlama gündemde kadın güvenliği Savunma Bakanı Satvir Kaur akıllı gözlüklerin belirli kullanıcılar için satışının kısıtlanabileceğini söyledi Liberal Demokrat milletvekili Anna Sabine kadınların izinsiz çekilen videolarının internette yayılmasından endişe duyduğunu belirtti Reform UK Senatörü Jason OConnell akıllı gözlükteki teleprompter özelliğiyle konuşma okuduğunu ve bu teknolojinin mecliste kullanımını savundu Global Haber kanalına abone ol"
     }
   ]
 }
