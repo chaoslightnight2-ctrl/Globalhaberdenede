@@ -1,6 +1,6 @@
 {
-  "run_id": "41752104736",
-  "generated_at": "2026-11-04T04:10:40.241536+03:00",
+  "run_id": "41858087079",
+  "generated_at": "2026-11-04T18:31:33.424746+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
@@ -8,7 +8,7 @@
   "videos": [],
   "errors": [
     {
-      "source": "Türkiye, Cameroon explore new economic opportunities at Istanbul roundtable: Trade minister - Anadolu Ajansı",
+      "source": "Endangered giant burrowing frog returns to wild after tadpoles rescued from ashes of black summer fires",
       "stage": "generation",
       "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
