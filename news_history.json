@@ -6144,6 +6144,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Yunanistan, Türkiye-Libya Anlaşmasına UN'de İtiraz Etti",
+      "summary": "Athens Registered Latest Objections to Turkey-Libya Deal on UN Record tovima.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTXdJWFNPY1JqZTRrM3RVMjJIc0lhNEc2U0MyOG5HVWQtU2d3MENoSlMydVgxMGIycTBsYVQ0SWNCaDkydzJaaER5SWtCbHM4elpzZVJobWd2enZfanZtVXpvMU5acENCaVVINHVZYzYxYldXczE2SGRIb1VtTmJudE12TUhCRDBkS3ExMVl0a2xETDVqM0Z1d3A1ck1OY3lr?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-04T20:46:38+03:00",
+      "fingerprint": "bd7900e22a6786635de0bd8afcca1a24e795ef77",
+      "viral_score": 36.35,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/cbCCJbaCXos",
+      "processed_at": "2026-11-05T01:08:27.163206+03:00",
+      "video_id": "cbCCJbaCXos",
+      "publish_at_local": "2026-11-05T19:00:00+03:00",
+      "publish_at_utc": "2026-11-05T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "tovima.com - Breaking News, Analysis and Opinion from To Vima’s International Edition",
+      "resolved_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTXdJWFNPY1JqZTRrM3RVMjJIc0lhNEc2U0MyOG5HVWQtU2d3MENoSlMydVgxMGIycTBsYVQ0SWNCaDkydzJaaER5SWtCbHM4elpzZVJobWd2enZfanZtVXpvMU5acENCaVVINHVZYzYxYldXczE2SGRIb1VtTmJudE12TUhCRDBkS3ExMVl0a2xETDVqM0Z1d3A1ck1OY3lr?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }

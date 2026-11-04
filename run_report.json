@@ -1,17 +1,39 @@
 {
-  "run_id": "41858087079",
-  "generated_at": "2026-11-04T18:31:33.424746+03:00",
+  "run_id": "41920516728",
+  "generated_at": "2026-11-05T00:55:57.118732+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": [
+  "videos": [
     {
-      "source": "Endangered giant burrowing frog returns to wild after tadpoles rescued from ashes of black summer fires",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+      "video_id": "cbCCJbaCXos",
+      "youtube_url": "https://youtu.be/cbCCJbaCXos",
+      "publish_at_local": "2026-11-05T19:00:00+03:00",
+      "publish_at_utc": "2026-11-05T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Yunanistan, Türkiye-Libya Anlaşmasına UN'de İtiraz Etti",
+      "narration": "Yunanistan Türkiye Libya Anlaşmasına UNde İtiraz Etti Yunanistan 22 Ekimde Birleşmiş Milletler Genel Sekreteri António Guterrese Türkiye Libya 2019 deniz anlaşmasına itiraz mektubu gönderdi Mektup Yunanistanın Daimi Temsilcisi Aglaia Balta tarafından Dışişleri Bakanı George Gerapetritisin talimatıyla hazırlandı Libyanın doğu temelli Temsilciler Meclisinin anlaşmayı onaylaması Yunanistan Mısır ve Kıbrısın deniz haklarını tehdit ettiği gerekçesiyle eleştirildi Global Haber kanalına abone ol",
+      "description": "Yunanistan, Libya'nın doğu meclisinin anlaşma onayını takiben, 22 Ekim'de BM Genel Sekreteri'ne resmi itiraz mektubu gönderdi. Sizce bu itiraz bölgedeki deniz anlaşmalarını nasıl etkiler?",
+      "visual_query": "letter to un",
+      "tags": [
+        "Türkiye-Libya anlaşması",
+        "Yunanistan itirazı",
+        "Deniz hukuku",
+        "BM mektubu",
+        "Doğu Libya"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "tovima.com - Breaking News, Analysis and Opinion from To Vima’s International Edition",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-04T21:56:12.289066+00:00",
+      "source_modified_at": "",
+      "run_id": "41920516728"
     }
   ],
+  "errors": [],
   "daily_existing_count": 0
 }
