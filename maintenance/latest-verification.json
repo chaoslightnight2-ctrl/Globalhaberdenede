@@ -1,6 +1,6 @@
 {
-  "source_run": "41718609487",
-  "verified_at": "2026-11-03T21:08:57.981352+00:00",
+  "source_run": "41752104736",
+  "verified_at": "2026-11-04T01:11:49.567588+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
@@ -13,6 +13,7 @@
       "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
+  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
