@@ -1,104 +1,14 @@
 {
-  "source_run": "41920516728",
-  "verified_at": "2026-11-04T22:25:19.018603+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "cbCCJbaCXos",
-      "youtube_url": "https://youtu.be/cbCCJbaCXos",
-      "title": "Yunanistan, Türkiye-Libya Anlaşmasına UN'de İtiraz Etti",
-      "narration": "Yunanistan Türkiye Libya Anlaşmasına UNde İtiraz Etti Yunanistan 22 Ekimde Birleşmiş Milletler Genel Sekreteri António Guterrese Türkiye Libya 2019 deniz anlaşmasına itiraz mektubu gönderdi Mektup Yunanistanın Daimi Temsilcisi Aglaia Balta tarafından Dışişleri Bakanı George Gerapetritisin talimatıyla hazırlandı Libyanın doğu temelli Temsilciler Meclisinin anlaşmayı onaylaması Yunanistan Mısır ve Kıbrısın deniz haklarını tehdit ettiği gerekçesiyle eleştirildi Global Haber kanalına abone ol",
-      "publish_at": "2026-11-05T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-05T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 36.2,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/cbCCJbaCXos.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "vx0jiXDUkHk",
-      "youtube_url": "https://youtu.be/vx0jiXDUkHk",
-      "title": "İngiltere'de akıllı gözlük satışına kısıtlama",
-      "narration": "Akıllı gözlük satışına kısıtlama gündemde kadın güvenliği Savunma Bakanı Satvir Kaur akıllı gözlüklerin belirli kullanıcılar için satışının kısıtlanabileceğini söyledi Liberal Demokrat milletvekili Anna Sabine kadınların izinsiz çekilen videolarının internette yayılmasından endişe duyduğunu belirtti Reform UK Senatörü Jason OConnell akıllı gözlükteki teleprompter özelliğiyle konuşma okuduğunu ve bu teknolojinin mecliste kullanımını savundu Global Haber kanalına abone ol",
-      "publish_at": "2026-11-05T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-05T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 33.533333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/vx0jiXDUkHk.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "UA1wELeadgk",
-      "youtube_url": "https://youtu.be/UA1wELeadgk",
-      "title": "NASA, 2028'de Ay'a İniş İçin Artemis'i Hızlandırıyor",
-      "narration": "NASA 2028 ayına ayak basacak Ay inişini hızlandırıyor NASA Artemis III test uçuşunu 2027de gerçekleştirecek ve 2028de Artemis IV ile Aya inişi planlıyor Program SpaceXin Starship ve Blue Originin Blue Moon iniş araçlarıyla ortak çalışarak lunik inişi destekleyecek Ayrıca Axiom Space ile geliştirilen hafif Sortie uzay giysisi astronotların yüzey yürüyüşlerini hızlandıracak Global Haber kanalına abone ol",
-      "publish_at": "2026-11-05T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-05T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 32.733333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/UA1wELeadgk.jpg"
-    }
-  ],
+  "source_run": "41948239290",
+  "verified_at": "2026-11-05T01:25:59.749329+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: burnham announces infrastructure"
-    }
-  ],
-  "target_count": 3,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "public_listing_error": "HTTPError",
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
