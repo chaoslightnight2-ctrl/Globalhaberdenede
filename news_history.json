@@ -6280,7 +6280,8 @@
       "resolved_url": "https://www.theguardian.com/culture/2026/nov/05/russell-brand-detective-other-potential-victims",
       "source_modified_at": "2026-11-05T20:32:02.000Z",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
