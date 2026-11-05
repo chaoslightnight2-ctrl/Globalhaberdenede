@@ -6234,7 +6234,30 @@
       "resolved_url": "https://www.theguardian.com/society/2026/nov/05/beware-cosmetic-surgery-tourism-packages-experts-advise",
       "source_modified_at": "2026-11-05T17:30:29.000Z",
       "audience_bucket": "health_education",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Afyon’da 8 ölü, 1 yaralı; Eskişehir’de tutuklandı",
+      "summary": "Victims are found in several locations in three separate vehicles, according to local reports.",
+      "url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-05T22:32:54+03:00",
+      "fingerprint": "38ecf6e54caf8346ae35f7f66fca4cc1a9245498",
+      "viral_score": 38.93,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/ISgLXzXoxdY",
+      "processed_at": "2026-11-06T01:22:30.764009+03:00",
+      "video_id": "ISgLXzXoxdY",
+      "publish_at_local": "2026-11-06T21:00:00+03:00",
+      "publish_at_utc": "2026-11-06T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Eight killed in series of shootings in western Turkey",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
