@@ -59,6 +59,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-05T22:12:44.097530+00:00",
       "source_modified_at": "",
+      "run_id": "42118298254",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "HNFHcKL8pSs",
+      "youtube_url": "https://youtu.be/HNFHcKL8pSs",
+      "publish_at_local": "2026-11-06T23:00:00+03:00",
+      "publish_at_utc": "2026-11-06T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Russell Brand’a iki yeni tecavüz iddiası soruşturuluyor",
+      "narration": "Brandın iki yeni tecavüz iddiası soruşturuluyor Metropolitan polisinin stratejik lideri Det Supt Andy Furphy Russell Brandın iki yeni tecavüz iddiası üzerine soruşturma yürütüldüğünü duyurdu Operasyon Actinolite kapsamında 100den fazla tanık dinlendi 1400den fazla belge incelendi ve 340tan fazla ifade alındı Brand daha önce bir hayranını tecavüz ettiği ve üç kadına cinsel saldırıda bulunduğu için mahkum olmuş ancak iki ek tecavüz ve bir cinsel saldırı suçundan beraat etmişti Global Haber kanalına abone ol",
+      "description": "Metropolitan polis, Brand’ın iki yeni tecavüz iddiasını araştırıyor ve 100'den fazla tanık dinledi. Sizce bu süreç daha fazla mağdurun sesini duyurur mu?",
+      "visual_query": "detective questioning witnesses",
+      "tags": [
+        "Russell Brand",
+        "tecavüz iddiası",
+        "Metropolitan polis",
+        "Operasyon Actinolite",
+        "cinsel saldırı"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Police investigating two further rape allegations against Russell Brand",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-05T22:22:32.626296+00:00",
+      "source_modified_at": "2026-11-05T20:32:02.000Z",
       "run_id": "42118298254"
     }
   ],

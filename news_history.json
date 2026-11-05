@@ -6257,7 +6257,30 @@
       "resolved_url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Russell Brand’a iki yeni tecavüz iddiası soruşturuluyor",
+      "summary": "Detective urges other potential victims to come forward and says: ‘Our work’s not done’ The lead detective in the case against Russell Brand has urged other potential victims of the comedian to come forward after it emerged he is under investigation for two further rape allegations and faces a civil claim in the UK. Det Supt Andy Furphy, the Metropolitan police’s strategic lead in the investigation, described Brand, 51, as “a predator” whose behaviour escalated as his fame grew. Continue reading...",
+      "url": "https://www.theguardian.com/culture/2026/nov/05/russell-brand-detective-other-potential-victims",
+      "source": "Guardian World",
+      "published_at": "2026-11-05T22:17:40+03:00",
+      "fingerprint": "310765afed88bb2f934821d2de013e9f3032cf6e",
+      "viral_score": 47.52,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/HNFHcKL8pSs",
+      "processed_at": "2026-11-06T01:34:22.219046+03:00",
+      "video_id": "HNFHcKL8pSs",
+      "publish_at_local": "2026-11-06T23:00:00+03:00",
+      "publish_at_utc": "2026-11-06T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Police investigating two further rape allegations against Russell Brand",
+      "resolved_url": "https://www.theguardian.com/culture/2026/nov/05/russell-brand-detective-other-potential-victims",
+      "source_modified_at": "2026-11-05T20:32:02.000Z",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
