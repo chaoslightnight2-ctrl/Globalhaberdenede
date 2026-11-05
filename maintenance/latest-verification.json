@@ -1,13 +1,98 @@
 {
-  "source_run": "42055975007",
-  "verified_at": "2026-11-05T15:33:51.136824+00:00",
-  "videos": [],
+  "source_run": "42118298254",
+  "verified_at": "2026-11-05T22:35:06.247361+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "mMCgSIYreRw",
+      "youtube_url": "https://youtu.be/mMCgSIYreRw",
+      "title": "Britanya’da Kozmetik Turizmi: 524 Bin Kişi Risk Altında",
+      "narration": "Kozmetik turizmi riskleri yeni kontrol listesiyle gündemde British Aesthetic Medicine Koleji vet it before you get it kampanyasıyla bir kontrol listesi yayınladı Nora Nugent seyahat sırasında ve iyileşme sürecinde kan pıhtısı riskinin artacağını belirtti 2024te Birleşik Krallıkta yurt dışı tıbbi tedaviye gidenlerin sayısı 524 bin olarak kayıtlara geçti Global Haber kanalına abone ol",
+      "publish_at": "2026-11-06T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-06T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 29.966667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/mMCgSIYreRw.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "ISgLXzXoxdY",
+      "youtube_url": "https://youtu.be/ISgLXzXoxdY",
+      "title": "Afyon’da 8 ölü, 1 yaralı; Eskişehir’de tutuklandı",
+      "narration": "Afyonkarahisarda silahlı saldırı sonrası şüpheli Eskişehirde yakalandı Afyonkarahisar ilinde üç ayrı araçta gerçekleşen silahlı saldırılarda sekiz kişi hayatını kaybetti bir kişi ise ciddi şekilde yaralandı Şüpheli Ayazini Kıyır ve Yukarıtandır köylerinde saldırı düzenledikten sonra kaçtı ancak Eskişehir ilinde yakalanarak gözaltına alındı Güvenlik kameraları uzun bir silah tutan siyah ceket beyaz pantolon ve gözlük takan bir adamı kırmızı bir minibüsün yanında gösterdi Global Haber kanalına abone ol",
+      "publish_at": "2026-11-06T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-06T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 36.533333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/ISgLXzXoxdY.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "HNFHcKL8pSs",
+      "youtube_url": "https://youtu.be/HNFHcKL8pSs",
+      "title": "Russell Brand’a iki yeni tecavüz iddiası soruşturuluyor",
+      "narration": "Brandın iki yeni tecavüz iddiası soruşturuluyor Metropolitan polisinin stratejik lideri Det Supt Andy Furphy Russell Brandın iki yeni tecavüz iddiası üzerine soruşturma yürütüldüğünü duyurdu Operasyon Actinolite kapsamında 100den fazla tanık dinlendi 1400den fazla belge incelendi ve 340tan fazla ifade alındı Brand daha önce bir hayranını tecavüz ettiği ve üç kadına cinsel saldırıda bulunduğu için mahkum olmuş ancak iki ek tecavüz ve bir cinsel saldırı suçundan beraat etmişti Global Haber kanalına abone ol",
+      "publish_at": "2026-11-06T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-06T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 37.366667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/HNFHcKL8pSs.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
+  "accepted_count": 3,
+  "processed_count": 3,
+  "complete": false,
   "generation_errors": [],
-  "target_count": 0,
+  "target_count": 3,
   "published_count": 0,
   "accepted_complete": true
 }
