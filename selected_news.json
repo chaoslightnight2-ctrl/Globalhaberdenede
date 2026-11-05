@@ -44,7 +44,62 @@
       "audience_bucket": "health_education",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Kozmetik turizmi riskleri yeni kontrol listesiyle gündemde British Aesthetic Medicine Koleji vet it before you get it kampanyasıyla bir kontrol listesi yayınladı Nora Nugent seyahat sırasında ve iyileşme sürecinde kan pıhtısı riskinin artacağını belirtti 2024te Birleşik Krallıkta yurt dışı tıbbi tedaviye gidenlerin sayısı 524 bin olarak kayıtlara geçti Global Haber kanalına abone ol"
+      "script": "Kozmetik turizmi riskleri yeni kontrol listesiyle gündemde British Aesthetic Medicine Koleji vet it before you get it kampanyasıyla bir kontrol listesi yayınladı Nora Nugent seyahat sırasında ve iyileşme sürecinde kan pıhtısı riskinin artacağını belirtti 2024te Birleşik Krallıkta yurt dışı tıbbi tedaviye gidenlerin sayısı 524 bin olarak kayıtlara geçti Global Haber kanalına abone ol",
+      "scheduled_slot": "19:00",
+      "audio_path": "output/voiceover_1.mp3",
+      "background_path": "output/background_1.mp4",
+      "video_path": "output/short_1.mp4",
+      "video_id": "mMCgSIYreRw",
+      "youtube_url": "https://youtu.be/mMCgSIYreRw",
+      "publish_at_local": "2026-11-06T19:00:00+03:00",
+      "publish_at_utc": "2026-11-06T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Afyon’da 8 ölü, 1 yaralı; Eskişehir’de tutuklandı",
+      "summary": "Victims are found in several locations in three separate vehicles, according to local reports.",
+      "url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_name": "BBC",
+      "query": "BBC World",
+      "published_at": "2026-11-05T22:32:54+03:00",
+      "fingerprint": "38ecf6e54caf8346ae35f7f66fca4cc1a9245498",
+      "direct_source": true,
+      "viral_score": 38.93,
+      "topic_bucket": "society",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
+      "source_headline": "Eight killed in series of shootings in western Turkey",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-05T22:12:44.097530+00:00",
+      "article_score": 56,
+      "article_text": "Eight people have been killed and one seriously injured in a series of shootings in western Turkey The attacks took place in the Afyonkarahisar province on Thursday, with victims found in several locations in three separate vehicles, according to local reports The suspect fled, triggering a manhunt, and authorities later said he had been arrested in Eskişehir province CCTV footage published in Turkish media showed a man in a black jacket, white trousers and glasses clutching a long weapon as he stood by a red minivan Turkey's state-run Anadolu Agency reported that three people were killed near Ayazini village and three others near Kiyir village. In Yukaritandir, two women were found injured and later died in hospital Two teachers were reportedly among the dead Local media said roads leading to the affected villages were closed by police, while officers launched a large-scale operation to find the suspect The newspaper Milliyet reported that a vehicle allegedly taken by the attacker had been later found stuck in mud - the suspect having abandoned it before fleeing on foot In a statement posted on social media, the Afyonkarahisar Governorate said \"all relevant institutions of our state have been working in coordination since the very first moment and are meticulously carrying out the necessary work\"",
+      "model_source_context": "Eight people have been killed and one seriously injured in a series of shootings in western Turkey The attacks took place in the Afyonkarahisar province on Thursday, with victims found in several locations in three separate vehicles, according to local reports The suspect fled, triggering a manhunt, and authorities later said he had been arrested in Eskişehir province CCTV footage published in Turkish media showed a man in a black jacket, white trousers and glasses clutching a long weapon as he stood by a red minivan Turkey's state-run Anadolu Agency reported that three people were killed near Ayazini village and three others near Kiyir village. In Yukaritandir, two women were found injured and later died in hospital Two teachers were reportedly among the dead Local media said roads leading to the affected villages were closed by police, while officers launched a large-scale operation to find the suspect The newspaper Milliyet reported that a vehicle allegedly taken by the attacker had been later found stuck in mud - the suspect having abandoned it before fleeing on foot In a statement posted on social media, the Afyonkarahisar Governorate said \"all relevant institutions of our state have been working in coordination since the very first moment and are meticulously carrying out the necessary work\"",
+      "shorts_hook": "Afyonkarahisar’da silahlı saldırı sonrası şüpheli Eskişehir’de yakalandı",
+      "quality_hook": "Afyonkarahisar’da silahlı saldırı sonrası şüpheli Eskişehir’de yakalandı",
+      "quality_narration": "Afyonkarahisar ilinde üç ayrı araçta gerçekleşen silahlı saldırılarda sekiz kişi hayatını kaybetti, bir kişi ise ciddi şekilde yaralandı. Şüpheli, Ayazini, Kıyır ve Yukarıtandır köylerinde saldırı düzenledikten sonra kaçtı, ancak Eskişehir ilinde yakalanarak gözaltına alındı. Güvenlik kameraları, uzun bir silah tutan, siyah ceket, beyaz pantolon ve gözlük takan bir adamı kırmızı bir minibüsün yanında gösterdi.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Afyonkarahisar ilinde üç ayrı araçta gerçekleşen silahlı saldırılarda sekiz kişi hayatını kaybetti, bir kişi ise ciddi şekilde yaralandı.",
+        "Şüpheli, Ayazini, Kıyır ve Yukarıtandır köylerinde saldırı düzenledikten sonra kaçtı, ancak Eskişehir ilinde yakalanarak gözaltına alındı.",
+        "Güvenlik kameraları, uzun bir silah tutan, siyah ceket, beyaz pantolon ve gözlük takan bir adamı kırmızı bir minibüsün yanında gösterdi."
+      ],
+      "youtube_description": "Afyon’da gerçekleşen silahlı saldırıda sekiz kişi öldü, bir kişi ciddi yaralandı; iki öğretmen de hayatını kaybetti. Bu tür şiddet olaylarını önlemek için neler yapılmalı?",
+      "visual_query": "man holding gun",
+      "spoken_text": "Afyonkarahisarda silahlı saldırı sonrası şüpheli Eskişehirde yakalandı Afyonkarahisar ilinde üç ayrı araçta gerçekleşen silahlı saldırılarda sekiz kişi hayatını kaybetti bir kişi ise ciddi şekilde yaralandı Şüpheli Ayazini Kıyır ve Yukarıtandır köylerinde saldırı düzenledikten sonra kaçtı ancak Eskişehir ilinde yakalanarak gözaltına alındı Güvenlik kameraları uzun bir silah tutan siyah ceket beyaz pantolon ve gözlük takan bir adamı kırmızı bir minibüsün yanında gösterdi Global Haber kanalına abone ol",
+      "tts_text": "Afyonkarahisarda silahlı saldırı sonrası şüpheli Eskişehirde yakalandı. Afyonkarahisar ilinde üç ayrı araçta gerçekleşen silahlı saldırılarda sekiz kişi hayatını kaybetti bir kişi ise ciddi şekilde yaralandı. Şüpheli Ayazini Kıyır ve Yukarıtandır köylerinde saldırı düzenledikten sonra kaçtı ancak Eskişehir ilinde yakalanarak gözaltına alındı. Güvenlik kameraları uzun bir silah tutan siyah ceket beyaz pantolon ve gözlük takan bir adamı kırmızı bir minibüsün yanında gösterdi. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "Afyonkarahisar",
+        "silahlı saldırı",
+        "cinayet",
+        "güvenlik operasyonu",
+        "eskişehir tutuklama"
+      ],
+      "youtube_hashtags": "#shorts #güvenlik #terör",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Afyonkarahisarda silahlı saldırı sonrası şüpheli Eskişehirde yakalandı Afyonkarahisar ilinde üç ayrı araçta gerçekleşen silahlı saldırılarda sekiz kişi hayatını kaybetti bir kişi ise ciddi şekilde yaralandı Şüpheli Ayazini Kıyır ve Yukarıtandır köylerinde saldırı düzenledikten sonra kaçtı ancak Eskişehir ilinde yakalanarak gözaltına alındı Güvenlik kameraları uzun bir silah tutan siyah ceket beyaz pantolon ve gözlük takan bir adamı kırmızı bir minibüsün yanında gösterdi Global Haber kanalına abone ol"
     }
   ]
 }
