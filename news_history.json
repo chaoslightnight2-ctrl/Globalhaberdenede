@@ -6303,7 +6303,30 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZnZaUGwtTEFkbVpLZVlXcUEybkwxVDRBQ1R1RlhQbTV1bmdVaUQtVC02YnZqV0w2MUpFS2xwWnJ6akFVV3dQcHhJMUZLaExnUDRFYjlOZGhvcTR1aVVaR2pybzhYN3p6QUF5dzJXNVJzUWVVdERCd3RKNFh1YnNETFd4THZlSWRJWTBiaHNYb2dXRGM5TTNvelNRQWFEYmRBVE5qN1ptUkQzMXPSAbABQVVfeXFMT1hXNHU2ZFlJbDVwQzE5ZDhnWmw5cksyYXVmRHV6M1dIQmZSa3FPeE9fOGplRkNlTUV1R3duUWY0YkprWWNScGQyWE91YWQ0WmZDMnVsSll4QmpFam1xYklkNmhwSVVRTmhSbXM0b0taWk4tbXdseUZJejZNcmxTVG9qVE1uT2c0bFlOYWRRNGs4Mkk1T1NwSFk4a3hnQWtjVkFOdTZrY2R6eHQya0ZwV2Q?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Demokratların zaferi sonrası borsalar endişe içinde",
+      "summary": "Asian and European markets follow US tech rout with many analysts predicting more waves of selling to come European and Asian stock markets fell sharply on Friday after the Democrats’ decisive victory in the midterms triggered a rout in US tech stocks a day earlier. A sell-off on Wall Street on Thursday was followed by sharp falls in Asian stock markets on Friday. The investor sentiment then reached London, where the market was, at one stage, poised for its worst day since March. Continue reading...",
+      "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+      "source": "Guardian World",
+      "published_at": "2026-11-07T00:23:54+03:00",
+      "fingerprint": "3c58ad67dae760617f90d1882802645bbe2d1425",
+      "viral_score": 51.63,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/e3bmWgjmPfE",
+      "processed_at": "2026-11-07T00:52:36.400942+03:00",
+      "video_id": "e3bmWgjmPfE",
+      "publish_at_local": "2026-11-07T21:00:00+03:00",
+      "publish_at_utc": "2026-11-07T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
+      "resolved_url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+      "source_modified_at": "2026-11-06T21:23:54.000Z",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }

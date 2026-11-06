@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-06T21:37:39.797295+00:00",
       "source_modified_at": "",
+      "run_id": "42292412098",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "e3bmWgjmPfE",
+      "youtube_url": "https://youtu.be/e3bmWgjmPfE",
+      "publish_at_local": "2026-11-07T21:00:00+03:00",
+      "publish_at_utc": "2026-11-07T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Demokratların zaferi sonrası borsalar endişe içinde",
+      "narration": "Dün ABD seçim sonrası küresel borsalar çöküşte Demokratların midterm zaferi ABD teknoloji hisselerinde ani bir satış dalgası başlattı ve Asya ile Avrupa borsaları da keskin düşüşler kaydetti Londra FTSE 100 endeksi sabah seansında 254 puan yüzde 2 virgül 35 düşerek 10528 seviyesine geriledi Küresel bakır fiyatı da AI pazarının etkisiyle haftalık yüzde 2 virgül 79 düşüşe doğru yöneldi Global Haber kanalına abone ol",
+      "description": "ABD seçimleri sonrası AI endişesiyle küresel borsalar düşüş yaşadı. Sizce bu dalgalanma ne kadar sürecek?",
+      "visual_query": "stock chart falling",
+      "tags": [
+        "borsa",
+        "AI",
+        "demokratlar",
+        "küresel",
+        "ekonomi"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-06T21:48:34.427382+00:00",
+      "source_modified_at": "2026-11-06T21:23:54.000Z",
       "run_id": "42292412098"
     }
   ],
