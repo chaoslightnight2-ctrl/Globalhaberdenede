@@ -1,12 +1,39 @@
 {
-  "run_id": "42240020205",
-  "generated_at": "2026-11-06T18:28:51.347628+03:00",
-  "target_count": 0,
+  "run_id": "42292412098",
+  "generated_at": "2026-11-07T00:37:26.089911+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "1xaapptAW0g",
+      "youtube_url": "https://youtu.be/1xaapptAW0g",
+      "publish_at_local": "2026-11-07T19:00:00+03:00",
+      "publish_at_utc": "2026-11-07T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Feridun Sinirlioğlu, Türkiye’nin UN Sekreterliği Adayı",
+      "narration": "Türkiye UN Sekreterliği adayını resmi açıkladı Feridun Sinirlioğlu 70 yaşındaki eski dışişleri bakanı Birleşmiş Milletler Genel Sekreterliği için Türkiyenin adayı olarak duyuruldu Aday OSCE sekreter genel olarak Belarusa giderek Aleksandr Lukaşenko ve Sergey Lavrov ile görüştü bu da geniş uluslararası destek sinyali verdi Uzmanlar Sinirlioğlunun adaylığının Türkiyenin daha adil bir dünya hedefiyle uyumlu olduğunu ve beş büyük güç dışındaki ülkelerden de destek aldığını vurguluyor Global Haber kanalına abone ol",
+      "description": "Feridun Sinirlioğlu, 70‑ yaşındaki deneyimli diplomat, Türkiye’nin Birleşmiş Milletler Genel Sekreterliği adaylığı olarak duyuruldu. Sizce bu adaylık, Türkiye’nin küresel etkisini artırır mı?",
+      "visual_query": "diplomat interview un",
+      "tags": [
+        "UN adaylığı",
+        "Feridun Sinirlioğlu",
+        "Türkiye diplomasi",
+        "OSCE",
+        "uluslararası ilişkiler"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Turkish candidate for top UN post reflects Ankara’s reform ambition",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-06T21:37:39.797295+00:00",
+      "source_modified_at": "",
+      "run_id": "42292412098"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }
