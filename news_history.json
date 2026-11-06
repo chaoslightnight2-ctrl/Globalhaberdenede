@@ -6326,7 +6326,30 @@
       "resolved_url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
       "source_modified_at": "2026-11-06T21:23:54.000Z",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "AI hisseleri Nasdaq’da %1,1 yükseldi, işsizlik %4,1’e geriledi",
+      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-07T00:06:25+03:00",
+      "fingerprint": "9ec7345aad3af381afa4ac3eb0c52ab0a22ce395",
+      "viral_score": 51.17,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/UrquDwAsEag",
+      "processed_at": "2026-11-07T00:56:54.862154+03:00",
+      "video_id": "UrquDwAsEag",
+      "publish_at_local": "2026-11-07T23:00:00+03:00",
+      "publish_at_utc": "2026-11-07T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "AI stocks climb after trillions wiped from market values",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }

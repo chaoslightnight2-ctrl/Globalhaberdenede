@@ -59,6 +59,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-06T21:48:34.427382+00:00",
       "source_modified_at": "2026-11-06T21:23:54.000Z",
+      "run_id": "42292412098",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "UrquDwAsEag",
+      "youtube_url": "https://youtu.be/UrquDwAsEag",
+      "publish_at_local": "2026-11-07T23:00:00+03:00",
+      "publish_at_utc": "2026-11-07T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "AI hisseleri Nasdaq’da %1,1 yükseldi, işsizlik %4,1’e geriledi",
+      "narration": "AI hisseleri Nasdaqda yüzde 1 virgül 1 yükseldi son satış dalgasının ardından AI ve teknoloji şirketlerinin hisseleri büyük bir satış dalgasının ardından Nasdaq endeksinin yüzde 1 virgül 1 artmasıyla hafif bir toparlanma gösterdi ABD istihdam verileri ise Eylül ayında beklenenden yüksek 165000 yeni iş eklendiğini ve işsizlik oranının yüzde 4 virgül 1e gerilediğini ortaya koydu Bu iyileşme yatırımcıların Demokratların ara seçim zaferinin yapay zeka gelişimini yavaşlatacağı endişesinin bir kısmını hafifletti Global Haber kanalına abone ol",
+      "description": "AI ve teknoloji hisseleri satış sonrası toparlandı, işsizlik düşüşüyle birlikte. Sizce bu iyileşme piyasaları ne kadar sürecek?",
+      "visual_query": "stock chart rising",
+      "tags": [
+        "AI hisseleri",
+        "Nasdaq",
+        "işsizlik",
+        "ABD istihdamı",
+        "borsa toparlanması"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "AI stocks climb after trillions wiped from market values",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-06T21:52:38.306978+00:00",
+      "source_modified_at": "",
       "run_id": "42292412098"
     }
   ],
