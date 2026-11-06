@@ -1,13 +1,99 @@
 {
-  "source_run": "42240020205",
-  "verified_at": "2026-11-06T15:29:26.529412+00:00",
-  "videos": [],
+  "source_run": "42292412098",
+  "verified_at": "2026-11-06T21:59:33.279686+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "1xaapptAW0g",
+      "youtube_url": "https://youtu.be/1xaapptAW0g",
+      "title": "Feridun Sinirlioğlu, Türkiye’nin UN Sekreterliği Adayı",
+      "narration": "Türkiye UN Sekreterliği adayını resmi açıkladı Feridun Sinirlioğlu 70 yaşındaki eski dışişleri bakanı Birleşmiş Milletler Genel Sekreterliği için Türkiyenin adayı olarak duyuruldu Aday OSCE sekreter genel olarak Belarusa giderek Aleksandr Lukaşenko ve Sergey Lavrov ile görüştü bu da geniş uluslararası destek sinyali verdi Uzmanlar Sinirlioğlunun adaylığının Türkiyenin daha adil bir dünya hedefiyle uyumlu olduğunu ve beş büyük güç dışındaki ülkelerden de destek aldığını vurguluyor Global Haber kanalına abone ol",
+      "publish_at": "2026-11-07T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-07T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 35.866667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/1xaapptAW0g.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "e3bmWgjmPfE",
+      "youtube_url": "https://youtu.be/e3bmWgjmPfE",
+      "title": "Demokratların zaferi sonrası borsalar endişe içinde",
+      "narration": "Dün ABD seçim sonrası küresel borsalar çöküşte Demokratların midterm zaferi ABD teknoloji hisselerinde ani bir satış dalgası başlattı ve Asya ile Avrupa borsaları da keskin düşüşler kaydetti Londra FTSE 100 endeksi sabah seansında 254 puan yüzde 2 virgül 35 düşerek 10528 seviyesine geriledi Küresel bakır fiyatı da AI pazarının etkisiyle haftalık yüzde 2 virgül 79 düşüşe doğru yöneldi Global Haber kanalına abone ol",
+      "publish_at": "2026-11-07T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-07T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 36.866667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/e3bmWgjmPfE.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "UrquDwAsEag",
+      "youtube_url": "https://youtu.be/UrquDwAsEag",
+      "title": "AI hisseleri Nasdaq’da %1,1 yükseldi, işsizlik %4,1’e geriledi",
+      "narration": "AI hisseleri Nasdaqda yüzde 1 virgül 1 yükseldi son satış dalgasının ardından AI ve teknoloji şirketlerinin hisseleri büyük bir satış dalgasının ardından Nasdaq endeksinin yüzde 1 virgül 1 artmasıyla hafif bir toparlanma gösterdi ABD istihdam verileri ise Eylül ayında beklenenden yüksek 165000 yeni iş eklendiğini ve işsizlik oranının yüzde 4 virgül 1e gerilediğini ortaya koydu Bu iyileşme yatırımcıların Demokratların ara seçim zaferinin yapay zeka gelişimini yavaşlatacağı endişesinin bir kısmını hafifletti Global Haber kanalına abone ol",
+      "publish_at": "2026-11-07T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-07T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 40.5,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/UrquDwAsEag.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
+  "accepted_count": 3,
+  "processed_count": 3,
+  "complete": false,
   "generation_errors": [],
-  "target_count": 0,
+  "public_listing_error": "HTTPError",
+  "target_count": 3,
   "published_count": 0,
   "accepted_complete": true
 }
