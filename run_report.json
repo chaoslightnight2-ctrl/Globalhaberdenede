@@ -4,7 +4,7 @@
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": false,
+  "complete": true,
   "videos": [
     {
       "video_id": "LELsfdr-6ss",
@@ -87,7 +87,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-08T00:41:32.310267+00:00",
       "source_modified_at": "",
-      "run_id": "42429313032"
+      "run_id": "42429313032",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
