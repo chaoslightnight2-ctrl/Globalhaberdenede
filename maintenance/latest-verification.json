@@ -1,105 +1,13 @@
 {
-  "source_run": "42429313032",
-  "verified_at": "2026-11-08T00:49:08.249382+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "LELsfdr-6ss",
-      "youtube_url": "https://youtu.be/LELsfdr-6ss",
-      "title": "Avustralya'nın Fosil İhracatıyla Çelişen COP31 Liderliği",
-      "narration": "Avustralya büyük fosil ihracatçısı COP31i yönetecek COP31 200 ülkenin katıldığı iki haftalık iklim görüşmesi Antalyada başladı Avustralya dünya çapında ikinci en büyük kömür ve beşinci büyük LNG ihracatçısı konumunda 500den fazla Avustralya bilim insanı hükümete kömür ve gaz onaylarını durdurma çağrısı yaptı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-08T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-08T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 28.566667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/LELsfdr-6ss.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "V0LZO26JzPc",
-      "youtube_url": "https://youtu.be/V0LZO26JzPc",
-      "title": "FAA, Florida ve Alaska’da Dijital Kontrol Kulesi Açıldı",
-      "narration": "Florida ve Alaskada dijital kontrol kuleleri hizmette FAA Bartow Florida ve Kenai Alaska havalimanlarında dijital kontrol kulelerini faaliyete geçirdi Bu sistemler kamera ve dijital ekranlarla 360 derece görüş sağlayarak kontrolörlere daha fazla bilgi sunuyor FAA yöneticisi Bryan Bedford bu teknolojinin insan kontrolörleri yerine geçmediğini sadece kararlarını desteklediğini belirtti Global Haber kanalına abone ol",
-      "publish_at": "2026-11-08T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-08T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 31.566667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/V0LZO26JzPc.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "2IrH01h4U50",
-      "youtube_url": "https://youtu.be/2IrH01h4U50",
-      "title": "NASA, 3 Aralık'a Kadar Astronot Başvuruları Açık",
-      "narration": "NASA yeni astronot sınıfı başvurularını duyurdu NASA Aydan Marsa uzanan yeni görevler için astronot sınıfı başvurularını açtı Başvurular 3 Aralık Perşembe 23 59 ESTye kadar kabul edilecek ve son seçim 2027 sonuna kadar yapılacak Uzay yöneticisi Jared Isaacman bu dönemin insanlık tarihinin en büyük macerası olduğunu belirtti Global Haber kanalına abone ol",
-      "publish_at": "2026-11-08T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-08T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 29.1,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/2IrH01h4U50.jpg"
-    }
-  ],
+  "source_run": "42489312575",
+  "verified_at": "2026-11-08T14:21:56.335779+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: nasa awarding companies"
-    }
-  ],
-  "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
