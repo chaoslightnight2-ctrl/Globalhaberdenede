@@ -1,12 +1,39 @@
 {
-  "run_id": "42406301331",
-  "generated_at": "2026-11-07T22:28:15.094529+03:00",
-  "target_count": 0,
+  "run_id": "42429313032",
+  "generated_at": "2026-11-08T03:21:37.345716+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "LELsfdr-6ss",
+      "youtube_url": "https://youtu.be/LELsfdr-6ss",
+      "publish_at_local": "2026-11-08T19:00:00+03:00",
+      "publish_at_utc": "2026-11-08T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Avustralya'nın Fosil İhracatıyla Çelişen COP31 Liderliği",
+      "narration": "Avustralya büyük fosil ihracatçısı COP31i yönetecek COP31 200 ülkenin katıldığı iki haftalık iklim görüşmesi Antalyada başladı Avustralya dünya çapında ikinci en büyük kömür ve beşinci büyük LNG ihracatçısı konumunda 500den fazla Avustralya bilim insanı hükümete kömür ve gaz onaylarını durdurma çağrısı yaptı Global Haber kanalına abone ol",
+      "description": "Avustralya, dünyanın en büyük kömür ihracatçılarından biri olarak COP31'i yöneten Chris Bowen'ın ikilemini gündeme taşıdı. Sizce bir fosil ihracatçısı iklim liderliğini nasıl sürdürebilir?",
+      "visual_query": "australia minister speaking",
+      "tags": [
+        "iklim değişikliği",
+        "Avustralya",
+        "COP31",
+        "fosil yakıt ihracatı",
+        "uluslararası müzakereler"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
+      "audience_bucket": "nature",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-08T00:21:50.140778+00:00",
+      "source_modified_at": "2026-11-07T21:42:39.000Z",
+      "run_id": "42429313032"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }

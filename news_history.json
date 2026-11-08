@@ -6351,6 +6351,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Avustralya'nın Fosil İhracatıyla Çelişen COP31 Liderliği",
+      "summary": "Ahead of Cop31, climate change minister dismisses concerns about whether Australia as a major producer can keep the world moving away from fossil fuels Listen to the podcast: Chris Bowen on how he’ll reach consensus at Cop31 Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Australia has been urged to set aside support for its near US$100bn fossil fuel export industries and fight for a global agreement to move away from coal, gas and oil as its climate change minister, Chris Bowen, leads negotiations between nearly 200 countries at UN talks this week. Delegates will gather in the Turkish Mediterranean resort city of Antalya on Monday for Cop31, two weeks of climate talks held amid geopolitical turmoil, with conflict in the Middle East driving an oil price crisis that has raised living costs across the globe. Continue reading...",
+      "url": "https://www.theguardian.com/environment/2026/nov/08/chris-bowen-cop31-experts-condemn-australia-coal-gas-approvals",
+      "source": "Guardian World",
+      "published_at": "2026-11-07T22:00:20+03:00",
+      "fingerprint": "db88e85eb9fe18d1d5e67e2637dabc793aca885c",
+      "viral_score": 33.43,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/LELsfdr-6ss",
+      "processed_at": "2026-11-08T03:29:07.884319+03:00",
+      "video_id": "LELsfdr-6ss",
+      "publish_at_local": "2026-11-08T19:00:00+03:00",
+      "publish_at_utc": "2026-11-08T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
+      "resolved_url": "https://www.theguardian.com/environment/2026/nov/08/chris-bowen-cop31-experts-condemn-australia-coal-gas-approvals",
+      "source_modified_at": "2026-11-07T21:42:39.000Z",
+      "audience_bucket": "nature",
+      "hook_style": "direct_change"
     }
   ]
 }
