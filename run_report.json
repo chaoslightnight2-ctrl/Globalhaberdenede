@@ -59,6 +59,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-08T00:33:31.507982+00:00",
       "source_modified_at": "2026-11-07T20:05:21.000Z",
+      "run_id": "42429313032",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "2IrH01h4U50",
+      "youtube_url": "https://youtu.be/2IrH01h4U50",
+      "publish_at_local": "2026-11-08T23:00:00+03:00",
+      "publish_at_utc": "2026-11-08T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "NASA, 3 Aralık'a Kadar Astronot Başvuruları Açık",
+      "narration": "NASA yeni astronot sınıfı başvurularını duyurdu NASA Aydan Marsa uzanan yeni görevler için astronot sınıfı başvurularını açtı Başvurular 3 Aralık Perşembe 23 59 ESTye kadar kabul edilecek ve son seçim 2027 sonuna kadar yapılacak Uzay yöneticisi Jared Isaacman bu dönemin insanlık tarihinin en büyük macerası olduğunu belirtti Global Haber kanalına abone ol",
+      "description": "NASA, yeni astronot sınıfı için başvuruları 3 Aralık 23:59 EST'ye kadar açtı; seçim 2027'de yapılacak. Uzay macerasına katılmak ister misiniz?",
+      "visual_query": "astronaut application submission",
+      "tags": [
+        "NASA",
+        "astronot",
+        "başvuru",
+        "uzay",
+        "Artemis"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-08T00:41:32.310267+00:00",
+      "source_modified_at": "",
       "run_id": "42429313032"
     }
   ],
