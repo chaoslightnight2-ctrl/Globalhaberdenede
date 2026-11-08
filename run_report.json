@@ -31,9 +31,43 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-08T00:21:50.140778+00:00",
       "source_modified_at": "2026-11-07T21:42:39.000Z",
+      "run_id": "42429313032",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "V0LZO26JzPc",
+      "youtube_url": "https://youtu.be/V0LZO26JzPc",
+      "publish_at_local": "2026-11-08T21:00:00+03:00",
+      "publish_at_utc": "2026-11-08T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "FAA, Florida ve Alaska’da Dijital Kontrol Kulesi Açıldı",
+      "narration": "Florida ve Alaskada dijital kontrol kuleleri hizmette FAA Bartow Florida ve Kenai Alaska havalimanlarında dijital kontrol kulelerini faaliyete geçirdi Bu sistemler kamera ve dijital ekranlarla 360 derece görüş sağlayarak kontrolörlere daha fazla bilgi sunuyor FAA yöneticisi Bryan Bedford bu teknolojinin insan kontrolörleri yerine geçmediğini sadece kararlarını desteklediğini belirtti Global Haber kanalına abone ol",
+      "description": "ABD'nin ilk dijital hava trafik kontrol kuleleri Florida ve Alaska’da hizmete girdi. Sizce bu teknoloji uçuş güvenliğini artıracak mı?",
+      "visual_query": "digital tower camera",
+      "tags": [
+        "FAA",
+        "dijital kontrol kuleleri",
+        "havacılık teknolojisi",
+        "Florida havalimanı",
+        "Alaska havalimanı"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "FAA announces first US digital air traffic control towers in Florida and Alaska",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-08T00:33:31.507982+00:00",
+      "source_modified_at": "2026-11-07T20:05:21.000Z",
       "run_id": "42429313032"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: nasa awarding companies"
+    }
+  ],
   "daily_existing_count": 0
 }

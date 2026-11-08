@@ -6372,7 +6372,30 @@
       "resolved_url": "https://www.theguardian.com/environment/2026/nov/08/chris-bowen-cop31-experts-condemn-australia-coal-gas-approvals",
       "source_modified_at": "2026-11-07T21:42:39.000Z",
       "audience_bucket": "nature",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "FAA, Florida ve Alaska’da Dijital Kontrol Kulesi Açıldı",
+      "summary": "Systems provide 360-degree view of airport operations, but concerns have been raised about the technology The Federal Aviation Administration (FAA) has announced that the first digital air traffic control towers in the US are officially operational, bringing new technology first to smaller airports in Florida and Alaska as the Trump administration presses ahead with updating the country’s ageing aviation infrastructure. The systems are now online at the Bartow executive airport (KBOW) in Florida and the Kenai municipal airport (PAEN) in Alaska, with five additional regional airports slated to receive the technology next. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
+      "source": "Guardian World",
+      "published_at": "2026-11-07T23:03:23+03:00",
+      "fingerprint": "5983ef3cbd6a1f8c28afdce69a13321ca321ca73",
+      "viral_score": 38.11,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/V0LZO26JzPc",
+      "processed_at": "2026-11-08T03:41:30.190311+03:00",
+      "video_id": "V0LZO26JzPc",
+      "publish_at_local": "2026-11-08T21:00:00+03:00",
+      "publish_at_utc": "2026-11-08T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "FAA announces first US digital air traffic control towers in Florida and Alaska",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
+      "source_modified_at": "2026-11-07T20:05:21.000Z",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question"
     }
   ]
 }
