@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-09T00:49:33.305778+00:00",
       "source_modified_at": "2026-11-09T00:01:12.000Z",
+      "run_id": "42541502367",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "pfLp5vqWvNI",
+      "youtube_url": "https://youtu.be/pfLp5vqWvNI",
+      "publish_at_local": "2026-11-09T21:00:00+03:00",
+      "publish_at_utc": "2026-11-09T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Russell Brand davası medyada koruma çağrısı yaptı",
+      "narration": "Lisa Nandy medya koruması için yeni adım talep ediyor Kültür sekreteri Lisa Nandy Russell Brand davasının medya dünyası için bir uyanış sinyali olduğunu belirtti BBCnin CIISAya katılmasını takdir ederken diğer kurumların da bu koruma mekanizmasına katılmasını ve hükümetin zorunlu adımlar düşünmesini istedi Brand bir kadına tecavüz ve üç kişiye cinsel saldırı suçlarından mahkum edildi ve iki yeni tecavüz iddiası da araştırılıyor Global Haber kanalına abone ol",
+      "description": "Lisa Nandy, Russell Brand davasının medyada koruma eksikliğini vurgulayıp CIISA'ya katılım çağrısı yaptı. Sizce medya sektöründe bu tür adımlar yeterli olacak mı?",
+      "visual_query": "woman whistleblower protest",
+      "tags": [
+        "medya",
+        "koruma",
+        "whistleblowing",
+        "Russell Brand",
+        "Lisa Nandy"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
+      "audience_bucket": "culture",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-09T00:57:08.385867+00:00",
+      "source_modified_at": "2026-11-08T19:05:08.000Z",
       "run_id": "42541502367"
     }
   ],
