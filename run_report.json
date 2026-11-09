@@ -59,6 +59,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-09T00:57:08.385867+00:00",
       "source_modified_at": "2026-11-08T19:05:08.000Z",
+      "run_id": "42541502367",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "W1U7sEjMVq0",
+      "youtube_url": "https://youtu.be/W1U7sEjMVq0",
+      "publish_at_local": "2026-11-09T23:00:00+03:00",
+      "publish_at_utc": "2026-11-09T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "COP31 Antalya’da iklim finansmanı ve Türkiye’nin rolü",
+      "narration": "COP31 Antalyada iklim finansmanı tartışması alevleniyor Antalyada 31 COP toplantısı 9 20 Kasım tarihleri arasında gerçekleşiyor ve Türkiye sahibi ülke Almanya 2025 bütçesinden finansman için 4 virgül 7 milyar euro ayırdı 2024te 6 virgül 1 milyar euro idi Oxfam Almanya uzmanı Jan Kowalzig mevcut iklim finansmanının ihtiyaçları karşılamadığını belirtti Global Haber kanalına abone ol",
+      "description": "Antalya’da 31. COP toplantısı iklim finansmanı eksikliği ve Almanya’nın bütçe kesintileri üzerine odaklanıyor. Sizce bu durum gelişmekte olan ülkelere yeterli destek sağlar mı?",
+      "visual_query": "conference discuss climate",
+      "tags": [
+        "iklim değişikliği",
+        "COP31",
+        "iklim finansmanı",
+        "Türkiye",
+        "Almanya"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "As COP31 Antalya kicks off, can world move beyond big promises?",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-09T01:04:48.834530+00:00",
+      "source_modified_at": "",
       "run_id": "42541502367"
     }
   ],

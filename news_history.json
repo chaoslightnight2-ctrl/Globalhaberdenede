@@ -6464,7 +6464,30 @@
       "resolved_url": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
       "source_modified_at": "2026-11-08T19:05:08.000Z",
       "audience_bucket": "culture",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31 Antalya’da iklim finansmanı ve Türkiye’nin rolü",
+      "summary": "COP31 is starting in Turkey. What's on the agenda? DW.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeXBNLVdLdHRMcldpYVpCLWsya2wzYXdza2tNbTVBT3QzZXhJbVl6TFpTSHE0UElHRXExUmdwQ3ZjazZoTEktUzdvMXVYNkgySTYtYjFhTzFFcVBPbS1uY0Z0bHJyclg5VjlSNFlNY1hMZVJ4ZkhKdTNZcjNySjZOaVNia0xzdmdDb3o1RFg5Ri12ektJeEpDRmFR0gGaAUFVX3lxTE1YR0xvSk45TDE1SDdHc1ZkeHZJNElTTGdRaUpuMVMwWEM4ZExkcUR3akFXaGRkTE5EbnRrdkhWUkdGeGdoeFhMaUo3WnBBZGltZTA1b2xadFhZNWxIbU1ZOGx0SFBURnBKdXcxbDlxTUJNVlhWVVNlWHFTOFJteFN2VzJHQ0w3VDl4eVNGUEx3SG8tbXZMbGtNV2c?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-08T09:01:35+03:00",
+      "fingerprint": "4c01489690540c38cf1bfb37c2eb0022b5214184",
+      "viral_score": 13.12,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/W1U7sEjMVq0",
+      "processed_at": "2026-11-09T04:17:39.531344+03:00",
+      "video_id": "W1U7sEjMVq0",
+      "publish_at_local": "2026-11-09T23:00:00+03:00",
+      "publish_at_utc": "2026-11-09T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "As COP31 Antalya kicks off, can world move beyond big promises?",
+      "resolved_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeXBNLVdLdHRMcldpYVpCLWsya2wzYXdza2tNbTVBT3QzZXhJbVl6TFpTSHE0UElHRXExUmdwQ3ZjazZoTEktUzdvMXVYNkgySTYtYjFhTzFFcVBPbS1uY0Z0bHJyclg5VjlSNFlNY1hMZVJ4ZkhKdTNZcjNySjZOaVNia0xzdmdDb3o1RFg5Ri12ektJeEpDRmFR0gGaAUFVX3lxTE1YR0xvSk45TDE1SDdHc1ZkeHZJNElTTGdRaUpuMVMwWEM4ZExkcUR3akFXaGRkTE5EbnRrdkhWUkdGeGdoeFhMaUo3WnBBZGltZTA1b2xadFhZNWxIbU1ZOGx0SFBURnBKdXcxbDlxTUJNVlhWVVNlWHFTOFJteFN2VzJHQ0w3VDl4eVNGUEx3SG8tbXZMbGtNV2c?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
