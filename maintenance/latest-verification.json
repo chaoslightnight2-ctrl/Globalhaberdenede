@@ -1,13 +1,105 @@
 {
-  "source_run": "42516474640",
-  "verified_at": "2026-11-08T19:45:15.341429+00:00",
-  "videos": [],
+  "source_run": "42541502367",
+  "verified_at": "2026-11-09T01:18:30.279619+00:00",
+  "videos": [
+    {
+      "index": 2,
+      "video_id": "Lxock73bh6k",
+      "youtube_url": "https://youtu.be/Lxock73bh6k",
+      "title": "Lucy Powell, GCSE'yi yıl 9’da öğretmeye son veriyor",
+      "narration": "İngiltere GCSEyi erken öğretmeye son veriyor İngiltere Eğitim Bakanı Lucy Powell yıl 9da GCSE konularının öğretilmesini durdurma planını açıkladı Bu öneri 2027nin başında yayımlanacak yeni ulusal müfredat taslağına dahil edilecek Bakanlık bu adımın okul devamsızlığını azaltıp fırsat eşitsizliğini daraltmasını hedefliyor Global Haber kanalına abone ol",
+      "publish_at": "2026-11-09T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-09T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 28.4,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/Lxock73bh6k.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "pfLp5vqWvNI",
+      "youtube_url": "https://youtu.be/pfLp5vqWvNI",
+      "title": "Russell Brand davası medyada koruma çağrısı yaptı",
+      "narration": "Lisa Nandy medya koruması için yeni adım talep ediyor Kültür sekreteri Lisa Nandy Russell Brand davasının medya dünyası için bir uyanış sinyali olduğunu belirtti BBCnin CIISAya katılmasını takdir ederken diğer kurumların da bu koruma mekanizmasına katılmasını ve hükümetin zorunlu adımlar düşünmesini istedi Brand bir kadına tecavüz ve üç kişiye cinsel saldırı suçlarından mahkum edildi ve iki yeni tecavüz iddiası da araştırılıyor Global Haber kanalına abone ol",
+      "publish_at": "2026-11-09T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-09T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 33.133333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/pfLp5vqWvNI.jpg"
+    },
+    {
+      "index": 4,
+      "video_id": "W1U7sEjMVq0",
+      "youtube_url": "https://youtu.be/W1U7sEjMVq0",
+      "title": "COP31 Antalya’da iklim finansmanı ve Türkiye’nin rolü",
+      "narration": "COP31 Antalyada iklim finansmanı tartışması alevleniyor Antalyada 31 COP toplantısı 9 20 Kasım tarihleri arasında gerçekleşiyor ve Türkiye sahibi ülke Almanya 2025 bütçesinden finansman için 4 virgül 7 milyar euro ayırdı 2024te 6 virgül 1 milyar euro idi Oxfam Almanya uzmanı Jan Kowalzig mevcut iklim finansmanının ihtiyaçları karşılamadığını belirtti Global Haber kanalına abone ol",
+      "publish_at": "2026-11-09T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-09T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 32.3,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/W1U7sEjMVq0.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "accepted_count": 3,
+  "processed_count": 3,
+  "complete": false,
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: conference turkey leaders"
+    }
+  ],
+  "public_listing_error": "HTTPError",
+  "target_count": 3,
   "published_count": 0,
   "accepted_complete": true
 }
