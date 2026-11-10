@@ -44,7 +44,62 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Fosil yakıt fiyatları enflasyonu kanser gibi yayıyor UN iklim şefi Simon Stiell COP31 açılış oturumunda fosil yakıt fiyatlarının enflasyonu kanser gibi yaydığını belirtti Toplantıda ev sahibi Türkiye ve Avustralya enerji tüketiminin yüzde yirmisinden üçte birine yükseltilmesi hedefiyle elektrifikasyon planını öne sürdü İki bin ülke temsilcisi 100000 ziyaretçi beklentisiyle yenilenebilir ve nükleer enerjiye yönelmenin piyasalara net bir sinyal olacağını vurguladı Global Haber kanalına abone ol"
+      "script": "Fosil yakıt fiyatları enflasyonu kanser gibi yayıyor UN iklim şefi Simon Stiell COP31 açılış oturumunda fosil yakıt fiyatlarının enflasyonu kanser gibi yaydığını belirtti Toplantıda ev sahibi Türkiye ve Avustralya enerji tüketiminin yüzde yirmisinden üçte birine yükseltilmesi hedefiyle elektrifikasyon planını öne sürdü İki bin ülke temsilcisi 100000 ziyaretçi beklentisiyle yenilenebilir ve nükleer enerjiye yönelmenin piyasalara net bir sinyal olacağını vurguladı Global Haber kanalına abone ol",
+      "scheduled_slot": "19:00",
+      "audio_path": "output/voiceover_1.mp3",
+      "background_path": "output/background_1.mp4",
+      "video_path": "output/short_1.mp4",
+      "video_id": "ym3oyjgVqao",
+      "youtube_url": "https://youtu.be/ym3oyjgVqao",
+      "publish_at_local": "2026-11-10T19:00:00+03:00",
+      "publish_at_utc": "2026-11-10T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Aliaga’da Çelik Fabrikasında 17 Ölüyle Patlama",
+      "summary": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga.",
+      "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_name": "BBC",
+      "query": "BBC World",
+      "published_at": "2026-11-09T23:42:04+03:00",
+      "fingerprint": "cffe3cfdebf7e4608031138574b54c8927bf12e0",
+      "direct_source": true,
+      "viral_score": 37.13,
+      "topic_bucket": "disasters_safety",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+      "source_headline": "Turkey steel factory blast kills at least 17 people",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-10T01:49:37.848090+00:00",
+      "article_score": 100,
+      "article_text": "At least 17 people have died and 12 others have been injured in an explosion at an iron and steel factory near the port city of Izmir in western Turkey All those killed and injured were workers at the Habas Demir Celik plant in Aliaga, one of the country's leading steel producers, authorities said. Footage from the scene showed a large fire inside the facility and a towering column of smoke rising into the air The local governor said the blast happened around midday after a crane carrying a replacement boiler collapsed, causing materials to fall into a furnace below Workplace accidents remain a chronic problem in Turkey, the Turkish Health and Safety Labor Watch, an independent civil society organisation, said President Recep Tayyip Erdoğan originally said the death toll was 16, but the Health Minister, Kemal Memişoğlu, later announced that one of those who had been critically injured had later died, taking the toll to 17 Eyewitnesses at the scene said the explosion shook the ground, with one person initially believing an earthquake had struck In a statement, the company that runs the factory said the accident occurred during scheduled maintenance work on one of the plant's electric arc furnaces Izmir Governor Süleyman Elban told media that some people were believed to still be under the rubble Speaking after a cabinet meeting on Monday, Erdoğan confirmed the deaths and said investigations were under way, while search and rescue operations continued At least five people have been arrested, according BBC News's Turkish service, citing local media reports The Habas plant is in the Izmir district of Aliaga which is a major port and one of Turkey's main shipbreaking hubs Rock collapse kills two in Turkey's Cappadocia, local media reports Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
+      "model_source_context": "At least 17 people have died and 12 others have been injured in an explosion at an iron and steel factory near the port city of Izmir in western Turkey All those killed and injured were workers at the Habas Demir Celik plant in Aliaga, one of the country's leading steel producers, authorities said. Footage from the scene showed a large fire inside the facility and a towering column of smoke rising into the air The local governor said the blast happened around midday after a crane carrying a replacement boiler collapsed, causing materials to fall into a furnace below Workplace accidents remain a chronic problem in Turkey, the Turkish Health and Safety Labor Watch, an independent civil society organisation, said President Recep Tayyip Erdoğan originally said the death toll was 16, but the Health Minister, Kemal Memişoğlu, later announced that one of those who had been critically injured had later died, taking the toll to 17 Eyewitnesses at the scene said the explosion shook the ground, with one person initially believing an earthquake had struck In a statement, the company that runs the factory said the accident occurred during scheduled maintenance work on one of the plant's electric arc furnaces Izmir Governor Süleyman Elban told media that some people were believed to still be under the rubble Speaking after a cabinet meeting on Monday, Erdoğan confirmed the deaths and said investigations were under way, while search and rescue operations continued At least five people have been arrested, according BBC News's Turkish service, citing local media reports The Habas plant is in the Izmir district of Aliaga which is a major port and one of Turkey's main shipbreaking hubs Rock collapse kills two in Turkey's Cappadocia, local media reports Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
+      "shorts_hook": "İzmir’de çelik fabrikasında büyük patlama, 17 ölü",
+      "quality_hook": "İzmir’de çelik fabrikasında büyük patlama, 17 ölü",
+      "quality_narration": "İzmir’in Aliaga ilçesindeki Habas Demir Çelik fabrikasında çökerek bir vinç, fırına düşen malzemelerle patlamaya yol açtı. Patlamada 17 işçi hayatını kaybederken 12 kişi yaralandı ve bazıları enkaz altında kaldı. Olay sonrası beş kişi tutuklandı, yetkililer soruşturma başlattı.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "İzmir’in Aliaga ilçesindeki Habas Demir Çelik fabrikasında çökerek bir vinç, fırına düşen malzemelerle patlamaya yol açtı.",
+        "Patlamada 17 işçi hayatını kaybederken 12 kişi yaralandı ve bazıları enkaz altında kaldı.",
+        "Olay sonrası beş kişi tutuklandı, yetkililer soruşturma başlattı."
+      ],
+      "youtube_description": "İzmir’deki çelik fabrikasında meydana gelen patlamada 17 işçi yaşamını yitirdi. Bu tür iş kazalarının önlenmesi sizce nasıl sağlanabilir?",
+      "visual_query": "factory explosion workers",
+      "spoken_text": "İzmirde çelik fabrikasında büyük patlama 17 ölü İzmirin Aliaga ilçesindeki Habas Demir Çelik fabrikasında çökerek bir vinç fırına düşen malzemelerle patlamaya yol açtı Patlamada 17 işçi hayatını kaybederken 12 kişi yaralandı ve bazıları enkaz altında kaldı Olay sonrası beş kişi tutuklandı yetkililer soruşturma başlattı Global Haber kanalına abone ol",
+      "tts_text": "İzmirde çelik fabrikasında büyük patlama 17 ölü. İzmirin Aliaga ilçesindeki Habas Demir Çelik fabrikasında çökerek bir vinç fırına düşen malzemelerle patlamaya yol açtı. Patlamada 17 işçi hayatını kaybederken 12 kişi yaralandı ve bazıları enkaz altında kaldı. Olay sonrası beş kişi tutuklandı yetkililer soruşturma başlattı. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "çelik fabrikası",
+        "İzmir",
+        "iş kazası",
+        "patlama",
+        "Türkiye"
+      ],
+      "youtube_hashtags": "#shorts #işkazası #İzmir",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "İzmirde çelik fabrikasında büyük patlama 17 ölü İzmirin Aliaga ilçesindeki Habas Demir Çelik fabrikasında çökerek bir vinç fırına düşen malzemelerle patlamaya yol açtı Patlamada 17 işçi hayatını kaybederken 12 kişi yaralandı ve bazıları enkaz altında kaldı Olay sonrası beş kişi tutuklandı yetkililer soruşturma başlattı Global Haber kanalına abone ol"
     }
   ]
 }
