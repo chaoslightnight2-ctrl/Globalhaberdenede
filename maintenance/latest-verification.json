@@ -1,13 +1,53 @@
 {
-  "source_run": "42846319893",
-  "verified_at": "2026-11-10T15:39:36.578839+00:00",
-  "videos": [],
+  "source_run": "42908808358",
+  "verified_at": "2026-11-10T22:15:12.456086+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "gdFpjRKL1Kk",
+      "youtube_url": "https://youtu.be/gdFpjRKL1Kk",
+      "title": "Senato 73-25 oyla enerji izinlerini hızlandırıyor",
+      "narration": "Senato enerji projeleri için izin süresini kısaltıyor Senato 73 25 oyla enerji ve veri merkezi izinlerini hızlandıracak yasa tasarısını resmi olarak ele aldı Capito Lee Heinrich ve Whitehouse gibi senatörler tasarının yıllık gecikmeleri azaltacağını hanehalkı faturalarını milyarlarca dolar tasarruf ettireceğini ve veri merkezlerinin enerji maliyetlerini karşılamasını sağlayacağını belirtti Destekçiler bu adımın istihdam yaratacağını emisyonları azaltacağını ve yükselen elektrik fiyatlarıyla ilgili kamu tepkisini hafifleteceğini savunuyor Global Haber kanalına abone ol",
+      "publish_at": "2026-11-11T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-11T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 40.3,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/gdFpjRKL1Kk.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
+  "complete": false,
+  "generation_errors": [
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: china energy leading"
+    },
+    {
+      "source": "Türkiye, China vice presidents hold talks in Istanbul on cooperation - Yeni Şafak English",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
