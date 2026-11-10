@@ -59,9 +59,43 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-10T01:49:37.848090+00:00",
       "source_modified_at": "",
+      "run_id": "42736938853",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "wYzxgaMaBBs",
+      "youtube_url": "https://youtu.be/wYzxgaMaBBs",
+      "publish_at_local": "2026-11-10T23:00:00+03:00",
+      "publish_at_utc": "2026-11-10T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "COP31 Antalya’da Açıldı: 90.000 Katılımla Kararlar",
+      "narration": "Antalyada COP31 açıldı 90000 katılımcı bekleniyor COP31 Antalyada açıldı yaklaşık 200 ülke iklim taahhütlerini somut kararlara dönüştürme hedefiyle Türkiyenin Akdeniz kıyısına toplandı Açılışta 90000den fazla katılımcının şehri doldurması beklenirken El Niñonun şiddetli hava olaylarını artırmasıyla iklim finansmanı ve temiz enerji konuları ön plana çıktı Yeni Antalya Sağlık Dayanıklılığı Girişimi tanıtıldı ve Dünya Kırsal Forumu temsilcisi Cristian Barrasueta Fijideki çiftçilerin iklim dayanıklılığı deneyimlerini örnek gösterdi Global Haber kanalına abone ol",
+      "description": "COP31 Antalya’da başladı, 90.000 katılımcı iklim taahhütlerini somut adımlara dönüştürmeyi bekliyor. Sizce bu yıl iklim hedefleri gerçekleşecek mi?",
+      "visual_query": "people gathering conference",
+      "tags": [
+        "iklim değişikliği",
+        "COP31",
+        "Antalya",
+        "iklim finansmanı",
+        "tarım"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "COP31 opens in Antalya: Can climate promises finally deliver results?",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-10T02:01:30.895551+00:00",
+      "source_modified_at": "",
       "run_id": "42736938853"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: senate approves bill"
+    }
+  ],
   "daily_existing_count": 0
 }

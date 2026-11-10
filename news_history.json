@@ -6533,7 +6533,30 @@
       "resolved_url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31 Antalya’da Açıldı: 90.000 Katılımla Kararlar",
+      "summary": "COP31 opens in Antalya: Can climate promises finally deliver results? UN News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MN1JOZTg3Z0x6NklydFpaUkF0Wk5EdjBfSUUzelZidDZQMXhiZ0pTZDZ2elZJVDQzdGpHOFM1VnQ5TUJyMTM2YVlQZHI4eWl6NVZLaWFBMA?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-09T19:35:36+03:00",
+      "fingerprint": "80809cf42e5c1126951aface1477b92a70a36ccc",
+      "viral_score": 28.56,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/wYzxgaMaBBs",
+      "processed_at": "2026-11-10T05:18:19.990990+03:00",
+      "video_id": "wYzxgaMaBBs",
+      "publish_at_local": "2026-11-10T23:00:00+03:00",
+      "publish_at_utc": "2026-11-10T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "COP31 opens in Antalya: Can climate promises finally deliver results?",
+      "resolved_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MN1JOZTg3Z0x6NklydFpaUkF0Wk5EdjBfSUUzelZidDZQMXhiZ0pTZDZ2elZJVDQzdGpHOFM1VnQ5TUJyMTM2YVlQZHI4eWl6NVZLaWFBMA?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
