@@ -6579,7 +6579,8 @@
       "resolved_url": "https://www.theguardian.com/us-news/2026/nov/09/senate-advances-bill-energy-projects",
       "source_modified_at": "2026-11-10T20:37:39.000Z",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
