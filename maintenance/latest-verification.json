@@ -1,105 +1,14 @@
 {
-  "source_run": "42736938853",
-  "verified_at": "2026-11-10T02:23:19.807138+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "ym3oyjgVqao",
-      "youtube_url": "https://youtu.be/ym3oyjgVqao",
-      "title": "UN Şefi Fosil Fiyatları Enflasyonu Kanser Gibi Yayıyor",
-      "narration": "Fosil yakıt fiyatları enflasyonu kanser gibi yayıyor UN iklim şefi Simon Stiell COP31 açılış oturumunda fosil yakıt fiyatlarının enflasyonu kanser gibi yaydığını belirtti Toplantıda ev sahibi Türkiye ve Avustralya enerji tüketiminin yüzde yirmisinden üçte birine yükseltilmesi hedefiyle elektrifikasyon planını öne sürdü İki bin ülke temsilcisi 100000 ziyaretçi beklentisiyle yenilenebilir ve nükleer enerjiye yönelmenin piyasalara net bir sinyal olacağını vurguladı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-10T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-10T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 35.566667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/ym3oyjgVqao.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "xF2B1hsbqow",
-      "youtube_url": "https://youtu.be/xF2B1hsbqow",
-      "title": "Aliaga’da Çelik Fabrikasında 17 Ölüyle Patlama",
-      "narration": "İzmirde çelik fabrikasında büyük patlama 17 ölü İzmirin Aliaga ilçesindeki Habas Demir Çelik fabrikasında çökerek bir vinç fırına düşen malzemelerle patlamaya yol açtı Patlamada 17 işçi hayatını kaybederken 12 kişi yaralandı ve bazıları enkaz altında kaldı Olay sonrası beş kişi tutuklandı yetkililer soruşturma başlattı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-10T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-10T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 28.433333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/xF2B1hsbqow.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "wYzxgaMaBBs",
-      "youtube_url": "https://youtu.be/wYzxgaMaBBs",
-      "title": "COP31 Antalya’da Açıldı: 90.000 Katılımla Kararlar",
-      "narration": "Antalyada COP31 açıldı 90000 katılımcı bekleniyor COP31 Antalyada açıldı yaklaşık 200 ülke iklim taahhütlerini somut kararlara dönüştürme hedefiyle Türkiyenin Akdeniz kıyısına toplandı Açılışta 90000den fazla katılımcının şehri doldurması beklenirken El Niñonun şiddetli hava olaylarını artırmasıyla iklim finansmanı ve temiz enerji konuları ön plana çıktı Yeni Antalya Sağlık Dayanıklılığı Girişimi tanıtıldı ve Dünya Kırsal Forumu temsilcisi Cristian Barrasueta Fijideki çiftçilerin iklim dayanıklılığı deneyimlerini örnek gösterdi Global Haber kanalına abone ol",
-      "publish_at": "2026-11-10T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-10T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 41.3,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/wYzxgaMaBBs.jpg"
-    }
-  ],
+  "source_run": "42748951208",
+  "verified_at": "2026-11-10T03:32:04.223862+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: senate approves bill"
-    }
-  ],
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
   "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
