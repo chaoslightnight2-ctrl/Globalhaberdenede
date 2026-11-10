@@ -6510,7 +6510,30 @@
       "resolved_url": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31",
       "source_modified_at": "2026-11-09T19:36:16.000Z",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Aliaga’da Çelik Fabrikasında 17 Ölüyle Patlama",
+      "summary": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga.",
+      "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-09T23:42:04+03:00",
+      "fingerprint": "cffe3cfdebf7e4608031138574b54c8927bf12e0",
+      "viral_score": 37.13,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/xF2B1hsbqow",
+      "processed_at": "2026-11-10T04:56:55.037747+03:00",
+      "video_id": "xF2B1hsbqow",
+      "publish_at_local": "2026-11-10T21:00:00+03:00",
+      "publish_at_utc": "2026-11-10T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Turkey steel factory blast kills at least 17 people",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
