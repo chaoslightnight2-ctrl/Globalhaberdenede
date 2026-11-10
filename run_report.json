@@ -1,12 +1,39 @@
 {
-  "run_id": "42666099194",
-  "generated_at": "2026-11-09T20:36:19.452025+03:00",
-  "target_count": 0,
+  "run_id": "42736938853",
+  "generated_at": "2026-11-10T04:37:01.945624+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "ym3oyjgVqao",
+      "youtube_url": "https://youtu.be/ym3oyjgVqao",
+      "publish_at_local": "2026-11-10T19:00:00+03:00",
+      "publish_at_utc": "2026-11-10T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "UN Şefi Fosil Fiyatları Enflasyonu Kanser Gibi Yayıyor",
+      "narration": "Fosil yakıt fiyatları enflasyonu kanser gibi yayıyor UN iklim şefi Simon Stiell COP31 açılış oturumunda fosil yakıt fiyatlarının enflasyonu kanser gibi yaydığını belirtti Toplantıda ev sahibi Türkiye ve Avustralya enerji tüketiminin yüzde yirmisinden üçte birine yükseltilmesi hedefiyle elektrifikasyon planını öne sürdü İki bin ülke temsilcisi 100000 ziyaretçi beklentisiyle yenilenebilir ve nükleer enerjiye yönelmenin piyasalara net bir sinyal olacağını vurguladı Global Haber kanalına abone ol",
+      "description": "Simon Stiell, COP31'de fosil fiyatlarının enflasyonu artırdığını vurguladı. Elektrifikasyon hedefi sizce iklim mücadelesini hızlandırır mı?",
+      "visual_query": "climate chief speaking",
+      "tags": [
+        "iklim",
+        "fosil",
+        "elektrifikasyon",
+        "COP31",
+        "enerji"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate chief tells Cop31",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-10T01:37:14.629615+00:00",
+      "source_modified_at": "2026-11-09T19:36:16.000Z",
+      "run_id": "42736938853"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }

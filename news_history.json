@@ -6489,6 +6489,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "UN Şefi Fosil Fiyatları Enflasyonu Kanser Gibi Yayıyor",
+      "summary": "Simon Stiell makes opening address at summit in Turkey, where talks are under way about speeding up shift to electrification A global fossil fuel price crisis is “spreading inflation like a cancer” around the planet, the UN’s climate chief, Simon Stiell, told the opening plenary of critical UN climate talks in Turkey. Stiell joined Cop31 hosts Turkey and Australia, which is leading the negotiations, in promoting renewable energy and a new electrification goal as an optimistic alternative to a planet still tied to oil, coal and gas. Continue reading...",
+      "url": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31",
+      "source": "Guardian World",
+      "published_at": "2026-11-09T20:47:04+03:00",
+      "fingerprint": "9ba82640cb4abceb762aac128d866e3737434409",
+      "viral_score": 32.46,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/ym3oyjgVqao",
+      "processed_at": "2026-11-10T04:49:36.010284+03:00",
+      "video_id": "ym3oyjgVqao",
+      "publish_at_local": "2026-11-10T19:00:00+03:00",
+      "publish_at_utc": "2026-11-10T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate chief tells Cop31",
+      "resolved_url": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31",
+      "source_modified_at": "2026-11-09T19:36:16.000Z",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
