@@ -1,10 +1,67 @@
 {
-  "source_run": "42936864542",
-  "verified_at": "2026-11-11T01:11:38.949803+00:00",
-  "videos": [],
+  "source_run": "43114176899",
+  "verified_at": "2026-11-11T23:06:53.612968+00:00",
+  "videos": [
+    {
+      "index": 2,
+      "video_id": "-R5tmBmvoew",
+      "youtube_url": "https://youtu.be/-R5tmBmvoew",
+      "title": "Cop31'de Küresel Isınma Uyarısı: Adalar Sel Tehlikesi",
+      "narration": "Cop31de yükselen deniz seviyeleri adaları tehdit ediyor Marshall Adaları Cumhurbaşkanı Hilda Heine Cop31de yükselen deniz seviyelerinin adalarını sular altında bırakacağını ve sel felaketlerinin şehirleri okulları ve hastaneleri yok edeceğini belirtti Barbados Başbakanı Mia Mottley mevcut politikalarla küresel sıcaklığın 2 virgül 8 Cye ulaşacağını ve bu seviyenin Paris hedefinin çok üzeri olduğunu vurguladı Birleşmiş Milletler Genel Sekreteri Antonio Guterres fosil yakıt endüstrisinin aldatıcı olduğunu ve 1 virgül 5 C hedefine bağlı kalınmadığını eleştirdi Global Haber kanalına abone ol",
+      "publish_at": "2026-11-12T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-12T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 41.333333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/-R5tmBmvoew.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "UIuQ-M8nT1g",
+      "youtube_url": "https://youtu.be/UIuQ-M8nT1g",
+      "title": "Albanese, Fosil Yakıtları Bahsetmeyerek Eleştirildi",
+      "narration": "Albanese Antalyada fosil yakıtları konuşmadı eleştirildi Avustralya Başbakanı Anthony Albanese Antalyada gerçekleşen COP31de yenilenebilir enerji liderliğinden bahsetti Ancak konuşmasında Birleşmiş Milletler Genel Sekreteri Guterresin yeni kömür yok uyarısını hiç dile getirmedi Avustralya hükümeti 2022den bu yana 38 yeni fosil projesi onayladığını hatırlatan çevre liderleri bu sessizliği bir gerçekleri gizleme olarak nitelendirdi Global Haber kanalına abone ol",
+      "publish_at": "2026-11-12T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-12T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 35.766667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/UIuQ-M8nT1g.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 2,
+  "processed_count": 2,
   "complete": false,
   "generation_errors": [
     {
@@ -18,8 +75,7 @@
       "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
-  "public_listing_error": "HTTPError",
-  "target_count": 2,
+  "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
 }
