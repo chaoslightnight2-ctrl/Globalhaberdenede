@@ -1,22 +1,45 @@
 {
-  "run_id": "42936864542",
-  "generated_at": "2026-11-11T04:10:30.121587+03:00",
-  "target_count": 2,
+  "run_id": "43114176899",
+  "generated_at": "2026-11-12T01:44:58.953447+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "-R5tmBmvoew",
+      "youtube_url": "https://youtu.be/-R5tmBmvoew",
+      "publish_at_local": "2026-11-12T19:00:00+03:00",
+      "publish_at_utc": "2026-11-12T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Cop31'de Küresel Isınma Uyarısı: Adalar Sel Tehlikesi",
+      "narration": "Cop31de yükselen deniz seviyeleri adaları tehdit ediyor Marshall Adaları Cumhurbaşkanı Hilda Heine Cop31de yükselen deniz seviyelerinin adalarını sular altında bırakacağını ve sel felaketlerinin şehirleri okulları ve hastaneleri yok edeceğini belirtti Barbados Başbakanı Mia Mottley mevcut politikalarla küresel sıcaklığın 2 virgül 8 Cye ulaşacağını ve bu seviyenin Paris hedefinin çok üzeri olduğunu vurguladı Birleşmiş Milletler Genel Sekreteri Antonio Guterres fosil yakıt endüstrisinin aldatıcı olduğunu ve 1 virgül 5 C hedefine bağlı kalınmadığını eleştirdi Global Haber kanalına abone ol",
+      "description": "Cop31'de liderler, deniz seviyelerinin yükselmesi ve 1,5°C hedefinin kaçırılması riskine dikkat çekti. Sizce bu uyarılar yeterli mi?",
+      "visual_query": "president giving speech",
+      "tags": [
+        "cop31",
+        "iklimkrizi",
+        "denizseviyesi",
+        "fosilyakıt",
+        "küreselisınma"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-11T22:45:28.211449+00:00",
+      "source_modified_at": "2026-11-11T20:39:28.000Z",
+      "run_id": "43114176899"
+    }
+  ],
   "errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: china energy leading"
-    },
-    {
-      "source": "Türkiye, China vice presidents hold talks in Istanbul on cooperation - Yeni Şafak English",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
-  "daily_existing_count": 1
+  "daily_existing_count": 0
 }

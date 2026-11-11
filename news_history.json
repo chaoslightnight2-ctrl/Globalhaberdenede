@@ -6581,6 +6581,28 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Cop31'de Küresel Isınma Uyarısı: Adalar Sel Tehlikesi",
+      "summary": "Marshall Islands president warns of worsening floods as UN chief calls for a windfall tax on oil and gas firms Failure to provide an overwhelming response to the climate crisis means “the world we know is over”, the president of the embattled Marshall Islands has warned, as dozens of leaders gathered in Turkey for the Cop31 climate summit. Hilda Heine, one of a handful of Pacific Island leaders to make an impassioned speech at Cop31 on Wednesday, told other heads of state that overshooting the 1.5C Paris temperature target would mean waves eating away their shores and floods that destroy towns, schools and hospitals. Continue reading...",
+      "url": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31",
+      "source": "Guardian World",
+      "published_at": "2026-11-11T21:52:08+03:00",
+      "fingerprint": "d327a673ed4d63885d7eb48d5605237825e62e01",
+      "viral_score": 38.78,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/-R5tmBmvoew",
+      "processed_at": "2026-11-12T01:58:12.031892+03:00",
+      "video_id": "-R5tmBmvoew",
+      "publish_at_local": "2026-11-12T19:00:00+03:00",
+      "publish_at_utc": "2026-11-12T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
+      "resolved_url": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31",
+      "source_modified_at": "2026-11-11T20:39:28.000Z",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
