@@ -6602,7 +6602,30 @@
       "resolved_url": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31",
       "source_modified_at": "2026-11-11T20:39:28.000Z",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Albanese, Fosil Yakıtları Bahsetmeyerek Eleştirildi",
+      "summary": "Australian PM boasts of success in renewables but is criticised for not addressing the nation’s huge coal industry Get our breaking news email , free app or daily news podcast Anthony Albanese has said governments have a “solemn responsibility” to act on climate change in a historic speech to the UN’s climate summit, but he failed to mention the fossil fuels driving the crisis. The Australian prime minister landed in the Mediterranean resort city of Antalya on Wednesday morning where the Cop31 talks are being presided over by his climate change minister, Chris Bowen, but hosted by Turkey. Continue reading...",
+      "url": "https://www.theguardian.com/environment/2026/nov/11/anthony-albanese-avoids-mention-of-fossil-fuels-in-cop-summit-speech",
+      "source": "Guardian World",
+      "published_at": "2026-11-11T16:57:22+03:00",
+      "fingerprint": "ec23a648292b4aec5ba727a60bf83567b6f1507d",
+      "viral_score": 30.92,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/UIuQ-M8nT1g",
+      "processed_at": "2026-11-12T02:05:31.399485+03:00",
+      "video_id": "UIuQ-M8nT1g",
+      "publish_at_local": "2026-11-12T21:00:00+03:00",
+      "publish_at_utc": "2026-11-12T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Anthony Albanese fails to mention fossil fuels in Cop summit speech",
+      "resolved_url": "https://www.theguardian.com/environment/2026/nov/11/anthony-albanese-avoids-mention-of-fossil-fuels-in-cop-summit-speech",
+      "source_modified_at": "2026-11-11T20:49:52.000Z",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }

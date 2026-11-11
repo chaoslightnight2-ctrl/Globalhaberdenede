@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-11T22:45:28.211449+00:00",
       "source_modified_at": "2026-11-11T20:39:28.000Z",
+      "run_id": "43114176899",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "UIuQ-M8nT1g",
+      "youtube_url": "https://youtu.be/UIuQ-M8nT1g",
+      "publish_at_local": "2026-11-12T21:00:00+03:00",
+      "publish_at_utc": "2026-11-12T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Albanese, Fosil Yakıtları Bahsetmeyerek Eleştirildi",
+      "narration": "Albanese Antalyada fosil yakıtları konuşmadı eleştirildi Avustralya Başbakanı Anthony Albanese Antalyada gerçekleşen COP31de yenilenebilir enerji liderliğinden bahsetti Ancak konuşmasında Birleşmiş Milletler Genel Sekreteri Guterresin yeni kömür yok uyarısını hiç dile getirmedi Avustralya hükümeti 2022den bu yana 38 yeni fosil projesi onayladığını hatırlatan çevre liderleri bu sessizliği bir gerçekleri gizleme olarak nitelendirdi Global Haber kanalına abone ol",
+      "description": "Albanese, Antalya’da COP31’de yenilenebilir enerji vurgusu yaptı ancak ülkenin büyük kömür ve gaz ihracatını hiç dile getirmedi. Sizce bir liderin fosil yakıtları görmezden gelmesi iklim hedeflerine zarar verir mi?",
+      "visual_query": "prime minister speech",
+      "tags": [
+        "COP31",
+        "Albanese",
+        "fosil yakıt",
+        "iklim değişikliği",
+        "Avustralya"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Anthony Albanese fails to mention fossil fuels in Cop summit speech",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-11T22:58:13.735024+00:00",
+      "source_modified_at": "2026-11-11T20:49:52.000Z",
       "run_id": "43114176899"
     }
   ],
