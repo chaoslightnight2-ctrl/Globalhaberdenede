@@ -59,7 +59,8 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-11T22:58:13.735024+00:00",
       "source_modified_at": "2026-11-11T20:49:52.000Z",
-      "run_id": "43114176899"
+      "run_id": "43114176899",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -67,6 +68,11 @@
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: china energy leading"
+    },
+    {
+      "source": "Türkiye, China vice presidents hold talks in Istanbul on cooperation - Yeni Şafak English",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
   "daily_existing_count": 0
