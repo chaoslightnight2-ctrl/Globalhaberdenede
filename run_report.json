@@ -1,43 +1,14 @@
 {
-  "run_id": "42908808358",
-  "generated_at": "2026-11-11T00:50:53.404767+03:00",
-  "target_count": 3,
+  "run_id": "42936864542",
+  "generated_at": "2026-11-11T04:10:30.121587+03:00",
+  "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [
-    {
-      "video_id": "gdFpjRKL1Kk",
-      "youtube_url": "https://youtu.be/gdFpjRKL1Kk",
-      "publish_at_local": "2026-11-11T19:00:00+03:00",
-      "publish_at_utc": "2026-11-11T16:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 1,
-      "title": "Senato 73-25 oyla enerji izinlerini hızlandırıyor",
-      "narration": "Senato enerji projeleri için izin süresini kısaltıyor Senato 73 25 oyla enerji ve veri merkezi izinlerini hızlandıracak yasa tasarısını resmi olarak ele aldı Capito Lee Heinrich ve Whitehouse gibi senatörler tasarının yıllık gecikmeleri azaltacağını hanehalkı faturalarını milyarlarca dolar tasarruf ettireceğini ve veri merkezlerinin enerji maliyetlerini karşılamasını sağlayacağını belirtti Destekçiler bu adımın istihdam yaratacağını emisyonları azaltacağını ve yükselen elektrik fiyatlarıyla ilgili kamu tepkisini hafifleteceğini savunuyor Global Haber kanalına abone ol",
-      "description": "Senato, enerji ve veri merkezi projelerinin izin süreçlerini hızlandıracak bir yasa tasarısını 73-25 oyla kabul etti. Bu adım elektrik faturalarını düşürür mü, siz ne düşünüyorsunuz?",
-      "visual_query": "senate voting bill",
-      "tags": [
-        "enerji",
-        "izin",
-        "senato",
-        "veri merkezi",
-        "yasama"
-      ],
-      "video_path": "output/short_1.mp4",
-      "source_headline": "Senate advances bill to speed up permit reviews for infrastructure projects",
-      "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-10T21:50:53.799133+00:00",
-      "source_modified_at": "2026-11-10T20:37:39.000Z",
-      "run_id": "42908808358",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
+  "videos": [],
   "errors": [
     {
-      "index": 2,
+      "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: china energy leading"
     },
@@ -47,5 +18,5 @@
       "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
-  "daily_existing_count": 0
+  "daily_existing_count": 1
 }
