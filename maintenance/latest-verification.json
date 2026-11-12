@@ -1,13 +1,53 @@
 {
-  "source_run": "43253818908",
-  "verified_at": "2026-11-12T16:01:35.165306+00:00",
-  "videos": [],
+  "source_run": "43318315505",
+  "verified_at": "2026-11-12T22:25:17.032793+00:00",
+  "videos": [
+    {
+      "index": 2,
+      "video_id": "p7Notw8pA2E",
+      "youtube_url": "https://youtu.be/p7Notw8pA2E",
+      "title": "COP31 Antalya’da Greta Thunberg: Gezegen Ölüm Sürüyor",
+      "narration": "COP31de Antalyada Greta gezegeni öldürülüyor dedi Greta Thunberg 23 Antalyadaki COP31 zirvesinde Gezegen öldürülüyor diyerek dünya liderlerini eleştirdi Thunberg iklim kriziyle birlikte Gazzedeki savaşın su ve tarım arazilerini nasıl tahrip ettiğini vurguladı Türkiye ev sahipliği yaptığı zirvede İsrailin su ve toprak kısıtlamalarını suçlayarak bölgedeki ekolojik felaketin artığını belirtti Global Haber kanalına abone ol",
+      "publish_at": "2026-11-13T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-13T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 31.733333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/p7Notw8pA2E.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
+  "complete": false,
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: china energy leading"
+    },
+    {
+      "source": "Burnham says climate consensus 'gone' but pledges 'new era of leadership'",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
