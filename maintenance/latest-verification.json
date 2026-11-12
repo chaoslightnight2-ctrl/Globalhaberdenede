@@ -1,48 +1,13 @@
 {
-  "source_run": "43139608683",
-  "verified_at": "2026-11-12T02:19:05.683712+00:00",
-  "videos": [
-    {
-      "index": 2,
-      "video_id": "vwGo34RJG0c",
-      "youtube_url": "https://youtu.be/vwGo34RJG0c",
-      "title": "Brooklyn'de Çökme: 2 Ölü, 4 Kritik ve Çocuklar Yaralı",
-      "narration": "Brooklynde çökme sonrası kurtarılan hayatta kalan kişi Flatbushta bir üç katlı bina inşaat sahasının kenarında çökerek en az iki kişiyi öldürdü ve birkaçını enkaz altında tuttu İtfaiye ekipleri saat 18 virgül 30 civarında bir kişiyi hayatta bulup ambulansa taşıdı iki kişi hayatını kaybederken dört kişi kritik durumda hastaneye kaldırıldı Olayda 12 kişi stabil bir itfaiyeci hafif yaralanma geçirdi ve yaralılar arasında yedi çocuk bulunuyor Global Haber kanalına abone ol",
-      "publish_at": "2026-11-12T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-12T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 35.433333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/vwGo34RJG0c.jpg"
-    }
-  ],
+  "source_run": "43253818908",
+  "verified_at": "2026-11-12T16:01:35.165306+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: china energy leading"
-    }
-  ],
-  "target_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
