@@ -45,7 +45,52 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Kerry Antalyada Çinin yüzde 85 enerji liderliğini vurguluyor Eski ABD Dışişleri Bakanı John Kerry COP31in Türkiyede açıldığı bu dönemde Çinin yenilenebilir enerji alanındaki liderliğini taklit etmenin diğer ülkeler için zorunlu olduğunu belirtti Çin 2025 yılında temiz tekno ihracatını 220 milyar doların üzerine çıkararak küresel güneş paneli üretiminin yüzde 85i ve lityum iyon batarya kapasitesinin yüzde 80iyle enerji pazarını domine ediyor Uzmanlar Çinin iklim finansmanı ve adil geçiş taahhütlerini izlerken 2028de COP33 ev sahipliği için olası adaylığını da yakından değerlendireceklerini vurguluyor Global Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
+      "scheduled_slot": "23:00"
+    },
+    {
+      "title": "Brooklyn'de Çökme: 2 Ölü, 4 Kritik ve Çocuklar Yaralı",
+      "summary": "Four critical in hospital as firefighters dig through rubble in Flatbush after building next to construction site collapses Firefighters dug through the rubble of a three-story building in Brooklyn on Wednesday after it collapsed at the edge of a construction site, killing at least two people and trapping others beneath the wreckage. Firefighters were called to the scene in the borough’s Flatbush section at about 4pm. News helicopter footage showed dozens of firefighters scouring the debris, with a group homing in on one area and appearing to use a saw to cut through the wreckage. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+      "source": "Guardian World",
+      "source_name": "Guardian",
+      "query": "Guardian World",
+      "published_at": "2026-11-12T04:51:00+03:00",
+      "fingerprint": "ded0c9a1f85c9879c6486d1f21b2eb578fb034de",
+      "direct_source": true,
+      "viral_score": 44.42,
+      "topic_bucket": "disasters_safety",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+      "source_headline": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+      "source_modified_at": "2026-11-12T01:51:00.000Z",
+      "source_checked_at": "2026-11-12T02:12:36.220210+00:00",
+      "article_score": 66,
+      "article_text": "Four critical in hospital as firefighters dig through rubble in Flatbush after building next to construction site collapses Firefighters dug through the rubble of a three-story building in Brooklyn on Wednesday after it collapsed at the edge of a construction site, killing at least two people and trapping others beneath the wreckage Firefighters were called to the scene in the borough’s Flatbush section at about 4pm. News helicopter footage showed dozens of firefighters scouring the debris, with a group homing in on one area and appearing to use a saw to cut through the wreckage Two people died and four others were rushed to a hospital in critical condition, officials said in a Wednesday evening press conference. Twelve other patients were stable and one firefighter was treated for minor injuries. Seven children were among the patients Officials said they do not know how many people remain in the collapse site At about 6.30pm, firefighters pulled a dust-covered person – still alive and moving – out of a hole they had dug into the rubble pile, hoisting them up on a stretcher and rushing them to a waiting ambulance The building that collapsed had been perched at the edge of a lot where another one-story building had been torn down for a construction project. The site was being excavated, and the building that fell down filled the construction pit with bricks and wood Another building that shared a wall with the collapsed structure remained standing, but its wall was shorn off, exposing the rooms inside, including a bedroom and closets filled with clothing A drone hovered over the site as firefighters dug by hand, tossing chunks of rubble aside. Rescuers also used rescue dogs to search for survivors As darkness fell, firefighters used flashlights to illuminate the area where they were working “As emergency operations continue, please join me in holding our neighbors and the members of this community in our hearts,” Mayor Zohran Mamdani said in a statement posted on social media Phone and email messages seeking comment were left with the architect, property owner and general contractor listed in city records as being associated with the construction project",
+      "model_source_context": "Four critical in hospital as firefighters dig through rubble in Flatbush after building next to construction site collapses Firefighters dug through the rubble of a three-story building in Brooklyn on Wednesday after it collapsed at the edge of a construction site, killing at least two people and trapping others beneath the wreckage Firefighters were called to the scene in the borough’s Flatbush section at about 4pm. News helicopter footage showed dozens of firefighters scouring the debris, with a group homing in on one area and appearing to use a saw to cut through the wreckage Two people died and four others were rushed to a hospital in critical condition, officials said in a Wednesday evening press conference. Twelve other patients were stable and one firefighter was treated for minor injuries. Seven children were among the patients Officials said they do not know how many people remain in the collapse site At about 6.30pm, firefighters pulled a dust-covered person – still alive and moving – out of a hole they had dug into the rubble pile, hoisting them up on a stretcher and rushing them to a waiting ambulance The building that collapsed had been perched at the edge of a lot where another one-story building had been torn down for a construction project. The site was being excavated, and the building that fell down filled the construction pit with bricks and wood Another building that shared a wall with the collapsed structure remained standing, but its wall was shorn off, exposing the rooms inside, including a bedroom and closets filled with clothing A drone hovered over the site as firefighters dug by hand, tossing chunks of rubble aside. Rescuers also used rescue dogs to search for survivors As darkness fell, firefighters used flashlights to illuminate the area where they were working “As emergency operations continue, please join me in holding our neighbors and the members of this community in our hearts,” Mayor Zohran Mamdani said in a statement posted on social media Phone and email messages seeking comment were left with the architect, property owner and general contractor listed in city records as being associated with the construction project",
+      "shorts_hook": "Brooklyn'de çökme sonrası kurtarılan hayatta kalan kişi",
+      "quality_hook": "Brooklyn'de çökme sonrası kurtarılan hayatta kalan kişi",
+      "quality_narration": "Flatbush'ta bir üç katlı bina, inşaat sahasının kenarında çökerek en az iki kişiyi öldürdü ve birkaçını enkaz altında tuttu. İtfaiye ekipleri, saat 18.30 civarında bir kişiyi hayatta bulup ambulansa taşıdı; iki kişi hayatını kaybederken dört kişi kritik durumda hastaneye kaldırıldı. Olayda 12 kişi stabil, bir itfaiyeci hafif yaralanma geçirdi ve yaralılar arasında yedi çocuk bulunuyor.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Flatbush'ta bir üç katlı bina, inşaat sahasının kenarında çökerek en az iki kişiyi öldürdü ve birkaçını enkaz altında tuttu.",
+        "İtfaiye ekipleri, saat 18.30 civarında bir kişiyi hayatta bulup ambulansa taşıdı; iki kişi hayatını kaybederken dört kişi kritik durumda hastaneye kaldırıldı.",
+        "Olayda 12 kişi stabil, bir itfaiyeci hafif yaralanma geçirdi ve yaralılar arasında yedi çocuk bulunuyor."
+      ],
+      "youtube_description": "İki kişi öldü, dört kişi kritik, yaralılar arasında yedi çocuk var. Bu tür binaların denetimi sizce yeterli mi?",
+      "visual_query": "firefighters rescuing victims",
+      "spoken_text": "Brooklynde çökme sonrası kurtarılan hayatta kalan kişi Flatbushta bir üç katlı bina inşaat sahasının kenarında çökerek en az iki kişiyi öldürdü ve birkaçını enkaz altında tuttu İtfaiye ekipleri saat 18 virgül 30 civarında bir kişiyi hayatta bulup ambulansa taşıdı iki kişi hayatını kaybederken dört kişi kritik durumda hastaneye kaldırıldı Olayda 12 kişi stabil bir itfaiyeci hafif yaralanma geçirdi ve yaralılar arasında yedi çocuk bulunuyor Global Haber kanalına abone ol",
+      "tts_text": "Brooklynde çökme sonrası kurtarılan hayatta kalan kişi. Flatbushta bir üç katlı bina inşaat sahasının kenarında çökerek en az iki kişiyi öldürdü ve birkaçını enkaz altında tuttu. İtfaiye ekipleri saat 18 virgül 30 civarında bir kişiyi hayatta bulup ambulansa taşıdı iki kişi hayatını kaybederken dört kişi kritik durumda hastaneye kaldırıldı. Olayda 12 kişi stabil bir itfaiyeci hafif yaralanma geçirdi ve yaralılar arasında yedi çocuk bulunuyor. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "Brooklyn",
+        "bina çökmesi",
+        "Flatbush",
+        "kritik yaralı",
+        "çocuk yaralı"
+      ],
+      "youtube_hashtags": "#shorts #güvenlik #afet",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Brooklynde çökme sonrası kurtarılan hayatta kalan kişi Flatbushta bir üç katlı bina inşaat sahasının kenarında çökerek en az iki kişiyi öldürdü ve birkaçını enkaz altında tuttu İtfaiye ekipleri saat 18 virgül 30 civarında bir kişiyi hayatta bulup ambulansa taşıdı iki kişi hayatını kaybederken dört kişi kritik durumda hastaneye kaldırıldı Olayda 12 kişi stabil bir itfaiyeci hafif yaralanma geçirdi ve yaralılar arasında yedi çocuk bulunuyor Global Haber kanalına abone ol"
     }
   ]
 }
