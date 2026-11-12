@@ -6648,7 +6648,8 @@
       "resolved_url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
       "source_modified_at": "2026-11-12T01:51:00.000Z",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
