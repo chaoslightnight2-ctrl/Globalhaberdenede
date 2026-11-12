@@ -6627,6 +6627,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Brooklyn'de Çökme: 2 Ölü, 4 Kritik ve Çocuklar Yaralı",
+      "summary": "Four critical in hospital as firefighters dig through rubble in Flatbush after building next to construction site collapses Firefighters dug through the rubble of a three-story building in Brooklyn on Wednesday after it collapsed at the edge of a construction site, killing at least two people and trapping others beneath the wreckage. Firefighters were called to the scene in the borough’s Flatbush section at about 4pm. News helicopter footage showed dozens of firefighters scouring the debris, with a group homing in on one area and appearing to use a saw to cut through the wreckage. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+      "source": "Guardian World",
+      "published_at": "2026-11-12T04:51:00+03:00",
+      "fingerprint": "ded0c9a1f85c9879c6486d1f21b2eb578fb034de",
+      "viral_score": 44.42,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/vwGo34RJG0c",
+      "processed_at": "2026-11-12T05:18:27.553390+03:00",
+      "video_id": "vwGo34RJG0c",
+      "publish_at_local": "2026-11-12T23:00:00+03:00",
+      "publish_at_utc": "2026-11-12T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+      "resolved_url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+      "source_modified_at": "2026-11-12T01:51:00.000Z",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
