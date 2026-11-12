@@ -1,46 +1,12 @@
 {
-  "run_id": "43139608683",
-  "generated_at": "2026-11-12T05:12:02.113976+03:00",
-  "target_count": 1,
+  "run_id": "43253818908",
+  "generated_at": "2026-11-12T19:00:45.513200+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "vwGo34RJG0c",
-      "youtube_url": "https://youtu.be/vwGo34RJG0c",
-      "publish_at_local": "2026-11-12T23:00:00+03:00",
-      "publish_at_utc": "2026-11-12T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "Brooklyn'de Çökme: 2 Ölü, 4 Kritik ve Çocuklar Yaralı",
-      "narration": "Brooklynde çökme sonrası kurtarılan hayatta kalan kişi Flatbushta bir üç katlı bina inşaat sahasının kenarında çökerek en az iki kişiyi öldürdü ve birkaçını enkaz altında tuttu İtfaiye ekipleri saat 18 virgül 30 civarında bir kişiyi hayatta bulup ambulansa taşıdı iki kişi hayatını kaybederken dört kişi kritik durumda hastaneye kaldırıldı Olayda 12 kişi stabil bir itfaiyeci hafif yaralanma geçirdi ve yaralılar arasında yedi çocuk bulunuyor Global Haber kanalına abone ol",
-      "description": "İki kişi öldü, dört kişi kritik, yaralılar arasında yedi çocuk var. Bu tür binaların denetimi sizce yeterli mi?",
-      "visual_query": "firefighters rescuing victims",
-      "tags": [
-        "Brooklyn",
-        "bina çökmesi",
-        "Flatbush",
-        "kritik yaralı",
-        "çocuk yaralı"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-      "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-12T02:12:36.220210+00:00",
-      "source_modified_at": "2026-11-12T01:51:00.000Z",
-      "run_id": "43139608683",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: china energy leading"
-    }
-  ],
-  "daily_existing_count": 2
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
