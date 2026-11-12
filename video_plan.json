@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-12T05:12:02.113976+03:00",
+  "generated_at": "2026-11-13T01:17:12.052059+03:00",
   "videos": [
     {
-      "video_id": "vwGo34RJG0c",
-      "youtube_url": "https://youtu.be/vwGo34RJG0c",
-      "publish_at_local": "2026-11-12T23:00:00+03:00",
-      "publish_at_utc": "2026-11-12T20:00:00Z",
+      "video_id": "p7Notw8pA2E",
+      "youtube_url": "https://youtu.be/p7Notw8pA2E",
+      "publish_at_local": "2026-11-13T19:00:00+03:00",
+      "publish_at_utc": "2026-11-13T16:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 2,
-      "title": "Brooklyn'de Çökme: 2 Ölü, 4 Kritik ve Çocuklar Yaralı",
-      "narration": "Brooklynde çökme sonrası kurtarılan hayatta kalan kişi Flatbushta bir üç katlı bina inşaat sahasının kenarında çökerek en az iki kişiyi öldürdü ve birkaçını enkaz altında tuttu İtfaiye ekipleri saat 18 virgül 30 civarında bir kişiyi hayatta bulup ambulansa taşıdı iki kişi hayatını kaybederken dört kişi kritik durumda hastaneye kaldırıldı Olayda 12 kişi stabil bir itfaiyeci hafif yaralanma geçirdi ve yaralılar arasında yedi çocuk bulunuyor Global Haber kanalına abone ol",
-      "description": "İki kişi öldü, dört kişi kritik, yaralılar arasında yedi çocuk var. Bu tür binaların denetimi sizce yeterli mi?",
-      "visual_query": "firefighters rescuing victims",
+      "title": "COP31 Antalya’da Greta Thunberg: Gezegen Ölüm Sürüyor",
+      "narration": "COP31de Antalyada Greta gezegeni öldürülüyor dedi Greta Thunberg 23 Antalyadaki COP31 zirvesinde Gezegen öldürülüyor diyerek dünya liderlerini eleştirdi Thunberg iklim kriziyle birlikte Gazzedeki savaşın su ve tarım arazilerini nasıl tahrip ettiğini vurguladı Türkiye ev sahipliği yaptığı zirvede İsrailin su ve toprak kısıtlamalarını suçlayarak bölgedeki ekolojik felaketin artığını belirtti Global Haber kanalına abone ol",
+      "description": "Greta Thunberg, COP31'de dünyayı iklim felaketi ve savaşların çevreyi nasıl yok ettiğini vurguladı. Sizce liderler bu uyarıyı dikkate almalı?",
+      "visual_query": "greta onstage speaking",
       "tags": [
-        "Brooklyn",
-        "bina çökmesi",
-        "Flatbush",
-        "kritik yaralı",
-        "çocuk yaralı"
+        "COP31",
+        "Greta Thunberg",
+        "iklim krizi",
+        "çevre felaketi",
+        "Antalya"
       ],
       "video_path": "output/short_2.mp4",
-      "source_headline": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-      "audience_bucket": "other",
+      "source_headline": "The planet ‘is being killed’, Greta Thunberg tells Cop31 climate summit",
+      "audience_bucket": "economy_life",
       "hook_style": "direct_change",
-      "source_checked_at": "2026-11-12T02:12:36.220210+00:00",
-      "source_modified_at": "2026-11-12T01:51:00.000Z",
-      "run_id": "43139608683",
+      "source_checked_at": "2026-11-12T22:18:20.792648+00:00",
+      "source_modified_at": "2026-11-12T20:00:38.000Z",
+      "run_id": "43318315505",
       "processing_status": "readback_scope_unavailable"
     }
   ]
