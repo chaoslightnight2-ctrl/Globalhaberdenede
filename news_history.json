@@ -6673,6 +6673,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Dorset Youth COP: 14 Okuldan Gençler İklim Konuşuyor",
+      "summary": "School children gather to discuss climate issues to coincide with the COP31 conference in Turkey.",
+      "url": "https://www.bbc.co.uk/news/articles/ckx28ly7y387o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "published_at": "2026-11-13T17:39:06+03:00",
+      "fingerprint": "1028386b45ffbe3c1cb063a5c83ef4899f0918f6",
+      "viral_score": 41.68,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/pejXtKejivM",
+      "processed_at": "2026-11-13T18:37:43.733603+03:00",
+      "video_id": "pejXtKejivM",
+      "publish_at_local": "2026-11-13T21:00:00+03:00",
+      "publish_at_utc": "2026-11-13T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Climate action discussed at youth COP meeting",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/ckx28ly7y387o?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
