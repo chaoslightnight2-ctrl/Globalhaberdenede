@@ -31,7 +31,8 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-13T15:28:35.063890+00:00",
       "source_modified_at": "",
-      "run_id": "43452619025"
+      "run_id": "43452619025",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -39,6 +40,11 @@
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: china energy leading"
+    },
+    {
+      "source": "Burnham says climate consensus 'gone' but pledges 'new era of leadership'",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
     }
   ],
   "daily_existing_count": 1
