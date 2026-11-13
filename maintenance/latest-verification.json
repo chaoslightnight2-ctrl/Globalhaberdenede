@@ -1,10 +1,39 @@
 {
-  "source_run": "43347108449",
-  "verified_at": "2026-11-13T01:46:18.430143+00:00",
-  "videos": [],
+  "source_run": "43452619025",
+  "verified_at": "2026-11-13T15:39:22.293392+00:00",
+  "videos": [
+    {
+      "index": 2,
+      "video_id": "pejXtKejivM",
+      "youtube_url": "https://youtu.be/pejXtKejivM",
+      "title": "Dorset Youth COP: 14 Okuldan Gençler İklim Konuşuyor",
+      "narration": "Dorsette gençler iklim eylemi için bir araya geldi Dorsetda 14 okulu temsil eden öğrenciler Kingston Maurward kampüsünde Youth COP etkinliğine katıldı Etkinlik gençlerin iklim değişikliği konusundaki görüşlerini paylaşmalarının yanı sıra iklim ve enerji sektörlerindeki kariyer fırsatlarını tanıttı Dorset Local Nature Partnershiptan Maria Clarke gençlerin iklim çözümlerine ses vermesi gerektiğini vurguladı Global Haber kanalına abone ol",
+      "publish_at": "2026-11-13T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-13T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 32.0,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/pejXtKejivM.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
   "generation_errors": [
     {
@@ -18,7 +47,6 @@
       "error": "Source has no bounded complete lead and update sentences"
     }
   ],
-  "public_listing_error": "HTTPError",
   "target_count": 2,
   "published_count": 0,
   "accepted_complete": false
