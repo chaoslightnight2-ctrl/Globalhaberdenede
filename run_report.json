@@ -1,40 +1,11 @@
 {
-  "run_id": "43452619025",
-  "generated_at": "2026-11-13T18:28:01.030083+03:00",
-  "target_count": 2,
+  "run_id": "43515527965",
+  "generated_at": "2026-11-14T01:00:37.887956+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [
-    {
-      "video_id": "pejXtKejivM",
-      "youtube_url": "https://youtu.be/pejXtKejivM",
-      "publish_at_local": "2026-11-13T21:00:00+03:00",
-      "publish_at_utc": "2026-11-13T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "Dorset Youth COP: 14 Okuldan Gençler İklim Konuşuyor",
-      "narration": "Dorsette gençler iklim eylemi için bir araya geldi Dorsetda 14 okulu temsil eden öğrenciler Kingston Maurward kampüsünde Youth COP etkinliğine katıldı Etkinlik gençlerin iklim değişikliği konusundaki görüşlerini paylaşmalarının yanı sıra iklim ve enerji sektörlerindeki kariyer fırsatlarını tanıttı Dorset Local Nature Partnershiptan Maria Clarke gençlerin iklim çözümlerine ses vermesi gerektiğini vurguladı Global Haber kanalına abone ol",
-      "description": "Dorset’te 14 okulu temsil eden öğrenciler, iklim değişikliği ve kariyer fırsatları üzerine bir araya geldi. Sizce gençlerin sesleri iklim politikalarını nasıl etkileyebilir?",
-      "visual_query": "students discussing climate",
-      "tags": [
-        "iklim değişikliği",
-        "gençlik etkinliği",
-        "Dorset",
-        "COP31",
-        "iklim kariyerleri"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "Climate action discussed at youth COP meeting",
-      "audience_bucket": "economy_life",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-13T15:28:35.063890+00:00",
-      "source_modified_at": "",
-      "run_id": "43452619025",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
+  "videos": [],
   "errors": [
     {
       "index": 1,
@@ -47,5 +18,5 @@
       "error": "Source has no bounded complete lead and update sentences"
     }
   ],
-  "daily_existing_count": 1
+  "daily_existing_count": 0
 }
