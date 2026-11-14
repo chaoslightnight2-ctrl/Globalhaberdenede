@@ -1,24 +1,104 @@
 {
-  "source_run": "43603697451",
-  "verified_at": "2026-11-14T14:14:58.542627+00:00",
-  "videos": [],
+  "source_run": "43634835425",
+  "verified_at": "2026-11-14T20:29:01.945929+00:00",
+  "videos": [
+    {
+      "index": 2,
+      "video_id": "P_rb7DZ2Xl0",
+      "youtube_url": "https://youtu.be/P_rb7DZ2Xl0",
+      "title": "COP31’da UN Yetkilisi Gecikmeleri Önlemeye Çağırdı",
+      "narration": "COP31da UN yetkilisi gecikmeleri önlemeye çağırdı UN iklim sekreteri Simon Stiell Antalyada düzenlenen COP31de gecikmeleri önlemeyi ve anlaşma sağlamayı vurguladı Binlerce sivil toplum aktivisti şehirde iklim koruması ve insan hakları talebiyle büyük bir yürüyüş gerçekleştirdi Türk yetkilileri genellikle büyük toplu toplantılara izin vermeyen bir tutum sergileyerek bu protestoyu onayladı Global Haber kanalına abone ol",
+      "publish_at": "2026-11-15T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-15T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 31.4,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/P_rb7DZ2Xl0.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "ZJ1Ci_wIbrQ",
+      "youtube_url": "https://youtu.be/ZJ1Ci_wIbrQ",
+      "title": "İstanbul’da Yonca Verdioglu Sik gözaltına alındı",
+      "narration": "Yonca Verdioglu Sik polis tarafından gözaltına alındı İstanbulda polis Yonca Verdioglu Sikin evine gelerek onu gözaltına aldı ve sorguya çekti Sorgu sırasında Heinrich Böll Vakfı projeleri ve banka hesabına para transferleri konuşuldu ancak casusluk soruları sorulmadı Sik seyahat yasağıyla serbest bırakıldı tutuklanması hükümet eleştirmenleri arasında büyük tepki yarattı Global Haber kanalına abone ol",
+      "publish_at": "2026-11-15T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-15T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 30.0,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/ZJ1Ci_wIbrQ.jpg"
+    },
+    {
+      "index": 4,
+      "video_id": "xd-JT8cDqOE",
+      "youtube_url": "https://youtu.be/xd-JT8cDqOE",
+      "title": "COP31'de Erdoğan’ın iklim vaatleri ve aktivist baskısı",
+      "narration": "COP31de Erdoğan iklim vaatlerini duyururken baskı artıyor Antalyada düzenlenen COP31de Cumhurbaşkanı Recep Tayyip Erdoğan ülkenin iklim hedeflerini uluslararası platformda vurguladı İnsan hakları örgütleri Türkiyede çevre aktivistlerine yönelik tutuklamalar ve baskıların arttığını rapor etti Aktivistler polis şiddeti ve adli tacizle karşılaştıklarını özellikle gençlerin protesto etmeye çekinmediğini belirtiyor Global Haber kanalına abone ol",
+      "publish_at": "2026-11-15T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-15T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 32.9,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/xd-JT8cDqOE.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 3,
+  "processed_count": 3,
   "complete": false,
   "generation_errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: china energy leading"
-    },
-    {
-      "source": "Burnham says climate consensus 'gone' but pledges 'new era of leadership'",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
     }
   ],
   "target_count": 3,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
