@@ -6696,6 +6696,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31’da UN Yetkilisi Gecikmeleri Önlemeye Çağırdı",
+      "summary": "The UN climate chief has warned that \"tactical delays\" at the COP31 climate talks in Turkey could prevent a deal to slow global warming.",
+      "url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-11-14T20:19:00+03:00",
+      "fingerprint": "67cafe0c640a052f311a7966317c054eea8bed67",
+      "viral_score": 40.75,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/P_rb7DZ2Xl0",
+      "processed_at": "2026-11-14T23:05:12.239071+03:00",
+      "video_id": "P_rb7DZ2Xl0",
+      "publish_at_local": "2026-11-15T19:00:00+03:00",
+      "publish_at_utc": "2026-11-15T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "COP31: Protesters, UN urge swift climate deal",
+      "resolved_url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }

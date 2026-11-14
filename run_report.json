@@ -1,21 +1,44 @@
 {
-  "run_id": "43603697451",
-  "generated_at": "2026-11-14T17:13:46.324949+03:00",
+  "run_id": "43634835425",
+  "generated_at": "2026-11-14T22:57:50.402982+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "P_rb7DZ2Xl0",
+      "youtube_url": "https://youtu.be/P_rb7DZ2Xl0",
+      "publish_at_local": "2026-11-15T19:00:00+03:00",
+      "publish_at_utc": "2026-11-15T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "COP31’da UN Yetkilisi Gecikmeleri Önlemeye Çağırdı",
+      "narration": "COP31da UN yetkilisi gecikmeleri önlemeye çağırdı UN iklim sekreteri Simon Stiell Antalyada düzenlenen COP31de gecikmeleri önlemeyi ve anlaşma sağlamayı vurguladı Binlerce sivil toplum aktivisti şehirde iklim koruması ve insan hakları talebiyle büyük bir yürüyüş gerçekleştirdi Türk yetkilileri genellikle büyük toplu toplantılara izin vermeyen bir tutum sergileyerek bu protestoyu onayladı Global Haber kanalına abone ol",
+      "description": "UN iklim sekreteri Simon Stiell, Antalya’da gerçekleşen COP31’de gecikmeleri önlemeyi ve anlaşma sağlamayı vurguladı. Protestocular ise şehirde büyük bir yürüyüşle iklim eylemini talep etti. Sizce bu çağrı, iklim anlaşması sürecini hızlandırabilir mi?",
+      "visual_query": "protesters marching antalya",
+      "tags": [
+        "COP31",
+        "İklimDeğişikliği",
+        "Antalya",
+        "İklimProtestosu",
+        "UNFCCC"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "COP31: Protesters, UN urge swift climate deal",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-14T19:58:24.816174+00:00",
+      "source_modified_at": "",
+      "run_id": "43634835425"
+    }
+  ],
   "errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: china energy leading"
-    },
-    {
-      "source": "Burnham says climate consensus 'gone' but pledges 'new era of leadership'",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
     }
   ],
   "daily_existing_count": 0
