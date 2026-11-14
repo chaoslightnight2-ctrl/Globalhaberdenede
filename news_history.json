@@ -6717,7 +6717,30 @@
       "resolved_url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-world-4025-rdf",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbul’da Yonca Verdioglu Sik gözaltına alındı",
+      "summary": "The arrest of a German foundation's employee in Istanbul this week has put the focus back on pressure tactics used by the Erdogan administration. The arrest is far from the first of its kind.",
+      "url": "https://www.dw.com/en/turkey-uses-espionage-accusations-to-pressure-government-critics/a-79943768?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-11-14T10:31:00+03:00",
+      "fingerprint": "66c0f9039b2f610e51c3b98dd7e1c6cc401d9ecd",
+      "viral_score": 25.07,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/ZJ1Ci_wIbrQ",
+      "processed_at": "2026-11-14T23:17:02.343371+03:00",
+      "video_id": "ZJ1Ci_wIbrQ",
+      "publish_at_local": "2026-11-15T21:00:00+03:00",
+      "publish_at_utc": "2026-11-15T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Turkey uses espionage accusations to pressure government critics",
+      "resolved_url": "https://www.dw.com/en/turkey-uses-espionage-accusations-to-pressure-government-critics/a-79943768?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
