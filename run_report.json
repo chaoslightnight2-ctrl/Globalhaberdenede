@@ -1,102 +1,12 @@
 {
-  "run_id": "43634835425",
-  "generated_at": "2026-11-14T22:57:50.402982+03:00",
-  "target_count": 3,
+  "run_id": "43660626790",
+  "generated_at": "2026-11-15T03:56:36.054836+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "P_rb7DZ2Xl0",
-      "youtube_url": "https://youtu.be/P_rb7DZ2Xl0",
-      "publish_at_local": "2026-11-15T19:00:00+03:00",
-      "publish_at_utc": "2026-11-15T16:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "COP31’da UN Yetkilisi Gecikmeleri Önlemeye Çağırdı",
-      "narration": "COP31da UN yetkilisi gecikmeleri önlemeye çağırdı UN iklim sekreteri Simon Stiell Antalyada düzenlenen COP31de gecikmeleri önlemeyi ve anlaşma sağlamayı vurguladı Binlerce sivil toplum aktivisti şehirde iklim koruması ve insan hakları talebiyle büyük bir yürüyüş gerçekleştirdi Türk yetkilileri genellikle büyük toplu toplantılara izin vermeyen bir tutum sergileyerek bu protestoyu onayladı Global Haber kanalına abone ol",
-      "description": "UN iklim sekreteri Simon Stiell, Antalya’da gerçekleşen COP31’de gecikmeleri önlemeyi ve anlaşma sağlamayı vurguladı. Protestocular ise şehirde büyük bir yürüyüşle iklim eylemini talep etti. Sizce bu çağrı, iklim anlaşması sürecini hızlandırabilir mi?",
-      "visual_query": "protesters marching antalya",
-      "tags": [
-        "COP31",
-        "İklimDeğişikliği",
-        "Antalya",
-        "İklimProtestosu",
-        "UNFCCC"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "COP31: Protesters, UN urge swift climate deal",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-14T19:58:24.816174+00:00",
-      "source_modified_at": "",
-      "run_id": "43634835425",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "ZJ1Ci_wIbrQ",
-      "youtube_url": "https://youtu.be/ZJ1Ci_wIbrQ",
-      "publish_at_local": "2026-11-15T21:00:00+03:00",
-      "publish_at_utc": "2026-11-15T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 3,
-      "title": "İstanbul’da Yonca Verdioglu Sik gözaltına alındı",
-      "narration": "Yonca Verdioglu Sik polis tarafından gözaltına alındı İstanbulda polis Yonca Verdioglu Sikin evine gelerek onu gözaltına aldı ve sorguya çekti Sorgu sırasında Heinrich Böll Vakfı projeleri ve banka hesabına para transferleri konuşuldu ancak casusluk soruları sorulmadı Sik seyahat yasağıyla serbest bırakıldı tutuklanması hükümet eleştirmenleri arasında büyük tepki yarattı Global Haber kanalına abone ol",
-      "description": "Polis, Heinrich Böll Vakfı’nda çalışan Yonca Verdioglu Sik’i casusluk iddiasıyla gözaltına aldı, seyahat yasağıyla serbest bırakıldı. Sizce bu tutuklamalar ifade özgürlüğünü nasıl etkiliyor?",
-      "visual_query": "police arrest woman",
-      "tags": [
-        "Türkiye",
-        "casusluk",
-        "İstanbul",
-        "Heinrich Böll Vakfı",
-        "siyasi baskı"
-      ],
-      "video_path": "output/short_3.mp4",
-      "source_headline": "Turkey uses espionage accusations to pressure government critics",
-      "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-14T20:05:14.610224+00:00",
-      "source_modified_at": "",
-      "run_id": "43634835425",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "xd-JT8cDqOE",
-      "youtube_url": "https://youtu.be/xd-JT8cDqOE",
-      "publish_at_local": "2026-11-15T23:00:00+03:00",
-      "publish_at_utc": "2026-11-15T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 4,
-      "title": "COP31'de Erdoğan’ın iklim vaatleri ve aktivist baskısı",
-      "narration": "COP31de Erdoğan iklim vaatlerini duyururken baskı artıyor Antalyada düzenlenen COP31de Cumhurbaşkanı Recep Tayyip Erdoğan ülkenin iklim hedeflerini uluslararası platformda vurguladı İnsan hakları örgütleri Türkiyede çevre aktivistlerine yönelik tutuklamalar ve baskıların arttığını rapor etti Aktivistler polis şiddeti ve adli tacizle karşılaştıklarını özellikle gençlerin protesto etmeye çekinmediğini belirtiyor Global Haber kanalına abone ol",
-      "description": "Erdogan, COP31'de iklim hedeflerini öne çıkarırken, aktivistlere yönelik tutuklamalar artıyor. Sizce bu iklim söylemi gerçek bir değişim getirebilir mi?",
-      "visual_query": "president speaking protest",
-      "tags": [
-        "COP31",
-        "iklim değişikliği",
-        "çevre aktivistleri",
-        "Türkiye",
-        "İnsan hakları"
-      ],
-      "video_path": "output/short_4.mp4",
-      "source_headline": "Turkey talks green at COP31 while cracking down on activists",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-14T20:17:06.025580+00:00",
-      "source_modified_at": "",
-      "run_id": "43634835425",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: china energy leading"
-    }
-  ],
-  "daily_existing_count": 0
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
