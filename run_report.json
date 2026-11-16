@@ -1,12 +1,39 @@
 {
-  "run_id": "43757941535",
-  "generated_at": "2026-11-15T23:25:58.158571+03:00",
-  "target_count": 0,
+  "run_id": "43783039034",
+  "generated_at": "2026-11-16T03:54:30.799537+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "xskcYchYZAA",
+      "youtube_url": "https://youtu.be/xskcYchYZAA",
+      "publish_at_local": "2026-11-16T19:00:00+03:00",
+      "publish_at_utc": "2026-11-16T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Nijerya ve Türkiye, COP31'de Vize Kolaylığı Sağladı",
+      "narration": "Nijerya Türkiye COP31de diplomatik vize prosedürlerini sadeleştiriyor Nijerya delegasyonu COP31 kapsamında Türkiye ile diplomatik ve resmi pasaport sahipleri için vize prosedürlerini basitleştirme anlaşması yaptı Ambassador Enikanolaiye COP31de sergilenen güneş enerjili sırt çantasını yenilikçi bir yenilenebilir enerji depolama çözümü olarak övdü President Erdoğan açılış konuşmasında yeni iklim yasasını ve su verimliliği mobilizasyonunu vurgulayarak Türkiyenin iklim eylemini açıkladı Global Haber kanalına abone ol",
+      "description": "Nijerya delegasyonu, Türkiye ile diplomatik vize sürecini hızlandırma kararı aldı. Sizce bu iş birliği ikili ilişkileri nasıl etkiler?",
+      "visual_query": "diplomat handshake visa",
+      "tags": [
+        "COP31",
+        "Nijerya",
+        "Türkiye",
+        "vize",
+        "iklim"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "COP31: Nigeria Champions Just Energy Transition, Deepens Ties with Turkiye, Celebrates Innovation",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-16T00:54:45.201244+00:00",
+      "source_modified_at": "",
+      "run_id": "43783039034"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }
