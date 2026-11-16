@@ -1,105 +1,13 @@
 {
-  "source_run": "43783039034",
-  "verified_at": "2026-11-16T01:22:29.662472+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "xskcYchYZAA",
-      "youtube_url": "https://youtu.be/xskcYchYZAA",
-      "title": "Nijerya ve Türkiye, COP31'de Vize Kolaylığı Sağladı",
-      "narration": "Nijerya Türkiye COP31de diplomatik vize prosedürlerini sadeleştiriyor Nijerya delegasyonu COP31 kapsamında Türkiye ile diplomatik ve resmi pasaport sahipleri için vize prosedürlerini basitleştirme anlaşması yaptı Ambassador Enikanolaiye COP31de sergilenen güneş enerjili sırt çantasını yenilikçi bir yenilenebilir enerji depolama çözümü olarak övdü President Erdoğan açılış konuşmasında yeni iklim yasasını ve su verimliliği mobilizasyonunu vurgulayarak Türkiyenin iklim eylemini açıkladı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-16T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-16T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 38.033333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/xskcYchYZAA.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "Wqy83pHqYJw",
-      "youtube_url": "https://youtu.be/Wqy83pHqYJw",
-      "title": "Türkiye ve Katar Ortak Savunma Anlaşması İmzaladı",
-      "narration": "Türkiye ve Katar ortak savunma anlaşması imzaladı İstanbulda Cumhurbaşkanı Recep Tayyip Erdoğan ve Katar Emiri Şeyh Tamim bin Hamad Al Thani 13 Kasımda imzalanan ortak savunma anlaşmasıyla dış saldırılara karşı ortak yanıt taahhüdünde bulundular Anlaşma ortak askeri tatbikatlar savunma sanayi ortaklıkları ve personel eğitim değişimlerini kapsayarak bölgesel güvenliği artırmayı hedefliyor İki ülke ayrıca Pakistan ve Suudi Arabistan gibi diğer devletlerin de katılabileceği genişletilmiş bir çerçeveye işaret etti Global Haber kanalına abone ol",
-      "publish_at": "2026-11-16T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-16T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 38.633333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/Wqy83pHqYJw.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "OZw2YtO5ddQ",
-      "youtube_url": "https://youtu.be/OZw2YtO5ddQ",
-      "title": "Antalya’da 14 Kasım’da 10.000 Kişi COP31 Protestosu",
-      "narration": "Antalyada 10 bin kişi COP31e karşı yürüdü Antalyada COP31 yan etkinliği olarak 14 Kasımda yaklaşık 10000 kişi barışçıl bir yürüyüş gerçekleştirdi Yürüyüş COP31e karşı hayatı savunuyoruz sloganlı büyük bir afişle ve hafif yağmur altında sürdü Greenpeace 350 org ve Fridays for Future gibi uluslararası STKlar ile yerel sendikalar ve muhalefet partileri de katıldı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-16T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-16T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 31.6,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/OZw2YtO5ddQ.jpg"
-    }
-  ],
+  "source_run": "43914709082",
+  "verified_at": "2026-11-16T17:07:22.691832+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: prime minister apology"
-    }
-  ],
-  "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
