@@ -31,9 +31,43 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-16T00:54:45.201244+00:00",
       "source_modified_at": "",
+      "run_id": "43783039034",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "Wqy83pHqYJw",
+      "youtube_url": "https://youtu.be/Wqy83pHqYJw",
+      "publish_at_local": "2026-11-16T21:00:00+03:00",
+      "publish_at_utc": "2026-11-16T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Türkiye ve Katar Ortak Savunma Anlaşması İmzaladı",
+      "narration": "Türkiye ve Katar ortak savunma anlaşması imzaladı İstanbulda Cumhurbaşkanı Recep Tayyip Erdoğan ve Katar Emiri Şeyh Tamim bin Hamad Al Thani 13 Kasımda imzalanan ortak savunma anlaşmasıyla dış saldırılara karşı ortak yanıt taahhüdünde bulundular Anlaşma ortak askeri tatbikatlar savunma sanayi ortaklıkları ve personel eğitim değişimlerini kapsayarak bölgesel güvenliği artırmayı hedefliyor İki ülke ayrıca Pakistan ve Suudi Arabistan gibi diğer devletlerin de katılabileceği genişletilmiş bir çerçeveye işaret etti Global Haber kanalına abone ol",
+      "description": "İstanbul’da gerçekleşen anlaşma, iki ülkenin dış saldırılara karşı ortak yanıt vermesini öngörüyor. Bölgesel istikrar için bu adım yeterli mi?",
+      "visual_query": "president signing treaty",
+      "tags": [
+        "Türkiye",
+        "Katar",
+        "ortak savunma",
+        "güvenlik",
+        "bölgesel istikrar"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Türkiye, Qatar Sign Mutual Defense Pact Amid Rising Middle East Tensions",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-16T01:05:29.767666+00:00",
+      "source_modified_at": "",
       "run_id": "43783039034"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: prime minister apology"
+    }
+  ],
   "daily_existing_count": 0
 }
