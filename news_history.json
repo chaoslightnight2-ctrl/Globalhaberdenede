@@ -6809,7 +6809,30 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HOFI2UkhRdEQwYTI5Q3MzSEdOSUE5U1JYeUZISW1hWjFSYzhxNFRwMkF3Qm1iYk1pV3BCMnp0Z3dJWFo4MVkzQkwyYlo2QTRvbE8zbzZ2NmZLUmhuSnllQm5SMFhsZzUxcTlxM0psdmphS2RwRVdxeE53T2k?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Antalya’da 14 Kasım’da 10.000 Kişi COP31 Protestosu",
+      "summary": "COP31: Thousands in Antalya protest environmental damage: 'We no longer believe in those who lead us' Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUVgzT2ZKanJhWURWOFdzU3ZsaV91ckJjcW5OdHpKUFNzcGJRQVdwQ2YtTTFobVZqQ0tucDZRVzBXZDJJVlNYMXBETjREMXF0SVMwWUNLZlZGT1dNQ0UzRVZnSWlnejZuZVFJX3RIck1hNUxObXE5OHlnNERkczVSM2NEbWc1OWNKelBWckVWTnVWcmoyWkVIM2d0Vnk1QkJuVjJRWnc4d3FMbzZ2UE5leWwxdHNJcjRXWkJnQ25xblMycnh2bDNMTDFnenhyblFFNWNfeFY0ajFCLUZISEhsdVNuM2VVNEFrSDlDOVZGMll4b2ZOX05WOFhuVkdZOXlU?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-15T11:52:38+03:00",
+      "fingerprint": "212c9d975ce616138541ef3173ed4dd9a71b001e",
+      "viral_score": 14.34,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/OZw2YtO5ddQ",
+      "processed_at": "2026-11-16T04:21:33.049080+03:00",
+      "video_id": "OZw2YtO5ddQ",
+      "publish_at_local": "2026-11-16T23:00:00+03:00",
+      "publish_at_utc": "2026-11-16T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "COP31: Thousands in Antalya protest environmental damage: 'We no longer believe in those who lead us'",
+      "resolved_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUVgzT2ZKanJhWURWOFdzU3ZsaV91ckJjcW5OdHpKUFNzcGJRQVdwQ2YtTTFobVZqQ0tucDZRVzBXZDJJVlNYMXBETjREMXF0SVMwWUNLZlZGT1dNQ0UzRVZnSWlnejZuZVFJX3RIck1hNUxObXE5OHlnNERkczVSM2NEbWc1OWNKelBWckVWTnVWcmoyWkVIM2d0Vnk1QkJuVjJRWnc4d3FMbzZ2UE5leWwxdHNJcjRXWkJnQ25xblMycnh2bDNMTDFnenhyblFFNWNfeFY0ajFCLUZISEhsdVNuM2VVNEFrSDlDOVZGMll4b2ZOX05WOFhuVkdZOXlU?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
