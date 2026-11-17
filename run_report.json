@@ -1,40 +1,12 @@
 {
-  "run_id": "44011557425",
-  "generated_at": "2026-11-17T06:38:42.104055+03:00",
-  "target_count": 1,
+  "run_id": "44131185237",
+  "generated_at": "2026-11-17T19:56:41.616685+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "0j57Ic_zYCI",
-      "youtube_url": "https://youtu.be/0j57Ic_zYCI",
-      "publish_at_local": "2026-11-17T23:00:00+03:00",
-      "publish_at_utc": "2026-11-17T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 1,
-      "title": "Güney Kore, Antalya AI Pledge ile Merkezlere Yeşil Söz",
-      "narration": "Güney Kore Antalya AI Pledgee katıldı Güney Kore Çevre Enerji ve İklim Bakanı Kim Seonghwan 16 Kasımda Antalya Expo Centerda düzenlenen COP31 karbon piyasası toplantısında Antalya AI Pledgeine imza attı Bu taahhüt veri merkezlerinin enerji ve su tüketimini azaltmayı ve yapay zekâyı iklim değişikliğiyle mücadelede kullanmayı hedefliyor Grup ve sivil toplum kuruluşları bu adımın ülkenin veri merkezi düzenlemelerinde sürdürülebilir bir dönüşüm sağlaması için yasal değişikliklere yol açmasını istiyor Global Haber kanalına abone ol",
-      "description": "Güney Kore, Antalya AI Pledge’e katılarak veri merkezlerinin enerji ve su tüketimini azaltmayı hedefliyor. Sizce bu adım, küresel yapay zekâ altyapısının sürdürülebilirliğine nasıl yön verecek?",
-      "visual_query": "minister signing pledge",
-      "tags": [
-        "yapay zeka",
-        "veri merkezi",
-        "iklim değişikliği",
-        "antalyapledge",
-        "güney kore"
-      ],
-      "video_path": "output/short_1.mp4",
-      "source_headline": "\"Clean Energy Must Be Supplied to AI and Data Center Infrastructure\"... South Korea Joins Antalya AI Pledge",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-17T03:38:59.992977+00:00",
-      "source_modified_at": "",
-      "run_id": "44011557425",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
+  "videos": [],
   "errors": [],
-  "daily_existing_count": 2
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
