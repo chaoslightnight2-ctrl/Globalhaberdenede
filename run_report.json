@@ -1,74 +1,39 @@
 {
-  "run_id": "43998823179",
-  "generated_at": "2026-11-17T04:53:21.325229+03:00",
-  "target_count": 3,
+  "run_id": "44011557425",
+  "generated_at": "2026-11-17T06:38:42.104055+03:00",
+  "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
   "videos": [
     {
-      "video_id": "RgfrIDbN5Vc",
-      "youtube_url": "https://youtu.be/RgfrIDbN5Vc",
-      "publish_at_local": "2026-11-17T19:00:00+03:00",
-      "publish_at_utc": "2026-11-17T16:00:00Z",
+      "video_id": "0j57Ic_zYCI",
+      "youtube_url": "https://youtu.be/0j57Ic_zYCI",
+      "publish_at_local": "2026-11-17T23:00:00+03:00",
+      "publish_at_utc": "2026-11-17T20:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 1,
-      "title": "Andy Burnham, AB ilişkisini yeniden tanımlıyor",
-      "narration": "Andy Burnham AB ilişkisini yeniden tanımlamaya hazırlanıyor Andy Burnham Londradaki Lord Mayor balosunda Birleşik Krallık AB ilişkisini yeniden başlatma temasını vurgulayacak Bu konuşma bu Cuma gerçekleşecek olan çok beklenen UK AB zirvesi öncesinde yapılacak İlişkinin yeniden şekillenmesi bazı kesimlerde sevinç ve rahatlama diğerlerinde ise şiddetli muhalefetle karşılanıyor Global Haber kanalına abone ol",
-      "description": "Burnham, Londra'daki Lord Mayor balosunda AB ile yeni bir iş birliği vurgusu yapacak. Bu adım ülke politikalarını nasıl etkiler sizce?",
-      "visual_query": "andy burnham speech",
+      "title": "Güney Kore, Antalya AI Pledge ile Merkezlere Yeşil Söz",
+      "narration": "Güney Kore Antalya AI Pledgee katıldı Güney Kore Çevre Enerji ve İklim Bakanı Kim Seonghwan 16 Kasımda Antalya Expo Centerda düzenlenen COP31 karbon piyasası toplantısında Antalya AI Pledgeine imza attı Bu taahhüt veri merkezlerinin enerji ve su tüketimini azaltmayı ve yapay zekâyı iklim değişikliğiyle mücadelede kullanmayı hedefliyor Grup ve sivil toplum kuruluşları bu adımın ülkenin veri merkezi düzenlemelerinde sürdürülebilir bir dönüşüm sağlaması için yasal değişikliklere yol açmasını istiyor Global Haber kanalına abone ol",
+      "description": "Güney Kore, Antalya AI Pledge’e katılarak veri merkezlerinin enerji ve su tüketimini azaltmayı hedefliyor. Sizce bu adım, küresel yapay zekâ altyapısının sürdürülebilirliğine nasıl yön verecek?",
+      "visual_query": "minister signing pledge",
       "tags": [
-        "Andy Burnham",
-        "UK-AB ilişkisi",
-        "Londra balosu",
-        "AB zirvesi",
-        "Britanya politikası"
+        "yapay zeka",
+        "veri merkezi",
+        "iklim değişikliği",
+        "antalyapledge",
+        "güney kore"
       ],
       "video_path": "output/short_1.mp4",
-      "source_headline": "Monday briefing: The many stages of the UK-EU relationship – and what’s next",
-      "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-17T01:53:33.777122+00:00",
-      "source_modified_at": "2026-11-16T16:26:31.000Z",
-      "run_id": "43998823179",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "uebF8Rtxqec",
-      "youtube_url": "https://youtu.be/uebF8Rtxqec",
-      "publish_at_local": "2026-11-17T21:00:00+03:00",
-      "publish_at_utc": "2026-11-17T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "COP31'de Türkiye, insan hakları baskısını durdurmalı",
-      "narration": "Türkiye COP31de insan hakları baskısını durdurmalı Antalyada 9 20 Kasım tarihleri arasında gerçekleşecek COP31de Türkiyenin insan hakları savunucularına yönelik baskıyı sonlandırması gerektiği vurgulandı Kaynağa göre çevre aktivistleri gazeteciler ve LGBTI toplulukları gibi gruplar devletin baskısı altında seslerini kısıtlamaya çalışılıyor Amnesty International sivil toplumun korunmasının iklim adımlarının etkinliği için hayati olduğunu belirtiyor Global Haber kanalına abone ol",
-      "description": "COP31'de Türkiye'nin insan hakları savunucularına yönelik baskıyı sonlandırması, iklim adımlarının başarısı için kritik. Sizce sivil toplumun özgürlüğü iklim hedeflerine ulaşmada ne kadar etkili?",
-      "visual_query": "activist protest detained",
-      "tags": [
-        "COP31",
-        "İklimAdaleti",
-        "Türkiye",
-        "İnsanHakları",
-        "Antalya"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "COP31 Explained: Why the Türkiye Climate Summit Matters",
+      "source_headline": "\"Clean Energy Must Be Supplied to AI and Data Center Infrastructure\"... South Korea Joins Antalya AI Pledge",
       "audience_bucket": "economy_life",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-17T02:01:26.748741+00:00",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-17T03:38:59.992977+00:00",
       "source_modified_at": "",
-      "run_id": "43998823179",
-      "processing_status": "readback_scope_unavailable"
+      "run_id": "44011557425"
     }
   ],
-  "errors": [
-    {
-      "source": "Mid-year budget update will ‘cut enough, but not too much’, Jim Chalmers says",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
-    }
-  ],
-  "daily_existing_count": 0
+  "errors": [],
+  "daily_existing_count": 2
 }
