@@ -6834,6 +6834,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Andy Burnham, AB ilişkisini yeniden tanımlıyor",
+      "summary": "In today’s newsletter: From situationship to a possible makeup, a look at the evolving relationship, and the bloc’s big feelings about the future Good morning. Ahead of the hotly anticipated UK-EU summit this Friday, Andy Burnham is expected to make the reset of our relationship with Europe the pivotal theme of his white-tie speech at the lord mayor’s banquet in London tonight. The prospect of closer ties – and the possibility of going “all the way” to reversing Brexit – has been met with jubilation and relief in some quarters and vehement opposition in others, while around Westminster and across the media the psychodrama has been spiralling for weeks. UK news | A woman who alleges she was raped by Russell Brand when she was 16 has waived her right to anonymity to campaign for a staggered age of consent , which would make it illegal for adults over a certain age to have sex with 16- and 17-year-olds. Youth unemployment | Andy Burnham has pledged to intervene as early as childhood to tackle youth unemployment before a watershed review, promising “a root-and-branch rethink of how we support childhood in the modern world”. Environment | The strongest El Niño in centuries has added urgency to UN climate talks in Turkey as vulnerable countries face “compounding” crises. In other Cop31 news, queer and gay protesters defied a crackdown on LGBTQ+ rights in Turkey to lead a civil society climate march. UK news | Two people aged 22 and 23 have died after their car was hit by a BMW being pursued by police . West Yorkshire police said four people had been arrested and appealed for witnesses to come forward. Air transport | The Trump administration says Friday’s four-hour nationwide Federal Aviation Administration (FAA) ground stop that delayed or cancelled thousands of flight stemmed from routine maintenance . The US transportation secretary, Sean Duffy, blamed prior presidents and Congress for the stoppage. Tuesday | The former health and social care secretary Alan Milburn’s long-awaited review into why increasing numbers of young people are falling out of work and education, is expected to be released. Thursday | German chancellor Friedrich Merz, French president Emmanuel Macron and UK prime minister Andy Burnham will be among around 20 heads of state meeting in Berlin to discuss defence funding for Ukraine, and to establish a unified position on future peace negotiations in its war with Russia. Friday | This marks last day of the world’s biggest annual climate conference, Cop31, in Turkey, with final negotiations taking place. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/nov/16/monday-briefing-the-many-stages-of-the-uk-eu-relationship-and-whats-next",
+      "source": "Guardian World",
+      "published_at": "2026-11-16T09:46:27+03:00",
+      "fingerprint": "23ba54867033716e2b9ee4c8008a54bfa3e81d1d",
+      "viral_score": 24.41,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/RgfrIDbN5Vc",
+      "processed_at": "2026-11-17T05:01:22.744709+03:00",
+      "video_id": "RgfrIDbN5Vc",
+      "publish_at_local": "2026-11-17T19:00:00+03:00",
+      "publish_at_utc": "2026-11-17T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Monday briefing: The many stages of the UK-EU relationship – and what’s next",
+      "resolved_url": "https://www.theguardian.com/world/2026/nov/16/monday-briefing-the-many-stages-of-the-uk-eu-relationship-and-whats-next",
+      "source_modified_at": "2026-11-16T16:26:31.000Z",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }

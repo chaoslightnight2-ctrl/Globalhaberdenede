@@ -1,12 +1,39 @@
 {
-  "run_id": "43914709082",
-  "generated_at": "2026-11-16T20:06:46.650962+03:00",
-  "target_count": 0,
+  "run_id": "43998823179",
+  "generated_at": "2026-11-17T04:53:21.325229+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "RgfrIDbN5Vc",
+      "youtube_url": "https://youtu.be/RgfrIDbN5Vc",
+      "publish_at_local": "2026-11-17T19:00:00+03:00",
+      "publish_at_utc": "2026-11-17T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Andy Burnham, AB ilişkisini yeniden tanımlıyor",
+      "narration": "Andy Burnham AB ilişkisini yeniden tanımlamaya hazırlanıyor Andy Burnham Londradaki Lord Mayor balosunda Birleşik Krallık AB ilişkisini yeniden başlatma temasını vurgulayacak Bu konuşma bu Cuma gerçekleşecek olan çok beklenen UK AB zirvesi öncesinde yapılacak İlişkinin yeniden şekillenmesi bazı kesimlerde sevinç ve rahatlama diğerlerinde ise şiddetli muhalefetle karşılanıyor Global Haber kanalına abone ol",
+      "description": "Burnham, Londra'daki Lord Mayor balosunda AB ile yeni bir iş birliği vurgusu yapacak. Bu adım ülke politikalarını nasıl etkiler sizce?",
+      "visual_query": "andy burnham speech",
+      "tags": [
+        "Andy Burnham",
+        "UK-AB ilişkisi",
+        "Londra balosu",
+        "AB zirvesi",
+        "Britanya politikası"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Monday briefing: The many stages of the UK-EU relationship – and what’s next",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-17T01:53:33.777122+00:00",
+      "source_modified_at": "2026-11-16T16:26:31.000Z",
+      "run_id": "43998823179"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }
