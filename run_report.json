@@ -4,7 +4,7 @@
   "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
-  "complete": false,
+  "complete": true,
   "videos": [
     {
       "video_id": "0j57Ic_zYCI",
@@ -31,7 +31,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-17T03:38:59.992977+00:00",
       "source_modified_at": "",
-      "run_id": "44011557425"
+      "run_id": "44011557425",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [],
