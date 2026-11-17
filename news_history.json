@@ -6855,7 +6855,30 @@
       "resolved_url": "https://www.theguardian.com/world/2026/nov/16/monday-briefing-the-many-stages-of-the-uk-eu-relationship-and-whats-next",
       "source_modified_at": "2026-11-16T16:26:31.000Z",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31'de Türkiye, insan hakları baskısını durdurmalı",
+      "summary": "COP31 Explained: Why the Türkiye Climate Summit Matters Amnesty International USA",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSVVPc053OHZxUUpuMFVQUHhla2o5akpuMmt0R1BlYkFubjRIWmY2YWwwLXAwM3VEUWM1TEtCQWxCT0ZEZGpLTURrU3ZMbEx5dXRNeHJBT2pLc0FnX3lBX2xyTjJYZEtndXJOVzVVZzJFRmVKaVVCeXlacjNnX3A5aHBEcEpuWlh3X2tSUDg3LXk?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-17T02:39:34+03:00",
+      "fingerprint": "bd26cb827df75137329df7ac265f9bbe6461cc4d",
+      "viral_score": 39.43,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/uebF8Rtxqec",
+      "processed_at": "2026-11-17T05:09:34.148359+03:00",
+      "video_id": "uebF8Rtxqec",
+      "publish_at_local": "2026-11-17T21:00:00+03:00",
+      "publish_at_utc": "2026-11-17T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "COP31 Explained: Why the Türkiye Climate Summit Matters",
+      "resolved_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSVVPc053OHZxUUpuMFVQUHhla2o5akpuMmt0R1BlYkFubjRIWmY2YWwwLXAwM3VEUWM1TEtCQWxCT0ZEZGpLTURrU3ZMbEx5dXRNeHJBT2pLc0FnX3lBX2xyTjJYZEtndXJOVzVVZzJFRmVKaVVCeXlacjNnX3A5aHBEcEpuWlh3X2tSUDg3LXk?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }

@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-17T01:53:33.777122+00:00",
       "source_modified_at": "2026-11-16T16:26:31.000Z",
+      "run_id": "43998823179",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "uebF8Rtxqec",
+      "youtube_url": "https://youtu.be/uebF8Rtxqec",
+      "publish_at_local": "2026-11-17T21:00:00+03:00",
+      "publish_at_utc": "2026-11-17T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "COP31'de Türkiye, insan hakları baskısını durdurmalı",
+      "narration": "Türkiye COP31de insan hakları baskısını durdurmalı Antalyada 9 20 Kasım tarihleri arasında gerçekleşecek COP31de Türkiyenin insan hakları savunucularına yönelik baskıyı sonlandırması gerektiği vurgulandı Kaynağa göre çevre aktivistleri gazeteciler ve LGBTI toplulukları gibi gruplar devletin baskısı altında seslerini kısıtlamaya çalışılıyor Amnesty International sivil toplumun korunmasının iklim adımlarının etkinliği için hayati olduğunu belirtiyor Global Haber kanalına abone ol",
+      "description": "COP31'de Türkiye'nin insan hakları savunucularına yönelik baskıyı sonlandırması, iklim adımlarının başarısı için kritik. Sizce sivil toplumun özgürlüğü iklim hedeflerine ulaşmada ne kadar etkili?",
+      "visual_query": "activist protest detained",
+      "tags": [
+        "COP31",
+        "İklimAdaleti",
+        "Türkiye",
+        "İnsanHakları",
+        "Antalya"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "COP31 Explained: Why the Türkiye Climate Summit Matters",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-17T02:01:26.748741+00:00",
+      "source_modified_at": "",
       "run_id": "43998823179"
     }
   ],
