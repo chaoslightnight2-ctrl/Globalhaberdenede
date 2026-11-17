@@ -59,9 +59,16 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-17T02:01:26.748741+00:00",
       "source_modified_at": "",
-      "run_id": "43998823179"
+      "run_id": "43998823179",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Mid-year budget update will ‘cut enough, but not too much’, Jim Chalmers says",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
+    }
+  ],
   "daily_existing_count": 0
 }
