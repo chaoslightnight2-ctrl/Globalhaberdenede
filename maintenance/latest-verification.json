@@ -1,13 +1,76 @@
 {
-  "source_run": "43914709082",
-  "verified_at": "2026-11-16T17:07:22.691832+00:00",
-  "videos": [],
+  "source_run": "43998823179",
+  "verified_at": "2026-11-17T02:13:51.368826+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "RgfrIDbN5Vc",
+      "youtube_url": "https://youtu.be/RgfrIDbN5Vc",
+      "title": "Andy Burnham, AB ilişkisini yeniden tanımlıyor",
+      "narration": "Andy Burnham AB ilişkisini yeniden tanımlamaya hazırlanıyor Andy Burnham Londradaki Lord Mayor balosunda Birleşik Krallık AB ilişkisini yeniden başlatma temasını vurgulayacak Bu konuşma bu Cuma gerçekleşecek olan çok beklenen UK AB zirvesi öncesinde yapılacak İlişkinin yeniden şekillenmesi bazı kesimlerde sevinç ve rahatlama diğerlerinde ise şiddetli muhalefetle karşılanıyor Global Haber kanalına abone ol",
+      "publish_at": "2026-11-17T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-17T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 31.033333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/RgfrIDbN5Vc.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "uebF8Rtxqec",
+      "youtube_url": "https://youtu.be/uebF8Rtxqec",
+      "title": "COP31'de Türkiye, insan hakları baskısını durdurmalı",
+      "narration": "Türkiye COP31de insan hakları baskısını durdurmalı Antalyada 9 20 Kasım tarihleri arasında gerçekleşecek COP31de Türkiyenin insan hakları savunucularına yönelik baskıyı sonlandırması gerektiği vurgulandı Kaynağa göre çevre aktivistleri gazeteciler ve LGBTI toplulukları gibi gruplar devletin baskısı altında seslerini kısıtlamaya çalışılıyor Amnesty International sivil toplumun korunmasının iklim adımlarının etkinliği için hayati olduğunu belirtiyor Global Haber kanalına abone ol",
+      "publish_at": "2026-11-17T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-17T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 35.333333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/uebF8Rtxqec.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "accepted_count": 2,
+  "processed_count": 2,
+  "complete": false,
+  "generation_errors": [
+    {
+      "source": "Mid-year budget update will ‘cut enough, but not too much’, Jim Chalmers says",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
