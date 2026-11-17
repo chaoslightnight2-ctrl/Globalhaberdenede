@@ -1,42 +1,13 @@
 {
-  "source_run": "44011557425",
-  "verified_at": "2026-11-17T03:55:29.447089+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "0j57Ic_zYCI",
-      "youtube_url": "https://youtu.be/0j57Ic_zYCI",
-      "title": "Güney Kore, Antalya AI Pledge ile Merkezlere Yeşil Söz",
-      "narration": "Güney Kore Antalya AI Pledgee katıldı Güney Kore Çevre Enerji ve İklim Bakanı Kim Seonghwan 16 Kasımda Antalya Expo Centerda düzenlenen COP31 karbon piyasası toplantısında Antalya AI Pledgeine imza attı Bu taahhüt veri merkezlerinin enerji ve su tüketimini azaltmayı ve yapay zekâyı iklim değişikliğiyle mücadelede kullanmayı hedefliyor Grup ve sivil toplum kuruluşları bu adımın ülkenin veri merkezi düzenlemelerinde sürdürülebilir bir dönüşüm sağlaması için yasal değişikliklere yol açmasını istiyor Global Haber kanalına abone ol",
-      "publish_at": "2026-11-17T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-17T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 39.0,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/0j57Ic_zYCI.jpg"
-    }
-  ],
+  "source_run": "44131185237",
+  "verified_at": "2026-11-17T16:57:55.327990+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
-  "complete": false,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
   "generation_errors": [],
-  "target_count": 1,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
