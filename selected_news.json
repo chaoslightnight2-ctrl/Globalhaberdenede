@@ -96,7 +96,62 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Bangladeş Türkiye ile yenilenebilir enerji iş birliğini genişletiyor Bangladeş Dışişleri Devlet Bakanı Shama Obaed Islam COP31de Türkiyenin yenilenebilir enerji konusundaki deneyimini paylaşma teklifini memnuniyetle karşıladığını söyledi Ayrıca 1 virgül 3 milyondan fazla Rohingya mülteciye sahip olan Bangladeş bu topluluğun onurlu bir şekilde ülkelerine dönmesi için uluslararası destek talep ediyor Global Haber kanalına abone ol"
+      "script": "Bangladeş Türkiye ile yenilenebilir enerji iş birliğini genişletiyor Bangladeş Dışişleri Devlet Bakanı Shama Obaed Islam COP31de Türkiyenin yenilenebilir enerji konusundaki deneyimini paylaşma teklifini memnuniyetle karşıladığını söyledi Ayrıca 1 virgül 3 milyondan fazla Rohingya mülteciye sahip olan Bangladeş bu topluluğun onurlu bir şekilde ülkelerine dönmesi için uluslararası destek talep ediyor Global Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_2.mp3",
+      "background_path": "output/background_2.mp4",
+      "video_path": "output/short_2.mp4",
+      "video_id": "ZJprOg_wk6Q",
+      "youtube_url": "https://youtu.be/ZJprOg_wk6Q",
+      "publish_at_local": "2026-11-18T21:00:00+03:00",
+      "publish_at_utc": "2026-11-18T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Avrupa Mahkemesi Atalay’ın Serbest Bırakılmasını Emretti",
+      "summary": "The European Court of Human Rights has called for the release of imprisoned elected lawmaker Can Atalay. Atalay has been in prison for almost five years despite rulings from the Turkish Constitutional Court.",
+      "url": "https://www.dw.com/en/rights-court-rules-turkey-must-release-jailed-lawmaker-atalay/a-79972462?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "source_name": "DW",
+      "query": "DW World",
+      "published_at": "2026-11-17T18:47:00+03:00",
+      "fingerprint": "9a74d4103c5293f9e207b092e7f2eb21730e7d92",
+      "direct_source": true,
+      "viral_score": 30.24,
+      "topic_bucket": "politics_diplomacy",
+      "resolved_url": "https://www.dw.com/en/rights-court-rules-turkey-must-release-jailed-lawmaker-atalay/a-79972462?maca=en-rss-en-world-4025-rdf",
+      "source_headline": "Rights court rules Turkey must release jailed lawmaker Atalay",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-18T01:11:56.690798+00:00",
+      "article_score": 96,
+      "article_text": "The European Court of Human Rights (ECHR) ruled against Turkey over the detention of human rights lawyer and elected lawmaker Can Atalay The ECHR published its decision on Tuesday, saying that Turkey must release Atalay and allow him to take up his seat in the Turkish parliament The court ruled that his continued detention had been intended to silence him and undermine political pluralism It ordered Turkey to pay him €32,500 (about $35,700) in compensation The judges stressed that Atalay's case should not be considered separately, but rather in the wider context of the detention of political opponents, human rights activists and journalists in Turkey To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video Turkey was among the original signatories of the European Convention on Human Rights. Yet it has previously refused to comply with the court's decisions in the cases of rights activist Osman Kavala and prominent Kurdish politician Selahattin Demirtas As a lawyer, Atalay represented victims in numerous social and political cases in Turkey, as well as in freedom of speech cases involving journalists and writers He was also among the leading voices in the 2013 Gezi protests, which the government called an attempted coup Because of his involvement in the protests, Atalay, along with seven others, was sentenced to 18 years in prison in April 2022 for \"aiding and abetting an attempted coup.\" Continuing his struggle from the infamous Silivri prison, Atalay ran as a candidate for the Workers' Party of Turkey (TIP) in the 2023 parliamentary elections To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video A candidate for the earthquake-hit province of Hatay, he won his seat but was denied release despite multiple rulings by the Constitutional Court, Turkey's top court His parliamentary status was revoked in 2024, a decision the Constitutional Court later overturned. President Recep Tayyip Erdogan's party stopped the opposition from formally reading the decision in parliament Although a year later an opposition lawmaker read the decision in parliament, Atalay remains in jail After the ECHR's ruling was published, TIP leader Erkan Bas took to social media to call for Atalay's release and the restoration of his parliamentary mandate To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video",
+      "model_source_context": "The European Court of Human Rights (ECHR) ruled against Turkey over the detention of human rights lawyer and elected lawmaker Can Atalay The ECHR published its decision on Tuesday, saying that Turkey must release Atalay and allow him to take up his seat in the Turkish parliament The court ruled that his continued detention had been intended to silence him and undermine political pluralism It ordered Turkey to pay him €32,500 (about $35,700) in compensation The judges stressed that Atalay's case should not be considered separately, but rather in the wider context of the detention of political opponents, human rights activists and journalists in Turkey To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video Turkey was among the original signatories of the European Convention on Human Rights. Yet it has previously refused to comply with the court's decisions in the cases of rights activist Osman Kavala and prominent Kurdish politician Selahattin Demirtas As a lawyer, Atalay represented victims in numerous social and political cases in Turkey, as well as in freedom of speech cases involving journalists and writers He was also among the leading voices in the 2013 Gezi protests, which the government called an attempted coup Because of his involvement in the protests, Atalay, along with seven others, was sentenced to 18 years in prison in April 2022 for \"aiding and abetting an attempted coup.\" Continuing his struggle from the infamous Silivri prison, Atalay ran as a candidate for the Workers' Party of Turkey (TIP) in the 2023 parliamentary elections To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video A candidate for the earthquake-hit province of Hatay, he won his seat but was denied release despite multiple rulings by the Constitutional Court, Turkey's top court His parliamentary status was revoked in 2024, a decision the Constitutional Court later overturned. President Recep Tayyip Erdogan's party stopped the opposition from formally reading the decision in parliament Although a year later an opposition lawmaker read the decision in parliament, Atalay remains in jail After the ECHR's ruling was published, TIP leader Erkan Bas took to social media to call for Atalay's release and the restoration of his parliamentary mandate To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video",
+      "shorts_hook": "ECHR, Atalay’ın serbest bırakılmasını kararlaştırdı ve parlamentoya girişine izin verdi.",
+      "quality_hook": "ECHR, Atalay’ın serbest bırakılmasını kararlaştırdı ve parlamentoya girişine izin verdi.",
+      "quality_narration": "Avrupa İnsan Hakları Mahkemesi, Can Atalay’ın tutukluluğunu sona erdirerek meclise katılmasını istedi. Mahkeme, tutukluluğun onu susturmayı amaçladığını belirterek 32.500 € tazminat ödenmesini kararlaştırdı. Türkiye İşçi Partisi (TIP) lideri Erkan Bas, karar sonrası Atalay’ın serbest bırakılması ve milletvekilliğinin iade edilmesi çağrısında bulundu.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Avrupa İnsan Hakları Mahkemesi, Can Atalay’ın tutukluluğunu sona erdirerek meclise katılmasını istedi.",
+        "Mahkeme, tutukluluğun onu susturmayı amaçladığını belirterek 32.500 € tazminat ödenmesini kararlaştırdı.",
+        "Türkiye İşçi Partisi (TIP) lideri Erkan Bas, karar sonrası Atalay’ın serbest bırakılması ve milletvekilliğinin iade edilmesi çağrısında bulundu."
+      ],
+      "youtube_description": "Avrupa İnsan Hakları Mahkemesi, Can Atalay’ın tutukluluğunu sona erdirerek meclise katılmasını istedi. Sizce bu karar Türkiye’de yargı bağımsızlığını güçlendirecek mi?",
+      "visual_query": "court orders release",
+      "spoken_text": "ECHR Atalayın serbest bırakılmasını kararlaştırdı ve parlamentoya girişine izin verdi Avrupa İnsan Hakları Mahkemesi Can Atalayın tutukluluğunu sona erdirerek meclise katılmasını istedi Mahkeme tutukluluğun onu susturmayı amaçladığını belirterek 32500 tazminat ödenmesini kararlaştırdı Türkiye İşçi Partisi TIP lideri Erkan Bas karar sonrası Atalayın serbest bırakılması ve milletvekilliğinin iade edilmesi çağrısında bulundu Global Haber kanalına abone ol",
+      "tts_text": "ECHR Atalayın serbest bırakılmasını kararlaştırdı ve parlamentoya girişine izin verdi. Avrupa İnsan Hakları Mahkemesi Can Atalayın tutukluluğunu sona erdirerek meclise katılmasını istedi. Mahkeme tutukluluğun onu susturmayı amaçladığını belirterek 32500 tazminat ödenmesini kararlaştırdı. Türkiye İşçi Partisi TIP lideri Erkan Bas karar sonrası Atalayın serbest bırakılması ve milletvekilliğinin iade edilmesi çağrısında bulundu. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "Can Atalay",
+        "Avrupa İnsan Hakları Mahkemesi",
+        "Türkiye",
+        "hukuk",
+        "parlamento"
+      ],
+      "youtube_hashtags": "#shorts #İnsanHakları #Adalet",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "ECHR Atalayın serbest bırakılmasını kararlaştırdı ve parlamentoya girişine izin verdi Avrupa İnsan Hakları Mahkemesi Can Atalayın tutukluluğunu sona erdirerek meclise katılmasını istedi Mahkeme tutukluluğun onu susturmayı amaçladığını belirterek 32500 tazminat ödenmesini kararlaştırdı Türkiye İşçi Partisi TIP lideri Erkan Bas karar sonrası Atalayın serbest bırakılması ve milletvekilliğinin iade edilmesi çağrısında bulundu Global Haber kanalına abone ol"
     }
   ]
 }
