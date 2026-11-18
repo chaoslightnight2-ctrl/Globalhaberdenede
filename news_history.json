@@ -6947,7 +6947,30 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTThZVHlLY1ZnOVAzX09MMWVkMnJTcHk1a0tMWjlxa2hCbXdERC1kaENTeUN2X0xTUzBPVTBzdm5QMXFDUWhfVFFQLXNheXFobmsySURlSHYtblc1M0ZHdWlnbXBZY2lVQVlobjhVd2RwNC1DRi1YeHZKd2VtZnNkbWljcWx3Z2x1VVRucnJPR0hpdEQ0TjIxdDROa0stYVktNVk0c2Jaem1PTnYxXzRQdTFFM0RtajhiQU9YdGxlc9IBxAFBVV95cUxPWDMzYktobklpT3EtUnp1Q3lRaUM0VWN1aWNCSVJTbXlrNHU4TTBDRWdVQ2VyanpMYi1sOTVFbDhkc0F3NHN4ZTFNbzVCMmUxNlVWaGlGNm9xU1gyTDU0MVlaMndBaEdjdFUzYWlZYVBGM3FCZFBJUHlZdHV5bjhnVV9PWXZPMXBPS0RIdm1mZ1I1QUZIOXNFR1ZYS3N1QXdXOG44cFFfX0xscUM3T3ltOHB3N0dQM19jRTVUTUZsNWNWclgx?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Avrupa Mahkemesi Atalay’ın Serbest Bırakılmasını Emretti",
+      "summary": "The European Court of Human Rights has called for the release of imprisoned elected lawmaker Can Atalay. Atalay has been in prison for almost five years despite rulings from the Turkish Constitutional Court.",
+      "url": "https://www.dw.com/en/rights-court-rules-turkey-must-release-jailed-lawmaker-atalay/a-79972462?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-11-17T18:47:00+03:00",
+      "fingerprint": "9a74d4103c5293f9e207b092e7f2eb21730e7d92",
+      "viral_score": 30.24,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/zvDHj_I_yTw",
+      "processed_at": "2026-11-18T04:16:15.610701+03:00",
+      "video_id": "zvDHj_I_yTw",
+      "publish_at_local": "2026-11-18T23:00:00+03:00",
+      "publish_at_utc": "2026-11-18T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Rights court rules Turkey must release jailed lawmaker Atalay",
+      "resolved_url": "https://www.dw.com/en/rights-court-rules-turkey-must-release-jailed-lawmaker-atalay/a-79972462?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
