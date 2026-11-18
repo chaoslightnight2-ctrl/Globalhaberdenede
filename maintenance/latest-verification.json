@@ -1,13 +1,98 @@
 {
-  "source_run": "44131185237",
-  "verified_at": "2026-11-17T16:57:55.327990+00:00",
-  "videos": [],
+  "source_run": "44212241266",
+  "verified_at": "2026-11-18T01:17:08.233200+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "QZjZ0eizwAo",
+      "youtube_url": "https://youtu.be/QZjZ0eizwAo",
+      "title": "NASA Space Apps Challenge 181.835 katılımla tarih yazdı",
+      "narration": "NASAnın Space Apps Challengeı rekor katılımla tamamladı NASA 14 15 Kasım tarihlerinde düzenlediği Space Apps Challenge etkinliğinde 181835 kayıtlı katılımla rekor kırdı Etkinlik 593 farklı şehirde gerçekleşti ve katılımcı sayısı bir önceki yıla göre yüzde 59 arttı Bu yıl beşinci kez artan katılım trendiyle 190dan fazla ülkeden bilim ve teknoloji meraklıları projelerini sundu Global Haber kanalına abone ol",
+      "publish_at": "2026-11-18T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-18T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 34.133333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/QZjZ0eizwAo.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "ZJprOg_wk6Q",
+      "youtube_url": "https://youtu.be/ZJprOg_wk6Q",
+      "title": "Bangladeş ve Türkiye, Yenilenebilir Enerjide Yeni İş Birliği",
+      "narration": "Bangladeş Türkiye ile yenilenebilir enerji iş birliğini genişletiyor Bangladeş Dışişleri Devlet Bakanı Shama Obaed Islam COP31de Türkiyenin yenilenebilir enerji konusundaki deneyimini paylaşma teklifini memnuniyetle karşıladığını söyledi Ayrıca 1 virgül 3 milyondan fazla Rohingya mülteciye sahip olan Bangladeş bu topluluğun onurlu bir şekilde ülkelerine dönmesi için uluslararası destek talep ediyor Global Haber kanalına abone ol",
+      "publish_at": "2026-11-18T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-18T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 30.433333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/ZJprOg_wk6Q.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "zvDHj_I_yTw",
+      "youtube_url": "https://youtu.be/zvDHj_I_yTw",
+      "title": "Avrupa Mahkemesi Atalay’ın Serbest Bırakılmasını Emretti",
+      "narration": "ECHR Atalayın serbest bırakılmasını kararlaştırdı ve parlamentoya girişine izin verdi Avrupa İnsan Hakları Mahkemesi Can Atalayın tutukluluğunu sona erdirerek meclise katılmasını istedi Mahkeme tutukluluğun onu susturmayı amaçladığını belirterek 32500 tazminat ödenmesini kararlaştırdı Türkiye İşçi Partisi TIP lideri Erkan Bas karar sonrası Atalayın serbest bırakılması ve milletvekilliğinin iade edilmesi çağrısında bulundu Global Haber kanalına abone ol",
+      "publish_at": "2026-11-18T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-18T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 34.1,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/zvDHj_I_yTw.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
+  "accepted_count": 3,
+  "processed_count": 3,
+  "complete": false,
   "generation_errors": [],
-  "target_count": 0,
+  "target_count": 3,
   "published_count": 0,
   "accepted_complete": true
 }
