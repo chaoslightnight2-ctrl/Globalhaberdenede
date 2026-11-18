@@ -1,12 +1,39 @@
 {
-  "run_id": "44131185237",
-  "generated_at": "2026-11-17T19:56:41.616685+03:00",
-  "target_count": 0,
+  "run_id": "44212241266",
+  "generated_at": "2026-11-18T04:00:06.659722+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "QZjZ0eizwAo",
+      "youtube_url": "https://youtu.be/QZjZ0eizwAo",
+      "publish_at_local": "2026-11-18T19:00:00+03:00",
+      "publish_at_utc": "2026-11-18T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "NASA Space Apps Challenge 181.835 katılımla tarih yazdı",
+      "narration": "NASAnın Space Apps Challengeı rekor katılımla tamamladı NASA 14 15 Kasım tarihlerinde düzenlediği Space Apps Challenge etkinliğinde 181835 kayıtlı katılımla rekor kırdı Etkinlik 593 farklı şehirde gerçekleşti ve katılımcı sayısı bir önceki yıla göre yüzde 59 arttı Bu yıl beşinci kez artan katılım trendiyle 190dan fazla ülkeden bilim ve teknoloji meraklıları projelerini sundu Global Haber kanalına abone ol",
+      "description": "NASA’nın Space Apps Challenge’ı 181.835 katılımla rekor kırdı. Siz de bu küresel bilim yarışmasına katılmak ister misiniz?",
+      "visual_query": "people coding space",
+      "tags": [
+        "NASA",
+        "Space Apps Challenge",
+        "hackathon",
+        "uzay",
+        "teknoloji"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "NASA Space Apps Challenge Breaks Global Hackathon Records",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-18T01:00:20.568978+00:00",
+      "source_modified_at": "2026-11-17T16:50:37-05:00",
+      "run_id": "44212241266"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }

@@ -6903,6 +6903,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "NASA Space Apps Challenge 181.835 katılımla tarih yazdı",
+      "summary": "2 min read NASA Space Apps Challenge Breaks Global Hackathon Records Two NASA Space Apps Challenge participants in Vilhena, Brazil work together during the annual hackathon on their project submission. NASA On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world. The annual hackathon invites participants to use NASA’s open data to address one of 14 challenges focused on space exploration or Earth science. This year, the hackathon drew 59% more registrants and was the 5th year in a row with increased participation. Since 2012, NASA Space Apps Challenge has hosted the two-day event, which has included more than 600,000 people from more than 190 countries. The challenge provides an opportunity for hands-on experience with NASA science, mobilizing an engaged global community of technologists and space science enthusiasts to answer questions that benefit humanity and drive exploration. Participants join events organized by local volunteers to work in teams and address one of the challenges and submit their project before the deadline. Projects are then judged to determine 10 global winners, to be announced in January. “The Space Apps Challenge invites people with many different skillsets to leverage NASA’s gold-standard datasets to address real challenges facing us here on Earth and in space,” said Amy Kaminski, engagement branch chief, Science Mission Directorate, NASA Headquarters in Washington. “We’re thrilled to see more than 180,000 people tackling these challenges and helping to accelerate our ability to find solutions.” One of the local winning teams from NASA Space Apps Challenge NYC pose with volunteer local lead Nate Cooper. NASA Challenges also feature data from 17 international space agency partners, all Artemis Accord signatories. This year’s space agency partners are: Angola National Space Programme Management Office (GGPEN), Bahrain Space Agency, Brazilian Space Agency (AEB), CSA (Canadian Space Agency), ESA (European Space Agency), ISRO (Indian Space Research Organisation), Italian Space Agency, JAXA (Japan Aerospace Exploration Agency), KASA (Korea AeroSpace Administration), Mohammed Bin Rashid Space Center of the United Arab Emirates, National Space Activities Commission of Argentina (CONAE), Nigeria’s National Space Research and Development Agency, Paraguayan Space Agency, Senegalese Space Studies Agency, Spanish Space Agency, Turkish Space Agency, and UK Space Agency. Three agencies, GGPEN, AEB, and CONAE, also wrote challenges this year. To learn more about NASA’s Space Apps Challenge, visit: spaceappschallenge.org Karen Fox / Jessica Hall Headquarters, Washington karen.c.fox@nasa.gov / jessica.hall@nasa.gov Share Details Last Updated Nov 17, 2026 Related Terms Open Science Explore More 4 min read NASA Welcomes All Ages, Experience Levels for Space Apps Challenge Article 1 month ago 4 min read NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model… Article 6 months ago 5 min read How Open NASA Data on Comet 3I/ATLAS Will Power Tomorrow’s Discoveries Article 8 months ago Keep Exploring Discover Related Topics Missions Humans in Space Climate Change Solar System",
+      "url": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
+      "source": "NASA",
+      "published_at": "2026-11-18T00:50:34+03:00",
+      "fingerprint": "aa77c143d008061f705acc86cb5813c10838b09c",
+      "viral_score": 46.94,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/QZjZ0eizwAo",
+      "processed_at": "2026-11-18T04:04:34.866131+03:00",
+      "video_id": "QZjZ0eizwAo",
+      "publish_at_local": "2026-11-18T19:00:00+03:00",
+      "publish_at_utc": "2026-11-18T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "NASA Space Apps Challenge Breaks Global Hackathon Records",
+      "resolved_url": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
+      "source_modified_at": "2026-11-17T16:50:37-05:00",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question"
     }
   ]
 }
