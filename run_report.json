@@ -1,12 +1,39 @@
 {
-  "run_id": "44347808991",
-  "generated_at": "2026-11-18T19:30:12.032603+03:00",
-  "target_count": 0,
+  "run_id": "44429035370",
+  "generated_at": "2026-11-19T03:27:31.577774+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "qk_6uBhR0QI",
+      "youtube_url": "https://youtu.be/qk_6uBhR0QI",
+      "publish_at_local": "2026-11-19T19:00:00+03:00",
+      "publish_at_utc": "2026-11-19T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "OIC Taslağında Türkiye Dışlaması Hindistan'ı Kızdırdı",
+      "narration": "Türkiyenin OIC taslağındaki dışlamaları uluslararası tepkileri topladı Hindistan Türkiyenin OIC iş birliği taslağından New Delhi ve diğer ülkeleri dışlamasını kasıtlı ve bariz olarak eleştirdi Taslak Irak tarafından sunulup Birleşmiş Milletler Genel Kurulunda 112 ülke onay 6 ülke karşı ve 39 ülke çekimser oy aldı Hindistan Ermenistan Kıbrıs Yunanistan İsrail ve ABD Türkiyenin kolaylaştırıcı rolünü sorgulayarak taslağa karşı oy kullandı Global Haber kanalına abone ol",
+      "description": "Türkiye'nin OIC iş birliği taslağından bazı ülkeleri dışlaması uluslararası eleştiri topladı. Sizce bu tür dışlamalar Birleşmiş Milletler süreçlerini nasıl etkiler?",
+      "visual_query": "turkey excluding delegates",
+      "tags": [
+        "Türkiye",
+        "Hindistan",
+        "UN",
+        "OIC",
+        "dışlama"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "India Calls Out Turkiye Over Exclusion From UNGA Draft Consultations On UN-OIC Cooperation",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-19T00:27:45.109899+00:00",
+      "source_modified_at": "",
+      "run_id": "44429035370"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }
