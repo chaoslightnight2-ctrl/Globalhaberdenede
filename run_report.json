@@ -59,6 +59,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-19T00:37:55.185303+00:00",
       "source_modified_at": "",
+      "run_id": "44429035370",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "WypROjiK-ew",
+      "youtube_url": "https://youtu.be/WypROjiK-ew",
+      "publish_at_local": "2026-11-19T23:00:00+03:00",
+      "publish_at_utc": "2026-11-19T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Anthropic, hisse satışıyla 19,3 bn dolar kazanacak",
+      "narration": "Anthropic hisseleri 83 dolardan satılıyor kurucular servetleniyor Anthropic 83 dolar fiyatla hisse satışı yapıyor ve şirket değeri bir trilyon doları aşıyor Kurucuların hisse payları bu fiyatta kişi başına en az 19 virgül 3 milyar dolar değerinde olacak Kurucu Dario Amodei Anthropicin CEOsu olarak şirketi yönlendiriyor ve önce OpenAIden ayrılmıştı Global Haber kanalına abone ol",
+      "description": "Anthropic, 83 dolarlık hisse satışını başlatarak kurucularını milyarder yapıyor. Sizce bu tür AI şirketlerinin hızlı servet birikimi sektöre nasıl etki eder?",
+      "visual_query": "anthropic shares selling",
+      "tags": [
+        "Anthropic",
+        "yapay zeka",
+        "hisse satışı",
+        "teknoloji yatırımı",
+        "dijital ekonomi"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "The seven Anthropic founders who are about to become multi-billionaires",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-19T00:45:24.019465+00:00",
+      "source_modified_at": "",
       "run_id": "44429035370"
     }
   ],

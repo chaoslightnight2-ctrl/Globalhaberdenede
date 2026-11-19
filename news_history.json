@@ -7016,7 +7016,30 @@
       "resolved_url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
       "source_modified_at": "",
       "audience_bucket": "technology_science",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Anthropic, hisse satışıyla 19,3 bn dolar kazanacak",
+      "summary": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-19T02:42:07+03:00",
+      "fingerprint": "6e9424dd3f1d59e06bd77727f147a8c725f49c24",
+      "viral_score": 48.78,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/WypROjiK-ew",
+      "processed_at": "2026-11-19T03:51:00.377777+03:00",
+      "video_id": "WypROjiK-ew",
+      "publish_at_local": "2026-11-19T23:00:00+03:00",
+      "publish_at_utc": "2026-11-19T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "The seven Anthropic founders who are about to become multi-billionaires",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }
