@@ -1,98 +1,13 @@
 {
-  "source_run": "44429035370",
-  "verified_at": "2026-11-19T00:51:56.715651+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "qk_6uBhR0QI",
-      "youtube_url": "https://youtu.be/qk_6uBhR0QI",
-      "title": "OIC Taslağında Türkiye Dışlaması Hindistan'ı Kızdırdı",
-      "narration": "Türkiyenin OIC taslağındaki dışlamaları uluslararası tepkileri topladı Hindistan Türkiyenin OIC iş birliği taslağından New Delhi ve diğer ülkeleri dışlamasını kasıtlı ve bariz olarak eleştirdi Taslak Irak tarafından sunulup Birleşmiş Milletler Genel Kurulunda 112 ülke onay 6 ülke karşı ve 39 ülke çekimser oy aldı Hindistan Ermenistan Kıbrıs Yunanistan İsrail ve ABD Türkiyenin kolaylaştırıcı rolünü sorgulayarak taslağa karşı oy kullandı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-19T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-19T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 36.8,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/qk_6uBhR0QI.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "It_gXxkmu10",
-      "youtube_url": "https://youtu.be/It_gXxkmu10",
-      "title": "NASA CRS-25: Cygnus XL 29 Kasım’da Fırlatılıyor",
-      "narration": "Cygnus XL uzay aracı 29 Kasımda fırlatılıyor NASA Northrop Grumman ve SpaceX 29 Kasım Pazar 10 47 ESTde Cape Canaveraldan Cygnus XL uzay aracını fırlatıyor Yaklaşık 11000 pound kargo taşıyan Cygnus 2 Aralık Salı günü Canadarm2 ile Uluslararası Uzay İstasyonuna yakalanacak Araç Mayıs 2027ye kadar ISSde kalacak ardından atık ve kullanılmayan yükle atmosfere girerek yanacak Global Haber kanalına abone ol",
-      "publish_at": "2026-11-19T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-19T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 33.266667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/It_gXxkmu10.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "WypROjiK-ew",
-      "youtube_url": "https://youtu.be/WypROjiK-ew",
-      "title": "Anthropic, hisse satışıyla 19,3 bn dolar kazanacak",
-      "narration": "Anthropic hisseleri 83 dolardan satılıyor kurucular servetleniyor Anthropic 83 dolar fiyatla hisse satışı yapıyor ve şirket değeri bir trilyon doları aşıyor Kurucuların hisse payları bu fiyatta kişi başına en az 19 virgül 3 milyar dolar değerinde olacak Kurucu Dario Amodei Anthropicin CEOsu olarak şirketi yönlendiriyor ve önce OpenAIden ayrılmıştı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-19T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-19T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.033333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/WypROjiK-ew.jpg"
-    }
-  ],
+  "source_run": "44444373777",
+  "verified_at": "2026-11-19T02:41:22.560366+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
   "generation_errors": [],
-  "target_count": 3,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
