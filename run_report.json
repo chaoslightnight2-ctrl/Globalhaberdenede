@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-19T00:27:45.109899+00:00",
       "source_modified_at": "",
+      "run_id": "44429035370",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "It_gXxkmu10",
+      "youtube_url": "https://youtu.be/It_gXxkmu10",
+      "publish_at_local": "2026-11-19T21:00:00+03:00",
+      "publish_at_utc": "2026-11-19T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "NASA CRS-25: Cygnus XL 29 Kasım’da Fırlatılıyor",
+      "narration": "Cygnus XL uzay aracı 29 Kasımda fırlatılıyor NASA Northrop Grumman ve SpaceX 29 Kasım Pazar 10 47 ESTde Cape Canaveraldan Cygnus XL uzay aracını fırlatıyor Yaklaşık 11000 pound kargo taşıyan Cygnus 2 Aralık Salı günü Canadarm2 ile Uluslararası Uzay İstasyonuna yakalanacak Araç Mayıs 2027ye kadar ISSde kalacak ardından atık ve kullanılmayan yükle atmosfere girerek yanacak Global Haber kanalına abone ol",
+      "description": "NASA, Northrop Grumman ve SpaceX, Cygnus XL uzay aracını 29 Kasım’da fırlatıyor ve ISS’ye kargo taşıyacak. Sizce bu görev uzay araştırmalarını nasıl etkiler?",
+      "visual_query": "cygnus launch space",
+      "tags": [
+        "NASA",
+        "Uzay",
+        "Cygnus",
+        "ISS",
+        "Kargo"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-19T00:37:55.185303+00:00",
+      "source_modified_at": "",
       "run_id": "44429035370"
     }
   ],
