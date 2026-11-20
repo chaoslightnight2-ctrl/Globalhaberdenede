@@ -7085,7 +7085,30 @@
       "resolved_url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "India Türkiyeyi UN'da Üye Devletleri Dışlamaktan Kınadı",
+      "summary": "'Blatant and intentional': India slams Turkey over exclusion from UNGA draft consultations The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMFV1UTRRWlJaYk1kcE9nbEU0LUZBWXlZdVlUTkl3QWxKRnVYdHFUNjN5TGJiOXVtYlVJV3ZJT3VsWUJya0dLSU14TnVuVWxZRFFnRUs5eXFvQVFSSzBiOXBpNnFHYk9IV0tHU3FOQ2FxRmRVN0Z3M2oxR2ppVXdPZmtBX2RHWGVjRW1jaUFVOGNYTGhERTFMVHp4RUlGZWs3WXBWRUtOX0VRY3lEMmlwcEhHQnY1ZGVlWDVUdlF5a2ZMWEpBUi1PYmxiNnV5LXA3dXAwMy1EUW5GSjdVSVo3V1dNRE9HZ0ZLS2gw0gHwAUFVX3lxTE1BMWJ1ZFE4UEhVUUttY3lUT3hYblVLVGxtQjBaRmZwOHJqYnhLVDRBWEFNcWRDNFJ0QW9nNjhmeFZqZE1taVFfTkJpWk9Helo1QW1BRUF6UlJwMV93R010ZjdBd2lMdWlCS1BxOG9Uc3VQWnBIT1lFUVg5dUFiTFZlSVRPSzc3SUZWcDNBOWNNSHZrX3pXdmY4RVFfTkxsSmlEbzB2YnhiaUJUYldneUxBcXpCREw5RklCbVVDcEdHSnRxVjZrR2pxSHkwNHJyLWNveW1ENHE2bTNuZlR6ZzRJaFdhUldWUFZzaGE0NEN6WA?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-17T13:29:00+03:00",
+      "fingerprint": "abc8b7ea9249da2c42cbaada21e66635f6d0004e",
+      "viral_score": 0.0,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/L9pGpgJHsz4",
+      "processed_at": "2026-11-20T05:20:27.048427+03:00",
+      "video_id": "L9pGpgJHsz4",
+      "publish_at_local": "2026-11-20T23:00:00+03:00",
+      "publish_at_utc": "2026-11-20T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "'Blatant and intentional': India slams Turkey over exclusion from UNGA draft consultations",
+      "resolved_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMFV1UTRRWlJaYk1kcE9nbEU0LUZBWXlZdVlUTkl3QWxKRnVYdHFUNjN5TGJiOXVtYlVJV3ZJT3VsWUJya0dLSU14TnVuVWxZRFFnRUs5eXFvQVFSSzBiOXBpNnFHYk9IV0tHU3FOQ2FxRmRVN0Z3M2oxR2ppVXdPZmtBX2RHWGVjRW1jaUFVOGNYTGhERTFMVHp4RUlGZWs3WXBWRUtOX0VRY3lEMmlwcEhHQnY1ZGVlWDVUdlF5a2ZMWEpBUi1PYmxiNnV5LXA3dXAwMy1EUW5GSjdVSVo3V1dNRE9HZ0ZLS2gw0gHwAUFVX3lxTE1BMWJ1ZFE4UEhVUUttY3lUT3hYblVLVGxtQjBaRmZwOHJqYnhLVDRBWEFNcWRDNFJ0QW9nNjhmeFZqZE1taVFfTkJpWk9Helo1QW1BRUF6UlJwMV93R010ZjdBd2lMdWlCS1BxOG9Uc3VQWnBIT1lFUVg5dUFiTFZlSVRPSzc3SUZWcDNBOWNNSHZrX3pXdmY4RVFfTkxsSmlEbzB2YnhiaUJUYldneUxBcXpCREw5RklCbVVDcEdHSnRxVjZrR2pxSHkwNHJyLWNveW1ENHE2bTNuZlR6ZzRJaFdhUldWUFZzaGE0NEN6WA?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
