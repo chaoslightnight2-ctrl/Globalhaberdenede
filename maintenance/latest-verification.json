@@ -1,70 +1,13 @@
 {
-  "source_run": "44658978857",
-  "verified_at": "2026-11-20T02:21:10.868655+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "6igj8oW50bM",
-      "youtube_url": "https://youtu.be/6igj8oW50bM",
-      "title": "Karamoja’da kuraklık: Tek öğünle yaşam ve su damlaları",
-      "narration": "Karamojada tek öğünle yaşayan aileler su damlaları bekliyor Ugandanın kuzey Karamoja bölgesinde 44 yaşındaki çiftçi Elijah Lobur ve ailesi şiddetli kuraklık nedeniyle günde sadece bir öğün yiyebiliyor Bölgede yüzde 90ın üzerindeki ekinler kurarken Sand Dams Worldwide ve Africa Sand Dam Foundation gibi kuruluşlar 1300 sand dam inşa ederek su erişimini artırmayı hedefliyor Lobur yer altı su kaynakları ve küçük ölçekli sulama planları olsaydı açlıkla mücadele edebileceklerini belirtiyor Global Haber kanalına abone ol",
-      "publish_at": "2026-11-20T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-20T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 37.633333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/6igj8oW50bM.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "L9pGpgJHsz4",
-      "youtube_url": "https://youtu.be/L9pGpgJHsz4",
-      "title": "India Türkiyeyi UN'da Üye Devletleri Dışlamaktan Kınadı",
-      "narration": "India Türkiyenin dışlamasını kınadı Uluslararası neden Hindistan Birleşmiş Milletlerde Türkiyenin OIC iş birliği taslağını yürütürken bazı ülkeleri dışlamasını açık ve kasıtlı olarak eleştirdi Hindistanın BM Daimi Temsilcisi Yojna Patel bu dışlamanın çoklu taraflılık ilkesine aykırı olduğunu ve bir soruşturma talep ettiğini belirtti Türkiye taslağın kolaylaştırıcısı konumunda olsa da Yunanistan ve Kıbrıs gibi ülkeler de benzer endişelerini dile getirdi Global Haber kanalına abone ol",
-      "publish_at": "2026-11-20T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-20T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 35.733333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/L9pGpgJHsz4.jpg"
-    }
-  ],
+  "source_run": "44770938888",
+  "verified_at": "2026-11-20T16:17:07.393640+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
-  "complete": false,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
   "generation_errors": [],
-  "target_count": 2,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
