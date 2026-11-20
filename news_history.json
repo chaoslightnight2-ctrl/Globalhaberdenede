@@ -7108,7 +7108,8 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMFV1UTRRWlJaYk1kcE9nbEU0LUZBWXlZdVlUTkl3QWxKRnVYdHFUNjN5TGJiOXVtYlVJV3ZJT3VsWUJya0dLSU14TnVuVWxZRFFnRUs5eXFvQVFSSzBiOXBpNnFHYk9IV0tHU3FOQ2FxRmRVN0Z3M2oxR2ppVXdPZmtBX2RHWGVjRW1jaUFVOGNYTGhERTFMVHp4RUlGZWs3WXBWRUtOX0VRY3lEMmlwcEhHQnY1ZGVlWDVUdlF5a2ZMWEpBUi1PYmxiNnV5LXA3dXAwMy1EUW5GSjdVSVo3V1dNRE9HZ0ZLS2gw0gHwAUFVX3lxTE1BMWJ1ZFE4UEhVUUttY3lUT3hYblVLVGxtQjBaRmZwOHJqYnhLVDRBWEFNcWRDNFJ0QW9nNjhmeFZqZE1taVFfTkJpWk9Helo1QW1BRUF6UlJwMV93R010ZjdBd2lMdWlCS1BxOG9Uc3VQWnBIT1lFUVg5dUFiTFZlSVRPSzc3SUZWcDNBOWNNSHZrX3pXdmY4RVFfTkxsSmlEbzB2YnhiaUJUYldneUxBcXpCREw5RklCbVVDcEdHSnRxVjZrR2pxSHkwNHJyLWNveW1ENHE2bTNuZlR6ZzRJaFdhUldWUFZzaGE0NEN6WA?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
