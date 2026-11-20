@@ -1,13 +1,76 @@
 {
-  "source_run": "44770938888",
-  "verified_at": "2026-11-20T16:17:07.393640+00:00",
-  "videos": [],
+  "source_run": "44831030225",
+  "verified_at": "2026-11-20T23:01:53.702160+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "i3TAOGxMDLA",
+      "youtube_url": "https://youtu.be/i3TAOGxMDLA",
+      "title": "Afrika, COP31'de İklim Projeleri İçin Fon Talep Etti",
+      "narration": "Afrika iklim projeleri için yeni bir fon talep ediyor COP31da Afrika Grubu müzakerecisi Veronica Nonhlanhla Jakarasi kıtaya yönelik iklim projelerini finanse edecek bir azaltma uygulama tesisi kurulması gerektiğini savundu Jakarasi bu mekanizmanın yeşil sanayileşme kritik mineraller ve düşük emisyonlu büyüme hedeflerini destekleyeceğini belirtti Aynı gün yayımlanan taslak fosil yakıtların aşamalı olarak kaldırılmasına dair ifadeleri ve yıllık 120 milyar dolar uyum finansmanı hedefini çıkardı Global Haber kanalına abone ol",
+      "publish_at": "2026-11-21T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-21T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 37.366667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/i3TAOGxMDLA.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "qpBD1qgjLI0",
+      "youtube_url": "https://youtu.be/qpBD1qgjLI0",
+      "title": "Sozcu TV’ye polis baskını, yöneticiler tutuklandı",
+      "narration": "Sozcu TVye polis baskını yöneticiler tutuklandı Salı sabahı polis İstanbuldaki Sozcu TV merkezine baskın düzenledi ve birkaç yöneticiyi tutukladı Devlet mevduat sigorta fonu TMSF kanalı yönetmek üzere mütevelli atadı Ana muhalefet partisi lideri Özgür Özel bu sesin susturulamayacağını belirtti Global Haber kanalına abone ol",
+      "publish_at": "2026-11-21T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-21T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 26.533333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/qpBD1qgjLI0.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "accepted_count": 2,
+  "processed_count": 2,
+  "complete": false,
+  "generation_errors": [
+    {
+      "source": "New NASA Seed Funding Primes Small Businesses for Innovation",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
