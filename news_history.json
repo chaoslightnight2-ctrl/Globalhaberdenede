@@ -7064,6 +7064,28 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Karamoja’da kuraklık: Tek öğünle yaşam ve su damlaları",
+      "summary": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change.",
+      "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-20T03:54:50+03:00",
+      "fingerprint": "3cdc2cefa7067686218db3a72a49625bb0c4b345",
+      "viral_score": 42.94,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/6igj8oW50bM",
+      "processed_at": "2026-11-20T05:15:50.045922+03:00",
+      "video_id": "6igj8oW50bM",
+      "publish_at_local": "2026-11-20T21:00:00+03:00",
+      "publish_at_utc": "2026-11-20T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "More climate money for Africa? Europe says use what's already pledged",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }

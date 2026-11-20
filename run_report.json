@@ -1,46 +1,39 @@
 {
-  "run_id": "44647720639",
-  "generated_at": "2026-11-20T03:41:32.737748+03:00",
-  "target_count": 3,
+  "run_id": "44658978857",
+  "generated_at": "2026-11-20T05:12:02.403017+03:00",
+  "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
   "videos": [
     {
-      "video_id": "21NCAIrVCv4",
-      "youtube_url": "https://youtu.be/21NCAIrVCv4",
-      "publish_at_local": "2026-11-20T19:00:00+03:00",
-      "publish_at_utc": "2026-11-20T16:00:00Z",
+      "video_id": "6igj8oW50bM",
+      "youtube_url": "https://youtu.be/6igj8oW50bM",
+      "publish_at_local": "2026-11-20T21:00:00+03:00",
+      "publish_at_utc": "2026-11-20T18:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 1,
-      "title": "Türkiye, Lübnan Ziyaretinde Ortaklık ve Destek Vurguladı",
-      "narration": "Türkiye Lübnanda üç gün süren resmi ziyaretiyle ortaklık mesajı verdi Türkiye Lübnanda üç günlük ziyaretini tamamladı ve Lübnan Başbakan Yardımcısı Dr Tarek Mitrinin davetiyle Beyrutta bir toplantı gerçekleştirdi Ziyaret sırasında Türkiye Lübnanın kurumlarını güçlendirmek ve bölgedeki istikrarı artırmak için eşit ortaklık ilkesine dayalı iş birliğini sürdüreceğini vurguladı Yetkililer Lübnanın güneyindeki ailelerin köylerine dönmesi ve okulların yeniden açılması için Türkiyenin yanlarında olacağını belirtti Global Haber kanalına abone ol",
-      "description": "Türkiye, Lübnan'da üç gün süren ziyaretiyle iki ülke arasındaki eşit ortaklık vizyonunu ortaya koydu. Sizce bu iş birliği bölgesel istikrarı nasıl etkiler?",
-      "visual_query": "turkey lebanon handshake",
+      "title": "Karamoja’da kuraklık: Tek öğünle yaşam ve su damlaları",
+      "narration": "Karamojada tek öğünle yaşayan aileler su damlaları bekliyor Ugandanın kuzey Karamoja bölgesinde 44 yaşındaki çiftçi Elijah Lobur ve ailesi şiddetli kuraklık nedeniyle günde sadece bir öğün yiyebiliyor Bölgede yüzde 90ın üzerindeki ekinler kurarken Sand Dams Worldwide ve Africa Sand Dam Foundation gibi kuruluşlar 1300 sand dam inşa ederek su erişimini artırmayı hedefliyor Lobur yer altı su kaynakları ve küçük ölçekli sulama planları olsaydı açlıkla mücadele edebileceklerini belirtiyor Global Haber kanalına abone ol",
+      "description": "Karamoja’da kuraklık aileleri tek öğünle sınırlıyor, su damlaları umut vadediyor. Sizce bu tür projeler bölgedeki açlık sorununu ne kadar çözebilir?",
+      "visual_query": "farmer drinking water",
       "tags": [
-        "Türkiye-Lübnan ilişkileri",
-        "bölgesel iş birliği",
-        "uluslararası diplomasi",
-        "güney Lübnan",
-        "kurumsal destek"
+        "Kuraklık",
+        "Uganda",
+        "Karamoja",
+        "Su Damlaları",
+        "Tarım"
       ],
       "video_path": "output/short_1.mp4",
-      "source_headline": "A geography of hearts: Turkiye and Lebanon, building the Levant together",
-      "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-20T00:41:48.273513+00:00",
+      "source_headline": "More climate money for Africa? Europe says use what's already pledged",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-20T02:12:14.543584+00:00",
       "source_modified_at": "",
-      "run_id": "44647720639",
-      "processing_status": "readback_scope_unavailable"
+      "run_id": "44658978857"
     }
   ],
-  "errors": [
-    {
-      "source": "'Blatant and intentional': India slams Turkey over exclusion from UNGA draft consultations - The Times of India",
-      "stage": "generation",
-      "error": "visual_query yalnızca İngilizce arama kelimeleri içermeli"
-    }
-  ],
-  "daily_existing_count": 0
+  "errors": [],
+  "daily_existing_count": 1
 }
