@@ -7110,6 +7110,28 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Afrika, COP31'de İklim Projeleri İçin Fon Talep Etti",
+      "summary": "As the curtains draw to a close on COP31 in Antalya, one question looms large for African countries: Will climate promises finally translate into the funding African communities need to cope with a warming world?",
+      "url": "https://www.dw.com/en/africa-at-cop31-will-climate-cash-finally-flow/a-80002269?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-11-20T17:18:00+03:00",
+      "fingerprint": "c7a77d5b242dd37f2034de6a2affe7b8cef630ab",
+      "viral_score": 31.54,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/i3TAOGxMDLA",
+      "processed_at": "2026-11-21T01:49:06.651000+03:00",
+      "video_id": "i3TAOGxMDLA",
+      "publish_at_local": "2026-11-21T19:00:00+03:00",
+      "publish_at_utc": "2026-11-21T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Africa at COP31: Will climate cash finally flow?",
+      "resolved_url": "https://www.dw.com/en/africa-at-cop31-will-climate-cash-finally-flow/a-80002269?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }

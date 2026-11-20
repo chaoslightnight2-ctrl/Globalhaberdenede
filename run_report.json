@@ -1,12 +1,39 @@
 {
-  "run_id": "44770938888",
-  "generated_at": "2026-11-20T19:15:43.427899+03:00",
-  "target_count": 0,
+  "run_id": "44831030225",
+  "generated_at": "2026-11-21T01:42:31.569766+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "i3TAOGxMDLA",
+      "youtube_url": "https://youtu.be/i3TAOGxMDLA",
+      "publish_at_local": "2026-11-21T19:00:00+03:00",
+      "publish_at_utc": "2026-11-21T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Afrika, COP31'de İklim Projeleri İçin Fon Talep Etti",
+      "narration": "Afrika iklim projeleri için yeni bir fon talep ediyor COP31da Afrika Grubu müzakerecisi Veronica Nonhlanhla Jakarasi kıtaya yönelik iklim projelerini finanse edecek bir azaltma uygulama tesisi kurulması gerektiğini savundu Jakarasi bu mekanizmanın yeşil sanayileşme kritik mineraller ve düşük emisyonlu büyüme hedeflerini destekleyeceğini belirtti Aynı gün yayımlanan taslak fosil yakıtların aşamalı olarak kaldırılmasına dair ifadeleri ve yıllık 120 milyar dolar uyum finansmanı hedefini çıkardı Global Haber kanalına abone ol",
+      "description": "COP31'de Afrika temsilcileri, iklim finansmanını somut projelere dönüştürmek için bir fon önerdi. Sizce bu adım kıtanın iklimle mücadelesine ne kadar katkı sağlayabilir?",
+      "visual_query": "african negotiator presenting",
+      "tags": [
+        "iklim değişikliği",
+        "Afrika",
+        "COP31",
+        "iklim finansmanı",
+        "sürdürülebilir kalkınma"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Africa at COP31: Will climate cash finally flow?",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-20T22:42:46.470261+00:00",
+      "source_modified_at": "",
+      "run_id": "44831030225"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }
