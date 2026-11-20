@@ -1,68 +1,12 @@
 {
-  "run_id": "44658978857",
-  "generated_at": "2026-11-20T05:12:02.403017+03:00",
-  "target_count": 2,
+  "run_id": "44770938888",
+  "generated_at": "2026-11-20T19:15:43.427899+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "6igj8oW50bM",
-      "youtube_url": "https://youtu.be/6igj8oW50bM",
-      "publish_at_local": "2026-11-20T21:00:00+03:00",
-      "publish_at_utc": "2026-11-20T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 1,
-      "title": "Karamoja’da kuraklık: Tek öğünle yaşam ve su damlaları",
-      "narration": "Karamojada tek öğünle yaşayan aileler su damlaları bekliyor Ugandanın kuzey Karamoja bölgesinde 44 yaşındaki çiftçi Elijah Lobur ve ailesi şiddetli kuraklık nedeniyle günde sadece bir öğün yiyebiliyor Bölgede yüzde 90ın üzerindeki ekinler kurarken Sand Dams Worldwide ve Africa Sand Dam Foundation gibi kuruluşlar 1300 sand dam inşa ederek su erişimini artırmayı hedefliyor Lobur yer altı su kaynakları ve küçük ölçekli sulama planları olsaydı açlıkla mücadele edebileceklerini belirtiyor Global Haber kanalına abone ol",
-      "description": "Karamoja’da kuraklık aileleri tek öğünle sınırlıyor, su damlaları umut vadediyor. Sizce bu tür projeler bölgedeki açlık sorununu ne kadar çözebilir?",
-      "visual_query": "farmer drinking water",
-      "tags": [
-        "Kuraklık",
-        "Uganda",
-        "Karamoja",
-        "Su Damlaları",
-        "Tarım"
-      ],
-      "video_path": "output/short_1.mp4",
-      "source_headline": "More climate money for Africa? Europe says use what's already pledged",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-20T02:12:14.543584+00:00",
-      "source_modified_at": "",
-      "run_id": "44658978857",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "L9pGpgJHsz4",
-      "youtube_url": "https://youtu.be/L9pGpgJHsz4",
-      "publish_at_local": "2026-11-20T23:00:00+03:00",
-      "publish_at_utc": "2026-11-20T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "India Türkiyeyi UN'da Üye Devletleri Dışlamaktan Kınadı",
-      "narration": "India Türkiyenin dışlamasını kınadı Uluslararası neden Hindistan Birleşmiş Milletlerde Türkiyenin OIC iş birliği taslağını yürütürken bazı ülkeleri dışlamasını açık ve kasıtlı olarak eleştirdi Hindistanın BM Daimi Temsilcisi Yojna Patel bu dışlamanın çoklu taraflılık ilkesine aykırı olduğunu ve bir soruşturma talep ettiğini belirtti Türkiye taslağın kolaylaştırıcısı konumunda olsa da Yunanistan ve Kıbrıs gibi ülkeler de benzer endişelerini dile getirdi Global Haber kanalına abone ol",
-      "description": "Hindistan, Türkiye'nin UN OIC taslağını yürütürken bazı ülkeleri dışlamasını \"açık ve kasıtlı\" olarak eleştirdi. Sizce bu tür dışlamalar uluslararası diplomasiyi nasıl etkiler?",
-      "visual_query": "india turkey protest",
-      "tags": [
-        "UN",
-        "Türkiye",
-        "Hindistan",
-        "diplomasi",
-        "OIC"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "'Blatant and intentional': India slams Turkey over exclusion from UNGA draft consultations",
-      "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-20T02:15:53.216701+00:00",
-      "source_modified_at": "",
-      "run_id": "44658978857",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
+  "videos": [],
   "errors": [],
-  "daily_existing_count": 1
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
