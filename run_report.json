@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-20T22:42:46.470261+00:00",
       "source_modified_at": "",
+      "run_id": "44831030225",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "qpBD1qgjLI0",
+      "youtube_url": "https://youtu.be/qpBD1qgjLI0",
+      "publish_at_local": "2026-11-21T21:00:00+03:00",
+      "publish_at_utc": "2026-11-21T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Sozcu TV’ye polis baskını, yöneticiler tutuklandı",
+      "narration": "Sozcu TVye polis baskını yöneticiler tutuklandı Salı sabahı polis İstanbuldaki Sozcu TV merkezine baskın düzenledi ve birkaç yöneticiyi tutukladı Devlet mevduat sigorta fonu TMSF kanalı yönetmek üzere mütevelli atadı Ana muhalefet partisi lideri Özgür Özel bu sesin susturulamayacağını belirtti Global Haber kanalına abone ol",
+      "description": "İstanbul’da Sozcu TV’ye polis baskını yapıldı, yöneticileri tutuklandı ve TMSF mütevelli atandı. Bu durum medyanın özgürlüğü hakkında ne düşünüyorsunuz?",
+      "visual_query": "police raid tv",
+      "tags": [
+        "Sozcu TV",
+        "medya özgürlüğü",
+        "Türkiye basın",
+        "polis baskını",
+        "gülen hareketi"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Turkey takes control of opposition broadcaster Sozcu TV",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-20T22:49:11.022519+00:00",
+      "source_modified_at": "",
       "run_id": "44831030225"
     }
   ],

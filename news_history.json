@@ -7131,6 +7131,29 @@
       "resolved_url": "https://www.dw.com/en/africa-at-cop31-will-climate-cash-finally-flow/a-80002269?maca=en-rss-en-world-4025-rdf",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Sozcu TV’ye polis baskını, yöneticiler tutuklandı",
+      "summary": "In the latest in a series of raids and arrests, another major pro-opposition Turkish broadcaster has been brought under state control. This is the third in a year.",
+      "url": "https://www.dw.com/en/turkey-takes-control-of-opposition-broadcaster-sozcu-tv/a-80001984?maca=en-rss-en-world-4025-rdf",
+      "source": "DW World",
+      "published_at": "2026-11-20T17:21:00+03:00",
+      "fingerprint": "68214fba7e189b98fd8af37608e5b50062a3fb4e",
+      "viral_score": 31.62,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/qpBD1qgjLI0",
+      "processed_at": "2026-11-21T02:01:03.028012+03:00",
+      "video_id": "qpBD1qgjLI0",
+      "publish_at_local": "2026-11-21T21:00:00+03:00",
+      "publish_at_utc": "2026-11-21T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Turkey takes control of opposition broadcaster Sozcu TV",
+      "resolved_url": "https://www.dw.com/en/turkey-takes-control-of-opposition-broadcaster-sozcu-tv/a-80001984?maca=en-rss-en-world-4025-rdf",
+      "source_modified_at": "",
+      "audience_bucket": "other",
       "hook_style": "direct_change"
     }
   ]
