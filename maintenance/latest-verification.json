@@ -1,42 +1,13 @@
 {
-  "source_run": "44853697020",
-  "verified_at": "2026-11-21T02:11:18.893736+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "v6ltOjb93Lg",
-      "youtube_url": "https://youtu.be/v6ltOjb93Lg",
-      "title": "COP31’de Fosil Yakıt Dili Olmadan Anlaşma Reddedildi",
-      "narration": "COP31de fosil yakıt maddesi olmadan anlaşma reddedildi Antalyada COP31in son gününde Fransa ve Panama öncülüğündeki ülkeler anlaşmanın fosil yakıt maddesini içermediğini eleştirerek daha güçlü bir iklim anlaşması talep etti Panama Çevre Bakanı Juan Carlos Navarro fosil yakıt dilini içermeyen bir anlaşmayı kabul etmeyeceklerini ve bu durumun anlaşmanın onayını engelleyebileceğini belirtti Aktivistler kara tabelalarla shame yazarak COP31in en kötü toplantı olduğunu iddia edip gelişmekte olan ülkelerin ve sivil toplumun sesini duyurmayı sürdürdü Global Haber kanalına abone ol",
-      "publish_at": "2026-11-21T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-21T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 41.033333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/v6ltOjb93Lg.jpg"
-    }
-  ],
+  "source_run": "44919059082",
+  "verified_at": "2026-11-21T15:26:54.913370+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
-  "complete": false,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
   "generation_errors": [],
-  "target_count": 1,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
