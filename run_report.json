@@ -59,9 +59,21 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-21T21:49:09.481541+00:00",
       "source_modified_at": "",
-      "run_id": "44952820888"
+      "run_id": "44952820888",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister addressing health"
+    },
+    {
+      "source": "COP31: Countries demand stronger climate deal amid deadlock in Antalya - UN News",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
   "daily_existing_count": 0
 }
