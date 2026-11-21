@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-21T21:42:27.063911+00:00",
       "source_modified_at": "2026-11-21T20:15:57.000Z",
+      "run_id": "44952820888",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "6ZmZ2THCYpY",
+      "youtube_url": "https://youtu.be/6ZmZ2THCYpY",
+      "publish_at_local": "2026-11-22T21:00:00+03:00",
+      "publish_at_utc": "2026-11-22T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "COP31’de Fosil Yakıt Terimi Taslaktan Silindi",
+      "narration": "COP31de fosil yakıt terimi taslaktan silindi COP31 Antalyada son gününde taslak anlaşmadan fosil yakıt ifadesi çıkarıldı Panama iklim finansmanı ve petrol üretim kısıtlaması eklenmezse resmi itiraz edeceğini duyurdu Power Shift Africa direktörü Mohamed Adow bu eksikliğin COP31i en kötü toplantı yapabileceğini belirtti Global Haber kanalına abone ol",
+      "description": "COP31’in son taslağında 'fosil yakıt' ifadesi yer almadı. Bu eksiklik iklim eylemlerini geciktirebilir mi?",
+      "visual_query": "activists removing fossil",
+      "tags": [
+        "iklim değişikliği",
+        "COP31",
+        "fosil yakıt",
+        "iklim finansmanı",
+        "Türkiye"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "UN climate talks in Turkey risk being ‘worst COP ever’ as fossil fuels go unmentioned",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-21T21:49:09.481541+00:00",
+      "source_modified_at": "",
       "run_id": "44952820888"
     }
   ],

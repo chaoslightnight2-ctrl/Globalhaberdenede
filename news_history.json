@@ -7200,7 +7200,30 @@
       "resolved_url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
       "source_modified_at": "2026-11-21T20:15:57.000Z",
       "audience_bucket": "technology_science",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31’de Fosil Yakıt Terimi Taslaktan Silindi",
+      "summary": "UN climate talks in Turkey risk being ‘worst COP ever’ as fossil fuels go unmentioned ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZFgwTUdraHlEVGRHMGc0VnN6aDhmaVdvbTZCYU1JSUtqc0FKSzhCTjVxcEdRbEpwai03WXlTSFY4OWlZVXNNeEdlaFJSaXdtZ0FjNl96Z2xmc1VhU3pmRHB2Vlo0SlVuMnRTc0VRMmxPRHhFQXJvbE8yRWZnY2ZOaFkzSHlUQlE4NE94VzQ4anFGWG5mQVZPR2JtMVlqUHo0Z3fSAacBQVVfeXFMTXlEbEw3MnFBQ1IwbVMzUTM1RjBfbmtTMy01a01PYnFEdnRzQ1dhczRsN2RHTEZiVU4xOHVjejBLMU9GbVVXb3VmN09lcE96dDduY1BmUzlqcUZkLVE5bEp4SklpY0VSaFR0YlhZQVBvWUlGczVmcnF6WXZmZGNrdF8zRjVabHBaa054YXBTMFhZOUxGQ0UyNlBNVU1NR3pEQl8zLVJzQTA?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-20T12:26:35+03:00",
+      "fingerprint": "1ea8f4058632fd07541572155b2ffed96de50a9a",
+      "viral_score": 2.0,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/6ZmZ2THCYpY",
+      "processed_at": "2026-11-22T00:56:30.095062+03:00",
+      "video_id": "6ZmZ2THCYpY",
+      "publish_at_local": "2026-11-22T21:00:00+03:00",
+      "publish_at_utc": "2026-11-22T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "UN climate talks in Turkey risk being ‘worst COP ever’ as fossil fuels go unmentioned",
+      "resolved_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZFgwTUdraHlEVGRHMGc0VnN6aDhmaVdvbTZCYU1JSUtqc0FKSzhCTjVxcEdRbEpwai03WXlTSFY4OWlZVXNNeEdlaFJSaXdtZ0FjNl96Z2xmc1VhU3pmRHB2Vlo0SlVuMnRTc0VRMmxPRHhFQXJvbE8yRWZnY2ZOaFkzSHlUQlE4NE94VzQ4anFGWG5mQVZPR2JtMVlqUHo0Z3fSAacBQVVfeXFMTXlEbEw3MnFBQ1IwbVMzUTM1RjBfbmtTMy01a01PYnFEdnRzQ1dhczRsN2RHTEZiVU4xOHVjejBLMU9GbVVXb3VmN09lcE96dDduY1BmUzlqcUZkLVE5bEp4SklpY0VSaFR0YlhZQVBvWUlGczVmcnF6WXZmZGNrdF8zRjVabHBaa054YXBTMFhZOUxGQ0UyNlBNVU1NR3pEQl8zLVJzQTA?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
