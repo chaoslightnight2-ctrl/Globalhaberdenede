@@ -1,19 +1,19 @@
 {
-  "source_run": "44831030225",
-  "verified_at": "2026-11-20T23:01:53.702160+00:00",
+  "source_run": "44853697020",
+  "verified_at": "2026-11-21T02:11:18.893736+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "i3TAOGxMDLA",
-      "youtube_url": "https://youtu.be/i3TAOGxMDLA",
-      "title": "Afrika, COP31'de İklim Projeleri İçin Fon Talep Etti",
-      "narration": "Afrika iklim projeleri için yeni bir fon talep ediyor COP31da Afrika Grubu müzakerecisi Veronica Nonhlanhla Jakarasi kıtaya yönelik iklim projelerini finanse edecek bir azaltma uygulama tesisi kurulması gerektiğini savundu Jakarasi bu mekanizmanın yeşil sanayileşme kritik mineraller ve düşük emisyonlu büyüme hedeflerini destekleyeceğini belirtti Aynı gün yayımlanan taslak fosil yakıtların aşamalı olarak kaldırılmasına dair ifadeleri ve yıllık 120 milyar dolar uyum finansmanı hedefini çıkardı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-21T16:00:00Z",
+      "video_id": "v6ltOjb93Lg",
+      "youtube_url": "https://youtu.be/v6ltOjb93Lg",
+      "title": "COP31’de Fosil Yakıt Dili Olmadan Anlaşma Reddedildi",
+      "narration": "COP31de fosil yakıt maddesi olmadan anlaşma reddedildi Antalyada COP31in son gününde Fransa ve Panama öncülüğündeki ülkeler anlaşmanın fosil yakıt maddesini içermediğini eleştirerek daha güçlü bir iklim anlaşması talep etti Panama Çevre Bakanı Juan Carlos Navarro fosil yakıt dilini içermeyen bir anlaşmayı kabul etmeyeceklerini ve bu durumun anlaşmanın onayını engelleyebileceğini belirtti Aktivistler kara tabelalarla shame yazarak COP31in en kötü toplantı olduğunu iddia edip gelişmekte olan ülkelerin ve sivil toplumun sesini duyurmayı sürdürdü Global Haber kanalına abone ol",
+      "publish_at": "2026-11-21T20:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-11-21T16:00:00Z",
+        "publishAt": "2026-11-21T20:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,54 +23,20 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 37.366667,
+        "duration": 41.033333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/i3TAOGxMDLA.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "qpBD1qgjLI0",
-      "youtube_url": "https://youtu.be/qpBD1qgjLI0",
-      "title": "Sozcu TV’ye polis baskını, yöneticiler tutuklandı",
-      "narration": "Sozcu TVye polis baskını yöneticiler tutuklandı Salı sabahı polis İstanbuldaki Sozcu TV merkezine baskın düzenledi ve birkaç yöneticiyi tutukladı Devlet mevduat sigorta fonu TMSF kanalı yönetmek üzere mütevelli atadı Ana muhalefet partisi lideri Özgür Özel bu sesin susturulamayacağını belirtti Global Haber kanalına abone ol",
-      "publish_at": "2026-11-21T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-21T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 26.533333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/qpBD1qgjLI0.jpg"
+      "preview": "maintenance/previews/v6ltOjb93Lg.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
-  "generation_errors": [
-    {
-      "source": "New NASA Seed Funding Primes Small Businesses for Innovation",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    }
-  ],
-  "target_count": 3,
+  "generation_errors": [],
+  "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
