@@ -7179,6 +7179,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Claude, Riemann Hipotezini Çözdü: İki Grup Doğruladı",
+      "summary": "Anthropic’s Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has said that the San Francisco -based artificial intelligence (AI) company’s software has helped crack one of the most important unsolved problems in mathematics – and experts say the claim checks out. Levent Alpöge, a Turkish American mathematician, on Friday posted a note on his personal website saying that Claude, the AI software, had helped prove the Riemann hypothesis. He says that Claude helped develop a solution to the problem during the course of about six weeks. Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "source": "Guardian World",
+      "published_at": "2026-11-21T23:15:57+03:00",
+      "fingerprint": "94bc18d4ca1a9ac178cb2e919d43e878e4ae33c7",
+      "viral_score": 42.69,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/BbnLG_2JMOc",
+      "processed_at": "2026-11-22T00:49:07.137001+03:00",
+      "video_id": "BbnLG_2JMOc",
+      "publish_at_local": "2026-11-22T19:00:00+03:00",
+      "publish_at_utc": "2026-11-22T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+      "resolved_url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "source_modified_at": "2026-11-21T20:15:57.000Z",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }
