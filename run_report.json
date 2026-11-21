@@ -1,40 +1,12 @@
 {
-  "run_id": "44853697020",
-  "generated_at": "2026-11-21T05:04:50.238179+03:00",
-  "target_count": 1,
+  "run_id": "44919059082",
+  "generated_at": "2026-11-21T18:26:11.290481+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "v6ltOjb93Lg",
-      "youtube_url": "https://youtu.be/v6ltOjb93Lg",
-      "publish_at_local": "2026-11-21T23:00:00+03:00",
-      "publish_at_utc": "2026-11-21T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 1,
-      "title": "COP31’de Fosil Yakıt Dili Olmadan Anlaşma Reddedildi",
-      "narration": "COP31de fosil yakıt maddesi olmadan anlaşma reddedildi Antalyada COP31in son gününde Fransa ve Panama öncülüğündeki ülkeler anlaşmanın fosil yakıt maddesini içermediğini eleştirerek daha güçlü bir iklim anlaşması talep etti Panama Çevre Bakanı Juan Carlos Navarro fosil yakıt dilini içermeyen bir anlaşmayı kabul etmeyeceklerini ve bu durumun anlaşmanın onayını engelleyebileceğini belirtti Aktivistler kara tabelalarla shame yazarak COP31in en kötü toplantı olduğunu iddia edip gelişmekte olan ülkelerin ve sivil toplumun sesini duyurmayı sürdürdü Global Haber kanalına abone ol",
-      "description": "COP31’in son gününde, Fransa ve Panama öncülüğündeki ülkeler, anlaşmanın fosil yakıt maddesini içermediğini eleştirerek daha güçlü bir iklim taahhüdü talep etti. Sizce bu baskı anlaşmanın şekillenmesinde etkili olur mu?",
-      "visual_query": "protesters holding signs",
-      "tags": [
-        "COP31",
-        "iklim değişikliği",
-        "fosil yakıt",
-        "Antalya",
-        "iklim anlaşması"
-      ],
-      "video_path": "output/short_1.mp4",
-      "source_headline": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
-      "audience_bucket": "economy_life",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-21T02:05:04.659101+00:00",
-      "source_modified_at": "",
-      "run_id": "44853697020",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
+  "videos": [],
   "errors": [],
-  "daily_existing_count": 2
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
