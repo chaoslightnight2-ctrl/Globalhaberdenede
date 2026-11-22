@@ -1,19 +1,19 @@
 {
-  "source_run": "44952820888",
-  "verified_at": "2026-11-21T21:58:07.292474+00:00",
+  "source_run": "44969870130",
+  "verified_at": "2026-11-22T01:13:33.128652+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "BbnLG_2JMOc",
-      "youtube_url": "https://youtu.be/BbnLG_2JMOc",
-      "title": "Claude, Riemann Hipotezini Çözdü: İki Grup Doğruladı",
-      "narration": "Claude Riemann hipotezini kanıtladı İki grup doğruladı Anthropicin Türk asıllı matematikçisi Levent Alpöge Claude adlı yapay zekâ sayesinde Riemann hipotezini kanıtladığını kişisel sitesinde duyurdu Aynı hafta iki bağımsız kuruluş Alpögenin Lean dilinde paylaştığı kodu inceleyerek iddiasını doğruladı Uzmanlar bu gelişmenin yapay zekâ ile karmaşık matematik problemlerinin çözümündeki etkisine dair tartışmalar başlattığını belirtti Global Haber kanalına abone ol",
-      "publish_at": "2026-11-22T16:00:00Z",
+      "video_id": "2c6SiQoz4os",
+      "youtube_url": "https://youtu.be/2c6SiQoz4os",
+      "title": "Queensland’da 6-7 Önlenebilir Ölüm: Sağlık Krizi",
+      "narration": "Queenslandda sağlık krizi 6 7 ölümle gündemde Queensland LNP hükümeti iki yıldan fazla süredir iktidarda ve sağlık sistemindeki önlenebilir ölümlerin artışıyla sorumluluk almaya zorlanıyor İktidar lideri Steven Miles acil serviste bekleme süresi nedeniyle 6 7 kişinin ve bir intiharın gerçekleştiğini belirterek hükümeti eleştirdi Global Haber kanalına abone ol",
+      "publish_at": "2026-11-22T20:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-11-22T16:00:00Z",
+        "publishAt": "2026-11-22T20:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,59 +23,20 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 33.066667,
+        "duration": 26.8,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/BbnLG_2JMOc.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "6ZmZ2THCYpY",
-      "youtube_url": "https://youtu.be/6ZmZ2THCYpY",
-      "title": "COP31’de Fosil Yakıt Terimi Taslaktan Silindi",
-      "narration": "COP31de fosil yakıt terimi taslaktan silindi COP31 Antalyada son gününde taslak anlaşmadan fosil yakıt ifadesi çıkarıldı Panama iklim finansmanı ve petrol üretim kısıtlaması eklenmezse resmi itiraz edeceğini duyurdu Power Shift Africa direktörü Mohamed Adow bu eksikliğin COP31i en kötü toplantı yapabileceğini belirtti Global Haber kanalına abone ol",
-      "publish_at": "2026-11-22T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-22T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 28.1,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/6ZmZ2THCYpY.jpg"
+      "preview": "maintenance/previews/2c6SiQoz4os.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
-  "generation_errors": [
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister addressing health"
-    },
-    {
-      "source": "COP31: Countries demand stronger climate deal amid deadlock in Antalya - UN News",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    }
-  ],
-  "target_count": 3,
+  "generation_errors": [],
+  "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
