@@ -1,42 +1,13 @@
 {
-  "source_run": "44969870130",
-  "verified_at": "2026-11-22T01:13:33.128652+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "2c6SiQoz4os",
-      "youtube_url": "https://youtu.be/2c6SiQoz4os",
-      "title": "Queensland’da 6-7 Önlenebilir Ölüm: Sağlık Krizi",
-      "narration": "Queenslandda sağlık krizi 6 7 ölümle gündemde Queensland LNP hükümeti iki yıldan fazla süredir iktidarda ve sağlık sistemindeki önlenebilir ölümlerin artışıyla sorumluluk almaya zorlanıyor İktidar lideri Steven Miles acil serviste bekleme süresi nedeniyle 6 7 kişinin ve bir intiharın gerçekleştiğini belirterek hükümeti eleştirdi Global Haber kanalına abone ol",
-      "publish_at": "2026-11-22T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-22T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 26.8,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/2c6SiQoz4os.jpg"
-    }
-  ],
+  "source_run": "45038105473",
+  "verified_at": "2026-11-22T15:25:55.406436+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
-  "complete": false,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
   "generation_errors": [],
-  "target_count": 1,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
