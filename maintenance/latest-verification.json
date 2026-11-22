@@ -1,13 +1,19 @@
 {
-  "source_run": "45038105473",
-  "verified_at": "2026-11-22T15:25:55.406436+00:00",
+  "source_run": "45074351612",
+  "verified_at": "2026-11-22T21:52:31.681133+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "complete": false,
+  "generation_errors": [
+    {
+      "source": "What's next after no deal at COP31 climate summit?",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
