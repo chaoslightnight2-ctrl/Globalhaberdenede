@@ -1,40 +1,12 @@
 {
-  "run_id": "44969870130",
-  "generated_at": "2026-11-22T04:07:17.083452+03:00",
-  "target_count": 1,
+  "run_id": "45038105473",
+  "generated_at": "2026-11-22T18:25:22.590851+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "2c6SiQoz4os",
-      "youtube_url": "https://youtu.be/2c6SiQoz4os",
-      "publish_at_local": "2026-11-22T23:00:00+03:00",
-      "publish_at_utc": "2026-11-22T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 1,
-      "title": "Queensland’da 6-7 Önlenebilir Ölüm: Sağlık Krizi",
-      "narration": "Queenslandda sağlık krizi 6 7 ölümle gündemde Queensland LNP hükümeti iki yıldan fazla süredir iktidarda ve sağlık sistemindeki önlenebilir ölümlerin artışıyla sorumluluk almaya zorlanıyor İktidar lideri Steven Miles acil serviste bekleme süresi nedeniyle 6 7 kişinin ve bir intiharın gerçekleştiğini belirterek hükümeti eleştirdi Global Haber kanalına abone ol",
-      "description": "Queensland LNP hükümeti, sağlık sistemindeki önlenebilir ölümlerin artışıyla eleştirildi. Sizce bu sorunun çözümü ne olmalı?",
-      "visual_query": "politician speaking health",
-      "tags": [
-        "Queensland",
-        "sağlık sistemi",
-        "önlenebilir ölümler",
-        "politik eleştiri",
-        "LNP"
-      ],
-      "video_path": "output/short_1.mp4",
-      "source_headline": "‘Six, seven, maybe more preventable deaths’: Queensland’s LNP faces reckoning over broken health system",
-      "audience_bucket": "health_education",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-22T01:07:17.549008+00:00",
-      "source_modified_at": "2026-11-22T00:18:29.000Z",
-      "run_id": "44969870130",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
+  "videos": [],
   "errors": [],
-  "daily_existing_count": 2
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
