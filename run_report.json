@@ -1,17 +1,39 @@
 {
-  "run_id": "45074351612",
-  "generated_at": "2026-11-23T00:51:39.119521+03:00",
+  "run_id": "45094826958",
+  "generated_at": "2026-11-23T04:30:25.294183+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": [
+  "videos": [
     {
-      "source": "What's next after no deal at COP31 climate summit?",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+      "video_id": "H3RB4v3XZjA",
+      "youtube_url": "https://youtu.be/H3RB4v3XZjA",
+      "publish_at_local": "2026-11-23T19:00:00+03:00",
+      "publish_at_utc": "2026-11-23T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "COP31'da Çevre Bakanı Chris Bowen kanepede uyudu",
+      "narration": "COP31da Chris Bowen üç gün uykusuz kanepede uyudu Chris Bowen üç gün boyunca hiç uyumadan Antalyada COP31 müzakerelerini yönetti Müzakereler sırasında fosil yakıtların sözleşmeye eklenmesi talebi reddedildi ve bu durum eleştirildi Fijinin iklim bakanı Lynda Tabuya Bowena kapısının her zaman açık olduğunu belirtti Global Haber kanalına abone ol",
+      "description": "Avustralya’nın iklim bakanı Chris Bowen, COP31’de üç gün uykusuz kalarak kanepede uyudu. Sizce bu durum, iklim anlaşmalarının başarısını nasıl etkiler?",
+      "visual_query": "minister couch sleeping",
+      "tags": [
+        "COP31",
+        "İklimDeğişikliği",
+        "Avustralya",
+        "ChrisBowen",
+        "FosilYakıtlar"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the f-word failure is not his alone",
+      "audience_bucket": "nature",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-23T01:30:37.290877+00:00",
+      "source_modified_at": "2026-11-22T23:53:40.000Z",
+      "run_id": "45094826958"
     }
   ],
+  "errors": [],
   "daily_existing_count": 0
 }

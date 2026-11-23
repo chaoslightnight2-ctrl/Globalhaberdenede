@@ -7248,6 +7248,28 @@
       "audience_bucket": "health_education",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31'da Çevre Bakanı Chris Bowen kanepede uyudu",
+      "summary": "Australia’s climate change minister will face a torrent of criticism over his role, but disagreement over fossil fuels proved an unbridgeable sticking point After delivering a major speech to the UN climate talks in Turkey last week, the Australian prime minister, Anthony Albanese, dismissed criticisms that he hadn’t managed to name the problem that is overwhelmingly driving catastrophic global heating – burning fossil fuels. “You could pick out any number of things that were not in what was a short speech,” he later said. Continue reading...",
+      "url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone",
+      "source": "Guardian World",
+      "published_at": "2026-11-23T00:46:40+03:00",
+      "fingerprint": "8c5bd586f61d38c568789da798a0247b79e39aaf",
+      "viral_score": 36.03,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/H3RB4v3XZjA",
+      "processed_at": "2026-11-23T04:35:37.314971+03:00",
+      "video_id": "H3RB4v3XZjA",
+      "publish_at_local": "2026-11-23T19:00:00+03:00",
+      "publish_at_utc": "2026-11-23T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the f-word failure is not his alone",
+      "resolved_url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone",
+      "source_modified_at": "2026-11-22T23:53:40.000Z",
+      "audience_bucket": "nature",
+      "hook_style": "concrete_question"
     }
   ]
 }
