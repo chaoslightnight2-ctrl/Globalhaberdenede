@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-23T01:30:37.290877+00:00",
       "source_modified_at": "2026-11-22T23:53:40.000Z",
+      "run_id": "45094826958",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "0L3bFlQYqFc",
+      "youtube_url": "https://youtu.be/0L3bFlQYqFc",
+      "publish_at_local": "2026-11-23T21:00:00+03:00",
+      "publish_at_utc": "2026-11-23T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "COP31'da iklim anlaşması reddedildi, görüşmeler çöküyor",
+      "narration": "COP31 talks collapse as key climate deal rejected AB Birleşik Krallık ve bazı gelişmekte olan ülkeler COP31de Türkiyede önerilen iklim anlaşmasını fosil yakıtları içermediği gerekçesiyle reddetti İrlanda Çevre Bakanı Darragh OBrien anlaşmanın zamanın gereksinimini karşılamadığını belirtti Birleşmiş Milletler Genel Sekreteri António Guterres zirvenin konsensüs olmadan sona ermesinden derin bir hayal kırıklığı duyduğunu ifade etti Global Haber kanalına abone ol",
+      "description": "COP31'da AB, İngiltere ve bazı gelişmekte olan ülkeler, fosil yakıtları içermeyen iklim anlaşmasını reddetti. Sizce bu durum küresel iklim eylemini nasıl etkiler?",
+      "visual_query": "conference documents rejected",
+      "tags": [
+        "iklim",
+        "COP31",
+        "Türkiye",
+        "iklim anlaşması",
+        "küresel ısınma"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Cop31 climate talks break down as key deal rejected",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-23T01:35:38.866506+00:00",
+      "source_modified_at": "2026-11-22T23:59:05.000Z",
       "run_id": "45094826958"
     }
   ],

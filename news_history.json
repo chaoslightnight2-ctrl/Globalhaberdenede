@@ -7269,7 +7269,30 @@
       "resolved_url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone",
       "source_modified_at": "2026-11-22T23:53:40.000Z",
       "audience_bucket": "nature",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31'da iklim anlaşması reddedildi, görüşmeler çöküyor",
+      "summary": "EU, UK and some of developing world object to main text that ‘failed to meet the moment’ and did not mention fossil fuels The EU, the UK and allies in the developing world rejected what they called an unacceptable deal on the future of the climate, which failed even to mention fossil fuels, in a dramatic finish to the Cop31 UN talks in Turkey. The proposed deal “failed to meet the moment”, said Ireland’s environment minister, Darragh O’Brien, speaking for the EU. “We will not endorse a decision that does not respond to the science and that actually risks deepening the chasm between global commitments and the action required. [It] does not even mention fossil fuels.” Continue reading...",
+      "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+      "source": "Guardian World",
+      "published_at": "2026-11-22T19:14:46+03:00",
+      "fingerprint": "dc0156710b9d2fa39719124b9e8abbc08d0239f0",
+      "viral_score": 30.18,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/0L3bFlQYqFc",
+      "processed_at": "2026-11-23T04:45:00.321657+03:00",
+      "video_id": "0L3bFlQYqFc",
+      "publish_at_local": "2026-11-23T21:00:00+03:00",
+      "publish_at_utc": "2026-11-23T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Cop31 climate talks break down as key deal rejected",
+      "resolved_url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+      "source_modified_at": "2026-11-22T23:59:05.000Z",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
