@@ -59,9 +59,16 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-23T01:35:38.866506+00:00",
       "source_modified_at": "2026-11-22T23:59:05.000Z",
-      "run_id": "45094826958"
+      "run_id": "45094826958",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels - The New York Times",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
   "daily_existing_count": 0
 }
