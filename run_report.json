@@ -1,74 +1,39 @@
 {
-  "run_id": "45094826958",
-  "generated_at": "2026-11-23T04:30:25.294183+03:00",
-  "target_count": 3,
+  "run_id": "45247154948",
+  "generated_at": "2026-11-23T22:17:00.109242+03:00",
+  "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
   "videos": [
     {
-      "video_id": "H3RB4v3XZjA",
-      "youtube_url": "https://youtu.be/H3RB4v3XZjA",
-      "publish_at_local": "2026-11-23T19:00:00+03:00",
-      "publish_at_utc": "2026-11-23T16:00:00Z",
+      "video_id": "kO_HR-PzSoo",
+      "youtube_url": "https://youtu.be/kO_HR-PzSoo",
+      "publish_at_local": "2026-11-23T23:00:00+03:00",
+      "publish_at_utc": "2026-11-23T20:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 1,
-      "title": "COP31'da Çevre Bakanı Chris Bowen kanepede uyudu",
-      "narration": "COP31da Chris Bowen üç gün uykusuz kanepede uyudu Chris Bowen üç gün boyunca hiç uyumadan Antalyada COP31 müzakerelerini yönetti Müzakereler sırasında fosil yakıtların sözleşmeye eklenmesi talebi reddedildi ve bu durum eleştirildi Fijinin iklim bakanı Lynda Tabuya Bowena kapısının her zaman açık olduğunu belirtti Global Haber kanalına abone ol",
-      "description": "Avustralya’nın iklim bakanı Chris Bowen, COP31’de üç gün uykusuz kalarak kanepede uyudu. Sizce bu durum, iklim anlaşmalarının başarısını nasıl etkiler?",
-      "visual_query": "minister couch sleeping",
+      "title": "COP31 Antalya’da anlaşma sağlanamadı, fosil yakıt eksik",
+      "narration": "COP31 Antalyada anlaşma sağlanamadı ülkeler yürüdü Türkiyenin Antalyada düzenlediği COP31 zirvesi tarihî olarak en uzun süren iklim görüşmeleri olmasına rağmen Antalya Paktı olarak adlandırılan temel siyasi anlaşmayı sağlayamadı Son gün fosil yakıtların metinde yer almaması ve finansal konular üzerindeki anlaşmazlık nedeniyle birçok ülke toplantıdan çekildi Avustralya ve Türkiye ortak ev sahipliği yapmasına rağmen ülkeler arası derin jeopolitik bölünmeler anlaşmayı engelledi Global Haber kanalına abone ol",
+      "description": "COP31 Antalya’da kritik bir anlaşma sağlanamadı; fosil yakıtların metinde yer almaması ülkeleri ayırdı. Sizce iklim eylemi için yeni bir yol bulunabilir mi?",
+      "visual_query": "conference protest walkout",
       "tags": [
+        "iklim değişikliği",
         "COP31",
-        "İklimDeğişikliği",
-        "Avustralya",
-        "ChrisBowen",
-        "FosilYakıtlar"
+        "Antalya",
+        "fosil yakıt",
+        "iklim politikası"
       ],
       "video_path": "output/short_1.mp4",
-      "source_headline": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the f-word failure is not his alone",
-      "audience_bucket": "nature",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-23T01:30:37.290877+00:00",
-      "source_modified_at": "2026-11-22T23:53:40.000Z",
-      "run_id": "45094826958",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "0L3bFlQYqFc",
-      "youtube_url": "https://youtu.be/0L3bFlQYqFc",
-      "publish_at_local": "2026-11-23T21:00:00+03:00",
-      "publish_at_utc": "2026-11-23T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "COP31'da iklim anlaşması reddedildi, görüşmeler çöküyor",
-      "narration": "COP31 talks collapse as key climate deal rejected AB Birleşik Krallık ve bazı gelişmekte olan ülkeler COP31de Türkiyede önerilen iklim anlaşmasını fosil yakıtları içermediği gerekçesiyle reddetti İrlanda Çevre Bakanı Darragh OBrien anlaşmanın zamanın gereksinimini karşılamadığını belirtti Birleşmiş Milletler Genel Sekreteri António Guterres zirvenin konsensüs olmadan sona ermesinden derin bir hayal kırıklığı duyduğunu ifade etti Global Haber kanalına abone ol",
-      "description": "COP31'da AB, İngiltere ve bazı gelişmekte olan ülkeler, fosil yakıtları içermeyen iklim anlaşmasını reddetti. Sizce bu durum küresel iklim eylemini nasıl etkiler?",
-      "visual_query": "conference documents rejected",
-      "tags": [
-        "iklim",
-        "COP31",
-        "Türkiye",
-        "iklim anlaşması",
-        "küresel ısınma"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "Cop31 climate talks break down as key deal rejected",
+      "source_headline": "Five takeaways from the failed climate talks COP31",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-23T01:35:38.866506+00:00",
-      "source_modified_at": "2026-11-22T23:59:05.000Z",
-      "run_id": "45094826958",
-      "processing_status": "readback_scope_unavailable"
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-23T19:17:13.912023+00:00",
+      "source_modified_at": "",
+      "run_id": "45247154948"
     }
   ],
-  "errors": [
-    {
-      "source": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels - The New York Times",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    }
-  ],
-  "daily_existing_count": 0
+  "errors": [],
+  "daily_existing_count": 2
 }

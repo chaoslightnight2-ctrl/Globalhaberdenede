@@ -7294,6 +7294,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31 Antalya’da anlaşma sağlanamadı, fosil yakıt eksik",
+      "summary": "The COP31 summit in Antalya was the longest-running climate talks in UN history.",
+      "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-23T09:33:50+03:00",
+      "fingerprint": "75701655cbf7000929b3e09d950a3bb5a02ef078",
+      "viral_score": 22.64,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/kO_HR-PzSoo",
+      "processed_at": "2026-11-23T22:28:48.387638+03:00",
+      "video_id": "kO_HR-PzSoo",
+      "publish_at_local": "2026-11-23T23:00:00+03:00",
+      "publish_at_utc": "2026-11-23T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Five takeaways from the failed climate talks COP31",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
