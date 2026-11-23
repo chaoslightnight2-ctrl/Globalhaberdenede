@@ -1,14 +1,71 @@
 {
-  "source_run": "45074351612",
-  "verified_at": "2026-11-22T21:52:31.681133+00:00",
-  "videos": [],
+  "source_run": "45094826958",
+  "verified_at": "2026-11-23T01:46:09.282932+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "H3RB4v3XZjA",
+      "youtube_url": "https://youtu.be/H3RB4v3XZjA",
+      "title": "COP31'da Çevre Bakanı Chris Bowen kanepede uyudu",
+      "narration": "COP31da Chris Bowen üç gün uykusuz kanepede uyudu Chris Bowen üç gün boyunca hiç uyumadan Antalyada COP31 müzakerelerini yönetti Müzakereler sırasında fosil yakıtların sözleşmeye eklenmesi talebi reddedildi ve bu durum eleştirildi Fijinin iklim bakanı Lynda Tabuya Bowena kapısının her zaman açık olduğunu belirtti Global Haber kanalına abone ol",
+      "publish_at": "2026-11-23T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-23T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 27.433333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/H3RB4v3XZjA.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "0L3bFlQYqFc",
+      "youtube_url": "https://youtu.be/0L3bFlQYqFc",
+      "title": "COP31'da iklim anlaşması reddedildi, görüşmeler çöküyor",
+      "narration": "COP31 talks collapse as key climate deal rejected AB Birleşik Krallık ve bazı gelişmekte olan ülkeler COP31de Türkiyede önerilen iklim anlaşmasını fosil yakıtları içermediği gerekçesiyle reddetti İrlanda Çevre Bakanı Darragh OBrien anlaşmanın zamanın gereksinimini karşılamadığını belirtti Birleşmiş Milletler Genel Sekreteri António Guterres zirvenin konsensüs olmadan sona ermesinden derin bir hayal kırıklığı duyduğunu ifade etti Global Haber kanalına abone ol",
+      "publish_at": "2026-11-23T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-23T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 34.166667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/0L3bFlQYqFc.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 2,
+  "processed_count": 2,
   "complete": false,
   "generation_errors": [
     {
-      "source": "What's next after no deal at COP31 climate summit?",
+      "source": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels - The New York Times",
       "stage": "generation",
       "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
