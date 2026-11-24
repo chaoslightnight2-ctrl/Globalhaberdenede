@@ -1,42 +1,19 @@
 {
-  "source_run": "45247154948",
-  "verified_at": "2026-11-23T19:29:28.670176+00:00",
-  "videos": [
+  "source_run": "45325602835",
+  "verified_at": "2026-11-24T04:21:06.541366+00:00",
+  "videos": [],
+  "errors": [],
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": false,
+  "generation_errors": [
     {
-      "index": 1,
-      "video_id": "kO_HR-PzSoo",
-      "youtube_url": "https://youtu.be/kO_HR-PzSoo",
-      "title": "COP31 Antalya’da anlaşma sağlanamadı, fosil yakıt eksik",
-      "narration": "COP31 Antalyada anlaşma sağlanamadı ülkeler yürüdü Türkiyenin Antalyada düzenlediği COP31 zirvesi tarihî olarak en uzun süren iklim görüşmeleri olmasına rağmen Antalya Paktı olarak adlandırılan temel siyasi anlaşmayı sağlayamadı Son gün fosil yakıtların metinde yer almaması ve finansal konular üzerindeki anlaşmazlık nedeniyle birçok ülke toplantıdan çekildi Avustralya ve Türkiye ortak ev sahipliği yapmasına rağmen ülkeler arası derin jeopolitik bölünmeler anlaşmayı engelledi Global Haber kanalına abone ol",
-      "publish_at": "2026-11-23T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-23T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 37.6,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/kO_HR-PzSoo.jpg"
+      "source": "What's next after no deal at COP31 climate summit?",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
-  "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
-  "complete": false,
-  "generation_errors": [],
-  "target_count": 1,
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
