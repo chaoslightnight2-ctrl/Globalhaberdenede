@@ -1,40 +1,17 @@
 {
-  "run_id": "45247154948",
-  "generated_at": "2026-11-23T22:17:00.109242+03:00",
-  "target_count": 1,
+  "run_id": "45325602835",
+  "generated_at": "2026-11-24T07:20:20.111735+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [
+  "complete": false,
+  "videos": [],
+  "errors": [
     {
-      "video_id": "kO_HR-PzSoo",
-      "youtube_url": "https://youtu.be/kO_HR-PzSoo",
-      "publish_at_local": "2026-11-23T23:00:00+03:00",
-      "publish_at_utc": "2026-11-23T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 1,
-      "title": "COP31 Antalya’da anlaşma sağlanamadı, fosil yakıt eksik",
-      "narration": "COP31 Antalyada anlaşma sağlanamadı ülkeler yürüdü Türkiyenin Antalyada düzenlediği COP31 zirvesi tarihî olarak en uzun süren iklim görüşmeleri olmasına rağmen Antalya Paktı olarak adlandırılan temel siyasi anlaşmayı sağlayamadı Son gün fosil yakıtların metinde yer almaması ve finansal konular üzerindeki anlaşmazlık nedeniyle birçok ülke toplantıdan çekildi Avustralya ve Türkiye ortak ev sahipliği yapmasına rağmen ülkeler arası derin jeopolitik bölünmeler anlaşmayı engelledi Global Haber kanalına abone ol",
-      "description": "COP31 Antalya’da kritik bir anlaşma sağlanamadı; fosil yakıtların metinde yer almaması ülkeleri ayırdı. Sizce iklim eylemi için yeni bir yol bulunabilir mi?",
-      "visual_query": "conference protest walkout",
-      "tags": [
-        "iklim değişikliği",
-        "COP31",
-        "Antalya",
-        "fosil yakıt",
-        "iklim politikası"
-      ],
-      "video_path": "output/short_1.mp4",
-      "source_headline": "Five takeaways from the failed climate talks COP31",
-      "audience_bucket": "economy_life",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-23T19:17:13.912023+00:00",
-      "source_modified_at": "",
-      "run_id": "45247154948",
-      "processing_status": "readback_scope_unavailable"
+      "source": "What's next after no deal at COP31 climate summit?",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
-  "errors": [],
-  "daily_existing_count": 2
+  "daily_existing_count": 0
 }
