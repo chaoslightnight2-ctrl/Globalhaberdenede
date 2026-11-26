@@ -1,104 +1,13 @@
 {
-  "source_run": "45738183188",
-  "verified_at": "2026-11-26T02:16:54.806713+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "oADh1uXb7Oc",
-      "youtube_url": "https://youtu.be/oADh1uXb7Oc",
-      "title": "Avrupa, Irak‑Türkiye Gelişim Yolunun Bitişini Soruyor",
-      "narration": "Avrupa yetkilileri Irak Türkiye yolunun bitiş tarihini soruyor Irak Ulaştırma Bakanı Wahab Salman Al Hasani Irak Türkiye Gelişim Yolu projesinin ilerlediğini duyurdu Türkiye Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Avrupa yetkililerinin yolun tamamlanma tarihini her gün sorduğunu belirtti Projenin mühendislik tasarımları ileri aşamalara ulaşmış ve Körfezi Avrupaya bağlayacak bir koridor oluşturuyor Global Haber kanalına abone ol",
-      "publish_at": "2026-11-26T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-26T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 31.866667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/oADh1uXb7Oc.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "j_GMFEgSdG4",
-      "youtube_url": "https://youtu.be/j_GMFEgSdG4",
-      "title": "SpaceX, bir milyon uyduyla uzayda veri merkezi kuracak",
-      "narration": "SpaceXin bir milyon uydu projesi onaylandı ABD düzenleyicileri SpaceXin bir milyon uyduyu yörüngeye yerleştirerek uzayda veri merkezleri kurma planını onayladı FCC projenin Amerikanın yapay zeka ekonomisini destekleyeceğini ve Kasım 2033e kadar dağıtıma başlanması gerektiğini belirtti Elon Musk bu hamlenin hem Amerika hem de dünya için büyük bir avantaj olacağını X platformunda duyurdu Global Haber kanalına abone ol",
-      "publish_at": "2026-11-26T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-26T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 33.2,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/j_GMFEgSdG4.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "iP6Dh-0fkLQ",
-      "youtube_url": "https://youtu.be/iP6Dh-0fkLQ",
-      "title": "NASA, GRACE Aerospace'a 500 bin dolarlık destek sağladı",
-      "narration": "NASA Boeing ile 500 bin dolarlık iş birliği başlattı NASA Küçük İşletme Tedarikçi Geliştirme Programını yeniden adlandırarak başvuru sürecini basitleştirdi Program kapsamında Boeing GRACE Aerospace ile yaklaşık 500000 dolarlık Mentor Protégé anlaşması imzaladı NASA yetkilisi Dwight Deneal programın görev odaklı bir araç olduğunu vurguladı Global Haber kanalına abone ol",
-      "publish_at": "2026-11-26T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-26T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 27.9,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/iP6Dh-0fkLQ.jpg"
-    }
-  ],
+  "source_run": "45748961124",
+  "verified_at": "2026-11-26T03:28:18.366221+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: coast high tide flooding"
-    }
-  ],
-  "target_count": 3,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
