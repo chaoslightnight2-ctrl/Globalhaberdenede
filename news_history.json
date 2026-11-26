@@ -7317,6 +7317,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Avrupa, Irak‑Türkiye Gelişim Yolunun Bitişini Soruyor",
+      "summary": "Turkey highlight urgent European demand for Development Road at Baghdad Transport Expo IraqiNews",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcHFUeG15Q0xSSmtZMGFUaEF2NXNuNGJ1RE1wZUFwbXpQTHVvcUZGR2tfemp5MUNLeDI1NlYzTUpoTEhfSmcwY3NwUlZacFlRa3ZzbnFrOFRrYkZiUlE4UU9BeWNXWGRHY293RUdvQkJuMS1RX1IwUXB1SVU3ZWV6NnlBRG5EdGlQZ3RSSkdjdFNBRzlFMFZ4cG5iOHdyT19mc2JZZ1NIRWZoZlNKOV9jNWVPTC1fbkZwenVFSjVnZHY?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-25T17:09:41+03:00",
+      "fingerprint": "196d25adb0748a601c2ca6e40f510a334429724c",
+      "viral_score": 27.34,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/oADh1uXb7Oc",
+      "processed_at": "2026-11-26T05:00:57.764325+03:00",
+      "video_id": "oADh1uXb7Oc",
+      "publish_at_local": "2026-11-26T19:00:00+03:00",
+      "publish_at_utc": "2026-11-26T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Turkey highlight urgent European demand for Development Road at Baghdad Transport Expo",
+      "resolved_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcHFUeG15Q0xSSmtZMGFUaEF2NXNuNGJ1RE1wZUFwbXpQTHVvcUZGR2tfemp5MUNLeDI1NlYzTUpoTEhfSmcwY3NwUlZacFlRa3ZzbnFrOFRrYkZiUlE4UU9BeWNXWGRHY293RUdvQkJuMS1RX1IwUXB1SVU3ZWV6NnlBRG5EdGlQZ3RSSkdjdFNBRzlFMFZ4cG5iOHdyT19mc2JZZ1NIRWZoZlNKOV9jNWVPTC1fbkZwenVFSjVnZHY?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change"
     }
   ]
 }

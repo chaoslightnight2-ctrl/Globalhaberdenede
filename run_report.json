@@ -1,17 +1,39 @@
 {
-  "run_id": "45670469490",
-  "generated_at": "2026-11-25T21:06:21.245835+03:00",
+  "run_id": "45738183188",
+  "generated_at": "2026-11-26T04:49:02.986768+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": [
+  "videos": [
     {
-      "source": "What's next after no deal at COP31 climate summit?",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+      "video_id": "oADh1uXb7Oc",
+      "youtube_url": "https://youtu.be/oADh1uXb7Oc",
+      "publish_at_local": "2026-11-26T19:00:00+03:00",
+      "publish_at_utc": "2026-11-26T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Avrupa, Irak‑Türkiye Gelişim Yolunun Bitişini Soruyor",
+      "narration": "Avrupa yetkilileri Irak Türkiye yolunun bitiş tarihini soruyor Irak Ulaştırma Bakanı Wahab Salman Al Hasani Irak Türkiye Gelişim Yolu projesinin ilerlediğini duyurdu Türkiye Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Avrupa yetkililerinin yolun tamamlanma tarihini her gün sorduğunu belirtti Projenin mühendislik tasarımları ileri aşamalara ulaşmış ve Körfezi Avrupaya bağlayacak bir koridor oluşturuyor Global Haber kanalına abone ol",
+      "description": "Irak‑Türkiye Gelişim Yolu projesi, Avrupa’nın günlük sorularıyla gündemde. Sizce bu koridor bölgenin ekonomisini nasıl şekillendirir?",
+      "visual_query": "road construction meeting",
+      "tags": [
+        "Irak",
+        "Türkiye",
+        "gelişim yolu",
+        "ulaşım",
+        "Avrupa"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Turkey highlight urgent European demand for Development Road at Baghdad Transport Expo",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-26T01:49:20.253615+00:00",
+      "source_modified_at": "",
+      "run_id": "45738183188"
     }
   ],
+  "errors": [],
   "daily_existing_count": 0
 }
