@@ -7361,7 +7361,30 @@
       "resolved_url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
       "source_modified_at": "",
       "audience_bucket": "technology_science",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "NASA, GRACE Aerospace'a 500 bin dolarlık destek sağladı",
+      "summary": "NASA’s Office of Small Business Programs (OSBP) hosted a ceremonial Mentor-Protégé Agreement signing between The Boeing Company and GRACE Aerospace on Oct. 29, 2026, at the U.S. Space and Rocket Center in Huntsville, Alabama. Pictured in the front row, from left to right, are Pauline Sevigny, president and owner, GRACE Aerospace; Christian Diamond, Mentor-Protégé Program manager, The Boeing Company; and Dwight Deneal, assistant administrator, OSBP. Pictured in the back row, from left to right, are Danielle Barnes, small business specialist, OSBP; Grant Crawford, Logan Ojermark, Nikki Howard, and Sabrina Pearson, contracting officers, NASA’s SLS (Space Launch System) stages team; Christen Edwards, lead, SLS stages team; Bradley Niese, NASA’s senior procurement executive, deputy chief acquisition officer, and assistant administrator, Office of Procurement; Chris Hall, program manager, OSBP; and Kristina Parmenter, procurement officer, NASA’s Marshall Space Flight Center. Credit: Justin Fields, Light Rain Studio How NASA works with small businesses is evolving, and as a result, the agency is strengthening the domestic aerospace industrial base to support future exploration missions through its recently renamed Small Business Supplier Development Program. As part of the program, NASA announced its latest Mentor-Protégé Agreement, this one signed between The Boeing Company and GRACE Aerospace. NASA is streamlining the application process for the Small Business Supplier Development Program, as well as reducing administrative requirements, accelerating review and approval timelines, and enhancing incentives for prime contractor participation. These improvements are aimed at making supplier development more accessible, efficient, and closely aligned with NASA’s mission needs. “We have intentionally redesigned the program as a mission-focused tool for strengthening industrial base readiness and mission success,” said Dwight Deneal, assistant administrator, Office of Small Business Programs, NASA Headquarters in Washington. “By simplifying participation and focusing developmental assistance on the capabilities NASA needs most, we are helping build a stronger, more resilient supplier base that can support the agency’s highest-priority missions.” Under the new Mentor-Protégé Agreement, Boeing will provide structured assistance to help GRACE expand its capabilities as a supplier of mission-critical aerospace hardware. Boeing will fund the agreement, valued at nearly $500,000. “Boeing is proud to continue its longstanding relationship with NASA in support of its mission and the opportunities this agreement creates for Boeing, GRACE, and the broader aerospace industrial base,” said Christian Diamond, Mentor-Protégé Program manager and small business liaison officer for Boeing. “Through this partnership, Boeing looks forward to sharing our expertise to support the continued growth and long-term success of a small business while strengthening our supplier base.” Building on two decades of experience supporting defense and aerospace customers, GRACE will use the partnership to prepare for increasingly complex aerospace and spaceflight programs. “GRACE Aerospace is thankful and honored to participate in the program,” said Pauline Sevigny, president and owner of GRACE Aerospace. “We look forward to growing and learning from industry experts and supporting the mission of resilience and space superiority.” NASA’s enhanced supplier program is part of the agency’s broader Office of Small Business Programs. For more information, visit: https://www.nasa.gov/osbp/supplier-development-program/ Share Details Last Updated Nov 25, 2026 Location NASA Headquarters Related Terms Office of Small Business Programs (OSBP)",
+      "url": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
+      "source": "NASA",
+      "published_at": "2026-11-25T22:06:56+03:00",
+      "fingerprint": "6284090e32594f7e0d5e480a5215f9887ab61a86",
+      "viral_score": 41.27,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/iP6Dh-0fkLQ",
+      "processed_at": "2026-11-26T05:16:10.602009+03:00",
+      "video_id": "iP6Dh-0fkLQ",
+      "publish_at_local": "2026-11-26T23:00:00+03:00",
+      "publish_at_utc": "2026-11-26T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
+      "resolved_url": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
+      "source_modified_at": "2026-11-25T14:07:41-05:00",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }
