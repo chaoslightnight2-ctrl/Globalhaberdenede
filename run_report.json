@@ -31,9 +31,43 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-26T01:49:20.253615+00:00",
       "source_modified_at": "",
+      "run_id": "45738183188",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "j_GMFEgSdG4",
+      "youtube_url": "https://youtu.be/j_GMFEgSdG4",
+      "publish_at_local": "2026-11-26T21:00:00+03:00",
+      "publish_at_utc": "2026-11-26T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "SpaceX, bir milyon uyduyla uzayda veri merkezi kuracak",
+      "narration": "SpaceXin bir milyon uydu projesi onaylandı ABD düzenleyicileri SpaceXin bir milyon uyduyu yörüngeye yerleştirerek uzayda veri merkezleri kurma planını onayladı FCC projenin Amerikanın yapay zeka ekonomisini destekleyeceğini ve Kasım 2033e kadar dağıtıma başlanması gerektiğini belirtti Elon Musk bu hamlenin hem Amerika hem de dünya için büyük bir avantaj olacağını X platformunda duyurdu Global Haber kanalına abone ol",
+      "description": "SpaceX'in bir milyon uyduyla uzayda veri merkezi planı FCC tarafından onaylandı. Sizce uzaydaki veri merkezleri yerel veri merkezlerine göre daha sürdürülebilir mi?",
+      "visual_query": "satellite launch orbit",
+      "tags": [
+        "uzay",
+        "uydu",
+        "veri merkezi",
+        "yapay zeka",
+        "regülasyon"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "US approves SpaceX plan to send a million data satellites to space",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-26T02:01:27.347358+00:00",
+      "source_modified_at": "",
       "run_id": "45738183188"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: coast high tide flooding"
+    }
+  ],
   "daily_existing_count": 0
 }
