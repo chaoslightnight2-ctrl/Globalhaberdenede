@@ -1,102 +1,12 @@
 {
-  "run_id": "45738183188",
-  "generated_at": "2026-11-26T04:49:02.986768+03:00",
-  "target_count": 3,
+  "run_id": "45748961124",
+  "generated_at": "2026-11-26T06:27:47.709044+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "oADh1uXb7Oc",
-      "youtube_url": "https://youtu.be/oADh1uXb7Oc",
-      "publish_at_local": "2026-11-26T19:00:00+03:00",
-      "publish_at_utc": "2026-11-26T16:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 1,
-      "title": "Avrupa, Irak‑Türkiye Gelişim Yolunun Bitişini Soruyor",
-      "narration": "Avrupa yetkilileri Irak Türkiye yolunun bitiş tarihini soruyor Irak Ulaştırma Bakanı Wahab Salman Al Hasani Irak Türkiye Gelişim Yolu projesinin ilerlediğini duyurdu Türkiye Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Avrupa yetkililerinin yolun tamamlanma tarihini her gün sorduğunu belirtti Projenin mühendislik tasarımları ileri aşamalara ulaşmış ve Körfezi Avrupaya bağlayacak bir koridor oluşturuyor Global Haber kanalına abone ol",
-      "description": "Irak‑Türkiye Gelişim Yolu projesi, Avrupa’nın günlük sorularıyla gündemde. Sizce bu koridor bölgenin ekonomisini nasıl şekillendirir?",
-      "visual_query": "road construction meeting",
-      "tags": [
-        "Irak",
-        "Türkiye",
-        "gelişim yolu",
-        "ulaşım",
-        "Avrupa"
-      ],
-      "video_path": "output/short_1.mp4",
-      "source_headline": "Turkey highlight urgent European demand for Development Road at Baghdad Transport Expo",
-      "audience_bucket": "transport_cities",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-26T01:49:20.253615+00:00",
-      "source_modified_at": "",
-      "run_id": "45738183188",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "j_GMFEgSdG4",
-      "youtube_url": "https://youtu.be/j_GMFEgSdG4",
-      "publish_at_local": "2026-11-26T21:00:00+03:00",
-      "publish_at_utc": "2026-11-26T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 3,
-      "title": "SpaceX, bir milyon uyduyla uzayda veri merkezi kuracak",
-      "narration": "SpaceXin bir milyon uydu projesi onaylandı ABD düzenleyicileri SpaceXin bir milyon uyduyu yörüngeye yerleştirerek uzayda veri merkezleri kurma planını onayladı FCC projenin Amerikanın yapay zeka ekonomisini destekleyeceğini ve Kasım 2033e kadar dağıtıma başlanması gerektiğini belirtti Elon Musk bu hamlenin hem Amerika hem de dünya için büyük bir avantaj olacağını X platformunda duyurdu Global Haber kanalına abone ol",
-      "description": "SpaceX'in bir milyon uyduyla uzayda veri merkezi planı FCC tarafından onaylandı. Sizce uzaydaki veri merkezleri yerel veri merkezlerine göre daha sürdürülebilir mi?",
-      "visual_query": "satellite launch orbit",
-      "tags": [
-        "uzay",
-        "uydu",
-        "veri merkezi",
-        "yapay zeka",
-        "regülasyon"
-      ],
-      "video_path": "output/short_3.mp4",
-      "source_headline": "US approves SpaceX plan to send a million data satellites to space",
-      "audience_bucket": "technology_science",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-26T02:01:27.347358+00:00",
-      "source_modified_at": "",
-      "run_id": "45738183188",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "iP6Dh-0fkLQ",
-      "youtube_url": "https://youtu.be/iP6Dh-0fkLQ",
-      "publish_at_local": "2026-11-26T23:00:00+03:00",
-      "publish_at_utc": "2026-11-26T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 4,
-      "title": "NASA, GRACE Aerospace'a 500 bin dolarlık destek sağladı",
-      "narration": "NASA Boeing ile 500 bin dolarlık iş birliği başlattı NASA Küçük İşletme Tedarikçi Geliştirme Programını yeniden adlandırarak başvuru sürecini basitleştirdi Program kapsamında Boeing GRACE Aerospace ile yaklaşık 500000 dolarlık Mentor Protégé anlaşması imzaladı NASA yetkilisi Dwight Deneal programın görev odaklı bir araç olduğunu vurguladı Global Haber kanalına abone ol",
-      "description": "NASA, Küçük İşletme Tedarikçi Geliştirme Programı kapsamında Boeing ile 500 bin dolarlık Mentor‑Protégé anlaşması imzaladı. Sizce bu iş birliği yerli uzay sanayisine nasıl katkı sağlar?",
-      "visual_query": "boeing mentors aerospace",
-      "tags": [
-        "NASA",
-        "Boeing",
-        "GRACE Aerospace",
-        "mentor protégé",
-        "küçük işletme"
-      ],
-      "video_path": "output/short_4.mp4",
-      "source_headline": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
-      "audience_bucket": "technology_science",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-26T02:08:40.776124+00:00",
-      "source_modified_at": "2026-11-25T14:07:41-05:00",
-      "run_id": "45738183188",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: coast high tide flooding"
-    }
-  ],
-  "daily_existing_count": 0
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
