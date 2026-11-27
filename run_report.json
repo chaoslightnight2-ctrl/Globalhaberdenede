@@ -1,6 +1,6 @@
 {
-  "run_id": "45934911700",
-  "generated_at": "2026-11-27T06:34:56.559844+03:00",
+  "run_id": "46042231954",
+  "generated_at": "2026-11-27T20:30:18.852555+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
@@ -13,7 +13,7 @@
       "error": "No described asset matches scene 0: coast high tide flooding"
     },
     {
-      "source": "Watch: Alaskan flying team airdrops Thanksgiving turkeys to remote communities",
+      "source": "How Much Does a Failed Climate Summit Cost? For Turkey, Nearly $700 Million - Bloomberg.com",
       "stage": "generation",
       "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
