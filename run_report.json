@@ -1,12 +1,22 @@
 {
-  "run_id": "45870336660",
-  "generated_at": "2026-11-26T20:45:42.109732+03:00",
-  "target_count": 0,
+  "run_id": "45924401175",
+  "generated_at": "2026-11-27T04:46:24.718050+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
+  "complete": false,
   "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: coast high tide flooding"
+    },
+    {
+      "source": "Watch: Alaskan flying team airdrops Thanksgiving turkeys to remote communities",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
+  "daily_existing_count": 0
 }
