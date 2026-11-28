@@ -7430,7 +7430,30 @@
       "resolved_url": "https://www.bbc.co.uk/iplayer/episode/m00353dd/tech-now-space-travel-mission-autonomous?at_campaign=rss&at_medium=RSS",
       "source_modified_at": "",
       "audience_bucket": "technology_science",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31 Antalya’da Kararlar Alındı; Siyasi Uzlaşı Eksik",
+      "summary": "After Antalya: Climate Diplomacy’s Crisis of Trust Impakter",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ha1U4RmdCci1QSzNCbVh0UlNCMnAzaXVtNWJpWW1rQ0dmdzlnQmcwa2VtOWRVWUY4MXBoS0ljUFNnaW4zeHh6Q2NLS2FabFdkYlJHZlpfWnZMcGRSVVFFSHRFU25raHlrY1JwTVdCVmJLVC1aNWUxUkl3?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-26T13:03:06+03:00",
+      "fingerprint": "a519f9cc714141f5015f935c9694381f60798468",
+      "viral_score": 3.0,
+      "scheduled_slot": "23:00",
+      "youtube_url": "https://youtu.be/lZV8NQnEjV8",
+      "processed_at": "2026-11-28T04:53:26.949525+03:00",
+      "video_id": "lZV8NQnEjV8",
+      "publish_at_local": "2026-11-28T23:00:00+03:00",
+      "publish_at_utc": "2026-11-28T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "After Antalya: Climate Diplomacy’s Crisis of Trust",
+      "resolved_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ha1U4RmdCci1QSzNCbVh0UlNCMnAzaXVtNWJpWW1rQ0dmdzlnQmcwa2VtOWRVWUY4MXBoS0ljUFNnaW4zeHh6Q2NLS2FabFdkYlJHZlpfWnZMcGRSVVFFSHRFU25raHlrY1JwTVdCVmJLVC1aNWUxUkl3?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }

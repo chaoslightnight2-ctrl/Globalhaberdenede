@@ -59,6 +59,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-28T01:36:22.346180+00:00",
       "source_modified_at": "",
+      "run_id": "46093280976",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "lZV8NQnEjV8",
+      "youtube_url": "https://youtu.be/lZV8NQnEjV8",
+      "publish_at_local": "2026-11-28T23:00:00+03:00",
+      "publish_at_utc": "2026-11-28T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "COP31 Antalya’da Kararlar Alındı; Siyasi Uzlaşı Eksik",
+      "narration": "COP31 Antalyada kararlar alındı ama uzlaşı eksik Antalyada gerçekleşen COP31 iklim zirvesi ortak bir siyasi paket oluşturulamasa da adil geçiş ve kayıp zarar fonu gibi kararlar alındı Birleşmiş Milletler İklim Değişikliği Yürütme Sekreteri Simon Stiell COP32nin daha güçlü bir siyasi uzlaşı gerektirdiğini vurguladı Uzmanlar gelecekteki başarının finansmanın hedeflenen alıcılara ulaşması ve adaptasyon projelerinin hayata geçirilmesiyle ölçüleceğini belirtiyor Global Haber kanalına abone ol",
+      "description": "COP31 Antalya’da kapsamlı bir anlaşma sağlanamasa da adil geçiş ve kayıp‑zarar fonu gibi kararlar alındı. Sizce bir sonraki COP32 bu eksikliği kapatabilir mi?",
+      "visual_query": "climate conference decisions",
+      "tags": [
+        "iklim değişikliği",
+        "COP31",
+        "Antalya",
+        "adil geçiş",
+        "iklim finansmanı"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "After Antalya: Climate Diplomacy’s Crisis of Trust",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-28T01:45:28.217397+00:00",
+      "source_modified_at": "",
       "run_id": "46093280976"
     }
   ],
@@ -67,6 +95,11 @@
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: coast high tide flooding"
+    },
+    {
+      "index": 4,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: satellite mapping sinking"
     }
   ],
   "daily_existing_count": 0
