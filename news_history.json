@@ -7407,7 +7407,30 @@
       "resolved_url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Sydney'de Robotik Uzay Keşfi: Mission Autonomous Bölümü",
+      "summary": "Ammie Sekhon looks at robotics that could one day help spacecraft act independently.",
+      "url": "https://www.bbc.co.uk/iplayer/episode/m00353dd?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "published_at": "2026-11-28T04:00:00+03:00",
+      "fingerprint": "7b38e78156bbe7325cb9a3fa727c48d1599130b9",
+      "viral_score": 39.2,
+      "scheduled_slot": "21:00",
+      "youtube_url": "https://youtu.be/LfuDD9Z2r08",
+      "processed_at": "2026-11-28T04:43:59.732470+03:00",
+      "video_id": "LfuDD9Z2r08",
+      "publish_at_local": "2026-11-28T21:00:00+03:00",
+      "publish_at_utc": "2026-11-28T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "Tech Now - Space Travel: Mission Autonomous",
+      "resolved_url": "https://www.bbc.co.uk/iplayer/episode/m00353dd/tech-now-space-travel-mission-autonomous?at_campaign=rss&at_medium=RSS",
+      "source_modified_at": "",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }

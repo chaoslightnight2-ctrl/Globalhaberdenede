@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-28T01:29:50.954561+00:00",
       "source_modified_at": "",
+      "run_id": "46093280976",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "LfuDD9Z2r08",
+      "youtube_url": "https://youtu.be/LfuDD9Z2r08",
+      "publish_at_local": "2026-11-28T21:00:00+03:00",
+      "publish_at_utc": "2026-11-28T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Sydney'de Robotik Uzay Keşfi: Mission Autonomous Bölümü",
+      "narration": "Robotlar uzay keşfine yön veriyor detaylar burada Nick Kwek Sydneydeki Ulusal Uzay Endüstri Merkezini ziyaret etti Orada robotların uzay keşfindeki rolü incelendi Bölüm robotik teknolojilerin gelecekteki görevlerde nasıl kullanılacağını gösterdi Global Haber kanalına abone ol",
+      "description": "Bu bölümde robotların uzay görevlerine nasıl entegre edildiği gösterildi. Sizce gelecekte insanlı uzay yolculukları robotlar olmadan mümkün mü?",
+      "visual_query": "robot exploring space",
+      "tags": [
+        "uzay",
+        "robotik",
+        "teknoloji",
+        "misyon",
+        "Sydney"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Tech Now - Space Travel: Mission Autonomous",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-28T01:36:22.346180+00:00",
+      "source_modified_at": "",
       "run_id": "46093280976"
     }
   ],
