@@ -7386,6 +7386,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Kenneth Law, Kanadalı Zehir Satıcısı Özür Diledi",
+      "summary": "The Canadian man, who pleaded guilty to 14 counts of aiding and abetting suicide earlier this year, said he was remorseful for his actions.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-28T03:56:55+03:00",
+      "fingerprint": "03902e924a80080d8823418b1bac26ac2aeb51ed",
+      "viral_score": 51.12,
+      "scheduled_slot": "19:00",
+      "youtube_url": "https://youtu.be/Xlgr8t2QOPA",
+      "processed_at": "2026-11-28T04:36:19.940153+03:00",
+      "video_id": "Xlgr8t2QOPA",
+      "publish_at_local": "2026-11-28T19:00:00+03:00",
+      "publish_at_utc": "2026-11-28T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "source_headline": "'Poison seller' Kenneth Law apologises in court to the families of his victims",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
