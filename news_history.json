@@ -7453,7 +7453,8 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ha1U4RmdCci1QSzNCbVh0UlNCMnAzaXVtNWJpWW1rQ0dmdzlnQmcwa2VtOWRVWUY4MXBoS0ljUFNnaW4zeHh6Q2NLS2FabFdkYlJHZlpfWnZMcGRSVVFFSHRFU25raHlrY1JwTVdCVmJLVC1aNWUxUkl3?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
