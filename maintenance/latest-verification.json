@@ -1,10 +1,95 @@
 {
-  "source_run": "46042231954",
-  "verified_at": "2026-11-27T17:31:28.570105+00:00",
-  "videos": [],
+  "source_run": "46093280976",
+  "verified_at": "2026-11-28T01:54:07.800867+00:00",
+  "videos": [
+    {
+      "index": 2,
+      "video_id": "Xlgr8t2QOPA",
+      "youtube_url": "https://youtu.be/Xlgr8t2QOPA",
+      "title": "Kenneth Law, Kanadalı Zehir Satıcısı Özür Diledi",
+      "narration": "Kanadalı zehir satıcısı mahkemede ailelere özür diledi Kenneth Law 61 yaşındaki Kanadalı Ontario mahkemesinde ailelere özür diledi Mayıs ayında 14 intihar ölümüne yardım suçunu kabul etti ve İngiltere ile Gallerde de yüzlerce ölümde sorumluluk taşıdığını itiraf etti Savcılar 25 yıl hapis talep ederken savunma 12 yıl öneriyor önerilen ceza uygulanırsa tutuklu yaklaşık 20 yıl ceza alacak Global Haber kanalına abone ol",
+      "publish_at": "2026-11-28T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-28T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 32.166667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/Xlgr8t2QOPA.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "LfuDD9Z2r08",
+      "youtube_url": "https://youtu.be/LfuDD9Z2r08",
+      "title": "Sydney'de Robotik Uzay Keşfi: Mission Autonomous Bölümü",
+      "narration": "Robotlar uzay keşfine yön veriyor detaylar burada Nick Kwek Sydneydeki Ulusal Uzay Endüstri Merkezini ziyaret etti Orada robotların uzay keşfindeki rolü incelendi Bölüm robotik teknolojilerin gelecekteki görevlerde nasıl kullanılacağını gösterdi Global Haber kanalına abone ol",
+      "publish_at": "2026-11-28T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-28T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 23.2,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/LfuDD9Z2r08.jpg"
+    },
+    {
+      "index": 5,
+      "video_id": "lZV8NQnEjV8",
+      "youtube_url": "https://youtu.be/lZV8NQnEjV8",
+      "title": "COP31 Antalya’da Kararlar Alındı; Siyasi Uzlaşı Eksik",
+      "narration": "COP31 Antalyada kararlar alındı ama uzlaşı eksik Antalyada gerçekleşen COP31 iklim zirvesi ortak bir siyasi paket oluşturulamasa da adil geçiş ve kayıp zarar fonu gibi kararlar alındı Birleşmiş Milletler İklim Değişikliği Yürütme Sekreteri Simon Stiell COP32nin daha güçlü bir siyasi uzlaşı gerektirdiğini vurguladı Uzmanlar gelecekteki başarının finansmanın hedeflenen alıcılara ulaşması ve adaptasyon projelerinin hayata geçirilmesiyle ölçüleceğini belirtiyor Global Haber kanalına abone ol",
+      "publish_at": "2026-11-28T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-28T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 36.366667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/lZV8NQnEjV8.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 3,
+  "processed_count": 3,
   "complete": false,
   "generation_errors": [
     {
@@ -13,12 +98,12 @@
       "error": "No described asset matches scene 0: coast high tide flooding"
     },
     {
-      "source": "How Much Does a Failed Climate Summit Cost? For Turkey, Nearly $700 Million - Bloomberg.com",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+      "index": 4,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: satellite mapping sinking"
     }
   ],
   "target_count": 3,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
