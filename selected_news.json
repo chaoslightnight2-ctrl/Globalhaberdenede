@@ -145,7 +145,62 @@
       "audience_bucket": "technology_science",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Robotlar uzay keşfine yön veriyor detaylar burada Nick Kwek Sydneydeki Ulusal Uzay Endüstri Merkezini ziyaret etti Orada robotların uzay keşfindeki rolü incelendi Bölüm robotik teknolojilerin gelecekteki görevlerde nasıl kullanılacağını gösterdi Global Haber kanalına abone ol"
+      "script": "Robotlar uzay keşfine yön veriyor detaylar burada Nick Kwek Sydneydeki Ulusal Uzay Endüstri Merkezini ziyaret etti Orada robotların uzay keşfindeki rolü incelendi Bölüm robotik teknolojilerin gelecekteki görevlerde nasıl kullanılacağını gösterdi Global Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_3.mp3",
+      "background_path": "output/background_3.mp4",
+      "video_path": "output/short_3.mp4",
+      "video_id": "LfuDD9Z2r08",
+      "youtube_url": "https://youtu.be/LfuDD9Z2r08",
+      "publish_at_local": "2026-11-28T21:00:00+03:00",
+      "publish_at_utc": "2026-11-28T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Oluwaseyi Dasho: Lagos'ta 7 milyon 2050'de sel riski",
+      "summary": "Cities including Lagos and Alexandria are sinking faster than previously thought, a new study shows.",
+      "url": "https://www.bbc.co.uk/news/articles/cq074p95z4llo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Science",
+      "source_name": "BBC",
+      "query": "BBC Science",
+      "published_at": "2026-11-27T22:03:18+03:00",
+      "fingerprint": "1148d5ce157d80a7cb1e12bca92e7dc911bf2828",
+      "direct_source": true,
+      "viral_score": 32.69,
+      "topic_bucket": "climate_energy",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cq074p95z4llo?at_medium=RSS&at_campaign=rss",
+      "source_headline": "New satellite data shows how fast some African cities are sinking",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-28T01:44:01.401730+00:00",
+      "article_score": 122,
+      "article_text": "Some of Africa's largest cities are sinking faster than previously thought, new research shows Scientists used radar imagery from the European Space Agency's Sentinel-1 satellites to map how much the land beneath 20 African coastal cities had moved The study found that some cities - including Lagos in Nigeria and Alexandria in Egypt - were sinking much faster than previously estimated in 2021 by the UN's climate body, the Intergovernmental Panel on Climate Change (IPCC) While some causes of this sinking, or subsidence, are natural, many are the result of human activities, such as the extraction of groundwater from underneath the Earth's surface Lead author Oluwaseyi Dasho said the effects of subsidence \"are often invisible in everyday life, but over decades they can substantially increase flood exposure\" This is because when the ground sinks it becomes lower relative to the ocean and adds to the risk of the sea level rises caused by climate change Seven million people, one billion buildings and $180bn (£137bn) of assets could be at flood risk by 2050, the paper estimated In the past, a lack of monitoring stations has prevented scientists from obtaining up-to-date localised information on subsidence in Africa, Dasho said But by using satellite data, the researchers from Virginia Tech were able to detect land movements as small as 1mm per year Senior author Manoochehr Shirzaei said Sentinel-1 satellites flew over the same region of the Earth every six to 12 days \"[The satellite] transmits the radar signal, which hits the ground and bounces back to the satellite,\" the geosciences professor explained. This process is then repeated on \"many revisits\" The time between sending the signal and receiving it back is recorded, with changes in this value over time revealing how much the land has moved The ground under Alexandria and Lagos was found to have sunk an average of 6mm and 5mm per year respectively If this rate continued, sea levels around Alexandria would rise 36% more by 2050 than the IPCC predicted, external, under the middle estimates for how much planet-warming emissions will increase Luanda in Angola has also sunk significantly, but other cities such as Durban in South Africa have remained stable or even risen slightly Shirzaei said showing where the IPCC had underestimated risks - but also where the threat had been overestimated - could help planners allocate resources more effectively The man-made drivers of subsidence are usually \"extremely local, [which] means that we can combat them by creating local policies\", Shirzaei explained One major cause is the increased water consumption of rapidly growing cities. Too much water being extracted from the ground can lead to the soil becoming compacted and the surface sinking The Aswan Dam on the Nile may also be trapping sediment upstream and preventing the replacement of sinking land in Alexandria, the study suggests In Lagos, the reclaiming of land from the ocean to create artificial islands and the construction of buildings on loose ground are other possible causes of subsidence Why are some cities sinking? Hear from those trying to solve the problem Methods of preventing cities from sinking include supplying other water sources and growing less water-intensive crops \"Whatever we cannot mitigate, we try to adapt to it,\" Shirzaei added. This could mean building flood defences or moving key infrastructure to a higher level The professor said developing countries had been \"left out\" of much of the planning for sea-level rises due to a lack of monitoring The techniques developed in this study could potentially be used to address the knowledge gap in other regions, such as the Pacific islands, Shirzaei suggested Oluwaseyi Dasho said he hoped the paper, in Science Advances,, external could help African governments \"prepare adequately for future challenges and more importantly for the future generations\" More climate money for Africa? Europe says use what's already pledged Coastlines in danger even if climate target met, scientists warn 'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+      "model_source_context": "KAYNAĞIN BAŞLANGICI:\nSome of Africa's largest cities are sinking faster than previously thought, new research shows Scientists used radar imagery from the European Space Agency's Sentinel-1 satellites to map how much the land beneath 20 African coastal cities had moved The study found that some cities - including Lagos in Nigeria and Alexandria in Egypt - were sinking much faster than previously estimated in 2021 by the UN's climate body, the Intergovernmental Panel on Climate Change (IPCC) While some causes of this sinking, or subsidence, are natural, many are the result of human activities, such as the extraction of groundwater from underneath the Earth's surface Lead author Oluwaseyi Dasho said the effects of subsidence \"are often invisible in everyday life, but over decades they can substantially increase flood exposure\" This is because when the ground sinks it becomes lower relative to the ocean and adds to the risk of the sea level rises caused by climate change Seven million people, one billion buildings and $180bn (£137bn) of assets could be at flood risk by 2050, the paper estimated In the past, a lack of monitoring stations has prevented scientists from obtaining up-to-date localised information on subsidence in Africa, Dasho said But by using satellite data, the researchers from Virginia Tech were able to detect land movements as small as 1mm per year Senior author Manoochehr Shirzaei said Sentinel-1 satellites flew over the same region of the Earth every six to 12 days \"[The satellite] transmits the radar signal, which hits the ground and bounces back to the satellite,\" the geosciences professor explained.\nKAYNAĞIN SON BÖLÜMÜ:\nToo much water being extracted from the ground can lead to the soil becoming compacted and the surface sinking The Aswan Dam on the Nile may also be trapping sediment upstream and preventing the replacement of sinking land in Alexandria, the study suggests In Lagos, the reclaiming of land from the ocean to create artificial islands and the construction of buildings on loose ground are other possible causes of subsidence Why are some cities sinking?\nHear from those trying to solve the problem Methods of preventing cities from sinking include supplying other water sources and growing less water-intensive crops \"Whatever we cannot mitigate, we try to adapt to it,\" Shirzaei added.\nThis could mean building flood defences or moving key infrastructure to a higher level The professor said developing countries had been \"left out\" of much of the planning for sea-level rises due to a lack of monitoring The techniques developed in this study could potentially be used to address the knowledge gap in other regions, such as the Pacific islands, Shirzaei suggested Oluwaseyi Dasho said he hoped the paper, in Science Advances,, external could help African governments \"prepare adequately for future challenges and more importantly for the future generations\" More climate money for Africa?\nEurope says use what's already pledged Coastlines in danger even if climate target met, scientists warn 'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+      "shorts_hook": "Oluwaseyi Dasho, Lagos'ta 7 milyonun 2050'de sel riski",
+      "quality_hook": "Oluwaseyi Dasho, Lagos'ta 7 milyonun 2050'de sel riski",
+      "quality_narration": "Bilim insanları, Sentinel-1 uydularıyla 20 Afrika kıyı şehrinin yer hareketlerini haritaladı. Lagos ve Mısır'ın İskenderiye'si, önceki tahminlerden çok daha hızlı batıyor. Araştırmaya göre, aşırı yeraltı suyu çekimi ve yapay adalar bu çöküşün başlıca nedenleri.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Bilim insanları, Sentinel-1 uydularıyla 20 Afrika kıyı şehrinin yer hareketlerini haritaladı.",
+        "Lagos ve Mısır'ın İskenderiye'si, önceki tahminlerden çok daha hızlı batıyor.",
+        "Araştırmaya göre, aşırı yeraltı suyu çekimi ve yapay adalar bu çöküşün başlıca nedenleri."
+      ],
+      "youtube_description": "Araştırma, Oluwaseyi Dasho'nun belirttiği gibi Lagos'ta 7 milyon insanın 2050'de sel riskiyle karşılaşacağını gösteriyor. Sizce bu risk nasıl azaltılabilir?",
+      "visual_query": "satellite mapping sinking",
+      "spoken_text": "Oluwaseyi Dasho Lagosta 7 milyonun 2050de sel riski Bilim insanları Sentinel 1 uydularıyla 20 Afrika kıyı şehrinin yer hareketlerini haritaladı Lagos ve Mısırın İskenderiyesi önceki tahminlerden çok daha hızlı batıyor Araştırmaya göre aşırı yeraltı suyu çekimi ve yapay adalar bu çöküşün başlıca nedenleri Global Haber kanalına abone ol",
+      "tts_text": "Oluwaseyi Dasho Lagosta 7 milyonun 2050de sel riski. Bilim insanları Sentinel 1 uydularıyla 20 Afrika kıyı şehrinin yer hareketlerini haritaladı. Lagos ve Mısırın İskenderiyesi önceki tahminlerden çok daha hızlı batıyor. Araştırmaya göre aşırı yeraltı suyu çekimi ve yapay adalar bu çöküşün başlıca nedenleri. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "Afrika",
+        "şehir batması",
+        "sel riski",
+        "uydu verisi",
+        "iklim değişikliği"
+      ],
+      "youtube_hashtags": "#shorts #iklim #şehir",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Oluwaseyi Dasho Lagosta 7 milyonun 2050de sel riski Bilim insanları Sentinel 1 uydularıyla 20 Afrika kıyı şehrinin yer hareketlerini haritaladı Lagos ve Mısırın İskenderiyesi önceki tahminlerden çok daha hızlı batıyor Araştırmaya göre aşırı yeraltı suyu çekimi ve yapay adalar bu çöküşün başlıca nedenleri Global Haber kanalına abone ol"
     }
   ]
 }
