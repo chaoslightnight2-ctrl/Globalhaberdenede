@@ -90,7 +90,62 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Kanadalı zehir satıcısı mahkemede ailelere özür diledi Kenneth Law 61 yaşındaki Kanadalı Ontario mahkemesinde ailelere özür diledi Mayıs ayında 14 intihar ölümüne yardım suçunu kabul etti ve İngiltere ile Gallerde de yüzlerce ölümde sorumluluk taşıdığını itiraf etti Savcılar 25 yıl hapis talep ederken savunma 12 yıl öneriyor önerilen ceza uygulanırsa tutuklu yaklaşık 20 yıl ceza alacak Global Haber kanalına abone ol"
+      "script": "Kanadalı zehir satıcısı mahkemede ailelere özür diledi Kenneth Law 61 yaşındaki Kanadalı Ontario mahkemesinde ailelere özür diledi Mayıs ayında 14 intihar ölümüne yardım suçunu kabul etti ve İngiltere ile Gallerde de yüzlerce ölümde sorumluluk taşıdığını itiraf etti Savcılar 25 yıl hapis talep ederken savunma 12 yıl öneriyor önerilen ceza uygulanırsa tutuklu yaklaşık 20 yıl ceza alacak Global Haber kanalına abone ol",
+      "scheduled_slot": "19:00",
+      "audio_path": "output/voiceover_2.mp3",
+      "background_path": "output/background_2.mp4",
+      "video_path": "output/short_2.mp4",
+      "video_id": "Xlgr8t2QOPA",
+      "youtube_url": "https://youtu.be/Xlgr8t2QOPA",
+      "publish_at_local": "2026-11-28T19:00:00+03:00",
+      "publish_at_utc": "2026-11-28T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Sydney'de Robotik Uzay Keşfi: Mission Autonomous Bölümü",
+      "summary": "Ammie Sekhon looks at robotics that could one day help spacecraft act independently.",
+      "url": "https://www.bbc.co.uk/iplayer/episode/m00353dd?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_name": "BBC",
+      "query": "BBC Technology",
+      "published_at": "2026-11-28T04:00:00+03:00",
+      "fingerprint": "7b38e78156bbe7325cb9a3fa727c48d1599130b9",
+      "direct_source": true,
+      "viral_score": 39.2,
+      "topic_bucket": "technology_science",
+      "resolved_url": "https://www.bbc.co.uk/iplayer/episode/m00353dd/tech-now-space-travel-mission-autonomous?at_campaign=rss&at_medium=RSS",
+      "source_headline": "Tech Now - Space Travel: Mission Autonomous",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-28T01:36:22.346180+00:00",
+      "article_score": 122,
+      "article_text": "Tech Now - Space Travel: Mission Autonomous Episodes Episodes - This episodeSpace Travel: Mission Autonomous - America's Cup: How Sailing is EvolvingAlasdair Keane is in Naples exploring how tech is transforming the America's Cup race.25 mins - Landslides: Can Tech Save Lives?Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.25 mins - Wildfires: Fighting Hidden HotspotsShiona McCallum visits Cairngorms National Park to see tech monitor wildfire damage.24 mins - Pokémon Turns 30Alasdair Keane heads to the Pokémon World Championships in San Francisco.25 mins - Hunting the FakesAmmie Sekhon explores tech used to identify and remove counterfeit products online.24 mins - Chasing a Solar EclipseAdrienne Murray follows NASA scientists in Iceland researching a rare total solar eclipse.25 mins - Can New Tech Help Assisted Births?Shiona McCallum meets mums and hospital staff trialling a new assisted birth innovation.25 mins - Inside Gamescom: The Big RevealsLaura Cress has the highlights from Gamescom, the biggest gaming convention in the world.25 mins - Rainforests: Can Tech Help to Protect Trees?New technologies measuring forests and exclusive access to a hacker rehab programme.24 mins - Inside the Esports World CupHighlights from the Esports World Cup in Paris and how to build a gaming PC.25 mins - WWE: The Tech Behind the ShowAmmie Sekhon goes behind the scenes of WWE to see the tech that supports the show.25 mins - Race for the Ultimate SupercomputerAdrienne Murray has rare access to Microsoft's Quantum Lab in Denmark.25 mins - Saving a ShipwreckAdrienne Murray meets the team using technology to preserve a historic warship in Sweden.25 mins - World Cup: Game-Changing TechShiona McCallum visits Fifa HQ in Zurich to see new tech being used in the World Cup.25 mins - Building My BodyShiona McCallum meets a medical expert testing out the future of prosthetics.25 mins - High Tech Heart SurgeryAdrienne Murray explores how new 3D imaging is supporting heart procedures.24 mins - Deep Dive: Underwater TechAndrew Rogers explores new tech trials helping people stay underwater for longer.25 mins - Art Mystery: Can AI Solve It?Harriet Bradshaw finds out how AI is being used to help solve an art history mystery.24 mins - Blenheim Palace: Can Tech Help to Restore it?Shiona McCallum tours Blenheim Palace, exploring the tech aiding its restoration.24 mins - Climate Science in the CourtroomHow research linking climate change and extreme weather events is being used in lawsuits.24 mins - Inside the High-Tech Insect FarmAlasdair Keane visits the underground insect farm turning food waste into animal feed.25 mins - MWC Barcelona: What's New In Phone Tech?Paul Carter checks out the newest phones, gadgets and trends from MWC Barcelona.24 mins - Norway's Fjords: Can Tourism Go Green?Alasdair Keane climbs aboard an electric boat in Norway.24 mins - Inside Europe’s Space RaceAdrienne Murray visits the Esrange Spaceport in the extreme north of Sweden.25 mins - Winter Olympics: Can Tech Boost Performance?Alasdair Keane visits the Olympic training centre in Oslo.24 mins - Future Farming in AustraliaNick Kwek meets innovators using tech for Australia's agricultural industry.25 mins - Inside CESFrom Las Vegas, the latest trends and innovations at CES 2026.25 mins - Meeting My AvatarJacqui Wakefield joins singer KT Tunstall as she sees her musical avatar.25 mins - Space Exploration: Can Robots Lead the Way?Nick Kwek visits the National Space Industry Hub in Sydney.25 mins - Icebreaker Tech: Navigating the ArcticAdrienne Murray meets the engineers designing icebreaker ship technology for the Arctic.25 mins",
+      "model_source_context": "Tech Now - Space Travel: Mission Autonomous Episodes Episodes - This episodeSpace Travel: Mission Autonomous - America's Cup: How Sailing is EvolvingAlasdair Keane is in Naples exploring how tech is transforming the America's Cup race.25 mins - Landslides: Can Tech Save Lives?Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.25 mins - Wildfires: Fighting Hidden HotspotsShiona McCallum visits Cairngorms National Park to see tech monitor wildfire damage.24 mins - Pokémon Turns 30Alasdair Keane heads to the Pokémon World Championships in San Francisco.25 mins - Hunting the FakesAmmie Sekhon explores tech used to identify and remove counterfeit products online.24 mins - Chasing a Solar EclipseAdrienne Murray follows NASA scientists in Iceland researching a rare total solar eclipse.25 mins - Can New Tech Help Assisted Births?Shiona McCallum meets mums and hospital staff trialling a new assisted birth innovation.25 mins - Inside Gamescom: The Big RevealsLaura Cress has the highlights from Gamescom, the biggest gaming convention in the world.25 mins - Rainforests: Can Tech Help to Protect Trees?New technologies measuring forests and exclusive access to a hacker rehab programme.24 mins - Inside the Esports World CupHighlights from the Esports World Cup in Paris and how to build a gaming PC.25 mins - WWE: The Tech Behind the ShowAmmie Sekhon goes behind the scenes of WWE to see the tech that supports the show.25 mins - Race for the Ultimate SupercomputerAdrienne Murray has rare access to Microsoft's Quantum Lab in Denmark.25 mins - Saving a ShipwreckAdrienne Murray meets the team using technology to preserve a historic warship in Sweden.25 mins - World Cup: Game-Changing TechShiona McCallum visits Fifa HQ in Zurich to see new tech being used in the World Cup.25 mins - Building My BodyShiona McCallum meets a medical expert testing out the future of prosthetics.25 mins - High Tech Heart SurgeryAdrienne Murray explores how new 3D imaging is supporting heart procedures.24 mins - Deep Dive: Underwater TechAndrew Rogers explores new tech trials helping people stay underwater for longer.25 mins - Art Mystery: Can AI Solve It?Harriet Bradshaw finds out how AI is being used to help solve an art history mystery.24 mins - Blenheim Palace: Can Tech Help to Restore it?Shiona McCallum tours Blenheim Palace, exploring the tech aiding its restoration.24 mins - Climate Science in the CourtroomHow research linking climate change and extreme weather events is being used in lawsuits.24 mins - Inside the High-Tech Insect FarmAlasdair Keane visits the underground insect farm turning food waste into animal feed.25 mins - MWC Barcelona: What's New In Phone Tech?Paul Carter checks out the newest phones, gadgets and trends from MWC Barcelona.24 mins - Norway's Fjords: Can Tourism Go Green?Alasdair Keane climbs aboard an electric boat in Norway.24 mins - Inside Europe’s Space RaceAdrienne Murray visits the Esrange Spaceport in the extreme north of Sweden.25 mins - Winter Olympics: Can Tech Boost Performance?Alasdair Keane visits the Olympic training centre in Oslo.24 mins - Future Farming in AustraliaNick Kwek meets innovators using tech for Australia's agricultural industry.25 mins - Inside CESFrom Las Vegas, the latest trends and innovations at CES 2026.25 mins - Meeting My AvatarJacqui Wakefield joins singer KT Tunstall as she sees her musical avatar.25 mins - Space Exploration: Can Robots Lead the Way?Nick Kwek visits the National Space Industry Hub in Sydney.25 mins - Icebreaker Tech: Navigating the ArcticAdrienne Murray meets the engineers designing icebreaker ship technology for the Arctic.25 mins",
+      "shorts_hook": "Robotlar uzay keşfine yön veriyor, detaylar burada!",
+      "quality_hook": "Robotlar uzay keşfine yön veriyor, detaylar burada!",
+      "quality_narration": "Nick Kwek, Sydney'deki Ulusal Uzay Endüstri Merkezi'ni ziyaret etti. Orada robotların uzay keşfindeki rolü incelendi. Bölüm, robotik teknolojilerin gelecekteki görevlerde nasıl kullanılacağını gösterdi.",
+      "quality_cta": "Global Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Nick Kwek, Sydney'deki Ulusal Uzay Endüstri Merkezi'ni ziyaret etti.",
+        "Orada robotların uzay keşfindeki rolü incelendi.",
+        "Bölüm, robotik teknolojilerin gelecekteki görevlerde nasıl kullanılacağını gösterdi."
+      ],
+      "youtube_description": "Bu bölümde robotların uzay görevlerine nasıl entegre edildiği gösterildi. Sizce gelecekte insanlı uzay yolculukları robotlar olmadan mümkün mü?",
+      "visual_query": "robot exploring space",
+      "spoken_text": "Robotlar uzay keşfine yön veriyor detaylar burada Nick Kwek Sydneydeki Ulusal Uzay Endüstri Merkezini ziyaret etti Orada robotların uzay keşfindeki rolü incelendi Bölüm robotik teknolojilerin gelecekteki görevlerde nasıl kullanılacağını gösterdi Global Haber kanalına abone ol",
+      "tts_text": "Robotlar uzay keşfine yön veriyor detaylar burada. Nick Kwek Sydneydeki Ulusal Uzay Endüstri Merkezini ziyaret etti. Orada robotların uzay keşfindeki rolü incelendi. Bölüm robotik teknolojilerin gelecekteki görevlerde nasıl kullanılacağını gösterdi. Global Haber kanalına abone ol.",
+      "youtube_tags": [
+        "uzay",
+        "robotik",
+        "teknoloji",
+        "misyon",
+        "Sydney"
+      ],
+      "youtube_hashtags": "#shorts #UzayTeknolojisi #RobotikKeşif",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Robotlar uzay keşfine yön veriyor detaylar burada Nick Kwek Sydneydeki Ulusal Uzay Endüstri Merkezini ziyaret etti Orada robotların uzay keşfindeki rolü incelendi Bölüm robotik teknolojilerin gelecekteki görevlerde nasıl kullanılacağını gösterdi Global Haber kanalına abone ol"
     }
   ]
 }
